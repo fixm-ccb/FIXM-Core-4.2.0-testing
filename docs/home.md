@@ -1,5 +1,3 @@
-!> This page requires an update. It has not been processed in the preparation of this baseline version. Please do not review the contents.
-
 # Fixm User Manual
 
 !> This page requires an update. It has not been processed in the preparation of this baseline version. Please do not review the contents.
