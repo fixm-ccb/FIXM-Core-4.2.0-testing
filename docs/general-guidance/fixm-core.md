@@ -126,7 +126,8 @@ the FIXM Core requirement on data structure.
 
 -----
 
-**REQUIREMENT ON DATA CORRECTNESS** 
+### Requirement on data correctness
+
 | | | |
 |-|-|-|
 | **Requirement**                     | To qualify as valid usage of FIXM core, the flight-related content of a given message, or relevant part thereof, shall satisfy the minimum set of rules addressing data plausibility and consistency.                                                                                                                                                                                            |
