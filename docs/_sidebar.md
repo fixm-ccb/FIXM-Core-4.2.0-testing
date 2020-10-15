@@ -12,7 +12,7 @@
   - [FIXM Core](general-guidance-fixm-core.md)
   - [Application Libraries](general-guidance-application-libraries.md)
   - [Extensions](general-guidance-extensions.md)
-  - [Date/Time Specification](home.md)
+  - [Date/Time Specification](general-guidance-date-time-specification.md)
   - [Geographical positions](home.md)
   - [References to published aeronautical information](home.md)
   - [Relative points](home.md)
