@@ -1,4 +1,8 @@
+!> This page requires an update. It has not been processed in the preparation of this baseline version. Please do not review the contents.
+
 # Fixm User Manual
+
+!> This page requires an update. It has not been processed in the preparation of this baseline version. Please do not review the contents.
 
 This site provides guidance and clarifications for the
 implementation of FIXM.
@@ -7,13 +11,6 @@ It aims to build a "community knowledge" about the
 implementation of FIXM. It will therefore evolve over time in order to
 capture more alternatives, options and recommendations related to the
 use of FIXM.
-
-## Using this site
-
-Use the sidebar to search for a topic or to browse the existing pages.
-
-----
-Content to be updated:
 
 ## Purpose and content
 
