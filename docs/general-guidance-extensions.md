@@ -67,6 +67,7 @@ mechanism.
 content
 
 <img src=".//media/general-guidance-extensions-02.png"/>
+
 Example of FIXM extension NOT satisfying the requirement on extension content
 
 This example features a fictitious extension to FIXM Core which models
