@@ -7,12 +7,12 @@
   - [Geographical positions](general-guidance-geographical-positions.md)
   - [References to published aeronautical information](general-guidance-references-to-published-aeronautical-information.md)
   - [Relative points](general-guidance-relative-points.md)
-  - [Vertical distances](home.md)
-  - [Sequence numbers](home.md)
-  - [Contact Information](home.md)
-  - [General rules for data correctness](home.md)
-  - [Rules for absent data](home.md)
-  - [The use of other exchange models](home.md)
+  - [Vertical distances](general-guidance-vertical-distances.md)
+  - [Sequence numbers](general-guidance-sequence-numbers.md)
+  - [Contact Information](general-guidance-contact-information.md)
+  - [General rules for data correctness](general-guidance-general-rules-for-data-correctness.md)
+  - [Rules for absent data](general-guidance-rules-for-absent-data.md)
+  - [The use of other exchange models](general-guidance-the-use-of-other-exchange-models.md)
 
 
 - **Using FIXM in Support of FF-ICE**
