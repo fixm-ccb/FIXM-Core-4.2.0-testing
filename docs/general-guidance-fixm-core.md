@@ -26,8 +26,6 @@ Libraries**.
 The general requirements for a valid **FIXM Core** usage are the
 following:
 
------
-
 ### Requirement on data structure
 
 | | | |
@@ -36,8 +34,6 @@ following:
 | **Rationale**                     | The valid usage of FIXM Core implies that the flight-related content of a message exchanged between two parties is valid against the FIXM Core XML Schemas. If a message includes additional information not in scope of FIXM Core, it must be structured so that its relevant part is valid against the FIXM Core XML Schemas.|
 | **Important note**                | Being syntactically valid against the FIXM Core XML Schemas implies the FIXM Core hierarchy is respected. FIXM Core is not expected to be used only as a library of flight datatypes.|
 | **How to check this**             | The content of a message, or relevant part thereof, validates without error against the FIXM Core XML schemas when tested / parsed by XML validation tools.|
-
------
 
 ?> Example of FIXM core usage satisfying the requirement on data structure:
 
@@ -52,8 +48,6 @@ following:
 This example displays an aerodrome reference involving a four-letter
 ICAO location indicator. It complies with the structural rules for
 aerodrome references defined by the FIXM Core XML schemas.
-
------
 
 !> Example of FIXM core usage **NOT** satisfying the requirement on data structure:
 
@@ -71,8 +65,6 @@ locationIndicator. The value “BRU” does not respect the pattern
 does NOT comply with the structural rules for aerodrome references
 defined by the FIXM XML schemas and does not qualify as valid FIXM
 usage.
-
------
 
 This example below features a valid XML schema that defines a Flight
 Identification structure comprising the departure & arrival aerodrome
@@ -94,8 +86,6 @@ schema.
     </xs:complexType>
 </xs:schema>
 ```
-
------
 
 ```xml
 <wrong:FlightIdentification xmlns:wrong=[…] xmlns:fb=”http://www.fixm.aero/base/4.2" xmlns:xs=”http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation=[…]“>
@@ -124,8 +114,6 @@ breaks the hierarchy of properties defined by FIXM Core. An information
 service relying on such an implementation practice would fail to satisfy
 the FIXM Core requirement on data structure.
 
------
-
 ### Requirement on data correctness
 
 | | | |
@@ -133,8 +121,6 @@ the FIXM Core requirement on data structure.
 | **Requirement**                     | To qualify as valid usage of FIXM core, the flight-related content of a given message, or relevant part thereof, shall satisfy the minimum set of rules addressing data plausibility and consistency.                                                                                                                                                                                            |
 | **Rationale**                       | The flight-related content of a message being syntactically correct and complete may still not make sense from an operational or plausibility perspective. Additional business rules are required to check the correctness of the encoded information, such as the consistency between model elements.                                                                                           |
 | **How to check this**               | The content of a message, or the relevant part thereof, validates without error against the applicable business rules addressing data correctness. Chapter 2.4.13 lists business rules addressing data correctness which are always applicable whatever the context of the exchange. Additional business rules addressing data correctness may exist which are specific to particular use-cases. |
-
------
 
 ?> Example of FIXM core usage satisfying the requirement on data correctness
 
@@ -153,8 +139,6 @@ This example shows the FIXM encoding of vertical range \[FL240;FL250\].
 It satisfies the basic data plausibility/correctness rule “*The
 lowerBound shall always be lower than the upperBound*” that is
 identified in Chapter 2.4.13. It qualifies as valid FIXM core usage.
-
------
 
 !> Example of FIXM core usage NOT satisfying the requirement on data
 correctness
@@ -185,5 +169,3 @@ XML schemas) but is not correct in so far as the sum of all
 AircraftType.numberOfAircraft properties does not match
 Aircraft.formationCount, which breaks a rule from Chapter 2.4.13. This
 example does not qualify as valid FIXM core usage.
-
------

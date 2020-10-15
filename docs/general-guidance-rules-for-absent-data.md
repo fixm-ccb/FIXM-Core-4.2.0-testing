@@ -66,10 +66,10 @@ workaround when null values are to be exchanged.
 
 The provision of a null value for a measure or a position still requires
 the mandatory attribute “uom” or “srsName” to be provided, even if
-meaningless. For instance, the following XML data would NOT validate
-against the FIXM Core schema, because the uom for a Mass is missing.
+meaningless.
 
-!> Wrong example:
+!> For instance, the following XML data would NOT validate
+against the FIXM Core schema, because the uom for a Mass is missing.
 
 ```xml
 <fx:desired>
