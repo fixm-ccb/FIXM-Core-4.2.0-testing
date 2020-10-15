@@ -9,7 +9,7 @@
 
 - **General Guidance**
   - [Target audience](general-guidance/target-audience.md)
-  - [Understanding FIXM Core, the Application Libraries and the Extensions](home.md)
+  - [FIXM Core](general-guidance/fixm-core.md)
   - [Tested Development Environments](home.md)
   - [General encoding rules](home.md)
   - [Other Topics](home.md)
