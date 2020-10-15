@@ -13,7 +13,7 @@
   - [Application Libraries](general-guidance-application-libraries.md)
   - [Extensions](general-guidance-extensions.md)
   - [Date/Time Specification](general-guidance-date-time-specification.md)
-  - [Geographical positions](home.md)
+  - [Geographical positions](general-guidance-geographical-positions.md)
   - [References to published aeronautical information](home.md)
   - [Relative points](home.md)
   - [Vertical distances](home.md)
