@@ -12,9 +12,17 @@
   - [FIXM Core](general-guidance-fixm-core.md)
   - [Application Libraries](general-guidance-application-libraries.md)
   - [Extensions](general-guidance-extensions.md)
-  - [Tested Development Environments](home.md)
-  - [General encoding rules](home.md)
-  - [Other Topics](home.md)
+
+  - [Date/Time Specification](home.md)
+  - [Geographical positions](home.md)
+  - [References to published aeronautical information](home.md)
+  - [Relative points](home.md)
+  - [Vertical distances](home.md)
+  - [Sequence numbers](home.md)
+  - [Contact Information](home.md)
+  - [General rules for data correctness](home.md)
+  - [Rules for absent data](home.md)
+  - [The use of other exchange models](home.md)
 
 
 - **Using FIXM in Support of FF-ICE**

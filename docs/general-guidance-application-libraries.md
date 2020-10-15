@@ -10,7 +10,7 @@ essentially provides context-specific **‘message data structures’** and
 FIXM-based messages exchanged using SWIM information services, as
 outlined in the figure below.
 
-<img src="..//media/general-guidance-application-libraries-01.png"/>
+<img src=".//media/general-guidance-application-libraries-01.png"/>
 General structure of a message and role of an Application Library
 
 An
@@ -19,7 +19,7 @@ FIXM Core is independent and does not require an update when changes in an appli
 
 An **Application Library** may also leverage **Extensions**, as
 illustrated on the picture opposite.
-<img src="..//media/general-guidance-application-libraries-02.png" />
+<img src=".//media/general-guidance-application-libraries-02.png" />
 
 An example of an Application Library is the **FF-ICE Application
 Library** developed and released by the FIXM CCB. This library addresses
@@ -46,7 +46,7 @@ Examples of message data structures can be found in the FF-ICE
 Implementation Guidance Manual. The Figure below shows the message data
 structures associated with the FF-ICE Flight Cancellation Message.
 
-<img src="..//media/general-guidance-application-libraries-03.png" />
+<img src=".//media/general-guidance-application-libraries-03.png" />
 Example of Message Data structures from FF-ICE
 
 ## Message Templates
@@ -119,7 +119,7 @@ but accomplishes the task by directly creating smaller, parallel models
 of the adjusted packages rather than producing them via a restriction.
 The figure below illustrates at high-level the differences.
 
-<img src="..//media/general-guidance-application-libraries-04.png" />
+<img src=".//media/general-guidance-application-libraries-04.png" />
 XSD Restriction vs XSD Profile
 
 XSD profiles would not restrict the types from the base reference and
