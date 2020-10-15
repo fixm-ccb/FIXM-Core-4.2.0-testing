@@ -7,8 +7,8 @@
   - [References](home.md)
 
 
-- **General Guidance on FIXM implementation**
-  - [Target audience](home.md)
+- **General Guidance**
+  - [Target audience](general-guidance/target-audience.md)
   - [Understanding FIXM Core, the Application Libraries and the Extensions](home.md)
   - [Tested Development Environments](home.md)
   - [General encoding rules](home.md)
