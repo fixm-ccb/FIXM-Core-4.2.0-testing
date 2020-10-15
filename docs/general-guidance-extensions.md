@@ -10,6 +10,11 @@ regionally, and/or may supplement an existing Application Library by
 defining additional messaging data structure exchanged locally or
 regionally.
 
+Examples:
+
+- The US NAS extension to FIXM defines additional flight identification data structures based on the types of domestic systems that support ATM in the USA (e.g. TFMS...). This is an example of an extension enriching FIXM Core with supplementary flight data being exchanged for domestic purposes.
+- The EUROCONTROL Network Manager is able to exchange structured IFPS errors to serve as FF-ICE Filing Status explanation. This error information is specific to the EUROCONTROL Network Manager and exemplifies what could be modelled as part of a EUROCONTROL extension to the FF-ICE Message data structures provided by the FF-ICE Application library.
+
 ## What is a valid use of an extension?
 
 A number of rules are established in order to ensure that extensions are
@@ -21,27 +26,32 @@ only for verified extension. Non-verified extensions satisfying the
 requirements below will be recognised as a valid usage of the FIXM
 extension mechanism.
 
-**Requirement on extension design**
+-----
 
-| **Requirement**       | To qualify for a valid FIXM extension, an extension shall be designed in accordance with the modelling principles described in APPENDIX A.                                                                                                                                                                       |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Rationale**         | The successful development of an extension, and its successful integration with the FIXM core packages, requires rules on extension design to be followed consistently by all implementers.                                                                                                                      |
+### Requirement on extension design
+
+| | | |
+|-|-|-|
+| **Requirement**       | To qualify for a valid FIXM extension, an extension shall be designed in accordance with the modelling principles described in APPENDIX A.|
+| **Rationale**         | The successful development of an extension, and its successful integration with the FIXM core packages, requires rules on extension design to be followed consistently by all implementers.|
 | **How to check this** | Checking that an extension satisfies this requirement cannot be automated and requires manual analysis of the extension content by the FIXM community. As a general principle, extensions to FIXM core that are proposed for online publication on the FIXM web site should be checked against this requirement. |
 
-**Requirement on extension content**
 
-| **Requirement**       | To qualify as a valid FIXM extension, an extension shall never contain a model element that would redefine, or supersede, a model element that is already defined in FIXM Core.                                                                                                                                        |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+-----
+
+### Requirement on extension content
+
+| | | |
+|-|-|-|
+| **Requirement**       | To qualify as a valid FIXM extension, an extension shall never contain a model element that would redefine, or supersede, a model element that is already defined in FIXM Core.|
 | **Rationale**         | FIXM core is an information exchange model capturing flight information that is globally harmonised. Redefining or superseding the FIXM core content in an extension would amount to diverging from this globally harmonised content and would go against the fundamental harmonisation objectives of FF-ICE and FIXM. |
 | **How to check this** | Checking that an extension satisfies this requirement cannot be automated and requires manual analysis of the extension content by the FIXM community. As a general principle, extensions to FIXM core that are proposed for online publication on the FIXM web site should be checked against this requirement.       |
 
-Example of FIXM extension satisfying the requirement on extension
+?> Example of FIXM extension satisfying the requirement on extension
 content
 
-<img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /><img src=".//media/image8.emf" style="width:5.12598in;height:2.54783in" />
-
-<span id="_Toc48643981" class="anchor"></span>Figure 4: Example of FIXM
-extension satisfying the requirement on extension content
+<img src=".//media/image8.emf"/>
+Example of FIXM extension satisfying the requirement on extension content
 
 This example is an extract from the US NAS extension to FIXM 4.1.0 \[7\]
 - Copyright (c) US Federal Aviation Administration (FAA), available on
@@ -53,13 +63,11 @@ replace or supersede any of the existing properties of the core “Flight”
 class. The example therefore qualifies as valid usage of the extension
 mechanism.
 
-Example of FIXM extension NOT satisfying the requirement on extension
+!> Example of FIXM extension NOT satisfying the requirement on extension
 content
 
-<img src=".//media/image3.png" style="width:0.2955in;height:0.2955in" /><img src=".//media/image9.png" style="width:4.70091in;height:2.96439in" />
-
-<span id="_Toc48643982" class="anchor"></span>Figure 5: Example of FIXM
-extension NOT satisfying the requirement on extension content
+<img src=".//media/general-guidance-extensions-02.png"/>
+Example of FIXM extension NOT satisfying the requirement on extension content
 
 This example features a fictitious extension to FIXM Core which models
 one class entitled “WrongFlight” (in blue on the diagram). This class
@@ -76,7 +84,7 @@ The FIXM extension mechanism distributes class-specific extension hooks
 throughout the model that implementers can leverage to define their
 specific data structures.
 
-<img src=".//media/general-guidance-application-libraries-07.png"/>
+<img src=".//media/general-guidance-extensions-03.png"/>
 
 The key benefits of the approach are the following:
 
