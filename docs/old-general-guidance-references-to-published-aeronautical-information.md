@@ -105,14 +105,6 @@ file AeronauticalReference.xsd</em></p></td>
 As a minimum, the coded designator of waypoint shall be provided, as
 published in the AIPs.
 
-```xml
-<fb:designatedPoint>
-   <fb:designator>TEMPO</fb:designator>
-</fb:designatedPoint>
-```
-
-This is the minimum reference that SHALL be provided.
-
 ### OPTION 2 - Unambiguous reference
 
 *(OPTION 2 = OPTION 1 + supplementary position information)*
@@ -127,16 +119,7 @@ FIXM adds an optional property 'position' which may be used as a
 complement to the 'designator' information in order to remove any
 ambiguity on the designator.
 
-```xml
-<fb:designatedPoint>
-   <fb:designator>TEMPO</fb:designator>
-   <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
-      <fb:pos>56.84 -29.860000000000003</fb:pos>
-   </fb:position>
-</fb:designatedPoint>
-```
-
-?> Important note: the combinations of fields \[designator + position\]
+Important note: the combinations of fields \[designator + position\]
 shall not be interpreted as a natural key uniquely identifying the
 waypoint, in so far as producing and consuming systems/services may use
 different aeronautical information sources with different degree of
@@ -152,29 +135,12 @@ duplicate/triplicate/…
 Option 3 corresponds to Option 1 with an additional hypertext reference
 as described in chapter Generic hypertext references.
 
-```xml
-<fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
-   <fb:designator>TEMPO</fb:designator>
-</fb:designatedPoint>
-```
-
-Hypertext reference to be provided in accordance with the <a href="http://www.aixm.aero/sites/aixm.aero/files/imce/AIXM51/aixm_feature_identification_and_reference-1.0.pdf"><em>AIXM feature Identification and Reference document</em></a>, chapter 3.4.1.
-
 ### OPTION 4 - Complete reference
 
 *(OPTION 4 = OPTION 2 + OPTION 3)*
 
 Option 4 corresponds to the combination of Option 2 and Option 3. See
 explanations above.
-
-```xml
-<fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
-   <fb:designator>TEMPO</fb:designator>
-   <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
-      <fb:pos>56.84 -29.860000000000003</fb:pos>
-   </fb:position>
-</fb:designatedPoint> 
-```
 
 ?> Examples (NOT for OPERATIONAL USE)
 
