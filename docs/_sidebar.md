@@ -1,12 +1,3 @@
-- **Introduction**
-  - [Purpose and content](home.md)
-  - [Applicable FIXM version](home.md)
-  - [Document terms](home.md)
-  - [How to improve this document](home.md)
-  - [Acronyms and Definitions](home.md)
-  - [References](home.md)
-
-
 - **General Guidance**
   - [Target audience](general-guidance-target-audience.md)
   - [FIXM Core](general-guidance-fixm-core.md)
@@ -28,9 +19,6 @@
   - [Target audience](home.md)
   - [The FF-ICE Application Library for FIXM](home.md)
   - [FF-ICE Message Templates](home.md)
-  - [FF-ICER1 Services Description Example](home.md)
-  - [XML Samples](home.md)
-  - [Extensions and Restrictions](home.md)
   - [Translating FF-ICE FIXM Messages to ATS Messages](home.md)
 
 
@@ -38,13 +26,6 @@
   - [Using FIXM Core without an Application Library](home.md)
   - [Using FIXM Core with an Application Library](home.md)
   - [Using FIXM Core with an Extension](home.md)
-
-
-- **FIXM XML Samples**
-  - [FIXM XML Structural Overview](home.md)
-  - [FIXM Samples of Uncorrelated ATS Messages](home.md)
-  - [FIXM Samples of ATS Messages for a Full Flight Life-Cycle](home.md)
-  - [FIXM Samples of 4DT Data](home.md)
 
 
 - **How to create an Application Library**
