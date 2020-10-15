@@ -832,26 +832,32 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 <tr class="odd">
 <td><p><img src=".//media/image17.png" style="width:2.77633in;height:2.42466in" /></p>
 <p><em>UML Class <strong>RouteDesignator</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>&lt;xs:simpleType name="RestrictedRouteDesignatorType"&gt;</p>
-<p>&lt;xs:restriction base="fb:CharacterStringType"&gt;</p>
-<p>&lt;xs:pattern value="[A-Z][A-Z0-9]{1,7}"/&gt;</p>
-<p>&lt;/xs:restriction&gt;</p>
-<p>&lt;/xs:simpleType&gt;</p>
-<p>&lt;xs:complexType name="RouteDesignatorType"&gt;</p>
-<p>&lt;xs:simpleContent&gt;</p>
-<p>&lt;xs:extension base="fb:RestrictedRouteDesignatorType"&gt;</p>
-<p>&lt;xs:attribute name="href" type="fb:HypertextReferenceType" use="optional"&gt;</p>
-<p>&lt;/xs:attribute&gt;</p>
-<p>&lt;/xs:extension&gt;</p>
-<p>&lt;/xs:simpleContent&gt;</p>
-<p>&lt;/xs:complexType&gt;</p>
+<td><p>
+
+```xml
+<xs:simpleType name="RestrictedRouteDesignatorType">
+   <xs:restriction base="fb:CharacterStringType">
+      <xs:pattern value="[A-Z][A-Z0-9]{1,7}"/>
+   </xs:restriction>
+</xs:simpleType>
+<xs:complexType name="RouteDesignatorType">
+   <xs:simpleContent>
+      <xs:extension base="fb:RestrictedRouteDesignatorType">
+         <xs:attribute name="href" type="fb:HypertextReferenceType" use="optional">
+         </xs:attribute>
+      </xs:extension>
+   </xs:simpleContent>
+</xs:complexType>
+```
+
+</p>
 <p><em>Simple type <strong>RouteDesignatorType</strong> in<br />
 file AeronauticalReference.xsd</em></p></td>
 </tr>
 </tbody>
 </table>
 
-OPTION 1 - Minimum reference
+### OPTION 1 - Minimum reference
 
 The minimum Enroute ATS Route reference shall consist of the Enroute ATS
 Route designator as published in the AIP. Enroute ATS Route designators
@@ -860,14 +866,14 @@ designator with a route point (i.e. a significant point belonging to
 that ATS route) in FIXM is considered sufficient for enabling
 unambiguous identification of the ATS Route being referred to.
 
-OPTION 2 - Minimum reference with supplementary AIXM pointer
+### OPTION 2 - Minimum reference with supplementary AIXM pointer
 
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter Generic hypertext references.
 
-Examples (NOT for OPERATIONAL USE)
+?> Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to fictitious
 Enroute ATS Route “UA4” that is ‘published’ in AIXM 5.1 as part of the
@@ -888,20 +894,32 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 <tr class="odd">
 <td><p><strong>OPTION 1</strong></p>
 <p>designator</p></td>
-<td><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /> &lt;fx:routeDesignator&gt;UA4&lt;/fx:routeDesignator&gt;</td>
+<td>
+
+```xml
+<fx:routeDesignator>UA4</fx:routeDesignator>
+```
+
+</td>
 <td>This is the minimum reference that SHALL be provided.</td>
 </tr>
 <tr class="even">
 <td><p><strong>OPTION 2</strong></p>
 <p>designator<br />
 +href</p></td>
-<td><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" />&lt;fx:routeDesignator href="urn:uuid:a14a8751-5428-46bc-a2d1-32ef84d37b5c"&gt;UA4&lt;/fx:routeDesignator&gt;</td>
+<td>
+
+```xml
+<fx:routeDesignator href="urn:uuid:a14a8751-5428-46bc-a2d1-32ef84d37b5c">UA4</fx:routeDesignator>
+```
+
+</td>
 <td>Hypertext reference to be provided in accordance with the <a href="http://www.aixm.aero/sites/aixm.aero/files/imce/AIXM51/aixm_feature_identification_and_reference-1.0.pdf"><em>AIXM feature Identification and Reference document</em></a>, chapter 3.4.1.</td>
 </tr>
 </tbody>
 </table>
 
-#### References to SIDs and STARs
+## References to SIDs and STARs
 
 <table>
 <thead>
@@ -914,51 +932,57 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 <tr class="odd">
 <td><p><img src=".//media/image18.png" style="width:2.71379in;height:1.875in" /></p>
 <p><em>UML Classes <strong>SidStarReference</strong> package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>&lt;xs:complexType name="SidStarReferenceType"&gt;</p>
-<p>&lt;xs:sequence&gt;</p>
-<p>&lt;xs:element name="abbreviatedDesignator" type="fb:SidStarAbbreviatedDesignatorType" nillable="true" minOccurs="0" maxOccurs="1"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;xs:element name="designator" type="fb:SidStarDesignatorType" nillable="true" minOccurs="0" maxOccurs="1"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;xs:element name="extension" type="fb:SidStarReferenceExtensionType" nillable="true" minOccurs="0" maxOccurs="2000"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;/xs:sequence&gt;</p>
-<p>&lt;xs:attribute name="href" type="fb:HypertextReferenceType" use="optional"&gt;</p>
-<p>&lt;/xs:attribute&gt;</p>
-<p>&lt;/xs:complexType&gt;</p>
-<p>&lt;xs:simpleType name="SidStarAbbreviatedDesignatorType"&gt;</p>
-<p>&lt;xs:restriction base="fb:CharacterStringType"&gt;</p>
-<p>&lt;xs:minLength value="1"/&gt;</p>
-<p>&lt;xs:maxLength value="6"/&gt;</p>
-<p>&lt;xs:pattern value="([A-Z]|[0-9])+([ \+\-/]*([A-Z]|[0-9])+)*"/&gt;</p>
-<p>&lt;/xs:restriction&gt;</p>
-<p>&lt;/xs:simpleType&gt;</p>
-<p>&lt;xs:simpleType name="SidStarDesignatorType"&gt;</p>
-<p>&lt;xs:restriction base="fb:CharacterStringType"&gt;</p>
-<p>&lt;xs:minLength value="1"/&gt;</p>
-<p>&lt;xs:maxLength value="7"/&gt;</p>
-<p>&lt;xs:pattern value="([A-Z]|[0-9])+([ \+\-/]*([A-Z]|[0-9])+)*"/&gt;</p>
-<p>&lt;/xs:restriction&gt;</p>
-<p>&lt;/xs:simpleType&gt;</p>
+<td><p>
+
+```xml
+<xs:complexType name="SidStarReferenceType">
+   <xs:sequence>
+      <xs:element name="abbreviatedDesignator" type="fb:SidStarAbbreviatedDesignatorType" nillable="true" minOccurs="0" maxOccurs="1">
+      </xs:element>
+      <xs:element name="designator" type="fb:SidStarDesignatorType" nillable="true" minOccurs="0" maxOccurs="1">
+      </xs:element>
+      <xs:element name="extension" type="fb:SidStarReferenceExtensionType" nillable="true" minOccurs="0" maxOccurs="2000">
+      </xs:element>
+   </xs:sequence>
+   <xs:attribute name="href" type="fb:HypertextReferenceType" use="optional">
+   </xs:attribute>
+</xs:complexType>
+<xs:simpleType name="SidStarAbbreviatedDesignatorType">
+   <xs:restriction base="fb:CharacterStringType">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="6"/>
+      <xs:pattern value="([A-Z]|[0-9])+([ \+\-/]*([A-Z]|[0-9])+)*"/>
+   </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="SidStarDesignatorType">
+   <xs:restriction base="fb:CharacterStringType">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="7"/>
+      <xs:pattern value="([A-Z]|[0-9])+([ \+\-/]*([A-Z]|[0-9])+)*"/>
+   </xs:restriction>
+</xs:simpleType>
+```
+
+</p>
 <p><em>Simple types <strong>SidStarReferenceType</strong> in file<br />
 AeronauticalReference.xsd</em></p></td>
 </tr>
 </tbody>
 </table>
 
-OPTION 1 - Minimum reference
+### OPTION 1 - Minimum reference
 
 The minimum SID or STAR reference shall consist of the SID or STAR
 designator as published in the AIP.
 
-OPTION 2 - Minimum reference with supplementary AIXM pointer
+### OPTION 2 - Minimum reference with supplementary AIXM pointer
 
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter Generic hypertext references.
 
-Examples (NOT for OPERATIONAL USE)
+?> Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to SID “AMOLO 5B”
 that is published in the French AIPs.
@@ -975,18 +999,30 @@ that is published in the French AIPs.
 <tr class="odd">
 <td><p><strong>OPTION 1</strong></p>
 <p>designator</p></td>
-<td><p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /> &lt;fx:standardInstrumentDeparture&gt;</p>
-<p>&lt;fb:designator&gt;AMOLO5B&lt;/fb:designator&gt;</p>
-<p>&lt;/fx:standardInstrumentDeparture&gt;</p></td>
+<td><p>
+
+```xml
+<fx:standardInstrumentDeparture>
+   <fb:designator>AMOLO5B</fb:designator>
+</fx:standardInstrumentDeparture>
+```
+
+</p></td>
 <td>This is the minimum reference that SHALL be provided.</td>
 </tr>
 <tr class="even">
 <td><p><strong>OPTION 2</strong></p>
 <p>designator<br />
 +href</p></td>
-<td><p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" />&lt;fx:standardInstrumentDeparture href="urn:uuid:..."&gt;</p>
-<p>&lt;fb:designator&gt;AMOLO5B&lt;/fb:designator&gt;</p>
-<p>&lt;/fx:standardInstrumentDeparture&gt;</p></td>
+<td><p>
+
+```xml
+<fx:standardInstrumentDeparture href="urn:uuid:...">
+   <fb:designator>AMOLO5B</fb:designator>
+</fx:standardInstrumentDeparture>
+```
+
+</p></td>
 <td>Hypertext reference to be provided in accordance with the <a href="http://www.aixm.aero/sites/aixm.aero/files/imce/AIXM51/aixm_feature_identification_and_reference-1.0.pdf"><em>AIXM feature Identification and Reference document</em></a>, chapter 3.4.1.</td>
 </tr>
 </tbody>
@@ -999,15 +1035,14 @@ designator’, if provided, should be the designator obtained after
 applying the rules for shortening names specified by the ARINC 424
 specification, chapter 7.4. Example:
 
-> &lt;fx:standardInstrumentDeparture&gt;
->
-> &lt;fb:abbreviatedDesignator&gt;AMOL5B&lt;/fb:abbreviatedDesignator&gt;
->
-> &lt;fb:designator&gt;AMOLO5B&lt;/fb:designator&gt;
->
-> &lt;/fx:standardInstrumentDeparture&gt;
+```xml
+<fx:standardInstrumentDeparture>
+   <fb:abbreviatedDesignator>AMOL5B</fb:abbreviatedDesignator>
+   <fb:designator>AMOLO5B</fb:designator>
+</fx:standardInstrumentDeparture>
+```
 
-#### References to Airspace
+## References to Airspace
 
 <table>
 <thead>
@@ -1020,35 +1055,41 @@ specification, chapter 7.4. Example:
 <tr class="odd">
 <td><p><img src=".//media/image19.png" style="width:2.4375in;height:1.88479in" /></p>
 <p><em>UML Class <strong>AirspaceDesignator</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>&lt;xs:simpleType name="RestrictedAirspaceDesignatorType"&gt;</p>
-<p>&lt;xs:restriction base="fb:CharacterStringType"&gt;</p>
-<p>&lt;xs:minLength value="1"/&gt;</p>
-<p>&lt;xs:maxLength value="10"/&gt;</p>
-<p>&lt;xs:pattern value="([A-Z]|[0-9]|[, !&amp;quot;&amp;amp;#$%'\(\)\*\+\-\./:;&amp;lt;=&amp;gt;\?@\[\\\]\^_\|\{\}])*"/&gt;</p>
-<p>&lt;/xs:restriction&gt;</p>
-<p>&lt;/xs:simpleType&gt;</p>
-<p>&lt;xs:complexType name="AirspaceDesignatorType"&gt;</p>
-<p>&lt;xs:simpleContent&gt;</p>
-<p>&lt;xs:extension base="fb:RestrictedAirspaceDesignatorType"&gt;</p>
-<p>&lt;xs:attribute name="href" type="fb:HypertextReferenceType" use="optional"&gt;</p>
-<p>&lt;/xs:attribute&gt;</p>
-<p>&lt;/xs:extension&gt;</p>
-<p>&lt;/xs:simpleContent&gt;</p>
-<p>&lt;/xs:complexType&gt;</p>
+<td><p>
+
+```xml
+<xs:simpleType name="RestrictedAirspaceDesignatorType">
+   <xs:restriction base="fb:CharacterStringType">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="10"/>
+      <xs:pattern value="([A-Z]|[0-9]|[, !&quot;&amp;#$%'\(\)\*\+\-\./:;&lt;=&gt;\?@\[\\\]\^_\|\{\}])*"/>
+   </xs:restriction>
+</xs:simpleType>
+<xs:complexType name="AirspaceDesignatorType">
+   <xs:simpleContent>
+      <xs:extension base="fb:RestrictedAirspaceDesignatorType">
+         <xs:attribute name="href" type="fb:HypertextReferenceType" use="optional">
+         </xs:attribute>
+      </xs:extension>
+   </xs:simpleContent>
+</xs:complexType>
+```
+
+</p>
 <p><em>Simple type <strong>AirspaceDesignatorType</strong> in<br />
 file AeronauticalReference.xsd</em></p></td>
 </tr>
 </tbody>
 </table>
 
-OPTION 1 - Minimum reference
+### OPTION 1 - Minimum reference
 
 The minimum airspace reference shall consist of the airspace location
 indicator, if provided by ICAO Doc 7910 \[11\]. If the airspace has no
 ICAO Doc 7910 location indicator, the minimum airspace reference shall
 consist of the coded designator of the airspace as published in the AIP.
 
-OPTION 2 - Minimum reference with supplementary AIXM pointer
+### OPTION 2 - Minimum reference with supplementary AIXM pointer
 
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
@@ -1074,24 +1115,45 @@ Examples (NOT for OPERATIONAL USE)
 <tr class="even">
 <td><p><strong>OPTION 1</strong></p>
 <p>designator</p></td>
-<td><p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /></p>
-<p>&lt;fx:region&gt;KZLC&lt;/fx:region&gt;</p></td>
-<td><p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /></p>
-<p>&lt;fx:region&gt;AMSWELL&lt;/fx:region&gt;</p></td>
+<td><p>
+
+```xml
+<fx:region>KZLC</fx:region>
+```
+
+</p></td>
+<td><p>
+
+```xml
+<fx:region>AMSWELL</fx:region> 
+```
+
+</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OPTION 2</strong></p>
 <p>designator<br />
 +href</p></td>
-<td><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" />&lt;fx:region href="urn:uuid:..."&gt;KZLC&lt;/fx:region&gt;</td>
-<td><p>&lt;fx:region href="urn:uuid:..."&gt;AMSWELL&lt;/fx:region&gt;</p>
-<p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /></p>
+<td>
+
+```xml
+<fx:region href="urn:uuid:...">KZLC</fx:region>
+```
+
+</td>
+<td><p>
+
+```xml
+<fx:region href="urn:uuid:...">AMSWELL</fx:region>
+```
+
+</p>
 <p><em>(from DONLON dataset)</em></p></td>
 </tr>
 </tbody>
 </table>
 
-#### References to (ATC) Units
+## References to (ATC) Units
 
 <table>
 <thead>
@@ -1104,28 +1166,34 @@ Examples (NOT for OPERATIONAL USE)
 <tr class="odd">
 <td><p><img src=".//media/image20.png" style="width:2.97919in;height:2.14151in" /></p>
 <p><em>UML Class <strong>ATCUnitReference</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>&lt;xs:complexType name="AtcUnitReferenceType"&gt;</p>
-<p>&lt;xs:sequence&gt;</p>
-<p>&lt;xs:element name="atcUnitNameOrAlternate" type="fb:TextNameType" nillable="true" minOccurs="0" maxOccurs="1"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;xs:element name="controlSectorDesignator" type="fb:AirspaceDesignatorType" nillable="true" minOccurs="0" maxOccurs="1"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;xs:element name="extension" type="fb:AtcUnitReferenceExtensionType" nillable="true" minOccurs="0" maxOccurs="2000"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;xs:element name="locationIndicator" type="fb:LocationIndicatorType" nillable="true" minOccurs="0" maxOccurs="1"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;xs:element name="position" type="fb:GeographicalPositionType" nillable="true" minOccurs="0" maxOccurs="1"&gt;</p>
-<p>&lt;/xs:element&gt;</p>
-<p>&lt;/xs:sequence&gt;</p>
-<p>&lt;xs:attribute name="href" type="fb:HypertextReferenceType" use="optional"&gt;</p>
-<p>&lt;/xs:attribute&gt;</p>
-<p>&lt;/xs:complexType&gt;</p>
+<td><p>
+
+```xml
+<xs:complexType name="AtcUnitReferenceType">
+   <xs:sequence>
+      <xs:element name="atcUnitNameOrAlternate" type="fb:TextNameType" nillable="true" minOccurs="0" maxOccurs="1">
+      </xs:element>
+      <xs:element name="controlSectorDesignator" type="fb:AirspaceDesignatorType" nillable="true" minOccurs="0" maxOccurs="1">
+      </xs:element>
+      <xs:element name="extension" type="fb:AtcUnitReferenceExtensionType" nillable="true" minOccurs="0" maxOccurs="2000">
+      </xs:element>
+      <xs:element name="locationIndicator" type="fb:LocationIndicatorType" nillable="true" minOccurs="0" maxOccurs="1">
+      </xs:element>
+      <xs:element name="position" type="fb:GeographicalPositionType" nillable="true" minOccurs="0" maxOccurs="1">
+      </xs:element>
+   </xs:sequence>
+   <xs:attribute name="href" type="fb:HypertextReferenceType" use="optional">
+   </xs:attribute>
+</xs:complexType> 
+```
+
+</p>
 <p><em>Complex type <strong>ATCUnitReferenceType</strong> in file AeronauticalReference.xsd</em></p></td>
 </tr>
 </tbody>
 </table>
 
-OPTION 1 - Minimum reference
+### OPTION 1 - Minimum reference
 
 The minimum ATC unit reference shall consist of the location indicator
 of the unit, if provided by ICAO Doc 7910 \[11\]. If the unit has no
@@ -1133,14 +1201,14 @@ ICAO Doc 7910 location indicator, the minimum airspace reference shall
 consist of the name of the unit or any alternate name, as published in
 the AIP.
 
-OPTION 2 - Minimum reference with supplementary AIXM pointer
+### OPTION 2 - Minimum reference with supplementary AIXM pointer
 
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter Generic hypertext references.
 
-Examples (NOT for OPERATIONAL USE)
+?> Examples (NOT for OPERATIONAL USE)
 
 <table>
 <thead>
@@ -1159,23 +1227,48 @@ Examples (NOT for OPERATIONAL USE)
 <tr class="even">
 <td><p><strong>OPTION 1</strong></p>
 <p>designator</p></td>
+<td><p>
+
+```xml
+<fx:originator>
+   <fb:locationIndicator>EBBU</fb:locationIndicator>
+</fx:originator>
+```
+
+</p></td>
 <td><p>&lt;fx:originator&gt;</p>
-<p>&lt;fb:locationIndicator&gt;EBBU&lt;/fb:locationIndicator&gt;</p>
-<p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" />&lt;/fx:originator&gt;</p></td>
-<td><p>&lt;fx:originator&gt;</p>
-<p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /> &lt;fb:atcUnitNameOrAlternate&gt;MILITARY DONLON TWR&lt;/fb:atcUnitNameOrAlternate&gt;</p>
-<p>&lt;/fx:originator&gt;</p></td>
+<p>
+
+```xml
+<fx:originator>
+   <fb:atcUnitNameOrAlternate>MILITARY DONLON TWR</fb:atcUnitNameOrAlternate>
+</fx:originator>
+```
+
+</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OPTION 2</strong></p>
 <p>designator<br />
 +href</p></td>
-<td><p>&lt;fx:originator href="urn:uuid:..."&gt;</p>
-<p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /> &lt;fb:locationIndicator&gt;EBBU&lt;/fb:locationIndicator&gt;</p>
-<p>&lt;/fx:originator&gt;</p></td>
-<td><p>&lt;fx:originator href="urn:uuid:..."&gt;</p>
-<p><img src=".//media/image2.png" style="width:0.26042in;height:0.26042in" /> &lt;fb:atcUnitNameOrAlternate&gt;MILITARY DONLON TWR&lt;/fb:atcUnitNameOrAlternate&gt;</p>
-<p>&lt;/fx:originator&gt;</p></td>
+<td><p>
+
+```xml
+<fx:originator href="urn:uuid:...">
+   <fb:locationIndicator>EBBU</fb:locationIndicator>
+</fx:originator>
+```
+
+</p></td>
+<td><p>
+
+```xml
+<fx:originator href="urn:uuid:...">
+   <fb:atcUnitNameOrAlternate>MILITARY DONLON TWR</fb:atcUnitNameOrAlternate>
+</fx:originator>
+```
+
+</p></td>
 </tr>
 </tbody>
 </table>
