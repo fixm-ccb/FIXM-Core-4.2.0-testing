@@ -6,7 +6,7 @@
   - [Date/Time Specification](general-guidance-date-time-specification.md)
   - [Geographical positions](general-guidance-geographical-positions.md)
   - [References to published aeronautical information](general-guidance-references-to-published-aeronautical-information.md)
-  - [Relative points](home.md)
+  - [Relative points](general-guidance-relative-points.md)
   - [Vertical distances](home.md)
   - [Sequence numbers](home.md)
   - [Contact Information](home.md)
