@@ -1,6 +1,12 @@
-# Extensions
+## Understanding FIXM Core, the Application Libraries and the Extensions
 
-## What is it?
+
+
+
+
+### Extensions
+
+#### What is it?
 
 An extension designates a supplement to FIXM that supports additional
 (commonly local or regional) requirements from a particular organisation
@@ -10,7 +16,7 @@ regionally, and/or may supplement an existing Application Library by
 defining additional messaging data structure exchanged locally or
 regionally.
 
-## What is a valid use of an extension?
+#### What is a valid use of an extension?
 
 A number of rules are established in order to ensure that extensions are
 not developed as a replacement of FIXM Core or a subset thereof.
@@ -70,13 +76,13 @@ character string to be populated. This is an example of a FIXM extension
 redefining content from FIXM Core. It does NOT qualify as valid usage of
 the FIXM extension mechanism.
 
-## How to build an extension?
+#### How to build an extension?
 
 The FIXM extension mechanism distributes class-specific extension hooks
 throughout the model that implementers can leverage to define their
 specific data structures.
 
-<img src=".//media/general-guidance-application-libraries-07.png"/>
+<img src=".//media/image10.emf" style="width:6.10435in;height:1.4087in" />
 
 The key benefits of the approach are the following:
 
@@ -95,7 +101,7 @@ the applicable implementation context.
 APPENDIX A provides a rulebook and detailed guidance for creating
 extensions.
 
-## Ignoring extension data
+#### Ignoring extension data 
 
 Consumers of FIXM information may not need, and/or may not be able to
 process and interpret extension data supplementing a core FIXM dataset.
@@ -104,15 +110,16 @@ Using XSLTs is one approach for removing unwanted Extension data (known
 or unknown) from a FIXM XML dataset, as appropriate. An example of an
 XSLT that removes all Extension content is provided below:
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
-    <xsl:template match="@*|node()">
-      <xsl:copy>
-        <xsl:apply-templates select="@*|node()"/>
-      </xsl:copy>
-    </xsl:template>
-    <xsl:template match="*:extension"/>
-</xsl:stylesheet>
-```
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;  
+&lt;xsl:stylesheet version="2.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;  
+&lt;xsl:output method="xml" version="1.0" encoding="UTF-8"
+indent="yes"/&gt;  
+&lt;xsl:template match="@\*\|node()"&gt;  
+&lt;xsl:copy&gt;  
+&lt;xsl:apply-templates select="@\*\|node()"/&gt;  
+&lt;/xsl:copy&gt;  
+&lt;/xsl:template&gt;  
+&lt;xsl:template match="\*:extension"/&gt;  
+&lt;/xsl:stylesheet&gt;
+

@@ -8,10 +8,10 @@
 
 
 - **General Guidance**
-  - [Target audience](general-guidance/target-audience.md)
-  - [FIXM Core](general-guidance/fixm-core.md)
-  - [Application Libraries](general-guidance/application-libraries.md)
-  - [Extensions](general-guidance/extensions.md)
+  - [Target audience](general-guidance-target-audience.md)
+  - [FIXM Core](general-guidance-fixm-core.md)
+  - [Application Libraries](general-guidance-application-libraries.md)
+  - [Extensions](general-guidance-extensions.md)
   - [Tested Development Environments](home.md)
   - [General encoding rules](home.md)
   - [Other Topics](home.md)
