@@ -71,13 +71,13 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 <td><p>
 
 ```xml
-&lt;fb:relativePoint&gt;</p>
-<p>&lt;fb:bearing uom="DEG" zeroBearingType="MAGNETIC_NORTH"&gt;82.0&lt;/fb:bearing&gt;</p>
-<p>&lt;fb:distance uom="NM"&gt;2.0&lt;/fb:distance&gt;</p>
-<p>&lt;fb:referencePoint&gt;</p>
-<p>&lt;fb:designator&gt;BOR&lt;/fb:designator&gt; (*)</p>
-<p>&lt;/fb:referencePoint&gt;</p>
-<p>&lt;/fb:relativePoint&gt;
+<fb:relativePoint>
+    <fb:bearing uom="DEG" zeroBearingType="MAGNETIC_NORTH">82.0</fb:bearing>
+    <fb:distance uom="NM">2.0</fb:distance>
+    <fb:referencePoint>
+        <fb:designator>BOR</fb:designator>         (*)
+    </fb:referencePoint>
+</fb:relativePoint>
 ```
 </p></td>
 <td>(*) See chapter References to Navaid above. All four options can be used for encoding this reference. OPTION 1 is used in this example.</td>
@@ -87,16 +87,16 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 <td><p>
 
 ```xml
-&lt;fb:relativePoint&gt;</p>
-<p>&lt;fb:bearing uom="DEG" zeroBearingType="TRUE_NORTH"&gt;180&lt;/fb:bearing&gt;</p>
-<p>&lt;fb:distance uom="NM"&gt;60.0&lt;/fb:distance&gt;</p>
-<p>&lt;fb:position srsName="urn:ogc:def:crs:EPSG::4326"&gt;</p>
-<p>&lt;fb:pos&gt;51.36833333333333 -32.375&lt;/fb:pos&gt;</p>
-<p>&lt;/fb:position&gt;</p>
-<p>&lt;fb:referencePoint&gt;</p>
-<p>&lt;fb:designator&gt;BOR&lt;/fb:designator&gt; (*)</p>
-<p>&lt;/fb:referencePoint&gt;</p>
-<p>&lt;/fb:relativePoint&gt;
+<fb:relativePoint>
+    <fb:bearing uom="DEG" zeroBearingType="TRUE_NORTH">180</fb:bearing>
+    <fb:distance uom="NM">60.0</fb:distance>
+    <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+        <fb:pos>51.36833333333333 -32.375</fb:pos>
+    </fb:position>
+    <fb:referencePoint>
+        <fb:designator>BOR</fb:designator>         (*)
+    </fb:referencePoint>
+</fb:relativePoint>
 ```
 
 </p></td>
