@@ -173,95 +173,12 @@ explanations above.
    <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
       <fb:pos>56.84 -29.860000000000003</fb:pos>
    </fb:position>
-</fb:designatedPoint> 
+</fb:designatedPoint>
 ```
 
-?> Examples (NOT for OPERATIONAL USE)
-
-The table below depicts examples of FIXM references to fictitious
+?> The code blocks above depicts examples of FIXM references to fictitious
 Waypoint “TEMPO” that is ‘published’ in AIXM 5.1 as part of the
-fictitious [Donlon
-dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
-data is entirely fictitious, located somewhere in the middle of the
-Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
-
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th><strong>Examples of Waypoint references in FIXM</strong></th>
-<th><strong>Notes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>OPTION 1</strong></p>
-<p>designator</p></td>
-<td><p>
-
-```xml
-<fb:designatedPoint>
-   <fb:designator>TEMPO</fb:designator>
-</fb:designatedPoint>
-```
-
-</p></td>
-<td>This is the minimum reference that SHALL be provided.</td>
-</tr>
-<tr class="even">
-<td><p><strong>OPTION 2</strong></p>
-<p>designator<br />
-+position</p></td>
-<td><p>
-
-```xml
-<fb:designatedPoint>
-   <fb:designator>TEMPO</fb:designator>
-   <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
-      <fb:pos>56.84 -29.860000000000003</fb:pos>
-   </fb:position>
-</fb:designatedPoint>
-```
-
-</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><strong>OPTION 3</strong></p>
-<p>designator<br />
-+href</p></td>
-<td><p>
-
-```xml
-<fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
-   <fb:designator>TEMPO</fb:designator>
-</fb:designatedPoint>
-```
-
-</p></td>
-<td>Hypertext reference to be provided in accordance with the <a href="http://www.aixm.aero/sites/aixm.aero/files/imce/AIXM51/aixm_feature_identification_and_reference-1.0.pdf"><em>AIXM feature Identification and Reference document</em></a>, chapter 3.4.1.</td>
-</tr>
-<tr class="even">
-<td><p><strong>OPTION 4</strong></p>
-<p>designator<br />
-+position<br />
-+href</p></td>
-<td><p>
-
-```xml
-<fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
-   <fb:designator>TEMPO</fb:designator>
-   <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
-      <fb:pos>56.84 -29.860000000000003</fb:pos>
-   </fb:position>
-</fb:designatedPoint> 
-```
-
-</p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+fictitious [Donlon dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The data is entirely fictitious, located somewhere in the middle of the Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 ### Note about the pattern constraint for waypoint designators
 
