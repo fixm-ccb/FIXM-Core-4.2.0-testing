@@ -24,9 +24,9 @@ our message.
 
 3. Then click OK.
 
-    ![Image](..//media/image68.png)
+    ![Image](.//media/image68.png)
 
-    ![Image](..//media/image69.png)
+    ![Image](.//media/image69.png)
 
     You can now begin to add content to your class.
 
@@ -42,7 +42,7 @@ standardly modeled.
     box. In the Features dialogue box, you can add the attributes needed
     for your Application to your class.
 
-      ![Image](..//media/image70.png)
+      ![Image](.//media/image70.png)
 
 2. Begin by clicking where it says “New Attribute…” under *Name* and
     filling in your new field’s name. In this example, we will start
@@ -53,19 +53,19 @@ standardly modeled.
 4. You should now have a new attribute added to your class with a
     default *Type* of int and *Scope* of Private.
 
-      ![Image](..//media/image71.png)
+      ![Image](.//media/image71.png)
 
 5. Next, click on the *Type* field, select the down arrow on the right
     side, and then click “Select Type…”.
 
-      ![Image](..//media/image72.png)
+      ![Image](.//media/image72.png)
 
 6. This opens the Select Type dialogue box. Navigate to the appropriate
     class in the Base package you want to use, select it, and then click
     OK. In this example, that will be Fixm -&gt; Core -&gt; Base -&gt;
     Organization -&gt; PersonOrOrganization.
 
-      ![Image](..//media/image73.png)
+      ![Image](.//media/image73.png)
 
 7. Next change the *Scope* field to “Public”.
 
@@ -75,7 +75,7 @@ standardly modeled.
 9. Then add a description for the field in the *Notes* section. When
     finished, your Features dialogue box will look something like below.
 
-      ![Image](..//media/image74.png)
+      ![Image](.//media/image74.png)
 
 10. Repeat the steps above to continue adding as many attributes as
     desired. For this example, we will also add:
@@ -104,7 +104,7 @@ standardly modeled.
     diagram should display the name, type, and multiplicity of each
     attribute added to the class.
 
-      ![Image](..//media/image75.png)
+      ![Image](.//media/image75.png)
 
 ## Create an Enumeration Class
 
@@ -124,18 +124,18 @@ alert.
 
 3. Then click OK.
 
-      ![Image](..//media/image76.png)
+      ![Image](.//media/image76.png)
 
 4. Right click on the enumeration class in the diagram and choose
     “Features and Properties” and then “Attributes…”. This opens the
     Features dialogue box.
 
-      ![Image](..//media/image77.png)
+      ![Image](.//media/image77.png)
 
 5. In the Features dialogue box, you can add descriptions to each
     enumeration in the *Notes* tab. When finished, click OK.
 
-      ![Image](..//media/image78.png)
+      ![Image](.//media/image78.png)
 
 ## Add an Association Between Classes
 
@@ -151,20 +151,20 @@ field needed for our message because our AlertType enumeration was not
 defined under the Base package.
 
 1. Click on the class you wish to add your field to. You will see an
-    upward arrow icon  ![Image](..//media/image79.png)
+    upward arrow icon  ![Image](.//media/image79.png)
     appear near the upper right hand corner of your class.
 
-      ![Image](..//media/image80.png)
+      ![Image](.//media/image80.png)
 
 2. Click on this arrow and drag it over the class you wish to use as
     the type of your field. Then release the mouse button and choose
     “Association” from the list of options that pops up.
 
-      ![Image](..//media/image81.png)
+      ![Image](.//media/image81.png)
 
 3. This will create an association between the two classes.
 
-      ![Image](..//media/image82.png)
+      ![Image](.//media/image82.png)
 
 4. Double click (or right click and choose “Properties…”) on the
     association to open the Association Properties dialogue box.
@@ -174,14 +174,14 @@ defined under the Base package.
     right hand side of the dialogue box. This should open a dropdown
     menu. From this menu, choose “Source -&gt; Destination”.
 
-      ![Image](..//media/image83.png)
+      ![Image](.//media/image83.png)
 
 6. Next, select “Role(s)” from the tree of options in the upper left
     hand corner. This brings up a new section of the Association
     Properties dialogue box split between setting up details for the
     source and target sides of your new association.
 
-      ![Image](..//media/image84.png)
+      ![Image](.//media/image84.png)
 
 7. In the text/dropdown box directly under TARGET in the upper right
     hand corner, type in the name you would like to use for the field
@@ -196,7 +196,7 @@ defined under the Base package.
 10. When finished, your Association Properties dialogue box will look
     something like below. Click OK to save these settings.
 
-    ![Image](..//media/image85.png)
+    ![Image](.//media/image85.png)
 
     In this example, we will also add an association between ExampleMessage
 and the Flight class (the root class of FIXM Core).
@@ -205,7 +205,7 @@ and the Flight class (the root class of FIXM Core).
     Browser (Fixm -&gt; Core -&gt; Flight -&gt; FlightData) and then
     select the “&lt;&lt;XSDcomplexType&gt;&gt;Flight” class.
 
-      ![Image](..//media/image86.png)
+      ![Image](.//media/image86.png)
 
 12. Now click and drag the Flight class from Project Browser to the
     ExampleMessage diagram. When you release the mouse button, a
@@ -213,13 +213,13 @@ and the Flight class (the root class of FIXM Core).
     class into the diagram. Select “Link” under the *Drop As* dropdown
     box and then click Okay.
 
-      ![Image](..//media/image87.png)
+      ![Image](.//media/image87.png)
 
 13. Next, follow the same steps detailed above to create an association
     from the ExampleMessage class to the Flight class. When finished,
     your diagram should look something like below.
 
-      ![Image](..//media/image88.png)
+      ![Image](.//media/image88.png)
 
     The final step in creating associations is to add “position” tags. Sparx
     EA will automatically alphabetize class attributes when creating schemas
@@ -233,7 +233,7 @@ and the Flight class (the root class of FIXM Core).
     Having this window open provides a shortcut to accessing tagged
     values and is very useful when adding position tags.
 
-      ![Image](..//media/image89.png)
+      ![Image](.//media/image89.png)
 
 15. Next, determine the correct ordering for each association
     originating from your class. For this example, the ExampleMessage
@@ -250,25 +250,25 @@ and the Flight class (the root class of FIXM Core).
     up in the Tagged Values window. For these associations, this window
     will initially look like the image below.
 
-      ![Image](..//media/image90.png)
+      ![Image](.//media/image90.png)
 
 17. Click on *Connector Source* and then click on the third icon from
-    the left ![Image](..//media/image63.png) to add a new tagged value. The *tag* field should be set to
+    the left ![Image](.//media/image63.png) to add a new tagged value. The *tag* field should be set to
     “position” and the *value* field to the correct numeric value as
     determined above. In this example, the flight association,
     connecting ExampleMessage to Flight, should be given the following
     tag:
 
-    ![Image](..//media/image91.png)
+    ![Image](.//media/image91.png)
 
-    ![Image](..//media/image92.png)
+    ![Image](.//media/image92.png)
 
     The type association, connecting ExampleMessage to AlertType, should
     be set up as below:
 
-    ![Image](..//media/image93.png)
+    ![Image](.//media/image93.png)
 
-    ![Image](..//media/image94.png)
+    ![Image](.//media/image94.png)
 
 ## Add a Root Element
 
@@ -288,7 +288,7 @@ For this example, we will create a single such entry point named
     entry point to the Example Message application.”) for your
     Application.
 
-      ![Image](..//media/image95.png)
+      ![Image](.//media/image95.png)
 
 3. Next click on the “…” icon to the right of the *Type* field. This
     opens the Select Classifier dialogue box. In the *Browse* tab,
@@ -296,13 +296,13 @@ For this example, we will create a single such entry point named
     entry point for your Application. In this example, Fixm -&gt;
     Applications -&gt; ExampleMessage -&gt; MessageType. Click OK.
 
-      ![Image](..//media/image96.png)
+      ![Image](.//media/image96.png)
 
 4. The *Type* field should now be updated to your selection. Click OK
     to create your root element. Note the generalization link formed
     between the element and the class it is based on.
 
-      ![Image](..//media/image97.png)
+      ![Image](.//media/image97.png)
 
     Repeat the steps above to add elements for each intended entry point
 into your Application.
@@ -312,7 +312,7 @@ into your Application.
     right click on the name at the top of the diagram and click “Save
     Changes to ‘\[diagram name\]’”.
 
-      ![Image](..//media/image98.png)
+      ![Image](.//media/image98.png)
 
 The Application presented here is simple but keep in mind that the steps
 detailed in this guide can be used to create as many packages and as

@@ -21,14 +21,14 @@ noted below.
 1.  Begin by right clicking on your Application package and choose “Add
     a Package…”.
 
-    ![Image](..//media/image99.png)
+    ![Image](.//media/image99.png)
 
 1.  In the New Package dialogue box, change the *Name* field to
     something appropriate to your templates (here we used
     “ExampleTemplates”), select the *Package Only* radio button, and
     then click OK.
 
-    ![Image](..//media/image100.png)
+    ![Image](.//media/image100.png)
 
 1.  Apply a schema stereotype and begin setting up schema properties as
     outlined in [Apply Schema Stereotype](#apply-schema-stereotype) and
@@ -36,7 +36,7 @@ noted below.
     the same *Target Namespace* and *Prefix* as was used for your
     Application package[24].
 
-    ![Image](..//media/image101.png)
+    ![Image](.//media/image101.png)
 
 1.  For the *Schema File* field, choose something appropriate for your
     templates (in this example,
@@ -46,7 +46,7 @@ noted below.
     “exampletemplates” should be created below the “examplemessage”
     directory).
 
-    ![Image](..//media/image102.png)
+    ![Image](.//media/image102.png)
 
 1.  In some cases, Sparx EA will automatically add additional namespace
     prefixes for packages that need to be imported, but that does not
@@ -66,14 +66,14 @@ noted below.
 > See below for examples showing how each Namespace Details dialogue box
 > should be filled in.
 >
->     ![Image](..//media/image103.png)
+>     ![Image](.//media/image103.png)
 >
->     ![Image](..//media/image104.png)
+>     ![Image](.//media/image104.png)
 
 1.  At this point, your XSD schema Properties dialogue box should look
     something like below. Click OK to save these settings.
 
-    ![Image](..//media/image105.png)
+    ![Image](.//media/image105.png)
 
 1.  Finally, follow the steps outlined in [Add Schema Description and
     Tags](#add-schema-description-and-tags) to complete the setup of
@@ -92,25 +92,25 @@ repeating all the steps from the previous section.
     Browser and choose “Copy / Paste” and then “Copy to Clipboard” and
     then “Full Structure of Duplication”.
 
-    ![Image](..//media/image106.png)
+    ![Image](.//media/image106.png)
 
 1.  Once again, right click on your template container in Project
     Browser and this time choose “Copy / Paste” and then “Paste Package
     from Clipboard”.
 
-    ![Image](..//media/image107.png)
+    ![Image](.//media/image107.png)
 
 1.  You should see a new copy of your container show up in Project
     Browser below the original.
 
-    ![Image](..//media/image108.png)
+    ![Image](.//media/image108.png)
 
 1.  Repeat the above “Paste Package from Clipboard” step for each
     message template you would like to create[25]. In this example, we
     will create two message templates. When finished, your Project
     Browser should display something similar to below.
 
-    ![Image](..//media/image109.png)
+    ![Image](.//media/image109.png)
 
 1.  Double click (or right click and choose “Properties…”) on each
     individual message template container and modify the *Schema Name*
@@ -136,7 +136,7 @@ repeating all the steps from the previous section.
 
 > And the schemas directory structure should be modified as follows:
 
-    ![Image](..//media/image110.png)
+    ![Image](.//media/image110.png)
 
 > Don’t forget to modify your schema descriptions to something
 > appropriate as well. In this example, ArrivalAlert should use “An
@@ -146,7 +146,7 @@ repeating all the steps from the previous section.
 1.  When finished, your Project Browser should display something similar
     to below.
 
-    ![Image](..//media/image111.png)
+    ![Image](.//media/image111.png)
 
 ### Create a Message Template
 
@@ -201,9 +201,9 @@ For this example, we will first create a template package corresponding
 to ExampleMessage under ArrivalAlert. When creating the package, we will
 change its diagram name to be “ExampleAA\_ExampleMessage”.
 
-    ![Image](..//media/image112.png)
+    ![Image](.//media/image112.png)
 
-    ![Image](..//media/image113.png)
+    ![Image](.//media/image113.png)
 
 When configuring the package, use all the same values as ExampleMessage
 except change the schema description to “An example Arrival Alert
@@ -211,20 +211,20 @@ message template for the ExampleMessage package.” and the *Schema File*
 field to
 “.\\schemas\\applications\\examplemessage\\exampletemplates\\arrivalalert\\examplemessage\\ExampleAA\_ExampleMessage.xsd”.
 
-    ![Image](..//media/image114.png)
+    ![Image](.//media/image114.png)
 
-    ![Image](..//media/image115.png)
+    ![Image](.//media/image115.png)
 
 The same steps will be used to create template packages for Core’s
 Flight package and its Arrival and FlightData sub-packages. When
 finished, Package Browser should appear as follows.
 
-    ![Image](..//media/image116.png)
+    ![Image](.//media/image116.png)
 
 And the directory structure for the Application should be organized as
 shown below.
 
-    ![Image](..//media/image117.png)
+    ![Image](.//media/image117.png)
 
 #### Create Template Content
 
@@ -282,7 +282,7 @@ When constructing a template, we found it easiest to start at the leaf
     &lt;&lt;XSDcomplexType&gt;&gt;Arrival). Select “Link” under the
     *Drop As* dropdown box and then click Okay.
 
-    ![Image](..//media/image118.png)
+    ![Image](.//media/image118.png)
 
 1.  Create a new class of the same type as the class you wish to
     restrict. In this example, that would be a complexType class,
@@ -291,19 +291,19 @@ When constructing a template, we found it easiest to start at the leaf
     should be the same as the class you are restricting except the
     *Name* should begin with your template’s prefix.
 
-    ![Image](..//media/image119.png)
+    ![Image](.//media/image119.png)
 
 1.  Click on your new restricted class in the diagram. You will see an
     upward arrow icon
-    \[    ![Image](..//media/image79.png)
+    \[    ![Image](.//media/image79.png)
     appear near the upper right hand corner of the class. Click on this
     arrow and drag it over the class you are restricting. Then release
     the mouse button and choose “Generalization” from the list of
     options that pops up.
 
-    ![Image](..//media/image120.png)
+    ![Image](.//media/image120.png)
 
-    ![Image](..//media/image121.png)
+    ![Image](.//media/image121.png)
 
 1.  Double click (or right click and choose “Properties…”) on the
     generalization connector to open the Generalization Properties
@@ -314,12 +314,12 @@ When constructing a template, we found it easiest to start at the leaf
     side of the dialogue box. This should open a Stereotype dialogue
     box. Check the box next to “XSDrestriction” and click Okay.
 
-    ![Image](..//media/image122.png)
+    ![Image](.//media/image122.png)
 
 1.  Then click Okay in the Generalization Properties dialogue box to
     apply the stereotype.
 
-    ![Image](..//media/image123.png)
+    ![Image](.//media/image123.png)
 
 Any class attributes and associations that resolve to XML elements in
 the physical model that are not included in a restricted class will be
@@ -339,16 +339,16 @@ attributes both easier and less error prone.
 1.  Once again, locate the class you wish to restrict in Project Browser
     (in this example, Fixm -&gt; Core -&gt; Flight -&gt; Arrival -&gt;
     &lt;&lt;XSDcomplexType&gt;&gt;Arrival). Click on the arrow
-    \[    ![Image](..//media/image124.png)
+    \[    ![Image](.//media/image124.png)
     to the left of the class to display its associated attributes.
 
-    ![Image](..//media/image125.png)
+    ![Image](.//media/image125.png)
 
 1.  Control-left-click on each attribute you wish to retain in your
     restriction. In this example, “actualTimeOfArrival” and
     “arrivalAerodrome”.
 
-    ![Image](..//media/image126.png)
+    ![Image](.//media/image126.png)
 
 1.  Now drag the selected attributes onto your restricted class in the
     diagram. In the example, the attributes will be dragged onto the
@@ -356,7 +356,7 @@ attributes both easier and less error prone.
     will create exact replicas of the attributes within your restricted
     class.
 
-    ![Image](..//media/image127.png)
+    ![Image](.//media/image127.png)
 
 Next, adjust the *Multiplicity* of your attributes to suit your
 template’s needs.
@@ -368,26 +368,26 @@ template’s needs.
     “actualTimeOfArrival” and “arrivalAerodrome” should be given an
     upper and lower bound of “1”.
 
-    ![Image](..//media/image128.png)
+    ![Image](.//media/image128.png)
 
 Most attributes in FIXM Core are marked as nillable. This is done via
 adding a tag to the field with *Tag* set to “nillable” and *Value* set
 to “true”.
 
-    ![Image](..//media/image129.png)
+    ![Image](.//media/image129.png)
 
 1.  If you do not wish attributes in your template to be nillable,
     navigate to the *Tagged Values* tab, and then erase the nillable tag
-    by clicking on it and then clicking the fifth icon from the left ![Image](..//media/image130.png).
+    by clicking on it and then clicking the fifth icon from the left ![Image](.//media/image130.png).
     In this example, the nillable tags should be erased from all
     attributes with a multiplicity lower bound of “1” or higher.
 
-    ![Image](..//media/image131.png)
+    ![Image](.//media/image131.png)
 
 1.  Click Close when finished. You should see the new multiplicities
     reflected in the restricted class diagram.
 
-    ![Image](..//media/image132.png)
+    ![Image](.//media/image132.png)
 
 ##### Set Up Restricted Class Associations
 
@@ -397,7 +397,7 @@ restricted class will be removed. For example, the “reclearanceInFlight”
 association attached to Core’s Arrival class (shown below) was removed
 from ExampleAA\_Arrival because the association was never recreated.
 
-    ![Image](..//media/image133.png)
+    ![Image](.//media/image133.png)
 
 To find an example of retained associations, let us move on to the
 restricted FlightData package.
@@ -412,9 +412,9 @@ and made required (*Multiplicity* of 1..1). For
 attribute should be retained and made required. Below are examples of
 how Project Brower and the diagram will appear after this is done.
 
-    ![Image](..//media/image134.png)
+    ![Image](.//media/image134.png)
 
-    ![Image](..//media/image135.png)
+    ![Image](.//media/image135.png)
 
 Much like “reclearanceInFlight” from the Arrival package, all of the
 associations attached to the Flight class in Core have been implicitly
@@ -430,7 +430,7 @@ In this example, the first association we will add back in is
     FlightData -&gt; TypeOfFlight” should be added to the
     ExampleAA\_FlightData diagram.
 
-    ![Image](..//media/image136.png)
+    ![Image](.//media/image136.png)
 
 1.  Use the steps detailed in [Add an Association Between
     Classes](#add-an-association-between-classes) to create the
@@ -443,9 +443,9 @@ In this example, the first association we will add back in is
     in the original “flightType” association except position (which will
     end up being set to “3” in the final version of this template).
 
-    ![Image](..//media/image137.png)
+    ![Image](.//media/image137.png)
 
-    ![Image](..//media/image138.png)
+    ![Image](.//media/image138.png)
 
 Sparx EA automatically displays any associations between classes you add
 to a diagram. Above you will notice this for the existing associations
@@ -458,9 +458,9 @@ associations.
     In this example, the pre-existing “flightType” and
     “flightIdentification” associations were hidden.
 
-    ![Image](..//media/image139.png)
+    ![Image](.//media/image139.png)
 
-    ![Image](..//media/image140.png)
+    ![Image](.//media/image140.png)
 
 ##### Use a Restricted Class to Enforce the Use of Another Restricted Class
 
@@ -481,19 +481,19 @@ Below are a series of screenshots capturing key steps taken along the
 way to completing the restricted FlightData package. Each of these steps
 involves enforcing the use of a restricted class.
 
-    ![Image](..//media/image141.png)
+    ![Image](.//media/image141.png)
 
-    ![Image](..//media/image142.png)
+    ![Image](.//media/image142.png)
 
-    ![Image](..//media/image143.png)
+    ![Image](.//media/image143.png)
 
-    ![Image](..//media/image144.png)
+    ![Image](.//media/image144.png)
 
-    ![Image](..//media/image145.png)
+    ![Image](.//media/image145.png)
 
-    ![Image](..//media/image146.png)
+    ![Image](.//media/image146.png)
 
-    ![Image](..//media/image147.png)
+    ![Image](.//media/image147.png)
 
 With the FlightData package complete, the only package left to finish
 for the ArrivalAlert template is ExampleMessage.
@@ -520,7 +520,7 @@ enumeration to only allow a specific value.
     include the value you wish to enforce in this template (in this
     example, “ARRIVAL”).
 
-    ![Image](..//media/image148.png)
+    ![Image](.//media/image148.png)
 
 1.  Next click on the “…” icon to the right of the *Type* field. This
     opens the Select Classifier dialogue box. In the *Browse* tab,
@@ -528,71 +528,71 @@ enumeration to only allow a specific value.
     to be derived from. In this example, Fixm -&gt; Applications -&gt;
     ExampleMessage -&gt; AlertType. Click OK.
 
-    ![Image](..//media/image149.png)
+    ![Image](.//media/image149.png)
 
 1.  You will see the selected class show up in the *Type* field. Click
     OK to create the enumeration.
 
-    ![Image](..//media/image150.png)
+    ![Image](.//media/image150.png)
 
-    ![Image](..//media/image151.png)
+    ![Image](.//media/image151.png)
 
 1.  Finally, as done in [Create a Restricted Class (Complex
     Type)](#create-a-restricted-class-complex-type), apply the
     XSDrestriction stereotype to your generalization connector to finish
     constructing your restricted enumeration class.
 
-    ![Image](..//media/image152.png)
+    ![Image](.//media/image152.png)
 
 The rest of the restricted ExampleMessage package should be created
 using the techniques covered above in [Create Template
 Content](#create-template-content). Below are a series of screenshots
 capturing key steps taken along the way.
 
-![Image](..//media/image153.png)
+![Image](.//media/image153.png)
 
-![Image](..//media/image154.png)
+![Image](.//media/image154.png)
 
-![Image](..//media/image155.png)
+![Image](.//media/image155.png)
 
-![Image](..//media/image156.png)
+![Image](.//media/image156.png)
 
-![Image](..//media/image157.png)
+![Image](.//media/image157.png)
 
-![Image](..//media/image158.png)
+![Image](.//media/image158.png)
 
-![Image](..//media/image159.png)
+![Image](.//media/image159.png)
 
-![Image](..//media/image160.png)
+![Image](.//media/image160.png)
 
-    ![Image](..//media/image161.png)
+    ![Image](.//media/image161.png)
 width:4.45896in;height:2.34408in" />
 
-![Image](..//media/image162.png)
+![Image](.//media/image162.png)
 width:6.5in;height:4.05486in" />
 
-![Image](..//media/image163.png)
+![Image](.//media/image163.png)
 width:4.40686in;height:2.31282in" />
 
-![Image](..//media/image164.png)
+![Image](.//media/image164.png)
 width:6.5in;height:4.12014in" />
 
-![Image](..//media/image165.png)
+![Image](.//media/image165.png)
 width:4.53188in;height:2.36491in" />
 
-![Image](..//media/image166.png)
+![Image](.//media/image166.png)
 width:5.14655in;height:5.03195in" />
 
-![Image](..//media/image167.png)
+![Image](.//media/image167.png)
 width:3.75052in;height:2.02112in" />
 
-    ![Image](..//media/image168.png)
+    ![Image](.//media/image168.png)
 width:6.5in;height:4.10347in" />
 
-    ![Image](..//media/image169.png)
+    ![Image](.//media/image169.png)
 width:6.5in;height:2.11597in" />
 
-    ![Image](..//media/image170.png)
+    ![Image](.//media/image170.png)
 width:5.43826in;height:2.18781in" />
 
 At this point in the example Application, the ArrivalAlert message
@@ -639,10 +639,10 @@ Template Content](#create-template-content) above. Do so now. Below are
 screenshots of showing how Project Browser and the restricted Departure
 package diagram should look after these packages have been completed.
 
-    ![Image](..//media/image171.png)
+    ![Image](.//media/image171.png)
 width:4.6569in;height:5.04237in" />
 
-    ![Image](..//media/image172.png)
+    ![Image](.//media/image172.png)
 width:3.40673in;height:3.12544in" />
 
 ### Copying and Pasting a Template Package
@@ -660,7 +660,7 @@ this example, we will begin with FlightData.
     choose “Copy / Paste” and then “Copy to Clipboard” and then “Full
     Structure of Duplication”.
 
-    ![Image](..//media/image173.png)
+    ![Image](.//media/image173.png)
 width:6.5in;height:5.19375in" />
 
 1.  Next, right click on the package under which you want to paste your
@@ -668,7 +668,7 @@ width:6.5in;height:5.19375in" />
     from Clipboard”. In this example, that is the “Flight” package under
     “DepartureAlert”.
 
-    ![Image](..//media/image174.png)
+    ![Image](.//media/image174.png)
 width:6.5in;height:7.27222in" />
 
 At this point, your copied package should be replicated in the new
@@ -689,21 +689,21 @@ needed for this version of the package.
     should be changed to read “An example Departure Alert message
     template for the FlightData package.”. Click OK to save the change.
 
-    ![Image](..//media/image175.png)
+    ![Image](.//media/image175.png)
 width:6.5in;height:3.96181in" />
 
 1.  Right click and choose “Properties…” on your diagram name in Project
     Brower. In this example, that will be “ExampleAA\_FlightData” within
     the DepartureAlert template.
 
-    ![Image](..//media/image176.png)
+    ![Image](.//media/image176.png)
 width:6.08418in;height:6.35505in" />
 
 1.  This opens the Class Diagram dialogue box. Change the *Name* field
     to something appropriate for your package. In this example,
     “ExampleDA\_FlightData”.
 
-    ![Image](..//media/image177.png)
+    ![Image](.//media/image177.png)
 width:3.72969in;height:0.78136in" />
 
 1.  In Project Browser, delete any unwanted classes from your package by
@@ -715,10 +715,10 @@ width:3.72969in;height:0.78136in" />
     field as needed. In this example, each *Name* should be modified to
     use a prefix of “ExampleDA\_” rather than “ExampleAA\_”.
 
-    ![Image](..//media/image178.png)
+    ![Image](.//media/image178.png)
 width:5.09446in;height:3.82345in" />
 
-    ![Image](..//media/image179.png)
+    ![Image](.//media/image179.png)
 width:5.09446in;height:3.84429in" />
 
 1.  Now review your class diagram by double clicking on its name (or
@@ -729,16 +729,16 @@ width:5.09446in;height:3.84429in" />
     example, the “arrival” connector between ExampleDA\_Flight and
     ExampleAA\_Arrival is no longer desired and should be removed.
 
-    ![Image](..//media/image180.png)
+    ![Image](.//media/image180.png)
 width:3.76094in;height:5.96958in" />
 
 > When prompted, select the “Delete the connector from the model” radio
 > button and then click OK.
 >
->     ![Image](..//media/image181.png)
+>     ![Image](.//media/image181.png)
 width:2.7608in;height:2.08362in" />
 >
->     ![Image](..//media/image182.png)
+>     ![Image](.//media/image182.png)
 width:6.5in;height:3.5875in" />
 
 1.  Note any orphaned classes left behind when the unwanted connectors
@@ -748,7 +748,7 @@ width:6.5in;height:3.5875in" />
     not erase it entirely from the model. In this example, the
     ExampleAA\_Arrival class should be deleted from the diagram.
 
-    ![Image](..//media/image183.png)
+    ![Image](.//media/image183.png)
 width:5.61537in;height:1.35436in" />
 
 1.  Next, use the techniques outlined in [Create Template
@@ -760,7 +760,7 @@ width:5.61537in;height:1.35436in" />
     position tags as needed to ensure correct ordering of elements in
     the physical model.
 
-    ![Image](..//media/image184.png)
+    ![Image](.//media/image184.png)
 width:6.5in;height:3.5625in" />
 
 As a final check when performing any copy and paste in Sparx EA, you
@@ -771,7 +771,7 @@ no undesired connections exist.
     “Relationships” from the *Windows* section to open the Relationships
     window.
 
-    ![Image](..//media/image185.png)
+    ![Image](.//media/image185.png)
 width:2.09404in;height:0.96889in" />
 
 1.  Click on each class in your package and review the displayed
@@ -780,16 +780,16 @@ width:2.09404in;height:0.96889in" />
     ExampleDA\_Flight and ExampleAA\_ExampleMessage that resulted from
     the copy and paste!
 
-    ![Image](..//media/image186.png)
+    ![Image](.//media/image186.png)
 width:6.5in;height:1.86528in" />
 
 1.  Right click and choose “Delete Connection” for any unwanted
     relationships. Click Yes when asked to confirm the deletion.
 
-    ![Image](..//media/image187.png)
+    ![Image](.//media/image187.png)
 width:5.7508in;height:4.43812in" />
 
-    ![Image](..//media/image188.png)
+    ![Image](.//media/image188.png)
 width:3.8547in;height:1.81275in" />
 
 The steps outlined above should be repeated for the ExampleMessage
@@ -797,10 +797,10 @@ package to complete the DepartureAlert template. Below are screenshots
 of how Project Browser and the restricted ExampleMessage package diagram
 should appear after this package is completed.
 
-    ![Image](..//media/image189.png)
+    ![Image](.//media/image189.png)
 width:5.1153in;height:7.36561in" />
 
-    ![Image](..//media/image190.png)
+    ![Image](.//media/image190.png)
 width:6.5in;height:2.16667in" />
 
 The templates created for this example were relatively simple and
@@ -829,7 +829,7 @@ details).
 
 3.  Select the “Package Only” radio button and click OK.
 
-    ![Image](..//media/image191.png)
+    ![Image](.//media/image191.png)
 width:3.69843in;height:2.97958in" />
 
 1.  For each namespace your templates both import and restrict (in this
@@ -839,7 +839,7 @@ width:3.69843in;height:2.97958in" />
     templates and the schemas they will import. In this example, one
     sub-package will be created and it should be named “ExampleFlight”.
 
-    ![Image](..//media/image192.png)
+    ![Image](.//media/image192.png)
 width:3.71927in;height:2.94833in" />
 
 1.  Follow the steps detailed in [Apply Schema
@@ -864,9 +864,9 @@ With the Includes package in place, the example Applications Library is
 complete. Below are screenshots showing the final composition of Project
 Browser and the schemas directory structure.
 
-    ![Image](..//media/image193.png)
+    ![Image](.//media/image193.png)
 width:3.6776in;height:5.33408in" />
 
-    ![Image](..//media/image194.png)
+    ![Image](.//media/image194.png)
 width:2.39617in;height:2.60453in" />
 

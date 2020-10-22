@@ -8,7 +8,7 @@ with two templates, one for arrival alerts and one for departure alerts.
 1. Right click on the Applications container and choose “Add a
     Package…”.
 
-    ![Choose “Add a Package…”](..//media/image56.png "Choose “Add a Package…”")
+    ![Choose “Add a Package…”](.//media/image56.png "Choose “Add a Package…”")
 
 2. In the New Package dialogue box, change the *Name* field to
     something appropriate for your Application (in this example,
@@ -18,7 +18,7 @@ with two templates, one for arrival alerts and one for departure alerts.
 
 4. Then click OK.
 
-    ![Click OK](..//media/image57.png "Click OK")
+    ![Click OK](.//media/image57.png "Click OK")
 
 5. This will bring up a New Diagram dialogue box. In the *Type* section:
 
@@ -28,7 +28,7 @@ with two templates, one for arrival alerts and one for departure alerts.
 
     Click OK to create the Application package and its associated diagram[19].
 
-    ![Click OK](..//media/image58.png "Click OK")
+    ![Click OK](.//media/image58.png "Click OK")
 
 ## Apply Schema Stereotype
 
@@ -49,7 +49,7 @@ it. To add an XSDschema stereotype to your package:
 
 4. Then click OK in the Package dialogue box to apply the stereotype.
 
-    ![Click OK](..//media/image59.png "Click OK")
+    ![Click OK](.//media/image59.png "Click OK")
 
 ## Set Up Schema Properties
 
@@ -62,7 +62,7 @@ schema namespace, namespace prefixes, etc.
     stereotype applied, this should now open an XSD schema Properties
     dialogue box.
 
-    ![Click OK](..//media/image60.png "Click OK")
+    ![Click OK](.//media/image60.png "Click OK")
 
 2. Fill in values for your schema properties as appropriate for your
     Application. In this example, we will use the following values:
@@ -96,13 +96,13 @@ schema namespace, namespace prefixes, etc.
     In this example, this new “schemas” directory should be added to the
     “uml” directory and structured as shown below.
 
-    ![`schemas` directory should be added to the `uml` directory and structured as shown](..//media/image61.png "`schemas` directory should be added to the `uml` directory and structured as shown")
+    ![`schemas` directory should be added to the `uml` directory and structured as shown](.//media/image61.png "`schemas` directory should be added to the `uml` directory and structured as shown")
 
 4. With all of these fields filled out, your XSD schema Properties
     dialogue box should look something like below. Click OK to save
     these settings.
 
-    ![Click OK to save these settings](..//media/image61.png "Click OK to save these settings")
+    ![Click OK to save these settings](.//media/image61.png "Click OK to save these settings")
 
 ## Add Schema Description and Tags
 
@@ -130,14 +130,14 @@ controlled in Sparx EA via tagged values.
     c. Version should be set as appropriate for your Application
         (“1.0.0” in this example).
 
-    To add these tags, click on the third icon from the left ![icon](..//media/image63.png ':size=8%') in the *Tags* tab and fill in the *Tag* and *Value* fields similar to
+    To add these tags, click on the third icon from the left ![icon](.//media/image63.png ':size=8%') in the *Tags* tab and fill in the *Tag* and *Value* fields similar to
     what is shown below.
 
-    ![Tagged Value](..//media/image64.png)
-    ![Tagged Value](..//media/image65.png)
-    ![Tagged Value](..//media/image66.png)
+    ![Tagged Value](.//media/image64.png)
+    ![Tagged Value](.//media/image65.png)
+    ![Tagged Value](.//media/image66.png)
 
 4. When finished, your Package dialogue box will look something like
     below. Click OK to save these settings.
 
-    ![Package dialogue box](..//media/image67.png)
+    ![Package dialogue box](.//media/image67.png)
