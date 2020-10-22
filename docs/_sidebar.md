@@ -29,13 +29,13 @@
 
 
 - **How to create an Application Library**
-  - [Initial Download and Setup](home.md)
-  - [Create an Application Package](home.md)
-  - [Create Application Content](home.md)
-  - [Create Templates](home.md)
-  - [Generate the Application Schemas](home.md)
-  - [Post-Process the Application Schemas](home.md)
-  - [Sample XML](home.md)
+  - [Initial Download and Setup](how-to-create-application-library/initial-download-and-setup.md)
+  - [Create an Application Package](how-to-create-application-library/create-an-application-package.md)
+  - [Create Application Content](how-to-create-application-library/create-application-content.md)
+  - [Create Templates](how-to-create-application-library/create-templates.md)
+  - [Generate the Application Schemas](how-to-create-application-library/generate-the-application-schemas.md)
+  - [Post-Process the Application Schemas](how-to-create-application-library/post-process-the-application-schemas.md)
+  - [Sample XML](how-to-create-application-library/sample-xml.md)
 
 
 - **How to create a FIXM Extension**

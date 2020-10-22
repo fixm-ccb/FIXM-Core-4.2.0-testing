@@ -85,7 +85,7 @@ schema namespace, namespace prefixes, etc.
    creating all of the directories needed by hand, you can instead:
 
     a. Copy the “schemas” directory you modified back in [Initial Download
-    and Setup](#initial-download-and-setup) into the directory where
+    and Setup](initial-download-and-setup) into the directory where
     your Sparx EA file is located (in this example, the “uml”
     directory).
 

@@ -27,15 +27,15 @@ between Elevation, Altitude, Height and Ellipsoid height
 ## FIXM representation of vertical distances
 
 FIXM supports the representation of altitudes expressed in feet or
-meters (FIXM construct ‘Altitude’), of altitudes expressed as flight
-level number or standard metric level (FIXM construct ‘FlightLevel’) and
+meters (FIXM construct `Altitude`), of altitudes expressed as flight
+level number or standard metric level (FIXM construct `FlightLevel`) and
 of ellipsoid heights & heights SFC expressed in feet or meter (FIXM
-construct ‘Height’ used in conjunction with a VerticalReference).
+construct `Height` used in conjunction with a `VerticalReference`).
 
 <img src=".//media/image23.png" style="width:5.97761in;height:4.0142in" />
 
 These vertical distances are specialisations of the generic class
-Measure which serves as the parent class for all measure types including
+`Measure` which serves as the parent class for all measure types including
 speeds, angles, pressures, temperatures etc. Therefore, altitudes,
 flight levels and heights are always encoded as double values, although
 integer values are expected. “Double Integer” conversion can be handled

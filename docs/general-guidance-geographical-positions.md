@@ -35,7 +35,7 @@ single location given by a direct position.
     </xs:attribute>
 </xs:complexType>
 ```
-<br />
+
 <em>Complex type <strong>GeographicalPositionType</strong> in file<br />
 AeronauticalReference.xsd</em></p></td>
 </tr>

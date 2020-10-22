@@ -60,7 +60,7 @@ aerodrome references defined by the FIXM Core XML schemas.
 ```
 
 This example displays an aerodrome reference based on property
-locationIndicator. The value “BRU” does not respect the pattern
+locationIndicator. The value `BRU` does not respect the pattern
 \[A-Z\]{4} enforced by FIXM for property locationIndicator. This example
 does NOT comply with the structural rules for aerodrome references
 defined by the FIXM XML schemas and does not qualify as valid FIXM
@@ -166,6 +166,6 @@ military aircraft composed of two Mirages 2000 and one Rafale which
 altogether constitute a single (formation) flight. This example is valid
 from a data structure point of view (it validates against the FIXM core
 XML schemas) but is not correct in so far as the sum of all
-AircraftType.numberOfAircraft properties does not match
+`AircraftType.numberOfAircraft` properties does not match
 Aircraft.formationCount, which breaks a rule from Chapter 2.4.13. This
 example does not qualify as valid FIXM core usage.

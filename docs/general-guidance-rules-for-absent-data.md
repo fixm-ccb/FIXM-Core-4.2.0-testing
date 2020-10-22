@@ -2,11 +2,11 @@
 
 FIXM supports the representation of fields that are explicitly absent or
 that are deleted. It does so by leveraging the XSD specification for
-Elements which includes the *nillable* attribute. This “nillable”
+Elements which includes the `nillable` attribute. This `nillable`
 attribute specifies whether an explicit null value can be assigned to
-the element. When nillable is set to “true” in the element definition,
+the element. When nillable is set to `true` in the element definition,
 this in turn enables an instance of the element to have the built-in nil
-attribute with a value set to “true”. Example:
+attribute with a value set to `true`. Example:
 
 ```xml
 <xs:complexType name="FlightType">
@@ -57,15 +57,15 @@ built-in XSD attribute nillable could be leveraged.*
 
 The FIXM Measures types enforce the provision of the “uom” attribute
 together with the numeric value of the measure. Likewise, the FIXM
-Geographical Position type enforces the provision of the srsName
-attribute “urn:ogc:def:crs:EPSG::4326” together with the position. This
+Geographical Position type enforces the provision of the `srsName`
+attribute `urn:ogc:def:crs:EPSG::4326` together with the position. This
 design guarantees that the required unit of measure and coordinate
 reference system are always provided in order to enable the correct
 interpretation of measures and positions. However, it requires a special
 workaround when null values are to be exchanged.
 
 The provision of a null value for a measure or a position still requires
-the mandatory attribute “uom” or “srsName” to be provided, even if
+the mandatory attribute `uom` or `srsName` to be provided, even if
 meaningless.
 
 !> For instance, the following XML data would NOT validate
@@ -73,7 +73,7 @@ against the FIXM Core schema, because the uom for a Mass is missing.
 
 ```xml
 <fx:desired>
-   		<fx:takeoffMass xsi:nil="true/">
+  <fx:takeoffMass xsi:nil="true/">
 </fx:desired>
 ```
 
@@ -91,7 +91,7 @@ When a measure is to be declared null,
 When a geographical position is to be declared null:
 
 -   Information provider side: Provide the srsName
-    “urn:ogc:def:crs:EPSG::4326” in order to ensure proper schema
+    `urn:ogc:def:crs:EPSG::4326` in order to ensure proper schema
     validation
 
 -   Information consumer side: Ignore the provided srsName provided
@@ -101,7 +101,6 @@ When a geographical position is to be declared null:
 
 ```xml
 <fx:desired>
-<fx:takeoffMass xsi:nil="true" uom="KG"/>
+  <fx:takeoffMass xsi:nil="true" uom="KG"/>
 </fx:desired>
-
 ```
