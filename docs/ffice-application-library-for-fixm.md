@@ -9,7 +9,7 @@ Manual (ICAO Doc 9965 Volume II).
 
 The content of the FF-ICE Application Library is the following:
 
-![Overview of the FF-ICE Message Application Library content](.//media/ffice-application-library-for-fixm-01.png "Overview of the FF-ICE Message Application Library content")
+![Overview of the FF-ICE Message Application Library content](.//media/ffice-application-library-for-fixm-01.PNG "Overview of the FF-ICE Message Application Library content")
 
 The FF-ICE Message Application Library is developed and published by the FIXM CCB, together with FIXM Core.
 
