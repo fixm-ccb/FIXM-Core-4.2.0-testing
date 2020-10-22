@@ -16,16 +16,16 @@
 
 
 - **Using FIXM in Support of FF-ICE**
-  - [Target audience](home.md)
-  - [The FF-ICE Application Library for FIXM](home.md)
-  - [FF-ICE Message Templates](home.md)
-  - [Translating FF-ICE FIXM Messages to ATS Messages](home.md)
+  - [Target audience](ffice-target-audience.md)
+  - [The FF-ICE Application Library for FIXM](ffice-application-library-for-fixm.md)
+  - [FF-ICE Message Templates](ffice-message-templates.md)
+  - [Translating FF-ICE FIXM Messages to ATS Messages](ffice-translating-ffice-fixm-messages-to-ats-messages.md)
 
 
 - **Using FIXM for other use cases**
-  - [Using FIXM Core without an Application Library](home.md)
-  - [Using FIXM Core with an Application Library](home.md)
-  - [Using FIXM Core with an Extension](home.md)
+  - [Using FIXM Core without an Application Library](other-using-fixm-fixm-core-without-an-application-library.md)
+  - [Using FIXM Core with an Application Library](other-using-fixm-core-with-an-extension.md)
+  - [Using FIXM Core with an Extension](other-using-fixm-core-with-an-extension.md)
 
 
 - **How to create an Application Library**
