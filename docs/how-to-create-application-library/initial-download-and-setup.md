@@ -10,14 +10,14 @@ To save time and reduce setup steps, it is recommended that you begin the proces
 
     For this guided example, the .eap file should be renamed to `FIXM_Example_Message_v1.0.0_with_Core_v4.2.0.eap`. The starting directory structure of the example environment is shown below.  
 
-    ![The starting directory structure of the example environment](..//media/image52.png "The starting directory structure of the example environment")
+    ![The starting directory structure of the example environment](.//media/image52.png "The starting directory structure of the example environment")
 
 6) Open the model (the .eap file) with Sparx Enterprise Architect  (EA).
 7) Click the arrow (&#5125;) next to Applications in Project Browser to expand the Applications container.
 8) Right click on the `BasicMessage` package in Project Browser and choose `Delete <<XSDschema>> BasicMessage`.
 
-    ![Choose `Delete <<XSDschema>> BasicMessage`](..//media/image54.png "Choose `Delete <<XSDschema>> BasicMessage`")
+    ![Choose `Delete <<XSDschema>> BasicMessage`](.//media/image54.png "Choose `Delete <<XSDschema>> BasicMessage`")
 
 9) Click the Yes button to confirm the deletion.
 
-    ![Click the Yes button to confirm the deletion](..//media/image55.png "Click the Yes button to confirm the deletion")
+    ![Click the Yes button to confirm the deletion](.//media/image55.png "Click the Yes button to confirm the deletion")
