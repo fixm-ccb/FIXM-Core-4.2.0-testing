@@ -24,7 +24,7 @@
 
 - **Using FIXM for other use cases**
   - [Using FIXM Core without an Application Library](other-using-fixm-fixm-core-without-an-application-library.md)
-  - [Using FIXM Core with an Application Library](other-using-fixm-core-with-an-extension.md)
+  - [Using FIXM Core with an Application Library](other-using-fixm-core-with-an-application-library.md)
   - [Using FIXM Core with an Extension](other-using-fixm-core-with-an-extension.md)
 
 
