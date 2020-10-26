@@ -8,7 +8,6 @@ Applications).
     Package…”.
 
     ![Image](.//media/image198.png)
-<img src=".//media/image198.png)
 
 2. In the New Package dialogue box, click on the “…” box next to Owner
     (near the top right corner) to open the Select Owner dialogue box.
