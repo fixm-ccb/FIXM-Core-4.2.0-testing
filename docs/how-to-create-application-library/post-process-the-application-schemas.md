@@ -1,10 +1,10 @@
-## Post-Process the Application Schemas
+# Post-Process the Application Schemas
 
 After the schemas have been generated they will need to be
 post-processed. The post-processing script referenced in APPENDIX C will
 need to be modified in in order to accommodate your Application.
 
-### Include Application Namespace Prefix
+## Include Application Namespace Prefix
 
 FIXM standardly adds "Type" to the end of the name of all of the types
 declared in its schemas. In order to avoid doing this to built-in XSD
@@ -12,30 +12,28 @@ types, the post-processing script uses namespace prefixes to determine
 which types it should modify. To accommodate this, your Application’s
 namespace prefix needs to be added to the script for proper processing.
 
-1.  First, locate the else clause near the end of the script that
+1. First, locate the else clause near the end of the script that
     contains the comment:
 
-> \# Add "Type" to the end of all FIXM type names (both declaration and
-> use).
+    ```perl
+    # Add "Type" to the end of all FIXM type names (both declaration and use).
+    ```
 
-1.  In this section, you will see a series of search and replace
+2. In this section, you will see a series of search and replace
     commands. The bottom three of these have a portion that lists out
     all the namespace prefix options used by the FIXM schemas as part of
     the search field. These lines need to be modified to include the
     namespace prefix used by your Application.
 
-For the example created here, this change should be implemented as shown
-below (modification in red):
+    For the example created here, this change should be implemented as shown below (modification in red):
 
-> $line =\~
-> s/&lt;xs:(restriction\|extension).\*base="(fb\|fx\|xmg):\[^"\]\*/$&Type/;
->
-> $line =\~
-> s/&lt;xs:(attribute\|element).\*type="(fb\|fx\|xmg):\[^"\]\*/$&Type/;
->
-> $line =\~ s/&lt;xs:list.\*itemType="(fb\|fx\|xmg):\[^"\]\*/$&Type/;
+    ```perl
+    $line =~ s/<xs:(restriction|extension).*base="(fb|fx|xmg):[^"]*/$&Type/;
+    $line =~ s/<xs:(attribute|element).*type="(fb|fx|xmg):[^"]*/$&Type/;
+    $line =~ s/<xs:list.*itemType="(fb|fx|xmg):[^"]*/$&Type/;
+    ```
 
-### Set Up and Use Package-Wide Include Files
+## Set Up and Use Package-Wide Include Files
 
 When parsing schemas, some XML tools only recognize and process the
 first “import” element encountered for any given namespace. If a schema
@@ -62,86 +60,62 @@ import and/or include elements within these files. Depending on the
 complexity and structure of your Application, you may need many of
 these.
 
-1.  Directly above the section of the post-processing script referenced
+1. Directly above the section of the post-processing script referenced
     in the previous step (for adding “Type” to type names), locate the
     series of elsif clauses with conditionals along the lines of:
 
-elsif ($schema =\~ /\\/\[filename\].xsd/)
+    ```perl
+    elsif ($schema =~ /\/[filename].xsd/)
+    ```
 
-1.  At the end of this section, directly after the closing brace of the
+2. At the end of this section, directly after the closing brace of the
     last elsif clause in the series, add your own elsif clauses for
     setting up your Application’s include files. The conditionals need
     to be set up to match your include files’ names.
 
-2.  In the body of the clause, add import and/or include elements for
+3. In the body of the clause, add import and/or include elements for
     the schema files as needed.
 
 The following two subsections discuss how to these clauses should be
 constructed in more detail.
 
-#### Include Only Files
+### Include Only Files
 
 Anytime your schema is split across multiple files, you will need to
 create an include file to gather all the pieces together in a single
 file. For the example Application created here, this happens for the
-schemas using the “http://www.fixm.aero/flight/4.2” namespace in three
+schemas using the `http://www.fixm.aero/flight/4.2` namespace in three
 locations. Once each under the two message templates (ArrivalAlert and
 DepartureAlert) and once for the “Includes” file used to gather together
 all instances of the flight namespace used throughout the templates in
 one place. Below are the elsif clauses that can be used to add the
 content needed for these three include only files:
 
-\# Add package-wide includes to ExampleAA\_Flight.xsd
+```perl
+    # Add package-wide includes to ExampleAA_Flight.xsd
+    elsif ($schema =~ /\/ExampleAA_Flight.xsd/)
+    {
+      $line = "\t<xs:include schemaLocation=\"./arrival/ExampleAA_Arrival.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./flightdata/ExampleAA_FlightData.xsd\"/>\n" .
+              $line;
+    }
+    # Add package-wide includes to ExampleDA_Flight.xsd
+    elsif ($schema =~ /\/ExampleDA_Flight.xsd/)
+    {
+      $line = "\t<xs:include schemaLocation=\"./departure/ExampleDA_Departure.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./flightdata/ExampleDA_FlightData.xsd\"/>\n" .
+              $line;
+    }
+    # Add package-wide includes to ExampleFlight.xsd
+    elsif ($schema =~ /\/ExampleFlight.xsd/)
+    {
+      $line = "\t<xs:include schemaLocation=\"./arrivalalert/flight/ExampleAA_Flight.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./departurealert/flight/ExampleDA_Flight.xsd\"/>\n" .
+              $line;
+    }
+```
 
-elsif ($schema =\~ /\\/ExampleAA\_Flight.xsd/)
-
-{
-
-$line = "\\t&lt;xs:include
-schemaLocation=\\"./arrival/ExampleAA\_Arrival.xsd\\"/&gt;\\n" .
-
-"\\t&lt;xs:include
-schemaLocation=\\"./flightdata/ExampleAA\_FlightData.xsd\\"/&gt;\\n" .
-
-$line;
-
-}
-
-\# Add package-wide includes to ExampleDA\_Flight.xsd
-
-elsif ($schema =\~ /\\/ExampleDA\_Flight.xsd/)
-
-{
-
-$line = "\\t&lt;xs:include
-schemaLocation=\\"./departure/ExampleDA\_Departure.xsd\\"/&gt;\\n" .
-
-"\\t&lt;xs:include
-schemaLocation=\\"./flightdata/ExampleDA\_FlightData.xsd\\"/&gt;\\n" .
-
-$line;
-
-}
-
-\# Add package-wide includes to ExampleFlight.xsd
-
-elsif ($schema =\~ /\\/ExampleFlight.xsd/)
-
-{
-
-$line = "\\t&lt;xs:include
-schemaLocation=\\"./arrivalalert/flight/ExampleAA\_Flight.xsd\\"/&gt;\\n"
-.
-
-"\\t&lt;xs:include
-schemaLocation=\\"./departurealert/flight/ExampleDA\_Flight.xsd\\"/&gt;\\n"
-.
-
-$line;
-
-}
-
-#### Import and Include Files
+### Import and Include Files
 
 Import and include files serve a similar purpose to the include only
 files mentioned above but also act as general entry points, gathering
@@ -153,113 +127,66 @@ used to bind these two templates together under the Application
 (ExampleTemplates). Below are the elsif clauses that can be used to
 create the content needed for these three import and include files:
 
-\# Add package imports/includes to ArrivalAlert.xsd
+```perl
+    # Add package imports/includes to ArrivalAlert.xsd
+    elsif ($schema =~ /\/ArrivalAlert.xsd/)
+    {
+      $line = "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./flight/ExampleAA_Flight.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./examplemessage/ExampleAA_ExampleMessage.xsd\"/>\n" .
+              $line;
+    }
+    # Add package imports/includes to DepartureAlert.xsd
+    elsif ($schema =~ /\/DepartureAlert.xsd/)
+    {
+      $line = "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./flight/ExampleDA_Flight.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./examplemessage/ExampleDA_ExampleMessage.xsd\"/>\n" .
+              $line;
+    }
+    # Add package imports/includes to ExampleTemplates.xsd
+    elsif ($schema =~ /\/ExampleTemplates.xsd/)
+    {
+      $line = "\t<xs:import namespace=\"http://www.fixm.aero/base/4.2\" schemaLocation=\"../../../core/base/Base.xsd\"/>\n" .
+              "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./ExampleFlight.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./arrivalalert/examplemessage/ExampleAA_ExampleMessage.xsd\"/>\n" .
+              "\t<xs:include schemaLocation=\"./departurealert/examplemessage/ExampleDA_ExampleMessage.xsd\"/>\n" .
+              $line;
+    }
+```
 
-elsif ($schema =\~ /\\/ArrivalAlert.xsd/)
+## Modify Import Elements to Use Include Files
 
-{
+You will also need to replace “import” elements generated by Sparx EA with elements that make use of the files you just set up. The
+post-processing script handles this task as well, replacing all import elements for a given namespace with a single import using the include file. In the example Application created here, only imports using the `http://www.fixm.aero/flight/4.2` namespace need to be modified.
 
-$line = "\\t&lt;xs:import
-namespace=\\"http://www.fixm.aero/flight/4.2\\"
-schemaLocation=\\"./flight/ExampleAA\_Flight.xsd\\"/&gt;\\n" .
-
-"\\t&lt;xs:include
-schemaLocation=\\"./examplemessage/ExampleAA\_ExampleMessage.xsd\\"/&gt;\\n"
-.
-
-$line;
-
-}
-
-\# Add package imports/includes to DepartureAlert.xsd
-
-elsif ($schema =\~ /\\/DepartureAlert.xsd/)
-
-{
-
-$line = "\\t&lt;xs:import
-namespace=\\"http://www.fixm.aero/flight/4.2\\"
-schemaLocation=\\"./flight/ExampleDA\_Flight.xsd\\"/&gt;\\n" .
-
-"\\t&lt;xs:include
-schemaLocation=\\"./examplemessage/ExampleDA\_ExampleMessage.xsd\\"/&gt;\\n"
-.
-
-$line;
-
-}
-
-\# Add package imports/includes to ExampleTemplates.xsd
-
-elsif ($schema =\~ /\\/ExampleTemplates.xsd/)
-
-{
-
-$line = "\\t&lt;xs:import namespace=\\"http://www.fixm.aero/base/4.2\\"
-schemaLocation=\\"../../../core/base/Base.xsd\\"/&gt;\\n" .
-
-"\\t&lt;xs:import namespace=\\"http://www.fixm.aero/flight/4.2\\"
-schemaLocation=\\"./ExampleFlight.xsd\\"/&gt;\\n" .
-
-"\\t&lt;xs:include
-schemaLocation=\\"./arrivalalert/examplemessage/ExampleAA\_ExampleMessage.xsd\\"/&gt;\\n"
-.
-
-"\\t&lt;xs:include
-schemaLocation=\\"./departurealert/examplemessage/ExampleDA\_ExampleMessage.xsd\\"/&gt;\\n"
-.
-
-$line;
-
-}
-
-### Modify Import Elements to Use Include Files
-
-You will also need to replace “import” elements generated by Sparx EA
-with elements that make use of the files you just set up. The
-post-processing script handles this task as well, replacing all import
-elements for a given namespace with a single import using the include
-file. In the example Application created here, only imports using the
-“http://www.fixm.aero/flight/4.2” namespace need to be modified.
-
-1.  Locate the else clause near the beginning of the script that
+1. Locate the else clause near the beginning of the script that
     contains the comment:
 
-\# Replace Flight package imports with a single import of appropriate
-Flight.xsd
+    ```perl
+    # Replace Flight package imports with a single import of appropriate Flight.xsd
+    ```
 
-1.  Locate the series of elsif clauses in this section with conditionals
-    along the lines of:
+2. Locate the series of elsif clauses in this section with conditionals along the lines of:
 
-elsif ($schema =\~ /\\/\[template directory name\]\\//)
+    ```perl
+    elsif ($schema =~ /\/[template directory name]\//)
+    ```
 
-1.  At the end of this section, directly between the final elsif and the
-    closing else clause, add your own elsif clauses for replacing
-    existing import statements with ones that make use of the broader
-    include files.
+3. At the end of this section, directly between the final elsif and the closing else clause, add your own elsif clauses for replacing
+ existing import statements with ones that make use of the broader include files.
 
-In this example, these new clauses should be added to address this
+    In this example, these new clauses should be added to address this
 issue:
 
-elsif ($schema =\~ /\\/arrivalalert\\//)
-
-{
-
-$line = $match . "ExampleAA\_Flight.xsd\\"/&gt;\\n";
-
-}
-
-elsif ($schema =\~ /\\/departurealert\\//)
-
-{
-
-$line = $match . "ExampleDA\_Flight.xsd\\"/&gt;\\n";
-
-}
+    ```perl
+    elsif ($schema =~ /\/arrivalalert\//)
+    {
+    $line = $match . "ExampleAA_Flight.xsd\"/>\n";
+    }
+    elsif ($schema =~ /\/departurealert\//)
+    {
+    $line = $match . "ExampleDA_Flight.xsd\"/>\n";
+    }
+    ```
 
 Finally, as noted in APPENDIX C, be careful not to run your modified
-post-processing script against any schema files that have already been
-post-processed. To avoid this issue, either regenerate the Core schemas
-you need before post-processing the entire schemas directory or only run
-the script exclusively against the generated Applications schemas.
-
+post-processing script against any schema files that have already been post-processed. To avoid this issue, either regenerate the Core schemas you need before post-processing the entire schemas directory or only run the script exclusively against the generated Applications schemas.
