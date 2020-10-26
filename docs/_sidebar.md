@@ -39,13 +39,13 @@
 
 
 - **How to create a FIXM Extension**
-  - [Initial Download and Setup](home.md)
-  - [Create a Top-Level Extensions Container](home.md)
-  - [Create an Extension Root Package](home.md)
-  - [Create Extension Content](home.md)
-  - [Generate the Extension Schemas](home.md)
-  - [Post-Process the Extension Schemas](home.md)
-  - [Sample XML](home.md)
+  - [Initial Download and Setup](how-to-create-fixm-extension/initial-download-and-setup.md)
+  - [Create a Top-Level Extensions Container](how-to-create-fixm-extension/create-top-level-extensions-container.md)
+  - [Create an Extension Root Package](how-to-create-fixm-extension/create-an-extension-root-package.md)
+  - [Create Extension Content](how-to-create-fixm-extension/create-extension-content.md)
+  - [Generate the Extension Schemas](how-to-create-fixm-extension/generate-extension-schemas.md)
+  - [Post-Process the Extension Schemas](how-to-create-fixm-extension/post-process-extension-schemas.md)
+  - [Sample XML](how-to-create-fixm-extension/sample-xml.md)
 
 
 - **How to generate XML Schemas from a FIXM model using Sparx Enterprise Architect**
