@@ -57,12 +57,12 @@
 
 
 - **FIXM Development Tool Compatibility**
-  - [Introduction](home.md)
-  - [Evaluation Environment](home.md)
-  - [Apache Axis library and the WSDL2Java tool](home.md)
-  - [Evaluation Results](home.md)
-  - [Future Testing](home.md)
-  - [Platform Support Matrix](home.md)
+  - [Introduction](fixm-development-tool-compatibility/introduction.md)
+  - [Evaluation Environment](fixm-development-tool-compatibility/evaluation-environment.md)
+  - [Apache Axis library and the WSDL2Java tool](fixm-development-tool-compatibility/apache-axis-library-and-the-wsdl2java-tool.md)
+  - [Evaluation Results](fixm-development-tool-compatibility/evaluation-results.md)
+  - [Future Testing](fixm-development-tool-compatibility/future-testing.md)
+  - [Platform Support Matrix](fixm-development-tool-compatibility/platform-support-matrix.md)
 
 
 - **ATS Message to FIXM Mapping**
