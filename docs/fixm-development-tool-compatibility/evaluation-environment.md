@@ -12,11 +12,9 @@ The evaluation process included the following components:
 
     Two WSDL files were tested
 
-    a.  The first file contained FIXM schema details that contained no
-        restrictions.
+    a.  The first file contained FIXM schema details that contained no restrictions.
 
-    b.  The second filed contained FIXM schema details that contained
-        restrictions.
+    b.  The second filed contained FIXM schema details that contained restrictions.
 
 3. **FlightPlanningService Web Service**
 
