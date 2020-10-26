@@ -49,8 +49,8 @@
 
 
 - **How to generate XML Schemas from a FIXM model using Sparx Enterprise Architect**
-  - [Generating Schemas from the Logical Model](home.md)
-  - [Post-processing the FIXM Schemas](home.md)
+  - [Generating Schemas from the Logical Model](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model.md)
+  - [Post-processing the FIXM Schemas](how-to-generate-xml-schemas/post-processing-the-fixm-schemas.md)
 
 
 - **Use of Schematron**
