@@ -124,7 +124,7 @@ Now it is time to create any Extension classes needed. This is typically done in
 
     ![Image](.//media/image213.png)
 
-9.  Once this is done, you should see that EnRouteExtension is now
+9. Once this is done, you should see that EnRouteExtension is now
     listed in the *Type Details* section of the Set Parents and
     Interfaces dialogue box and is also shown in italics at the top of
     your class in the diagram. Your new class now extends the
