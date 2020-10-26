@@ -92,27 +92,27 @@ one place. Below are the elsif clauses that can be used to add the
 content needed for these three include only files:
 
 ```perl
-    # Add package-wide includes to ExampleAA_Flight.xsd
-    elsif ($schema =~ /\/ExampleAA_Flight.xsd/)
-    {
-      $line = "\t<xs:include schemaLocation=\"./arrival/ExampleAA_Arrival.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./flightdata/ExampleAA_FlightData.xsd\"/>\n" .
-              $line;
-    }
-    # Add package-wide includes to ExampleDA_Flight.xsd
-    elsif ($schema =~ /\/ExampleDA_Flight.xsd/)
-    {
-      $line = "\t<xs:include schemaLocation=\"./departure/ExampleDA_Departure.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./flightdata/ExampleDA_FlightData.xsd\"/>\n" .
-              $line;
-    }
-    # Add package-wide includes to ExampleFlight.xsd
-    elsif ($schema =~ /\/ExampleFlight.xsd/)
-    {
-      $line = "\t<xs:include schemaLocation=\"./arrivalalert/flight/ExampleAA_Flight.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./departurealert/flight/ExampleDA_Flight.xsd\"/>\n" .
-              $line;
-    }
+# Add package-wide includes to ExampleAA_Flight.xsd
+elsif ($schema =~ /\/ExampleAA_Flight.xsd/)
+{
+    $line = "\t<xs:include schemaLocation=\"./arrival/ExampleAA_Arrival.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./flightdata/ExampleAA_FlightData.xsd\"/>\n" .
+            $line;
+}
+# Add package-wide includes to ExampleDA_Flight.xsd
+elsif ($schema =~ /\/ExampleDA_Flight.xsd/)
+{
+    $line = "\t<xs:include schemaLocation=\"./departure/ExampleDA_Departure.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./flightdata/ExampleDA_FlightData.xsd\"/>\n" .
+            $line;
+}
+# Add package-wide includes to ExampleFlight.xsd
+elsif ($schema =~ /\/ExampleFlight.xsd/)
+{
+    $line = "\t<xs:include schemaLocation=\"./arrivalalert/flight/ExampleAA_Flight.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./departurealert/flight/ExampleDA_Flight.xsd\"/>\n" .
+            $line;
+}
 ```
 
 ### Import and Include Files
@@ -128,29 +128,29 @@ used to bind these two templates together under the Application
 create the content needed for these three import and include files:
 
 ```perl
-    # Add package imports/includes to ArrivalAlert.xsd
-    elsif ($schema =~ /\/ArrivalAlert.xsd/)
-    {
-      $line = "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./flight/ExampleAA_Flight.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./examplemessage/ExampleAA_ExampleMessage.xsd\"/>\n" .
-              $line;
-    }
-    # Add package imports/includes to DepartureAlert.xsd
-    elsif ($schema =~ /\/DepartureAlert.xsd/)
-    {
-      $line = "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./flight/ExampleDA_Flight.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./examplemessage/ExampleDA_ExampleMessage.xsd\"/>\n" .
-              $line;
-    }
-    # Add package imports/includes to ExampleTemplates.xsd
-    elsif ($schema =~ /\/ExampleTemplates.xsd/)
-    {
-      $line = "\t<xs:import namespace=\"http://www.fixm.aero/base/4.2\" schemaLocation=\"../../../core/base/Base.xsd\"/>\n" .
-              "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./ExampleFlight.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./arrivalalert/examplemessage/ExampleAA_ExampleMessage.xsd\"/>\n" .
-              "\t<xs:include schemaLocation=\"./departurealert/examplemessage/ExampleDA_ExampleMessage.xsd\"/>\n" .
-              $line;
-    }
+# Add package imports/includes to ArrivalAlert.xsd
+elsif ($schema =~ /\/ArrivalAlert.xsd/)
+{
+    $line = "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./flight/ExampleAA_Flight.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./examplemessage/ExampleAA_ExampleMessage.xsd\"/>\n" .
+            $line;
+}
+# Add package imports/includes to DepartureAlert.xsd
+elsif ($schema =~ /\/DepartureAlert.xsd/)
+{
+    $line = "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./flight/ExampleDA_Flight.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./examplemessage/ExampleDA_ExampleMessage.xsd\"/>\n" .
+            $line;
+}
+# Add package imports/includes to ExampleTemplates.xsd
+elsif ($schema =~ /\/ExampleTemplates.xsd/)
+{
+    $line = "\t<xs:import namespace=\"http://www.fixm.aero/base/4.2\" schemaLocation=\"../../../core/base/Base.xsd\"/>\n" .
+            "\t<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"./ExampleFlight.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./arrivalalert/examplemessage/ExampleAA_ExampleMessage.xsd\"/>\n" .
+            "\t<xs:include schemaLocation=\"./departurealert/examplemessage/ExampleDA_ExampleMessage.xsd\"/>\n" .
+            $line;
+}
 ```
 
 ## Modify Import Elements to Use Include Files
