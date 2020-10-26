@@ -15,7 +15,7 @@ namespace prefix needs to be added to the script for proper processing.
     contains the comment:
 
     ```perl
-    \# Add "Type" to the end of all FIXM type names (both declaration and use).
+    # Add "Type" to the end of all FIXM type names (both declaration and use).
     ```
 
 2. In this section, you will see a series of search and replace
