@@ -1,4 +1,4 @@
-## Apache Axis library and the WSDL2Java tool
+# Apache Axis library and the WSDL2Java tool
 
 The Apache Axis library provides the WSDL2java tool, which can interpret
 WSDL files. Axis1 and Axis2 versions were tested.
@@ -47,4 +47,3 @@ WSDL2Java tool version remains the same.
 
 **Note**: Testing of the JAXBRI data binding was carried out for the
 command-line option only.
-
