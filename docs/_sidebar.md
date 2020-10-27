@@ -54,6 +54,7 @@
 
 
 - **Use of Schematron**
+  - [Use of Schematron](use-of-schematron/use-of-schematron.md)
 
 
 - **FIXM Development Tool Compatibility**
@@ -66,3 +67,4 @@
 
 
 - **ATS Message to FIXM Mapping**
+  - [Mapping of ATS Fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
