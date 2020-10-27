@@ -8,5 +8,5 @@ This is just a to-do list to track pending things.
 - [ ] External links / References
 - [ ] FIXM Schema links vs quotes
 - [ ] Page width
-- [ ] Complete initial load
+- [x] Complete initial load
 - [ ] 
