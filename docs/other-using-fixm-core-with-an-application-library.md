@@ -140,7 +140,11 @@ This custom FIXM Application defines its own namespace
 `http://www.fixm.aero/app/example/1.0` and root
 element (`ExampleMessage`) as well as a number of header fields needed to
 represent data XAS wants to exchange with each alert (`sender`,
-`recipient`, `timestamp`, and `type`). XAS then goes on to create two
+`recipient`, `timestamp`, and `type`). 
+
+?> The namespace of the custom FIXM Application does not have to be tied to www.fixm.aero.
+
+XAS then goes on to create two
 templates: one that locks down the content of a departure alert and
 another for the arrival alert. Details on how to build this FIXM Application along with more specifics as to its content are supplied below
 in Appendix A.
