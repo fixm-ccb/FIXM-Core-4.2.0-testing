@@ -3,11 +3,11 @@
 ## Creating a new Extension
 
 If a FIXM user requires additional fields beyond what is available in
-FIXM Core or an Application Library, Extensions can be used to meet this
+FIXM Core or a FIXM Application, Extensions can be used to meet this
 need. Similar to Applications, Extensions should define their own
-namespaces to distinguish them from FIXM Core, Application Libraries,
+namespaces to distinguish them from FIXM Core, FIXM Applications,
 and each other. Extensions should also provide a root schema file (that
-will import FIXM Core and/or the Application Library the Extension works
+will import FIXM Core and/or the FIXM Application the Extension works
 with) for use with XML validators and utilities. Unlike Applications,
 Extensions should not define their own root elements but, rather, make
 use of the root elements defined in whatever schemas they extend.
@@ -86,7 +86,7 @@ same areas of FIXM without interfering with each other.
 
 The simplest way to allow multiple Extensions to work together in a
 single XML document is to create a new schema file that imports all the
-needed components (Core, Application Library, and Extensions) into one
+needed components (Core, Application, and Extensions) into one
 place[16]. This new schema can be used as the root schema file for XML
 validators and utilities. Each Extension can then be applied to its own
 extension hook, and the multiple Extensions can used together as needed.
@@ -120,20 +120,20 @@ reports. Below is an example of what that schema file may look like.
 
 In principle, as can be seen in detail in Appendix B below, applying an
 Extension to an Application is no different than applying one to FIXM
-Core. In fact, applying an Extension to the Basic Messaging Application
-Library is the recommended approach for adding additional message data
+Core. In fact, applying an Extension to the Basic Messaging Application 
+is the recommended approach for adding additional message data
 structures when no templates are needed, and applying Extensions to
 Application Libraries that include templates should be no different
 (assuming the templates retain their extension hooks). It is just a
-matter of importing the Application Library in question and making use
+matter of importing the FIXM Application in question and making use
 of its extension hooks. That said, there are some aspects of using
 Extensions and templates together that have not yet been fully explored.
 
-One area under active investigation is applying an Application Library
-directly to an Extension. To date, the only two Application Libraries
+One area under active investigation is applying a FIXM Application 
+directly to an Extension. To date, the only two FIXM Applications 
 that have been developed are Basic Message and FF-ICE Message. Both of
-these Applications only apply themselves to Core. In theory, an
-Application Library could directly import an Extension just as easily as
+these Applications only apply themselves to Core. In theory, a FIXM 
+Application could directly import an Extension just as easily as
 it imports Core and apply templates to the Extension content in the same
 way it does to Core fields. As practical examples of this are explored,
 this section will be updated with more information about how to proceed
@@ -142,14 +142,14 @@ this section will be updated with more information about how to proceed
 ### Example: Position Report Template
 
 Returning to our fictitious user one final time, XAS has created their
-own Application Library for distributing departure and arrival alerts
+own Application for distributing departure and arrival alerts
 but has a separate feed that makes use of a different set of schemas for
 distributing their position reports. XAS would prefer to consolidate
 their two feeds into one and use the same set of schemas for all of
 their data.
 
 XAS decides to update their position report Extension to target their
-own Example Message Application Library rather than Basic Message and
+own Example Message Application rather than Basic Message and
 add a new `POSITION_REPORT` enumeration to the Application’s type field
 (see Appendix A and Appendix B for details). This should be sufficient
 to allow XAS to use one set of schemas for all of their data sets.
