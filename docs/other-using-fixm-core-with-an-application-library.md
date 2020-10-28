@@ -110,11 +110,11 @@ Core by adding context specific message data structures and as well as
 stricter validation rules via message templates. An Application should
 define its own namespace to distinguish it from FIXM Core as well as
 creating one or more root elements to be used as an entry point into the
-Library. If the Application includes message templates, it may have more
+Application. If the Application includes message templates, it may have more
 than one root schema: one for using the Application alone with
 no further restrictions and one (or more) for use with the templates.
 The FF-ICE Application is a good example of this, with
-users referencing FficeMessage.xsd for unrestricted use of the Library,
+users referencing FficeMessage.xsd for unrestricted use of the Application,
 FficeTemplates.xsd for making use of all thirteen templates used to
 represent the FF-ICE messages, or one of the thirteen template-specific
 schemas files corresponding to each FF-ICE message.
@@ -122,7 +122,7 @@ schemas files corresponding to each FF-ICE message.
 While the content and organization of a FIXM Application depends
 entirely on the needs of the data exchange it is intended to support,
 the FF-ICE and Basic Message Applications should
-provide a useful set of examples for how to build a Library with and
+provide a useful set of examples for how to build an Application with and
 without associated templates. To supplement this, Appendix A below
 provides step-by-step instructions on how to create a simple
 Application.
