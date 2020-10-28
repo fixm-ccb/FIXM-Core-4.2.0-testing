@@ -120,11 +120,7 @@ reports. Below is an example of what that schema file may look like.
 
 In principle, as can be seen in detail in Appendix B below, applying an
 Extension to an Application is no different than applying one to FIXM
-Core. In fact, applying an Extension to the Basic Messaging Application 
-is the recommended approach for adding additional message data
-structures when no templates are needed, and applying Extensions to
-Application Libraries that include templates should be no different
-(assuming the templates retain their extension hooks). It is just a
+Core. It is just a
 matter of importing the FIXM Application in question and making use
 of its extension hooks. That said, there are some aspects of using
 Extensions and templates together that have not yet been fully explored.
