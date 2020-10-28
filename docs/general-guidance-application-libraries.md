@@ -1,10 +1,10 @@
-# Application Libraries
+# FIXM Applications
 
 ## What is it?
 
-An **Application Library** is a FIXM component that addresses the use of
+A **FIXM Application** is a FIXM component that addresses the use of
 FIXM Core in a given context. It can be of global, regional or local
-applicability, depending on the context. An **Application Library**
+applicability, depending on the context. An **FIXM Application**
 essentially provides context-specific **‘message data structures’** and
 **‘message templates’** which enables harmonized representation of the
 FIXM-based messages exchanged using SWIM information services, as
@@ -13,16 +13,14 @@ outlined in the figure below.
 <img src=".//media/general-guidance-application-libraries-01.png"/>
 General structure of a message and role of an Application Library
 
-An
-**Application Library** captures messaging related data elements and reuses and restricts relevant subsets of the FIXM Core data structures.
-FIXM Core is independent and does not require an update when changes in an application library occur.
+A **FIXM Application** captures messaging related data elements and reuses and restricts relevant subsets of the FIXM Core data structures.
+FIXM Core is independent and does not require an update when changes in a FIXM Application occur.
 
-An **Application Library** may also leverage **Extensions**, as
-illustrated on the picture opposite.
+A **FIXM Application** may also leverage **Extensions**, as
+illustrated on the picture below.
 <img src=".//media/general-guidance-application-libraries-02.png" />
 
-An example of an Application Library is the **FF-ICE Application
-Library** developed and released by the FIXM CCB. This library addresses
+An example of a FIXM Application is the **FF-ICE Application** developed and released by the FIXM CCB. This library addresses
 the use of FIXM core in the specific context of FF-ICE. It provides
 harmonized FF-ICE Message data structure (e.g. data structures for
 representing the FF-ICE Filing Status, the FF-ICE Planning Status etc.)
@@ -30,7 +28,7 @@ and the FF-ICE message templates (e.g. the template for the FF-ICE Filed
 Flight Plan Message, the template for the FF-ICE Flight Cancellation
 Message etc.), in line with the FF-ICE Implementation Guidance Manual.
 
-More details about this FF-ICE Application Library can be found in
+More details about this FF-ICE Application can be found in
 Chapter 3.2 .
 
 ## Message Data Structures
@@ -101,15 +99,6 @@ validate.
 - XSD restrictions deliver benefits in terms of model development and
     maintenance. [3]
 
-### Potential shortcomings of XSD restrictions
-
-The online literature about XML schema design generally considers that
-the restrictions of XSD complex types are the most difficult and
-therefore the least supported part of the XML schema specification.
-Implementers experiencing issues with the FIXM templates are invited to
-report their problems to the FIXM community, with details about the
-development environment being used. Alternatives to XSD restrictions may
-be then considered, as appropriate (see next section).
 
 ### XSD Profiles as a potential alternative to XSD Restrictions
 
@@ -127,10 +116,14 @@ would not bring any additional complexity. They could therefore be
 processed by marshalling tools in a smoother way compared to XSD
 restrictions.
 
-XSD profiles may be therefore developed as an alternative to XSD
-restrictions for representing FIXM-based message templates.
+!> The online literature about XML schema design generally considers that
+the restrictions of XSD complex types are the most difficult and
+therefore the least supported part of the XML schema specification. 
+XSD profiles may be considered as an alternative to XSD restrictions should implementers 
+experience issues with the FIXM templates based on XSD restrictions. Implementers are therefore invited to
+report any problems with XSD restrictions support, with details about the
+development environment being used. See also FIXM DEVELOPMENT TOOL COMPATIBILITY section.
 
-## How to build an application library?
+## How to build a FIXM Application?
 
-APPENDIX B provides detailed guidance for creating application
-libraries.
+APPENDIX B provides detailed guidance for creating FIXM Applications.
