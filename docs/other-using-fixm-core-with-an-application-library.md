@@ -1,27 +1,27 @@
-# Using FIXM Core with an Application Library
+# Using FIXM Core with a FIXM Application
 
-## Basic Message Application Library
+## Basic Message Application
 
-The Basic Message Application Library is intended to enhance FIXM Core
+The Basic Message Application is intended to enhance FIXM Core
 by providing basic messaging support for users, including message types
 and timestamps, as well as the ability to batch multiple flight messages
 together into a single aggregate message. It also provides extension
 hooks for users who wish to add their own custom messaging fields. Users
 who only require this basic level of message support are encouraged to
-use the Basic Message Application Library.
+use the Basic Message Application.
 
-This application library contains two root fields that can be used as an
+This FIXM Application contains two root fields that can be used as an
 entry point: Message and MessageCollection.
 
-![Basic Message Application Library](.//media/other-using-fixm-core-with-an-application-library-01.PNG "Basic Message Application Library")
+![Basic Message Application](.//media/other-using-fixm-core-with-an-application-library-01.PNG "Basic Message Application")
 
 When using Basic Message for data representation, all XML documents must
 begin with one of these two elements. Similarly, like Fixm.xsd for Core,
 the BasicMessage.xsd schema file is the root schema of the Basic Message
-Application Library and is the file that should be referenced for
+Application and is the file that should be referenced for
 validation or use with any XML utilities.
 
-Unlike FF-ICE Message, the Basic Message Application Library focuses
+Unlike FF-ICE Message, the Basic Message Application focuses
 only on providing users with generic and reusable message data
 structures. It does not provide any message template since it is not
 linked to any particular operational use of FIXM.
@@ -31,8 +31,8 @@ is provided in Basic Message (but who do not wish to create templates
 for a pre-defined set of messages) are encouraged to do so via creating
 an Extension to Basic Message (see Section 4.3.1 and Section 4.3.3 below
 for more on this). Users who wish to create message templates for their
-systems are encouraged to do so via creating their own Application
-Library (see Section 4.2.2 for details).
+systems are encouraged to do so via creating their own FIXM Application
+ (see Section 4.2.2 for details).
 
 ### Example: Batch Updates
 
@@ -98,30 +98,30 @@ update may look like.
 
 ```
 
-## Creating an Application Library
+## Creating a FIXM Application
 
 If the organization of Basic Message does not suit the user’s data
 exchange or if the user wants to create message templates to more fully
 lock down and describe their message structures and content, they should
-consider creating their own custom Application Library.
+consider creating their own custom FIXM Application.
 
-As described in Section 2.2.2 above, Application Libraries enhance FIXM
+As described in Section 2.2.2 above, FIXM Applications enhance FIXM
 Core by adding context specific message data structures and as well as
 stricter validation rules via message templates. An Application should
 define its own namespace to distinguish it from FIXM Core as well as
 creating one or more root elements to be used as an entry point into the
 Library. If the Application includes message templates, it may have more
-than one root schema: one for using the Application Library alone with
+than one root schema: one for using the Application alone with
 no further restrictions and one (or more) for use with the templates.
-The FF-ICE Message Application Library is a good example of this, with
+The FF-ICE Application is a good example of this, with
 users referencing FficeMessage.xsd for unrestricted use of the Library,
 FficeTemplates.xsd for making use of all thirteen templates used to
 represent the FF-ICE messages, or one of the thirteen template-specific
 schemas files corresponding to each FF-ICE message.
 
-While the content and organization of an Application Library depends
+While the content and organization of a FIXM Application depends
 entirely on the needs of the data exchange it is intended to support,
-the FF-ICE Message Application and Basic Message Libraries should
+the FF-ICE and Basic Message Applications should
 provide a useful set of examples for how to build a Library with and
 without associated templates. To supplement this, Appendix A below
 provides step-by-step instructions on how to create a simple
@@ -134,19 +134,18 @@ original alert service to be able to send departure and arrival messages
 to specific recipients (rather than maintaining a single, common
 endpoint for all consumers) as well as making use of templates to
 clearly lockdown the expected format of the alert messages. To
-accomplish this, XAS decides to create their own Application Library.
+accomplish this, XAS decides to create their own FIXM Application.
 
-This custom Application Library defines its own namespace
+This custom FIXM Application defines its own namespace
 `http://www.fixm.aero/app/example/1.0` and root
 element (`ExampleMessage`) as well as a number of header fields needed to
 represent data XAS wants to exchange with each alert (`sender`,
 `recipient`, `timestamp`, and `type`). XAS then goes on to create two
 templates: one that locks down the content of a departure alert and
-another for the arrival alert. Details on how to build this Application
-Library along with more specifics as to its content are supplied below
+another for the arrival alert. Details on how to build this FIXM Application along with more specifics as to its content are supplied below
 in Appendix A.
 
-With the Application Library built, XAS instructs consumers to make use
+With the Application built, XAS instructs consumers to make use
 of the `ExampleTemplates.xsd` file described in Appendix A when validating
 the new alert messages. Below is an example of how the XML payload of
 one of the new arrival alert messages coming from this service may
