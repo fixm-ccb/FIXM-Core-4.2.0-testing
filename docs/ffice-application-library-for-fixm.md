@@ -1,17 +1,17 @@
-# The FF-ICE Application Library for FIXM
+# The FF-ICE Application for FIXM
 
-The FF-ICE Application Library is an [Application Library](/general-guidance-application-libraries) for FIXM
+The FF-ICE Application is a [FIXM Application](/general-guidance-application-libraries) 
 that addresses the specific use of FIXM Core in the context of ICAO
 FF-ICE. It provides harmonized FF-ICE Message data structures and the
 individual FF-ICE Message templates in line with the requirements on
 FF-ICE Messages defined by the ICAO FF-ICE Implementation Guidance
 Manual (ICAO Doc 9965 Volume II).
 
-The content of the FF-ICE Application Library is the following:
+The content of the FF-ICE Application is the following:
 
-![Overview of the FF-ICE Message Application Library content](.//media/ffice-application-library-for-fixm-01.PNG "Overview of the FF-ICE Message Application Library content")
+![Overview of the FF-ICE Application content](.//media/ffice-application-library-for-fixm-01.PNG "Overview of the FF-ICE Application content")
 
-The FF-ICE Message Application Library is developed and published by the FIXM CCB, together with FIXM Core.
+The FF-ICE Application is developed and published by the FIXM CCB, together with FIXM Core.
 
 ## FF-ICE Message data structures
 
@@ -19,7 +19,7 @@ The FF-ICE message data structures are the data elements that
 specifically qualify the FF-ICE Messages. They do not describe a Flight
 but are necessary for understanding the purpose and meaning of an FF-ICE
 information exchange. The FF-ICE message data modelled by the FF-ICE
-Application Library include:
+Application include:
 
 - A model element representing generically an FF-ICE Message with its
   identifier, timestamp, type etc. An enumeration provides the
@@ -48,6 +48,6 @@ local or regional FF-ICE requirements. Extension hooks are defined in a
 similar fashion as for FIXM Core data structures.
 
 The picture below provides an overview of the FF-ICE Message data
-structures modelled in the FF-ICE Application Library.
+structures modelled in the FF-ICE Application.
 
 ![Overview of the FF-ICE Message Data Structures](.//media/image30.png "Overview of the FF-ICE Message Data Structures")
