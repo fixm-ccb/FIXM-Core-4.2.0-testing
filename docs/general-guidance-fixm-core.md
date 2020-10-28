@@ -18,8 +18,7 @@ than as a set of pre-defined messages, allowing flexible exchanges
 between users rather than enforcing rigid communication patterns.
 However, once a given exchange is well-defined, it is useful to be able
 to enforce syntax and content validation checks to ensure the data being
-exchanged is of high quality. This is addressed by **Application
-Libraries**.
+exchanged is of high quality. This is addressed by **FIXM Applications**.
 
 ## What is a valid FIXM Core usage?
 
