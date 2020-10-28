@@ -811,7 +811,7 @@ details).
     c.  *Schema File* set to:
         `.\schemas\applications\examplemessage\exampletemplates\ExampleFlight.xsd`.
 
-With the Includes package in place, the example Applications Library is
+With the Includes package in place, the example Application is
 complete. Below are screenshots showing the final composition of Project
 Browser and the schemas directory structure.
 
