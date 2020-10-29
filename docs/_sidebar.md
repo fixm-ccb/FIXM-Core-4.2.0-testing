@@ -1,7 +1,7 @@
 - **General Guidance**
   - [Target audience](general-guidance-target-audience.md)
   - [FIXM Core](general-guidance-fixm-core.md)
-  - [Application Libraries](general-guidance-application-libraries.md)
+  - [FIXM Applications](general-guidance-application-libraries.md)
   - [Extensions](general-guidance-extensions.md)
   - [Date/Time Specification](general-guidance-date-time-specification.md)
   - [Geographical positions](general-guidance-geographical-positions.md)
@@ -17,18 +17,18 @@
 
 - **Using FIXM in Support of FF-ICE**
   - [Target audience](ffice-target-audience.md)
-  - [The FF-ICE Application Library for FIXM](ffice-application-library-for-fixm.md)
+  - [The FF-ICE Application for FIXM](ffice-application-library-for-fixm.md)
   - [FF-ICE Message Templates](ffice-message-templates.md)
   - [Translating FF-ICE FIXM Messages to ATS Messages](ffice-translating-ffice-fixm-messages-to-ats-messages.md)
 
 
 - **Using FIXM for other use cases**
-  - [Using FIXM Core without an Application Library](other-using-fixm-fixm-core-without-an-application-library.md)
-  - [Using FIXM Core with an Application Library](other-using-fixm-core-with-an-application-library.md)
+  - [Using FIXM Core without a FIXM Application](other-using-fixm-fixm-core-without-an-application-library.md)
+  - [Using FIXM Core with a FIXM Application](other-using-fixm-core-with-an-application-library.md)
   - [Using FIXM Core with an Extension](other-using-fixm-core-with-an-extension.md)
 
 
-- **How to create an Application Library**
+- **How to create a FIXM Application**
   - [Initial Download and Setup](how-to-create-application-library/initial-download-and-setup.md)
   - [Create an Application Package](how-to-create-application-library/create-an-application-package.md)
   - [Create Application Content](how-to-create-application-library/create-application-content.md)

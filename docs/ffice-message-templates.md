@@ -57,7 +57,7 @@ Table 2: Example of the FF-ICE Flight Cancellation Message
 |                            | **Destination Aerodrome**                | **Mandatory**   |
 |                            | **Estimated Off-Block Time**             | **Mandatory**   |
 
-The FF-ICE Application library translates this table into an implementable message template. This is illustrated by the picture
+The FF-ICE Application translates this table into an implementable message template. This is illustrated by the picture
 below. The message template resulting from the translation of this table is displayed with a blue background.
 
 ![The FF-ICE Flight Cancellation Message Template](.//media/image31.png "The FF-ICE Flight Cancellation Message Template")
@@ -90,7 +90,7 @@ In general, all optionality, cardinality, and pattern restrictions are
 implemented by applying the desired changes to the restricted class.
 
 Because XSD complex type restrictions must use the same namespace as the types they restrict, it is necessary to change their names. The
-convention used in the FF-ICE Application Library is to prepend each
+convention used in the FF-ICE Application is to prepend each
 restricted class with “Ffice” plus an initialism of the message being
 modeled – hence **FficeFC** for the FF-ICE **F**light
 **C**ancellation Message.
