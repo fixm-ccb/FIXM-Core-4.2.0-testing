@@ -3,6 +3,7 @@
 This is just a to-do list to track pending things.
 
 - [ ] Review/Update Home Page
+
 - [ ] Internal references to links (search chapter)
 - [ ] Image captions (Should they include the **Figure** title?)
 - [ ] Footnotes
@@ -24,7 +25,7 @@ This is just a to-do list to track pending things.
 
 ## Notes from TIM Meeting
 
-- [ ] Use **FIXM Application** instead of FIXM Application Library
+- [x] Use **FIXM Application** instead of FIXM Application Library
 - [ ] "Potential shortcomings of XSD..." new title (see proposal in slides)
 - [ ] Add note on namespaces (see slides)
 - [ ] Prepare diagram for users to choose if extension
