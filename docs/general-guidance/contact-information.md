@@ -1,6 +1,6 @@
 # Contact Information
 
-![Image](.//media/image24.png" =100x20)
+![Image](.//media/image24.png")
 
 ## Online Contact
 
