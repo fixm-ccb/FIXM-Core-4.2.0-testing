@@ -55,7 +55,7 @@ information is at the discretion of the consuming system / service.
 that are derived from the fictitious [Donlon
 dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
 data is entirely fictitious, located somewhere in the middle of the
-Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
+Atlantic Ocean. **The examples shall never be used as operational data**.
 
 ### Example of relative point in FIXM without position information
 

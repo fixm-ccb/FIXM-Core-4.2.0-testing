@@ -12,16 +12,16 @@ numbers taken as a whole should always be contiguous. If an element were
 removed from a sequence, the numbering in subsequent representations
 should be reset to reflect this, not maintained so that a gap is formed.
 
-?> Example
+## Example
 
 ```xml
 <fx:filed>
-     <fx:element seqNum="0">
- 	[…]
-     </fx:element>
-     <fx:element seqNum="1">
-	[…]
-      </fx:element>
-      […]
+  <fx:element seqNum="0">
+    <!-- […] -->
+  </fx:element>
+  <fx:element seqNum="1">
+    <!-- […] -->
+  </fx:element>
+  <!-- […] -->
 </fx:filed>
 ```
