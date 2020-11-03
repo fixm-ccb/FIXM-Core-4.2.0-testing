@@ -152,7 +152,7 @@ as described in chapter [Generic hypertext references](#generic-hypertext-refere
 
 [Generic hypertext references](#generic-hypertext-references)
 
-[Generic hypertext references](?id=generic-hypertext-references)
+[Generic hypertext references](general-guidance/references-to-published-aeronautical-information.md?id=generic-hypertext-references)
 
 ```xml
 <fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
