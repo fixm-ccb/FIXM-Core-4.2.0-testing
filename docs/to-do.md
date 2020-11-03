@@ -9,7 +9,7 @@ This is just a to-do list to track pending things.
 - [ ] Footnotes
 - [ ] External links / References
 - [ ] FIXM Schema links vs quotes
-- [ ] Page width
+- [x] Page width
 - [x] Complete initial load
 
 - [ ] Usage of [...] in code blocks is not compatible with sintax highlighting
