@@ -11,10 +11,10 @@ A network address is always formed of two pieces of information: the
 **linkage** and the **network** information.
 
 - The former captures the expression of the network address. This is
-    supported by property OnlineContact.linkage.
+    supported by property `OnlineContact.linkage`.
 
 - The latter captures the network on which the address is valid. This
-    is supported by property OnlineContact.network.
+    is supported by property `OnlineContact.network`.
 
 Property `OnlineContact.network` provides a choice between predefined
 network types and free text. Network information should be preferably
