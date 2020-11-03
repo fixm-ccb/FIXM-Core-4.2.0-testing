@@ -1,6 +1,6 @@
 # FIXM Core
 
-## What is it?
+## What is it
 
 **FIXM Core** provides globally harmonized flight data structures that
 can be exchanged in various contexts. The main context for the use of
@@ -20,7 +20,7 @@ However, once a given exchange is well-defined, it is useful to be able
 to enforce syntax and content validation checks to ensure the data being
 exchanged is of high quality. This is addressed by **FIXM Applications**.
 
-## What is a valid FIXM Core usage?
+## What is a valid FIXM Core usage
 
 The general requirements for a valid **FIXM Core** usage are the
 following:
@@ -60,7 +60,7 @@ aerodrome references defined by the FIXM Core XML schemas.
 
 This example displays an aerodrome reference based on property
 locationIndicator. The value `BRU` does not respect the pattern
-\[A-Z\]{4} enforced by FIXM for property locationIndicator. This example
+`[A-Z]{4}` enforced by FIXM for property locationIndicator. This example
 does NOT comply with the structural rules for aerodrome references
 defined by the FIXM XML schemas and does not qualify as valid FIXM
 usage.
@@ -166,5 +166,5 @@ altogether constitute a single (formation) flight. This example is valid
 from a data structure point of view (it validates against the FIXM core
 XML schemas) but is not correct in so far as the sum of all
 `AircraftType.numberOfAircraft` properties does not match
-Aircraft.formationCount, which breaks a rule from Chapter 2.4.13. This
+`Aircraft.formationCount`, which breaks a rule from Chapter 2.4.13. This
 example does not qualify as valid FIXM core usage.

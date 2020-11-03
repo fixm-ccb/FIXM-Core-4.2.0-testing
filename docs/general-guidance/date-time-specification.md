@@ -13,7 +13,7 @@ Example: 20th July 1969 at 20:18UTC is expressed as `1969-07-20T20:18:00.000Z`
 The mapping of the XSD type dateTime to native structures in various
 development contexts is not always 1-1 and may exhibit a wide variety of
 difficulties depending on the tooling and runtime context. In
-particular, the trailing character ‘z’ indicating UTC may actually be
+particular, the trailing character `Z` indicating UTC may actually be
 stripped/omitted, leading to FIXM times being interpreted as local times
 instead of UTC times by some applications. FIXM implementers are
 therefore invited to crosscheck that their systems correctly interpret

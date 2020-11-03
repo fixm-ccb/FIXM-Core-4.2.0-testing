@@ -60,8 +60,7 @@ domain.* \[copied from [OGC
 The EPSG:4326 CRS is the recommended choice for AIXM 5.1 data sets that
 use the WGS-84 reference datum.
 
-FIXM implements a fixed co-ordinate reference system:
-“urn:ogc:def:crs:EPSG::4326”.
+FIXM implements a fixed co-ordinate reference system: `urn:ogc:def:crs:EPSG::4326`.
 
 ## Geographic co-ordinates
 
@@ -111,7 +110,7 @@ On EXAMPLE 1 above, number `59.0` represents the latitude and number
 
 The W3C XML schema 1.0 specification defines three special values for
 float/double: positive infinity, negative infinity and not-a-number. In
-this context, a “pos” element expressed as `<fb:pos>INF -INF</fb:pos>` or `<fb:pos>NaN NaN</fb:pos> ` would be syntactically correct; it would validate against the core FIXM XML
+this context, a `pos` element expressed as `<fb:pos>INF -INF</fb:pos>` or `<fb:pos>NaN NaN</fb:pos> ` would be syntactically correct; it would validate against the core FIXM XML
 schemas. However, it would not represent any plausible location. The use
 of these special values is therefore not accepted when exchanging
 geographical positions in FIXM.

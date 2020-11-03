@@ -1,6 +1,6 @@
 # Extensions
 
-## What is it?
+## What is it
 
 An extension designates a supplement to FIXM that supports additional
 (commonly local or regional) requirements from a particular organisation
@@ -50,7 +50,8 @@ extension mechanism.
 ?> Example of FIXM extension satisfying the requirement on extension
 content
 
-<img src=".//media/image8.emf"/>
+![Image](.//media/image8.emf)
+
 Example of FIXM extension satisfying the requirement on extension content
 
 This example is an extract from the US NAS extension to FIXM 4.1.0 \[7\]
@@ -66,7 +67,7 @@ mechanism.
 !> Example of FIXM extension NOT satisfying the requirement on extension
 content
 
-<img src=".//media/general-guidance-extensions-02.png"/>
+![Image](.//media/general-guidance-extensions-02.png)
 
 Example of FIXM extension NOT satisfying the requirement on extension content
 
@@ -85,17 +86,17 @@ The FIXM extension mechanism distributes class-specific extension hooks
 throughout the model that implementers can leverage to define their
 specific data structures.
 
-<img src=".//media/general-guidance-extensions-03.png"/>
+![Image](.//media/general-guidance-extensions-03.png)
 
 The key benefits of the approach are the following:
 
-1.  ability to allow Extension validation
+1. ability to allow Extension validation
 
-2.  multiple co-existing Extensions
+2. multiple co-existing Extensions
 
-3.  co-location of Extension data with the Core data it extends
+3. co-location of Extension data with the Core data it extends
 
-4.  ability to easily remove extensions and pare down the model
+4. ability to easily remove extensions and pare down the model
 
 This permissive approach enables FIXM users to enrich the core FIXM
 datasets with as many information elements as necessary, as required by

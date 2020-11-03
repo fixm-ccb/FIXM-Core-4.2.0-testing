@@ -10,7 +10,7 @@ essentially provides context-specific **‘message data structures’** and
 FIXM-based messages exchanged using SWIM information services, as
 outlined in the figure below.
 
-<img src=".//media/general-guidance-application-libraries-01.png"/>
+![Image](.//media/general-guidance-application-libraries-01.png)
 General structure of a message and role of an Application Library
 
 A **FIXM Application** captures messaging related data elements and reuses and restricts relevant subsets of the FIXM Core data structures.
@@ -18,7 +18,7 @@ FIXM Core is independent and does not require an update when changes in a FIXM A
 
 A **FIXM Application** may also leverage **Extensions**, as
 illustrated on the picture below.
-<img src=".//media/general-guidance-application-libraries-02.png" />
+![Image](.//media/general-guidance-application-libraries-02.png)
 
 An example of a FIXM Application is the **FF-ICE Application** developed and released by the FIXM CCB. This library addresses
 the use of FIXM core in the specific context of FF-ICE. It provides
@@ -44,7 +44,8 @@ Examples of message data structures can be found in the FF-ICE
 Implementation Guidance Manual. The Figure below shows the message data
 structures associated with the FF-ICE Flight Cancellation Message.
 
-<img src=".//media/general-guidance-application-libraries-03.png" />
+![Image](.//media/general-guidance-application-libraries-03.png)
+
 Example of Message Data structures from FF-ICE
 
 ## Message Templates
@@ -99,7 +100,6 @@ validate.
 - XSD restrictions deliver benefits in terms of model development and
     maintenance. [3]
 
-
 ### XSD Profiles as a potential alternative to XSD Restrictions
 
 An XSD profile would represent a reduced, further restricted subset of
@@ -108,7 +108,8 @@ but accomplishes the task by directly creating smaller, parallel models
 of the adjusted packages rather than producing them via a restriction.
 The figure below illustrates at high-level the differences.
 
-<img src=".//media/general-guidance-application-libraries-04.png" />
+![Image](.//media/general-guidance-application-libraries-04.png)
+
 XSD Restriction vs XSD Profile
 
 XSD profiles would not restrict the types from the base reference and
