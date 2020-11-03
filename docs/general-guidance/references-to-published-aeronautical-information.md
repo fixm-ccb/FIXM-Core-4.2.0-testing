@@ -150,10 +150,6 @@ duplicate/triplicate/…
 Option 3 corresponds to Option 1 with an additional hypertext reference
 as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
-[Generic hypertext references](#generic-hypertext-references)
-
-[Generic hypertext references](general-guidance/references-to-published-aeronautical-information.md?id=generic-hypertext-references)
-
 ```xml
 <fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
    <fb:designator>TEMPO</fb:designator>
@@ -414,7 +410,7 @@ and navaid service type) in case of duplicate/triplicate/…
 *(OPTION 3 = OPTION 1 + supplementary hypertext reference)*
 
 Option 3 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 ### OPTION 4 - Complete reference
 
@@ -566,7 +562,7 @@ namely the aerodrome reference point.
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 ?> Examples (NOT for OPERATIONAL USE)
 
@@ -712,7 +708,7 @@ Direction designator.
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 ?> Examples (NOT for OPERATIONAL USE)
 
@@ -812,7 +808,7 @@ unambiguous identification of the ATS Route being referred to.
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 ?> Examples (NOT for OPERATIONAL USE)
 
@@ -921,7 +917,7 @@ designator as published in the AIP.
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 ?> Examples (NOT for OPERATIONAL USE)
 
@@ -1035,7 +1031,7 @@ consist of the coded designator of the airspace as published in the AIP.
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 Examples (NOT for OPERATIONAL USE)
 
@@ -1147,7 +1143,7 @@ the AIP.
 *(OPTION 2 = OPTION 1 + supplementary hypertext reference)*
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
 ?> Examples (NOT for OPERATIONAL USE)
 
