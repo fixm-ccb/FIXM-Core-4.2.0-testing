@@ -49,26 +49,15 @@ order to save consuming systems / services from (re)computing the
 position of the relative point. Whether or not to use this supplementary
 information is at the discretion of the consuming system / service.
 
-?> Examples (NOT for OPERATIONAL USE)
+## Examples
 
-The table below depicts examples of FIXM encodings of relative points
+!> The table below depicts examples of FIXM encodings of relative points
 that are derived from the fictitious [Donlon
 dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
 data is entirely fictitious, located somewhere in the middle of the
 Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th><strong>Examples of relative point in FIXM</strong></th>
-<th><strong>Notes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Without position information</strong></td>
-<td><p>
+### Example of relative point in FIXM without position information
 
 ```xml
 <fb:relativePoint>
@@ -79,12 +68,10 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
     </fb:referencePoint>
 </fb:relativePoint>
 ```
-</p></td>
-<td>(*) See chapter [References to Navaid](general-guidance/references-to-published-aeronautical-information?id=references-to-navaid). All four options can be used for encoding this reference. OPTION 1 is used in this example.</td>
-</tr>
-<tr class="even">
-<td><strong>With position information</strong></td>
-<td><p>
+
+(*) See chapter [References to Navaid](general-guidance/references-to-published-aeronautical-information?id=references-to-navaid). All four options can be used for encoding this reference. OPTION 1 is used in this example.
+
+### Example of relative point in FIXM with position information
 
 ```xml
 <fb:relativePoint>
@@ -98,9 +85,3 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
     </fb:referencePoint>
 </fb:relativePoint>
 ```
-
-</p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
