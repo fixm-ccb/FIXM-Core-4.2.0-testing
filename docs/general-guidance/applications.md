@@ -28,7 +28,7 @@ and the FF-ICE message templates (e.g. the template for the FF-ICE Filed
 Flight Plan Message, the template for the FF-ICE Flight Cancellation
 Message etc.), in line with the FF-ICE Implementation Guidance Manual.
 
-More details about this FF-ICE Application can be found in [this chapter](../fixm-in-support-of-ffice/ffice-application-for-fixm.md) .
+More details about this FF-ICE Application can be found in [this chapter](fixm-in-support-of-ffice/ffice-application-for-fixm.md) .
 
 ## Message Data Structures
 
