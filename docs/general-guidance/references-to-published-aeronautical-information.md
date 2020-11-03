@@ -45,9 +45,7 @@ If an AIXM 5.1 feature exists that corresponds to the element being
 referred to, an **optional** hypertext reference to that AIXM feature
 may be provided. This reference shall be expressed in accordance with
 chapter 3.4.1 (*Abstract references using UUID*) of the [AIXM feature
-Identification and
-Reference](http://www.aixm.aero/sites/aixm.aero/files/imce/AIXM51/aixm_feature_identification_and_reference-1.0.pdf)
-document developed by the AIXM community.
+Identification and Reference](http://www.aixm.aero/sites/aixm.aero/files/imce/AIXM51/aixm_feature_identification_and_reference-1.0.pdf) document developed by the AIXM community.
 
 This hypertext reference may be used - or ignored - by the receiving
 system depending on its capabilities.
@@ -150,7 +148,11 @@ duplicate/triplicate/…
 *(OPTION 3 = OPTION 1 + supplementary hypertext reference)*
 
 Option 3 corresponds to Option 1 with an additional hypertext reference
-as described in chapter Generic hypertext references.
+as described in chapter [Generic hypertext references](#generic-hypertext-references).
+
+[Generic hypertext references](#generic-hypertext-references)
+
+[Generic hypertext references](?id=generic-hypertext-references)
 
 ```xml
 <fb:designatedPoint href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
