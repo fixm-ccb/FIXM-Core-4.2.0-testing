@@ -32,7 +32,7 @@ The type of network affects the format of the linkage information.
 
 - When the network is `AFTN`, the linkage should be a valid AFTN address
 
-?> Examples
+### Examples
 
 The following example illustrates contact information formed of an email
 address and an Internet address expressed as a resolvable URL.

@@ -1,6 +1,6 @@
 # General rules for data correctness
 
-*Important note: in the present version of the document, limited effort
+?> Important note: in the present version of the document, limited effort
 could be spent on the documentation of FIXM business rules addressing
 data correctness. The list below provides an initial set of rules that
 were identified during the writing of this document or that are already
@@ -8,7 +8,7 @@ captured in the FIXM model as model element notes. Future versions of
 the document will enrich this table based on implementers’ feedback, and
 may also revisit the overall formulation and description method for
 these rules, in particular in the light of the [AIXM experience with
-regards to business rules](http://aixm.aero/page/business-rules).*
+regards to business rules](http://aixm.aero/page/business-rules).
 
 <table>
 <thead>
