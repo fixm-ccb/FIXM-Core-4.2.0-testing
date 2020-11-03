@@ -1,4 +1,4 @@
-# Using FIXM Core without an Application Library
+# Using FIXM Core without an Application
 
 In some cases, the nature of the messaging infrastructure employed for a
 particular data exchange makes the use of Application Libraries
@@ -13,7 +13,7 @@ structures reside. The root field of the entire flight information
 hierarchy is the Flight class (in the physical model, the Flight
 element).
 
-![Using FIXM Core without an Application Library](.//media/other-using-fixm-fixm-core-without-an-application-library-01.PNG "Using FIXM Core without an Application Library")
+![Using FIXM Core without an Application](.//media/other-using-fixm-fixm-core-without-an-application-library-01.PNG "Using FIXM Core without an Application")
 
 When using FIXM Core for data representation, all XML documents must
 begin with this Flight element. Similarly, the Fixm.xsd schema file is

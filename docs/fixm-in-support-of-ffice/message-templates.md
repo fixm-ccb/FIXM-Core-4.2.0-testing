@@ -4,11 +4,11 @@
 
 The FF-ICE Message templates are the representations of the individual
 FF-ICE messages that are exchanged by the FF-ICE Services. Thirteen
-message templates are defined in the FF-ICE Application library v1.0.0.
+message templates are defined in the FF-ICE Application v1.0.0.
 They correspond to the thirteen FF-ICE Messages described in the
 FF-ICE/R1 Implementation Guidance Manual, Appendix C. The following
 table provides the correspondence between the FF-ICE message templates
-from the library and their corresponding description in the FF-ICE
+from the application and their corresponding description in the FF-ICE
 Implementation Guidance Manual, Appendix C.
 
 Table 1: Correspondences between FF-ICE Message templates and their ICAO Doc 9965 Volume II description

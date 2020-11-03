@@ -33,7 +33,7 @@ whatever the implementation context.
 
 This chapter provides specific guidance in support of the
 implementation of FF-ICE using FIXM. It introduces the FF-ICE
-Application Library, identifies a candidate set of FIXM-Based services
+Application, identifies a candidate set of FIXM-Based services
 enabling (part of) the information exchanges defined by the ICAO
 ATMRPP in the Manual on FF-ICE Implementation Guidance \[10\] and
 provides detailed examples of FF-ICE/R1 Services realizations.
@@ -89,10 +89,10 @@ however, implements significant improvements compared to FIXM 4.1.0:
     not)[1] that enable proper FF-ICE Flight Plan updates as described
     in the FF-ICE/R1 Implementation Guidance Manual;
 
--   FIXM Core 4.2.0 comes together with a new FF-ICE Application Library
+-   FIXM Core 4.2.0 comes together with a new FF-ICE Application
     that addresses the use of FIXM Core in the specific context of
     FF-ICE and which provides formal representation of the individual
-    FF-ICE messages. A new “Basic Message” library is also available in
+    FF-ICE messages. A new “Basic Message” application is also available in
     order to provide basic messaging support for FIXM.
 
 -   FIXM Core 4.2.0 also implements a number of technical improvements

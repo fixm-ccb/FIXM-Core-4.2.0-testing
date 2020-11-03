@@ -11,7 +11,7 @@ FIXM-based messages exchanged using SWIM information services, as
 outlined in the figure below.
 
 ![Image](.//media/general-guidance-application-libraries-01.png)
-General structure of a message and role of an Application Library
+General structure of a message and role of an Application
 
 A **FIXM Application** captures messaging related data elements and reuses and restricts relevant subsets of the FIXM Core data structures.
 FIXM Core is independent and does not require an update when changes in a FIXM Application occur.
@@ -20,7 +20,7 @@ A **FIXM Application** may also leverage **Extensions**, as
 illustrated on the picture below.
 ![Image](.//media/general-guidance-application-libraries-02.png)
 
-An example of a FIXM Application is the **FF-ICE Application** developed and released by the FIXM CCB. This library addresses
+An example of a FIXM Application is the **FF-ICE Application** developed and released by the FIXM CCB. This application addresses
 the use of FIXM core in the specific context of FF-ICE. It provides
 harmonized FF-ICE Message data structure (e.g. data structures for
 representing the FF-ICE Filing Status, the FF-ICE Planning Status etc.)

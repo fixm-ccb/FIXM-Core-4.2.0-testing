@@ -16,26 +16,26 @@
 
 
 - **Using FIXM in Support of FF-ICE**
-  - [Target audience](ffice-target-audience.md)
-  - [The FF-ICE Application for FIXM](ffice-application-library-for-fixm.md)
-  - [FF-ICE Message Templates](ffice-message-templates.md)
-  - [Translating FF-ICE FIXM Messages to ATS Messages](ffice-translating-ffice-fixm-messages-to-ats-messages.md)
+  - [Target audience](fixm-in-support-of-ffice/target-audience.md)
+  - [The FF-ICE Application for FIXM](fixm-in-support-of-ffice/ffice-application-for-fixm.md)
+  - [FF-ICE Message Templates](fixm-in-support-of-ffice/message-templates.md)
+  - [Translating FF-ICE FIXM Messages to ATS Messages](fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md)
 
 
 - **Using FIXM for other use cases**
-  - [Using FIXM Core without a FIXM Application](other-using-fixm-fixm-core-without-an-application-library.md)
-  - [Using FIXM Core with a FIXM Application](other-using-fixm-core-with-an-application-library.md)
-  - [Using FIXM Core with an Extension](other-using-fixm-core-with-an-extension.md)
+  - [Using FIXM Core without a FIXM Application](fixm-for-other-use-cases/using-fixm-core-without-an-application.md)
+  - [Using FIXM Core with a FIXM Application](fixm-for-other-use-cases/using-fixm-core-with-an-application.md)
+  - [Using FIXM Core with an Extension](fixm-for-other-use-cases/using-fixm-core-with-an-extension.md)
 
 
 - **How to create a FIXM Application**
-  - [Initial Download and Setup](how-to-create-application-library/initial-download-and-setup.md)
-  - [Create an Application Package](how-to-create-application-library/create-an-application-package.md)
-  - [Create Application Content](how-to-create-application-library/create-application-content.md)
-  - [Create Templates](how-to-create-application-library/create-templates.md)
-  - [Generate the Application Schemas](how-to-create-application-library/generate-the-application-schemas.md)
-  - [Post-Process the Application Schemas](how-to-create-application-library/post-process-the-application-schemas.md)
-  - [Sample XML](how-to-create-application-library/sample-xml.md)
+  - [Initial Download and Setup](how-to-create-application/initial-download-and-setup.md)
+  - [Create an Application Package](how-to-create-application/create-an-application-package.md)
+  - [Create Application Content](how-to-create-application/create-application-content.md)
+  - [Create Templates](how-to-create-application/create-templates.md)
+  - [Generate the Application Schemas](how-to-create-application/generate-the-application-schemas.md)
+  - [Post-Process the Application Schemas](how-to-create-application/post-process-the-application-schemas.md)
+  - [Sample XML](how-to-create-application/sample-xml.md)
 
 
 - **How to create a FIXM Extension**
