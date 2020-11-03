@@ -28,8 +28,7 @@ and the FF-ICE message templates (e.g. the template for the FF-ICE Filed
 Flight Plan Message, the template for the FF-ICE Flight Cancellation
 Message etc.), in line with the FF-ICE Implementation Guidance Manual.
 
-More details about this FF-ICE Application can be found in
-Chapter 3.2 .
+More details about this FF-ICE Application can be found in [this chapter](../fixm-in-support-of-ffice/ffice-application-for-fixm.md) .
 
 ## Message Data Structures
 
@@ -119,9 +118,7 @@ restrictions.
 
 !> The online literature about XML schema design generally considers that
 the restrictions of XSD complex types are the most difficult and
-therefore the least supported part of the XML schema specification. 
-XSD profiles may be considered as an alternative to XSD restrictions should implementers 
-experience issues with the FIXM templates based on XSD restrictions. Implementers are therefore invited to
+therefore the least supported part of the XML schema specification. XSD profiles may be considered as an alternative to XSD restrictions should implementers experience issues with the FIXM templates based on XSD restrictions. Implementers are therefore invited to
 report any problems with XSD restrictions support, with details about the
 development environment being used. See also FIXM DEVELOPMENT TOOL COMPATIBILITY section.
 
