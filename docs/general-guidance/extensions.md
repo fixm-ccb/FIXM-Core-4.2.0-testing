@@ -32,7 +32,7 @@ extension mechanism.
 
 | | | |
 |-|-|-|
-| **Requirement**       | To qualify for a valid FIXM extension, an extension shall be designed in accordance with the modelling principles described in APPENDIX A.|
+| **Requirement**       | To qualify for a valid FIXM extension, an extension shall be designed in accordance with the modelling principles described in [this chapter](how-to-create-fixm-extension/initial-download-and-setup.md)|
 | **Rationale**         | The successful development of an extension, and its successful integration with the FIXM core packages, requires rules on extension design to be followed consistently by all implementers.|
 | **How to check this** | Checking that an extension satisfies this requirement cannot be automated and requires manual analysis of the extension content by the FIXM community. As a general principle, extensions to FIXM core that are proposed for online publication on the FIXM web site should be checked against this requirement. |
 
@@ -102,7 +102,7 @@ This permissive approach enables FIXM users to enrich the core FIXM
 datasets with as many information elements as necessary, as required by
 the applicable implementation context.
 
-APPENDIX A provides a rulebook and detailed guidance for creating
+[This chapter](how-to-create-fixm-extension/initial-download-and-setup.md) provides a rulebook and detailed guidance for creating
 extensions.
 
 ## Ignoring extension data

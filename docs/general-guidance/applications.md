@@ -124,4 +124,4 @@ development environment being used. See also FIXM DEVELOPMENT TOOL COMPATIBILITY
 
 ## How to build a FIXM Application?
 
-APPENDIX B provides detailed guidance for creating FIXM Applications.
+[This chapter](how-to-create-application/initial-download-and-setup.md.md) provides detailed guidance for creating FIXM Applications.
