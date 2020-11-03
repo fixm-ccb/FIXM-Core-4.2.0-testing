@@ -80,7 +80,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 </fb:relativePoint>
 ```
 </p></td>
-<td>(*) See chapter References to Navaid above. All four options can be used for encoding this reference. OPTION 1 is used in this example.</td>
+<td>(*) See chapter [References to Navaid](general-guidance/references-to-published-aeronautical-information?id=references-to-navaid). All four options can be used for encoding this reference. OPTION 1 is used in this example.</td>
 </tr>
 <tr class="even">
 <td><strong>With position information</strong></td>
