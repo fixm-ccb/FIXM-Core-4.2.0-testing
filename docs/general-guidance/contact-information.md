@@ -1,14 +1,6 @@
 # Contact Information
 
-<img src=".//media/image24.png" style="width:4.4438in;height:4.42945in" />
-
-## Postal Address
-
-TODO
-
-## Telephone Contact
-
-TODO
+![Image](.//media/image24.png")
 
 ## Online Contact
 
@@ -18,29 +10,27 @@ and/or a network address.
 A network address is always formed of two pieces of information: the
 **linkage** and the **network** information.
 
--   The former captures the expression of the network address. This is
+- The former captures the expression of the network address. This is
     supported by property OnlineContact.linkage.
 
--   The latter captures the network on which the address is valid. This
+- The latter captures the network on which the address is valid. This
     is supported by property OnlineContact.network.
 
-Property OnlineContact.network provides a choice between predefined
+Property `OnlineContact.network` provides a choice between predefined
 network types and free text. Network information should be preferably
-encoded using the property NetworkChoice.**type** populated with the
-applicable enumerated value from enumeration TelecomNetworkType. If none
-of the enumerated values is suitable, the property NetworkChoice.other
+encoded using the property `NetworkChoice.type` populated with the
+applicable enumerated value from enumeration `TelecomNetworkType`. If none
+of the enumerated values is suitable, the property `NetworkChoice.other`
 shall be used. The ATM Information Reference Model provides additional
 telecom network types that should be used for populating
-NetworkChoice.other, as appropriate. These additional AIRM values are
-available at the following link:
-
-<http://airm.aero/viewer/1.0.0/logical-model.html#CodeTelecomNetworkType>
+`NetworkChoice.other`, as appropriate. These additional AIRM values are
+available [here](http://airm.aero/viewer/1.0.0/logical-model.html#CodeTelecomNetworkType).
 
 The type of network affects the format of the linkage information.
 
--   When the network is INTERNET, the linkage should be a resolvable URL
+- When the network is `INTERNET`, the linkage should be a resolvable URL
 
--   When the network is AFTN, the linkage should be a valid AFTN address
+- When the network is `AFTN`, the linkage should be a valid AFTN address
 
 ?> Examples
 
@@ -71,11 +61,11 @@ Flight Plan Message Submission to IFPS (FP1 - Brussels (Haren)).
 ```
 
 The following example illustrates contact information formed of a SITA
-address. ‘SITA’ is not a value captured in FIXM enumeration
-TelecomNetworkType but is part of the reference ATM vocabulary provided
+address. `SITA` is not a value captured in FIXM enumeration
+`TelecomNetworkType` but is part of the reference ATM vocabulary provided
 by the AIRM ([AIRM codelist
-CodeTelecomNetworkType](http://airm.aero/viewer/1.0.0/logical-model.html#CodeTelecomNetworkType)).
-The example features the EUROCONTROL NM ‘SITA address’ for Flight Plan
+`CodeTelecomNetworkType`](http://airm.aero/viewer/1.0.0/logical-model.html#CodeTelecomNetworkType)).
+The example features the EUROCONTROL NM SITA address for Flight Plan
 Message Submission to IFPS (FP1 - Brussels (Haren)).
 
 ```xml
