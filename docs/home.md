@@ -1,134 +1,55 @@
 # Fixm User Manual
 
-!> This page requires an update. It has not been processed in the preparation of this baseline version. Please do not review the contents.
+**Implementation guidance for FIXM** developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
 
-This site provides guidance and clarifications for the
-implementation of FIXM.
+*Note: The content of this user manual is informative. The use of the words `shall` or `required` indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words `should` or `recommended` indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.*
 
-It aims to build a "community knowledge" about the
-implementation of FIXM. It will therefore evolve over time in order to
-capture more alternatives, options and recommendations related to the
-use of FIXM.
+## Applicable FIXM Release
 
-## Purpose and content
+|Applicable Release| Implementation Guidance |
+|:-|:--|
+| **[FIXM Core 4.2.0](https://www.fixm.aero/release.pl?rel=FIXM-4.2.0)**<br>and related applications<br>- **[FF-ICE Application](https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)**<br>- **[Basic Application](https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0)** | [HTML]() (This web site)<br>[zip]()<br><br><br>|
 
-This document provides guidance and clarifications for the
-implementation of FIXM. It aims to build a "community knowledge" about
-the implementation of FIXM. It will therefore evolve over time in order
-to capture more alternatives, options and recommendations related to the
-use of FIXM.
+*Note: Implementation guidance for the older FIXM Core 4.1.0 version can be downloaded as a [zip](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) file.*
 
-The implementation guidance provided in this document is structured as
-follows:
+## Content and Target audience
 
--   **General Guidance on FIXM implementation**
+- The part `GENERAL GUIDANCE` provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
+- The part `USING FIXM IN SUPPORT OF FF-ICE` provides specific guidance in support of the implementation of FF-ICE using FIXM.
+- The parts `USING FIXM FOR OTHER USE CASES`, `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION` and `HOW TO GENERATE XML SCHEMAS ...` provide explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
+- The part `FIXM DEVELOPMENT TOOL COMPATIBILITY` provides a Platform Support Matrix listing the tools and technologies for which compability tests have been performed for FIXM.
 
-This chapter provides general guidance for understanding the main FIXM
-components, outlines general requirements for valid FIXM core and FIXM
-extensions usage and describes the general rules (encoding rules, data
-plausibility rules, rules for absent data…) that are always applicable
-whatever the implementation context.
+| Your FIXM use case | Chapters relevant to you |
+|:-|:---| 
+| I want to use FIXM to implement ICAO FF-ICE Service(s) without local/regional arrangements | `GENERAL GUIDANCE`, `FIXM DEVELOPMENT TOOL COMPATIBILITY`, `USING FIXM IN SUPPORT OF FF-ICE` |
+| I want to use FIXM to implement ICAO FF-ICE Service(s) with local/regional arrangements | `GENERAL GUIDANCE`, `FIXM DEVELOPMENT TOOL COMPATIBILITY`, `USING FIXM IN SUPPORT OF FF-ICE`, `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION`, `HOW TO GENERATE XML SCHEMAS ...`|
+| I want to use FIXM to exchange flight data based on my own organisation's needs | `GENERAL GUIDANCE`, `FIXM DEVELOPMENT TOOL COMPATIBILITY`, `USING FIXM FOR OTHER USE CASES`, `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION`, `HOW TO GENERATE XML SCHEMAS ...` |
 
--   **Guidance for Using FIXM in Support of FF-ICE**
 
-This chapter provides specific guidance in support of the
-implementation of FF-ICE using FIXM. It introduces the FF-ICE
-Application, identifies a candidate set of FIXM-Based services
-enabling (part of) the information exchanges defined by the ICAO
-ATMRPP in the Manual on FF-ICE Implementation Guidance \[10\] and
-provides detailed examples of FF-ICE/R1 Services realizations.
+## Contribute
 
--   **Guidance for Translating FF-ICE FIXM Messages to ATS Messages**
+This sites aims to build a "community knowledge" about the implementation of FIXM. You can contribute to its evolution by submitting content and by supporting the technical exchanges of the FIXM Community using the FIXM Work Area.
 
-This chapter defines a formal mapping between the FIXM Logical Model
-and Air Traffic Services (ATS) message content as defined in ICAO Doc
-4444 \[8\].
+- [SUBMIT CONTENT](https://www.fixm.aero/content/contact.pl?category=Technical&version=Other&versionOther=FIXM%20User%20Manual&details=Describe%20proposed%20content%20here)
+- [ACCESS THE FIXM WORK AREA](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
--   **Guidance for Using FIXM for other use cases**
+?> No access yet to the FIXM Work Area? Register now!
 
-This chapter provides guidance for using FIXM in a context other than
-FF-ICE. In particular, it helps FIXM implementers create their own
-application libraries and extensions.
+1. Create a OneSky Online account (*This step can be skipped if you have already an account*) : Access [OneSky Online](https://ext.eurocontrol.int/), click on `New user? Register now.`, fill in the form and click on `Submit`
+2. Get access to OneSky Teams: Access [OneSky Teams](https://ost.eurocontrol.int/Pages/default.aspx), and log in with your credentials obtained in Step 1
+3. Request access to the FIXM Work Area: Click on `All Teams` in the top navigation, browse for the FIXM Work Area and click on its title, click on `Access can be requested via this link`, and send the access request.
+4. You will then receive an email when the request is approved, with the link to the FIXM Work Area
 
-*Note: The present version of the document captures the guidance
-information agreed by the FIXM community as of March 2018. Readers are
-invited to monitor the FIXM community discussions in the FIXM Work Area*
-*\[6\] about the implementation of FIXM, which may serve as useful
-complement or clarification.*
+## How to use this web site
 
-## Applicable FIXM version
+- Use the side bar opposite to access the various sections of the user manual
+- Use the search to look for a specific entry
+- Use the buttons `< Previous` and `Next >` at the bottom of each page to navigate across the different sections of the manual.
 
-The present version of the document supports the implementation of the
-following FIXM components:
 
--   **FIXM Core v4.2.0** \[1\]
+## References
 
--   **FIXM Applications**
-
-    -   **FF-ICE Message v1.0.0**
-
-    -   **Basic Message v1.0.0**
-
-**What is new in FIXM Core 4.2.0?**
-
-At high level, the scope declaration of FIXM Core 4.2.0 is the same as
-FIXM 4.1.0, namely to provide harmonised representation of the flight
-data structures exchanged in the context of FF-ICE/R1. FIXM Core 4.2.0,
-however, implements significant improvements compared to FIXM 4.1.0:
-
--   FIXM Core 4.2.0 is based on the draft FF-ICE/R1 Implementation
-    Guidance Manual version 0.91, therefore reflecting a more mature -
-    but yet not final - version of the FF-ICE/R1 requirements specified
-    by the ICAO ATMRPP;
-
--   FIXM Core 4.2.0 contains more usable data structures for enabling a
-    better representation of the feedback that an eAU can get from an
-    eASP after submitting an FF-ICE flight plan;
-
--   FIXM Core 4.2.0 supports nillable properties (which FIXM 4.1.0 did
-    not)[1] that enable proper FF-ICE Flight Plan updates as described
-    in the FF-ICE/R1 Implementation Guidance Manual;
-
--   FIXM Core 4.2.0 comes together with a new FF-ICE Application
-    that addresses the use of FIXM Core in the specific context of
-    FF-ICE and which provides formal representation of the individual
-    FF-ICE messages. A new “Basic Message” application is also available in
-    order to provide basic messaging support for FIXM.
-
--   FIXM Core 4.2.0 also implements a number of technical improvements
-    and bug corrections.
-
-Important note: This document does not detail the individual changes
-implemented in this new FIXM release. More information about these
-changes can be found in the FIXM Release Note and in the online
-repository of FIXM Change Requests from the FIXM Work Area. This
-document rather focuses on how to use the various FIXM components and
-data structures.
-
-## Document terms
-
-This is a guidance document describing recommended practices related to
-the use and implementation of FIXM. It has been subject to FIXM CCB
-review and endorsement and is therefore the official recommendation of
-the FIXM CCB.
-
-This document is, however, non-normative and requirements described in
-it shall be considered mandatory only for those aiming to comply with
-this guidance.
-
-The use of the word "SHALL" or "REQUIRED" indicates an absolute
-requirement of this guidance, i.e. a requirement to be strictly followed
-in order to conform to this document.
-
-The use of the word "SHOULD" or "RECOMMENDED" indicates that there may
-exist valid reasons, in particular circumstances, to ignore a particular
-aspect of the guidance.
-
-## Improving this site
-
-Suggested additions, changes and comments on this document
-are welcome and encouraged. These suggestions should be sent to the [FIXM
-CCB](https://fixm.aero/content/contact.pl) or posted to the FIXM Work Area.
+> TODO
 
 ## Acronyms and Definitions
 
@@ -136,20 +57,12 @@ CCB](https://fixm.aero/content/contact.pl) or posted to the FIXM Work Area.
 |-------------|--------------------------------------------------------------------------|
 | AIDC        | ATS Interfacility Data Communications                                    |
 | AIXM        | Aeronautical Information Exchange Model                                  |
-| AMQP        | Advanced Message Queuing Protocol                                        |
 | AMXM        | Aerodrome Mapping Exchange Model                                         |
-| ASBU        | Aviation System Block Upgrade                                            |
-| ASP         | ATM Service Provider                                                     |
 | ATM         | Air Traffic Management                                                   |
 | ATMRPP      | ATM Requirements and Performance Panel                                   |
 | ATS         | Air Traffic Services                                                     |
-| AU          | Airspace User                                                            |
 | CCB         | Change Control Board                                                     |
-| CDM         | Collaborative Decision Making                                            |
-| eASP        | Enhanced ATM Service Provider (i.e. FF-ICE capable ATM service provider) |
-| eAU         | Enhanced Airspace User (i.e. FF-ICE capable Airspace user)               |
 | FF-ICE      | Flight and Flow Information for a Collaborative Environment              |
-| FIR         | Flight Information Region                                                |
 | FIXM        | Flight Information Exchange Model                                        |
 | FPL         | Flight Plan                                                              |
 | GML         | Geography Markup Language                                                |
@@ -160,7 +73,6 @@ CCB](https://fixm.aero/content/contact.pl) or posted to the FIXM Work Area.
 | Navaid      | Navigational Aid                                                         |
 | OGC         | Open Geospatial Consortium                                               |
 | PBN         | Performance Based Navigation                                             |
-| R/R         | Request/Reply                                                            |
 | SID         | Standard Instrument Departure                                            |
 | SOAP        | Simple Object Access Protocol                                            |
 | SSR         | Secondary Surveillance Radar                                             |
@@ -176,12 +88,4 @@ CCB](https://fixm.aero/content/contact.pl) or posted to the FIXM Work Area.
 | XML         | Extensible Markup Language                                               |
 | XSD         | XML Schema Definition                                                    |
 | XSLT        | Extensible Stylesheet Language Transformations                           |
-
-
-
-| **Term**           | **Definition**                                                                                                                                                                              |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FIXM XML schemas   | The XML-based physical realization of the FIXM Logical Model                                                                                                                                |
-| FIXM-based message | A message exchanged by a flight information service which has a content that satisfies the applicable FIXM requirements in terms of data structure, data completeness and data correctness. |
-| FIXM-based service | A service created in accordance with the recommendations described in this guidance document.                                                                                               |
 
