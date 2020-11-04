@@ -7,7 +7,7 @@
 ## Applicable FIXM Release
 
 |Applicable Release| Implementation Guidance |
-|:-|:--|
+|:-|:------|
 | **[FIXM Core 4.2.0](https://www.fixm.aero/release.pl?rel=FIXM-4.2.0)**<br>and related applications<br>- **[FF-ICE Application](https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)**<br>- **[Basic Application](https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0)** | [HTML]() (This web site)<br>[zip]()<br><br><br>|
 
 *Note: Implementation guidance for the older FIXM Core 4.1.0 version can be downloaded as a [zip](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) file.*
@@ -16,7 +16,8 @@
 
 - The part `GENERAL GUIDANCE` provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
 - The part `USING FIXM IN SUPPORT OF FF-ICE` provides specific guidance in support of the implementation of FF-ICE using FIXM.
-- The parts `USING FIXM FOR OTHER USE CASES`, `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION` and `HOW TO GENERATE XML SCHEMAS ...` provide explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
+- The part `USING FIXM FOR OTHER USE CASES` provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
+- The "How to" parts `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION` and `HOW TO GENERATE XML SCHEMAS ...` provide step-by-step guidance for producing new FIXM Applications and FIXM extensions (UML and XSD).
 - The part `FIXM DEVELOPMENT TOOL COMPATIBILITY` provides a Platform Support Matrix listing the tools and technologies for which compability tests have been performed for FIXM.
 
 | Your FIXM use case | Chapters relevant to you |
@@ -42,8 +43,8 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ## How to use this web site
 
-- Use the side bar opposite to access the various sections of the user manual
-- Use the search to look for a specific entry
+- Use the side bar opposite to access the various sections of the user manual;
+- Use the search engine to look for a specific entry;
 - Use the buttons `< Previous` and `Next >` at the bottom of each page to navigate across the different sections of the manual.
 
 
