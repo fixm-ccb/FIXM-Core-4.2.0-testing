@@ -1,14 +1,17 @@
 # General rules for data correctness
 
-?> Important note: in the present version of the document, limited effort
-could be spent on the documentation of FIXM business rules addressing
-data correctness. The list below provides an initial set of rules that
-were identified during the writing of this document or that are already
-captured in the FIXM model as model element notes. Future versions of
-the document will enrich this table based on implementers’ feedback, and
-may also revisit the overall formulation and description method for
-these rules, in particular in the light of the [AIXM experience with
-regards to business rules](http://aixm.aero/page/business-rules).
+?> The table below compiles an initial set of business rules 
+identified in the GENERAL GUIDANCE part, or already
+captured in the FIXM Core model as model element notes. This table will be 
+gradually enriched based on implementers’ feedback. Click on SUBMIT NEW RULE(S)
+below to propose additional business rules. 
+
+?> The overall formulation and description method for
+the business rules below may be also revisisted, in particular in the light of the [AIXM experience with
+regards to business rules](http://aixm.aero/page/business-rules). 
+In particular, the use of Schematron, which is a validation language capable of handling business rules that an XML schema alone cannot
+provide, may be a candidate means to enforce the business rules below.
+
 
 <table>
 <thead>
@@ -73,3 +76,5 @@ regards to business rules](http://aixm.aero/page/business-rules).
 </tr>
 </tbody>
 </table>
+
+
