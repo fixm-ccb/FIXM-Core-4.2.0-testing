@@ -72,7 +72,7 @@ time. It also features an example XML sample that is valid against this
 schema.
 
 ```xml
-<xs:schema xmlns:wrong="fixm_as_library_of_types" xmlns:fx="http://www.fixm.aero/flight/4.2" xmlns:fb="http://www.fixm.aero/base/4.2/[…]" >
+<xs:schema xmlns:wrong="fixm_as_library_of_types" xmlns:fx="http://www.fixm.aero/flight/4.2" xmlns:fb="http://www.fixm.aero/base/4.2" xmlns:etc="..." >
 <!– […] –>
     <xs:element name="FlightIdentification" type="wrong:FlightIdentificationType"/>
     <xs:complexType name="FlightIdentificationType">
@@ -87,7 +87,7 @@ schema.
 ```
 
 ```xml
-<wrong:FlightIdentification xmlns:wrong="[…]" xmlns:fb="http://www.fixm.aero/base/4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="[…]">
+<wrong:FlightIdentification xmlns:wrong="[…]" xmlns:fb="http://www.fixm.aero/base/4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="...">
     <wrong:departureAerodrome>
         <fb:name>LES BARAQUES</fb:name>
     </wrong:departureAerodrome>
@@ -103,8 +103,7 @@ schema.
 The example schema above is not FIXM Core and is not a FIXM extension.
 It is a fictitious, standalone XML schema that defines its own hierarchy
 of elements, but which reuses types from the core FIXM XML schemas for
-typing these elements. The reuse of FIXM datatypes is highlighted in
-blue in the schema description.
+typing these elements (e.g. `type="fb:AerodromeReferenceType"`).
 
 This example illustrates the reuse of FIXM Core as a library of
 datatypes. While this practice is technically feasible and produces
