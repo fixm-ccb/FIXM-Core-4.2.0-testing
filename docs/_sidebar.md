@@ -13,7 +13,6 @@
   - [Rules for absent data](general-guidance/rules-for-absent-data.md)
   - [The use of other exchange models](general-guidance/the-use-of-other-exchange-models.md)
 
----
 
 - **Using FIXM in Support of FF-ICE**
   - [The FF-ICE Application for FIXM](fixm-in-support-of-ffice/ffice-application-for-fixm.md)
