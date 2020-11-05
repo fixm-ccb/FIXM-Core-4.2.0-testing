@@ -1,5 +1,4 @@
 - **General Guidance**
-  - [Target audience](general-guidance/target-audience.md)
   - [FIXM Core](general-guidance/fixm-core.md)
   - [FIXM Applications](general-guidance/applications.md)
   - [Extensions](general-guidance/extensions.md)
@@ -16,10 +15,10 @@
 
 
 - **Using FIXM in Support of FF-ICE**
-  - [Target audience](fixm-in-support-of-ffice/target-audience.md)
   - [The FF-ICE Application for FIXM](fixm-in-support-of-ffice/ffice-application-for-fixm.md)
   - [FF-ICE Message Templates](fixm-in-support-of-ffice/message-templates.md)
   - [Translating FF-ICE FIXM Messages to ATS Messages](fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md)
+  - [Mapping of ATS Fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
 
 
 - **Using FIXM for other use cases**
@@ -45,16 +44,11 @@
   - [Create Extension Content](how-to-create-fixm-extension/create-extension-content.md)
   - [Generate the Extension Schemas](how-to-create-fixm-extension/generate-extension-schemas.md)
   - [Post-Process the Extension Schemas](how-to-create-fixm-extension/post-process-extension-schemas.md)
-  - [Sample XML](how-to-create-fixm-extension/sample-xml.md)
 
 
 - **How to generate XML Schemas from a FIXM model using Sparx Enterprise Architect**
   - [Generating Schemas from the Logical Model](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model.md)
   - [Post-processing the FIXM Schemas](how-to-generate-xml-schemas/post-processing-the-fixm-schemas.md)
-
-
-- **Use of Schematron**
-  - [Use of Schematron](use-of-schematron/use-of-schematron.md)
 
 
 - **FIXM Development Tool Compatibility**
@@ -65,6 +59,3 @@
   - [Future Testing](fixm-development-tool-compatibility/future-testing.md)
   - [Platform Support Matrix](fixm-development-tool-compatibility/platform-support-matrix.md)
 
-
-- **ATS Message to FIXM Mapping**
-  - [Mapping of ATS Fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
