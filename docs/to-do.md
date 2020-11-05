@@ -16,8 +16,8 @@ This is just a to-do list to track pending things.
 - [ ] We can improve codeblocks by formatting the code to avoid horrizontal scrollbars FIX: break some lines
 - [ ] FAA to provide image for extensions section with NAS extension (Ask TJ)
 
-- [ ] Alignment with Initial Load proposal: move section `ATS MESSAGE TO FIXM MAPPING` under `USING FIXM IN SUPPORT OF FF-ICE`, move section `USE OF SCHEMATRON` under `General rules for data correctness`, delete section `Sample XML`
-- [ ] Enrich the list of Acronyms which is currently not in synch with the content of the initial load (acronyms not appearing in the initial load have been removed already from the list)
+- [x] Alignment with Initial Load proposal: move section `ATS MESSAGE TO FIXM MAPPING` under `USING FIXM IN SUPPORT OF FF-ICE`, move section `USE OF SCHEMATRON` under `General rules for data correctness`, delete section `Sample XML`
+- [x] Enrich the list of Acronyms which is currently not in synch with the content of the initial load (acronyms not appearing in the initial load have been removed already from the list)
 
 
 ## Proposals
@@ -26,10 +26,12 @@ This is just a to-do list to track pending things.
 - [ ] Revisit usage of bold and italics
 - [ ] Text refering to examples is sometimes above and sometimes bellow. This could be harmonised (not urgent)
 - [ ] We should document markdown practices for the FIXM user manual. For example: Use `inline code` when refering to a FIXM package, class, property, pattern or value.
+- [x] Include links to the AIRM.aero into the list of acronyms (home page)
+
 
 ## Notes from TIM Meeting
 
 - [x] Use **FIXM Application** instead of FIXM Application Library
-- [ ] "Potential shortcomings of XSD..." new title (see proposal in slides)
-- [ ] Add note on namespaces (see slides)
+- [x] "Potential shortcomings of XSD..." new title (see proposal in slides)
+- [x] Add note on namespaces (see slides)
 - [ ] Prepare diagram for users to choose if extension
