@@ -12,7 +12,7 @@ This is just a to-do list to track pending things.
 - [x] Page width
 - [x] Complete initial load
 
-- [ ] Usage of [...] in code blocks is not compatible with sintax highlighting FIX: use comments or quotes for those
+- [x] Usage of [...] in code blocks is not compatible with sintax highlighting FIX: use comments or quotes for those
 - [ ] We can improve codeblocks by formatting the code to avoid horrizontal scrollbars FIX: break some lines
 - [ ] FAA to provide image for extensions section with NAS extension (Ask TJ)
 
