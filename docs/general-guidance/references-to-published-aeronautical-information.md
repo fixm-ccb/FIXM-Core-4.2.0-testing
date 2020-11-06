@@ -91,9 +91,8 @@ within the FIXM (Base) namespace[5].
 </xs:complexType>
 ```
 
-</p>
-<p><em>Complex type <strong>DesignatedPointType</strong> in<br />
-file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
+<em>Complex type <strong>[DesignatedPointType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DesignatedPointType.html)</strong> in file<br />
+[AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -369,8 +368,7 @@ to these cases. The following table quotes a few random examples.
 </xs:complexType>
 ```
 
-</p>
-<p><em>Complex type <strong>NavaidType</strong> in<br />
+<em>Complex type <strong>[NavaidType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_NavaidType.html)</strong> in<br />
 file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
@@ -543,8 +541,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 </xs:complexType> 
 ```
 
-</p>
-<p><em>Complex types <strong>AerodromeReferenceType</strong> in file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
+<em>Complex types <strong>[AerodromeReferenceType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AerodromeReferenceType.html)</strong> in file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -691,8 +688,7 @@ is at the discretion of the consuming system / service.
 </xs:complexType>
 ```
 
-</p>
-<p><em>Simple type <strong>RunwayDirectionDesignatorType</strong> in<br />
+<em>Simple type <strong>[RunwayDirectionDesignatorType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RunwayDirectionDesignatorType.html)</strong> in<br />
 file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
@@ -787,8 +783,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 </xs:complexType>
 ```
 
-</p>
-<p><em>Simple type <strong>RouteDesignatorType</strong> in<br />
+<em>Simple type <strong>[RouteDesignatorType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RouteDesignatorType.html)</strong> in<br />
 file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
@@ -900,8 +895,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 </xs:simpleType>
 ```
 
-</p>
-<p><em>Simple types <strong>SidStarReferenceType</strong> in file<br />
+<em>Simple types <strong>[SidStarReferenceType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SidStarReferenceType.html)</strong> in file<br />
 [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
@@ -1012,8 +1006,7 @@ specification, chapter 7.4. Example:
 </xs:complexType>
 ```
 
-</p>
-<p><em>Simple type <strong>AirspaceDesignatorType</strong> in<br />
+<em>Simple type <strong>[AirspaceDesignatorType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AirspaceDesignatorType.html)</strong> in<br />
 file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
@@ -1124,8 +1117,7 @@ Examples (NOT for OPERATIONAL USE)
 </xs:complexType> 
 ```
 
-</p>
-<p><em>Complex type <strong>ATCUnitReferenceType</strong> in file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
+<em>Complex type <strong>[AtcUnitReferenceType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AtcUnitReferenceType.html)</strong> in file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
