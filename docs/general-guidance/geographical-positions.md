@@ -36,8 +36,8 @@ single location given by a direct position.
 </xs:complexType>
 ```
 
-<em>Complex type <strong>[GeographicalPositionType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GeographicalPositionType.html)</strong> in file<br />
-[AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
+<em>Complex type <strong>[GeographicalPositionType][GeographicalPositionType]</strong> in file<br />
+[AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -132,3 +132,6 @@ geospatial data. The reasons for not adopting GML are the following:
     implement particularly in certain environments. For instance, .NET
     technologies have been identified as *incompatible* with the GML
     usage.
+
+[AeronauticalReference.xsd]: https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd
+[GeographicalPositionType]: https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GeographicalPositionType.html
