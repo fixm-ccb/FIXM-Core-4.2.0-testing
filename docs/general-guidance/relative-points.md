@@ -30,9 +30,8 @@
 </xs:complexType>
 ```
 
-</p>
-<p><em>Complex type <strong>RelativePointType</strong> in<br />
-file AeronauticalReference.xsd</em></p></td>
+<em>Complex type <strong>[RelativePointType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RelativePointType.html)</strong> in<br />
+file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
