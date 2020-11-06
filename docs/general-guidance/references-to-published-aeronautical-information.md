@@ -93,7 +93,7 @@ within the FIXM (Base) namespace[5].
 
 </p>
 <p><em>Complex type <strong>DesignatedPointType</strong> in<br />
-file AeronauticalReference.xsd</em></p></td>
+file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -371,7 +371,7 @@ to these cases. The following table quotes a few random examples.
 
 </p>
 <p><em>Complex type <strong>NavaidType</strong> in<br />
-file AeronauticalReference.xsd</em></p></td>
+file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -544,7 +544,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 ```
 
 </p>
-<p><em>Complex types <strong>AerodromeReferenceType</strong> in file AeronauticalReference.xsd</em></p></td>
+<p><em>Complex types <strong>AerodromeReferenceType</strong> in file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -693,7 +693,7 @@ is at the discretion of the consuming system / service.
 
 </p>
 <p><em>Simple type <strong>RunwayDirectionDesignatorType</strong> in<br />
-file AeronauticalReference.xsd</em></p></td>
+file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -789,7 +789,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 </p>
 <p><em>Simple type <strong>RouteDesignatorType</strong> in<br />
-file AeronauticalReference.xsd</em></p></td>
+file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -902,7 +902,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 </p>
 <p><em>Simple types <strong>SidStarReferenceType</strong> in file<br />
-AeronauticalReference.xsd</em></p></td>
+[AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -1014,7 +1014,7 @@ specification, chapter 7.4. Example:
 
 </p>
 <p><em>Simple type <strong>AirspaceDesignatorType</strong> in<br />
-file AeronauticalReference.xsd</em></p></td>
+file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -1125,7 +1125,7 @@ Examples (NOT for OPERATIONAL USE)
 ```
 
 </p>
-<p><em>Complex type <strong>ATCUnitReferenceType</strong> in file AeronauticalReference.xsd</em></p></td>
+<p><em>Complex type <strong>ATCUnitReferenceType</strong> in file [AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
