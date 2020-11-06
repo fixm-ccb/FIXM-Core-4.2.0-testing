@@ -15,19 +15,19 @@ Table 1: Correspondences between FF-ICE Message templates and their ICAO Doc 996
 
 | **FF-ICE Message templates** | **Associated Requirements from the FF-ICE Implementation Guidance Manual, Appendix C** |
 |-|-|
-| FiledFlightPlan              | C-4 Filed Flight Plan                                                                  |
-| FilingStatus                 | C-5 Filing Status                                                                      |
-| FlightArrival                | C-13 Flight Arrival                                                                    |
-| FlightCancellation           | C-8 Flight Cancellation                                                                |
-| FlightDataRequest            | C-10 Flight Data Request                                                               |
-| FlightDataResponse           | C-11 Flight Data Response                                                              |
-| FlightDeparture              | C-12 Flight Departure                                                                  |
-| FlightPlanUpdate             | C-9 Flight Plan Update                                                                 |
-| PlanningStatus               | C-3 Planning Status                                                                    |
-| PreliminaryFlightPlan        | C-2 Preliminary Flight Plan                                                            |
-| SubmissionResponse           | C-1 Submission Response                                                                |
-| TrialRequest                 | C-6 Trial Request                                                                      |
-| TrialResponse                | C-7 Trial Response                                                                     |
+| [FiledFlightPlan][FficeFFP]              | C-4 Filed Flight Plan                                                                  |
+| [FilingStatus][FficeFS]                  | C-5 Filing Status                                                                      |
+| [FlightArrival][FficeFA]                 | C-13 Flight Arrival                                                                    |
+| [FlightCancellation][FficeFC]            | C-8 Flight Cancellation                                                                |
+| [FlightDataRequest][FficeFDRQ]           | C-10 Flight Data Request                                                               |
+| [FlightDataResponse][FficeFDRP]          | C-11 Flight Data Response                                                              |
+| [FlightDeparture][FficeFD]               | C-12 Flight Departure                                                                  |
+| [FlightPlanUpdate][FficeFPU]             | C-9 Flight Plan Update                                                                 |
+| [PlanningStatus][FficePS]                | C-3 Planning Status                                                                    |
+| [PreliminaryFlightPlan][FficePFP]        | C-2 Preliminary Flight Plan                                                            |
+| [SubmissionResponse][FficeSR]            | C-1 Submission Response                                                                |
+| [TrialRequest][FficeTRQ]                 | C-6 Trial Request                                                                      |
+| [TrialResponse][FficeTRP]                | C-7 Trial Response                                                                     |
 
 The FF-ICE Message templates define concretely the restricted subsets of the FF-ICE Message data elements of the FIXM Core flight elements that are relevant for each FF-ICE message transaction. They explicitly
 declare which elements are mandatory, optional or irrelevant in each
@@ -99,3 +99,21 @@ Restricted classes require the restricted versions of associated
 sub-classes. XSD complex type restrictions are therefore linked together to form an entire restricted message. This provides clear guidance on how the FF-ICE message template is constructed.
 
 ![Explanations](.//media/image35.png "Explanations")
+
+
+[FficeFFP]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/filedflightplan/fficemessage/FficeFFP_FficeMessage.xsd
+[FficeFS]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/filingstatus/fficemessage/FficeFS_FficeMessage.xsd
+[FficeFA]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/flightarrival/fficemessage/FficeFA_FficeMessage.xsd
+[FficeFC]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/flightcancellation/fficemessage/FficeFC_FficeMessage.xsd
+[FficeFDRQ]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/flightdatarequest/fficemessage/FficeFDRQ_FficeMessage.xsd
+[FficeFDRP]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/flightdataresponse/fficemessage/FficeFDRP_FficeMessage.xsd
+[FficeFD]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/flightdeparture/fficemessage/FficeFD_FficeMessage.xsd
+[FficeFPU]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/flightplanupdate/fficemessage/FficeFPU_FficeMessage.xsd
+[FficePS]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/planningstatus/fficemessage/FficePS_FficeMessage.xsd
+[FficePFP]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/preliminaryflightplan/fficemessage/FficePFP_FficeMessage.xsd
+[FficeSR]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/submissionresponse/fficemessage/FficeSR_FficeMessage.xsd
+[FficeTRQ]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/trialrequest/fficemessage/FficeTRQ_FficeMessage.xsd
+[FficeTRP]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/trialresponse/fficemessage/FficeTRP_FficeMessage.xsd
+
+
+
