@@ -36,8 +36,8 @@ single location given by a direct position.
 </xs:complexType>
 ```
 
-<em>Complex type <strong>GeographicalPositionType</strong> in file<br />
-AeronauticalReference.xsd</em></p></td>
+<em>Complex type <strong>[GeographicalPositionType](https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GeographicalPositionType.html)</strong> in file<br />
+[AeronauticalReference.xsd](https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd)</em></p></td>
 </tr>
 </tbody>
 </table>
