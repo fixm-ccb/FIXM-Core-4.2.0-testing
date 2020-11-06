@@ -8,7 +8,7 @@ This is just a to-do list to track pending things.
 - [ ] Image captions (Should they include the **Figure** title?) (tooltip)
 - [ ] Footnotes (as a Notes section per page) (Check if this can be excluded from sidebar)
 - [ ] External links / References (home page with complete list of references, and add invisible list of references for maintenance)
-- [ ] FIXM Schema links (Step1: add links for xsd files e.g. https://fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/filingstatus/flight/flightroutetrajectory/FficeFS_FlightRouteTrajectory.xsd)
+- [x] FIXM Schema links (Step1: add links for xsd files e.g. https://fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/filingstatus/flight/flightroutetrajectory/FficeFS_FlightRouteTrajectory.xsd).
 - [x] Page width
 - [x] Complete initial load
 
