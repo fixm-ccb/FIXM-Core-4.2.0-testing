@@ -8,7 +8,7 @@
 
 |Applicable Release| Implementation Guidance |
 |:-|:------|
-| **[FIXM Core 4.2.0](https://www.fixm.aero/release.pl?rel=FIXM-4.2.0)**<br>and related applications<br>- **[FF-ICE Application](https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)**<br>- **[Basic Application](https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0)** | [HTML]() (This web site)<br>[zip]()<br><br><br>|
+| **[FIXM Core 4.2.0][FIXM Core 4.2.0]**<br>and related applications<br>- **[FF-ICE Application][FF-ICE Application]**<br>- **[Basic Application][Basic Application]** | [HTML]() (This web site)<br>[zip]()<br><br><br>|
 
 *Note: Implementation guidance for the older FIXM Core 4.1.0 version can be downloaded as a [zip](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) file.*
 
@@ -31,13 +31,13 @@
 
 This sites aims to build a "community knowledge" about the implementation of FIXM. You can contribute to its evolution by submitting content and by supporting the technical exchanges of the FIXM Community using the FIXM Work Area.
 
-- [SUBMIT CONTENT](https://www.fixm.aero/content/contact.pl?category=Technical&version=Other&versionOther=FIXM%20User%20Manual&details=Describe%20proposed%20content%20here)
-- [ACCESS THE FIXM WORK AREA](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
+- [SUBMIT CONTENT][SUBMIT CONTENT]
+- [ACCESS THE FIXM WORK AREA][ACCESS THE FIXM WORK AREA]
 
 ?> No access yet to the FIXM Work Area? Register now!
 
-1. Create a OneSky Online account (*This step can be skipped if you have already an account*) : Access [OneSky Online](https://ext.eurocontrol.int/), click on `New user? Register now.`, fill in the form and click on `Submit`
-2. Get access to OneSky Teams: Access [OneSky Teams](https://ost.eurocontrol.int/Pages/default.aspx), and log in with your credentials obtained in Step 1
+1. Create a OneSky Online account (*This step can be skipped if you have already an account*) : Access [OneSky Online][OneSky Online], click on `New user? Register now.`, fill in the form and click on `Submit`
+2. Get access to OneSky Teams: Access [OneSky Teams][OneSky Teams], and log in with your credentials obtained in Step 1
 3. Request access to the FIXM Work Area: Click on `All Teams` in the top navigation, browse for the FIXM Work Area and click on its title, click on `Access can be requested via this link`, and send the access request.
 4. You will then receive an email when the request is approved, with the link to the FIXM Work Area
 
@@ -109,6 +109,9 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | XSLT             | Extensible Stylesheet Language Transformations |
 
 
+[FIXM Core 4.2.0]: https://www.fixm.aero/release.pl?rel=FIXM-4.2.0
+[FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0
+[Basic Application]: https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0
 
 [AIP]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AIP
 [AIRM]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AIRM
@@ -144,4 +147,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 [W3C]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#W3C
 [WGS-84]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#WGS84
 
-
+[OneSky Online]: https://ext.eurocontrol.int/
+[OneSky Teams]: https://ost.eurocontrol.int/Pages/default.aspx
+[ACCESS THE FIXM WORK AREA]: https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx
+[SUBMIT CONTENT]: https://www.fixm.aero/content/contact.pl?category=Technical&version=Other&versionOther=FIXM%20User%20Manual&details=Describe%20proposed%20content%20here
