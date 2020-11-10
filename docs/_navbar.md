@@ -1,5 +1,7 @@
 <!-- _navbar.md -->
 
+* ![Image](.//media/FIXM_user_manual.png)
+
 * Getting started
 
   * [FIXM Core](general-guidance/fixm-core)
