@@ -3,13 +3,14 @@
 The FIXM models are heavily annotated with stereotypes that allow Sparx
 Enterprise Architect (EA) to convert the logical model into XML schema
 files. This section describes how to invoke XSD generation in Sparx
-EA[36].
+EA<sup><a href="#how-to-generate-xml-schemas/generating-schemas-from-the-logical-model&id=notes">[1]</a></sup>
+.
 
 1. Open the .eap file that contains the Logical Model you would like to
     build.
 
 2. Select the component of the model you would like to build in Project
-    Browser[37]. For this example, we will be building FIXM Core (model
+    Browser<sup><a href="#how-to-generate-xml-schemas/generating-schemas-from-the-logical-model&id=notes">[2]</a></sup>. For this example, we will be building FIXM Core (model
     available at
     <https://fixm.aero/releases/FIXM-4.2.0/FIXM_Core_v4.2.0.eap>).
 
@@ -57,3 +58,9 @@ EA[36].
     ![Image](.//media/image233.png)
 
     The Progress section of the dialogue box will show each package being built and will eventually display “Schema Generation Complete” when finished. There should be no error or warning messages displayed during this process.
+
+## Notes
+
+[1]: The FIXM development team uses Sparx Systems Enterprise Architect version 13.5, build 1352 for all development work.  
+  
+[2]: This could be the root package of an entire FIXM product (for example, the Core package or the FficeMessage package under Applications) or a particular sub-section or individual sub-package (for example, the Base package under Core or the EnRoute package under Flight) of a FIXM product.  
