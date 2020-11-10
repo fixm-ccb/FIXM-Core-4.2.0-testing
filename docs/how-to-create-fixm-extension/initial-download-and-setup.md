@@ -13,7 +13,7 @@ Extension.
 
 4. Rename the .eap file to something appropriate for your Extension.
 
-5. Open the model (the .eap file) with Sparx Enterprise Architect[32]
+5. Open the model (the .eap file) with Sparx Enterprise Architect<sup><a href="#how-to-create-fixm-extension/initial-download-and-setup&id=notes">[1]</a></sup>
     (EA).
 
 For this guided example, the extension will target both Core and
@@ -24,3 +24,7 @@ The starting basic directory structure for the example environment is
 shown below.
 
 ![Image](.//media/image197.png)
+
+## Notes
+
+[1]: The FIXM development team uses Sparx Systems Enterprise Architect version 13.5, build 1352 for all development work.
