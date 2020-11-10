@@ -118,10 +118,10 @@ redundancy. The relevant items in the FIXM logical model are class
 `FlightCapabilities` and its associations `navigation`, `communication`
 and `standardCapabilities`.
 
--   When creating a FIXM object from ATS message content, ignore code
-    `N` in field 10a[11].
+- When creating a FIXM object from ATS message content, ignore code
+    `N` in field 10a<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md&id=notes">[1]</a></sup>.
 
--   When creating ATS message content from a FIXM object, insert `N` in
+- When creating ATS message content from a FIXM object, insert `N` in
     field 10a if an instance of class `FlightCapabilities` is absent, or
     it is present and associations `navigation`, `communication` and
     `standardCapabilities` are all absent.
@@ -145,7 +145,7 @@ does not explicitly model the field 10a code `R`. Rather it leaves that
 code implicit to avoid redundancy.
 
 -   When creating a FIXM object from ATS message content, ignore code
-    `R` in field 10a[12].
+    `R` in field 10a<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md&id=notes">[2]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `R` in
     field 10a if one or more PBN codes are present in the navigation
@@ -159,7 +159,8 @@ DAT). FIXM does not explicitly model field 10a code `Z`. Rather, it
 leaves that code implicit to avoid redundancy.
 
 -   When creating a FIXM object from ATS message content, ignore code
-    `Z` in field 10a[13].
+    `Z` in field 10a
+<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md&id=notes">[3]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `Z` in
     field 10a if at least one of the “other navigation, communication or
@@ -224,7 +225,8 @@ The relevant items in the FIXM logical model are class
 `FlightCapabilities` and its association `surveillance`.
 
 -   When creating a FIXM object from ATS message content, ignore code
-    `N` in field 10b[14].
+    `N` in field 10b
+<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md&id=notes">[4]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `N` in
     field 10b if an instance of class `FlightCapabilities` is absent, or
@@ -259,7 +261,7 @@ is expressed as a four digit UTC value (HHMM). The date on which the
 flight departs optionally appears in field 18 DOF (YYMMDD). FIXM encodes
 such values as a full date/time, not as distinct date and time values.
 As such, the full and unambiguous departure date/time of a flight is
-composed from fields 13b and 18 DOF[15].
+composed from fields 13b and 18 DOF<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md&id=notes">[5]</a></sup>.
 
 Figure 35 presents the object model corresponding to highlighted parts
 of the following flight plan fragment.
@@ -1142,3 +1144,15 @@ their goals using the type of FIXM product described in the section.
 When appropriate, these use cases are paired with the step-by-step
 examples of how to build various FIXM products provided in the
 Appendices at the end of this document.
+
+## Notes
+
+[1]: It is assumed that validation of the flight plan ensures when code ‘N’ is included in field 10a, no other code is included, but such validation is not part of the translation rules.
+
+[2]: It is assumed that validation of the flight plan ensures the field 10a code ‘R’ is always paired with field 18 PBN, but such validation is not part of the translation rules.
+
+[3]: It is assumed that validation of the flight plan ensures the field 10a code ‘Z’ is always paired with at least one of field 18 NAV, COM or DAT, but such validation is not part of the translation rules.
+
+[4]: It is assumed that validation of the flight plan ensures when code ‘N’ is included in field 10b, no other code is included, but such validation is not part of the translation rules.
+
+[5]: If field 18 DOF is omitted it is necessary to apply business rules to calculate the date of flight. Such business rules are outside the scope of this chapter. The responsibility lies with individual stakeholders.
