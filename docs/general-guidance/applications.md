@@ -97,7 +97,7 @@ validate.
 - XSD restrictions represent a natural use of the XSD standard;
 
 - XSD restrictions deliver benefits in terms of model development and
-    maintenance. [3]
+    maintenance. <sup><a href="general-guidance/applications&id=notes">[2]</a></sup>
 
 ### XSD Profiles as a potential alternative to XSD Restrictions
 
@@ -129,3 +129,5 @@ development environment being used. See also FIXM DEVELOPMENT TOOL COMPATIBILITY
 ## Notes
 
 [1]: They should not, however, include any additional flight data structures needed to support the specific data exchange.  If such fields are required, they should be supplied via Extensions.
+
+[2]: When newer versions of FIXM products are released, upgrading the restrictions only requires updating the reference to the newer versions and implementing the ad-hoc adaptations only for the parts that have changed.
