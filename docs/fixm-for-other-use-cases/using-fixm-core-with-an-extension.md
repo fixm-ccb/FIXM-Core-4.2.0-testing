@@ -87,7 +87,7 @@ same areas of FIXM without interfering with each other.
 The simplest way to allow multiple Extensions to work together in a
 single XML document is to create a new schema file that imports all the
 needed components (Core, Application, and Extensions) into one
-place[16]. This new schema can be used as the root schema file for XML
+place<sup><a href="fixm-for-other-use-cases/using-fixm-core-with-an-extension&id=notes">[1]</a></sup>. This new schema can be used as the root schema file for XML
 validators and utilities. Each Extension can then be applied to its own
 extension hook, and the multiple Extensions can used together as needed.
 
@@ -155,3 +155,7 @@ As noted above, the best way to approach this matter is currently under
 investigation so this example is only provided to illustrate the issues
 involved, not detail the recommended solution. This section will be
 updated as appropriate after best practices have been established.
+
+## Notes
+
+[1]: Note that each Extension must target the same version of FIXM Core and/or Application Library in order to be used together.  For example, you cannot combine one Extension that uses FIXM Core 4.2.0 with another Extension that uses FIXM Core 4.1.0.  
