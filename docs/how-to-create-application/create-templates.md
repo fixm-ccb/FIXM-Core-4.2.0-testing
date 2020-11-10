@@ -34,7 +34,7 @@ noted below.
     outlined in [Apply Schema Stereotype](#apply-schema-stereotype) and
     [Set Up Schema Properties](#set-up-schema-properties) above using
     the same *Target Namespace* and *Prefix* as was used for your
-    Application package[24].
+    Application package<sup><a href="#how-to-create-application/create-templates&id=notes">[1]</a></sup>.
 
     ![Image](.//media/image101.png)
 
@@ -102,7 +102,7 @@ repeating all the steps from the previous section.
     ![Image](.//media/image108.png)
 
 4. Repeat the above “Paste Package from Clipboard” step for each
-    message template you would like to create[25]. In this example, we
+    message template you would like to create<sup><a href="#how-to-create-application/create-templates&id=notes">[2]</a></sup>. In this example, we
     will create two message templates. When finished, your Project
     Browser should display something similar to below.
 
@@ -171,7 +171,7 @@ and the *Schema File* field of their schema properties.
     Package](#create-an-application-package) to recreate, under your
     message template container, the packages you wish to restrict in
     your template. All names, properties, descriptions, tags, etc.,
-    should be the same[26] except:
+    should be the same<sup><a href="#how-to-create-application/create-templates&id=notes">[3]</a></sup>. except:
 
         a.  If your package has an associated diagram, change the diagram
             *Name* to include your template’s prefix. While not strictly
@@ -314,7 +314,7 @@ When constructing a template, we found it easiest to start at the leaf
 
 Any class attributes and associations that resolve to XML elements in
 the physical model that are not included in a restricted class will be
-removed[27]. At this point, our example restricted class is completely
+removed<sup><a href="#how-to-create-application/create-templates&id=notes">[4]</a></sup>. At this point, our example restricted class is completely
 empty. The next step is to add back in the attributes and associations
 you wish to retain.
 
@@ -438,7 +438,7 @@ In this example, the first association we will add back in is
 
     ![Image](.//media/image138.png)
 
-    Sparx EA automatically displays any associations between classes you add to a diagram. Above you will notice this for the existing associations “flightType” and “flightIdentification”. To improve the readability of your diagrams, it is recommended you hide (not delete[28]) these associations.
+    Sparx EA automatically displays any associations between classes you add to a diagram. Above you will notice this for the existing associations “flightType” and “flightIdentification”. To improve the readability of your diagrams, it is recommended you hide (not delete<sup><a href="#how-to-create-application/create-templates&id=notes">[5]</a></sup>) these associations.
 
 3. Right click on the any existing associations you do not want to show
     in your diagram and choose “Visibility” and then “Hide Connector”.
@@ -462,7 +462,7 @@ above in [Set Up Restricted Class
 Associations](#set-up-restricted-class-associations), this chaining
 together of restricted classes (ultimately all the way back to the root
 class of your Application) is the means by which templates are formed
-and enforced[29].
+and enforced<sup><a href="#how-to-create-application/create-templates&id=notes">[6]</a></sup>.
 
 Below are a series of screenshots capturing key steps taken along the
 way to completing the restricted FlightData package. Each of these steps
@@ -652,7 +652,7 @@ needed for this version of the package.
     copied package in Project Browser to access and adjust the schema
     properties. In this example, only the *Schema Location* field needs
     to be adjusted. It should be modified to use:
-    “.\\schemas\\applications\\examplemessage\\exampletemplates\\departurealert\\flight\\flightdata\\ExampleDA\_FlightData.xsd”[30].
+    “.\\schemas\\applications\\examplemessage\\exampletemplates\\departurealert\\flight\\flightdata\\ExampleDA\_FlightData.xsd”<sup><a href="#how-to-create-application/create-templates&id=notes">[7]</a></sup>.
     Click OK to save the new settings.
 
 2. Again, double click (or right click and choose “Properties…”) on
@@ -693,7 +693,7 @@ needed for this version of the package.
     right click it and choose “Open”).
 
 8. Note any connectors that are no longer desired. Delete these by
-    right clicking on them and choosing “Delete Connector”[31]. In this
+    right clicking on them and choosing “Delete Connector”<sup><a href="#how-to-create-application/create-templates&id=notes">[8]</a></sup>. In this
     example, the “arrival” connector between ExampleDA\_Flight and
     ExampleAA\_Arrival is no longer desired and should be removed.
 
@@ -818,3 +818,21 @@ Browser and the schemas directory structure.
 ![Image](.//media/image193.png)
 
 ![Image](.//media/image194.png)
+
+## Notes
+
+[1]: This is important because XSD complex type restrictions, the mechanism used to create the templates, must use the same namespace as the types they restrict.  Because of this, different versions of templates are not able to use distinct namespaces to distinguish themselves from each other. Tying the versioning of the templates to the versioning of the Application package and changing that versioning each time the templates change solves this issue.
+
+[2]: Note that these pastes must be performed back to back.  If you go back and re-copy the package after the first paste, any additional sub-packages added will be copied as well and would then need to be manually deleted.
+
+[3]: Note, this only applies to the package itself – not the contents of the package.  Creating the contents of the message template is covered in Create Template Contents.
+
+[4]: XML attributes, rarely used in this version of FIXM, are handled differently.  If you wish to remove an XML attribute from your restricted class, the field must be retained but the “use” tag associated with the field must be set to a value of “prohibited”.
+
+[5]: If deleted, these associations will be removed entirely from the model, including Core!  It is very important that you do not do this.
+
+[6]: It is important to note that this substitution of a restricted class for the class it is derived from can also be done for attributes.  If your templates add restrictions to any classes defined in Core’s Base package, use them when specifying the Type field of your attributes as needed.  The FficeMessage templates provide examples of this for the PersonOrOrganization class.
+
+[7]: Don’t forget to create any needed directories outside of Sparx EA to accommodate your schema structure.
+
+[8]: Note that it is very important to explicitly delete any unwanted connectors.  If you instead delete the class in the diagram that the connector is attached to, this will remove the connector from the diagram but it will still exist within the model.  This can cause undesired elements to be created when generating the physical model.
