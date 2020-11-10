@@ -138,7 +138,7 @@ You can now begin to add content to your new Extension class.
 
 1. Right click on the class in the diagram and choose “Features and
     Properties” and then “Attributes…”. This opens the Features dialogue
-    box. In the Features dialogue box, you can add any attributes[35]
+    box. In the Features dialogue box, you can add any attributes<sup><a href="#how-to-create-fixm-extension/create-extension-content&id=notes">[1]</a></sup>
     needed for your Extension to your class.
 
     ![Image](.//media/image215.png)
@@ -215,3 +215,7 @@ You can now begin to add content to your new Extension class.
     ![Image](.//media/image226.png)
 
     ![Image](.//media/image227.png)
+
+## Notes
+
+[1]: In FIXM, attributes are standardly used when the field you are adding is of a Type defined in the Core’s Base package.  When defining your own types, they are standardly attached to a class by using an association instead.  In this example, we will be adding a new field of type GeographicalPosition from the AeronauticalReference package under Base so using an attribute is the appropriate choice.
