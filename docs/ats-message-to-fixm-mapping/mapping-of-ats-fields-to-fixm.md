@@ -642,7 +642,7 @@ found.**). As such, there is no equivalent of ATS field 3 in FIXM.
 </thead>
 <tbody>
 <tr class="odd">
-<td>20a<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+<td>20a<sup><a href="#ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm&id=notes">[1]</a></sup></td>
 <td>Base.Organization</td>
 <td>AircraftOperatorDesignator</td>
 <td><p>[ICAO designator specified]</p>
@@ -732,3 +732,7 @@ there are no mapping rules for field 22. The mapping of the information
 that can be specified in field 22 is captured in the other fields. For
 example, the entry *-7/NEWACID* in field 22 has the same mapping as if
 *–NEWACID* appeared in field 7 (on page 110).
+
+## Notes
+
+[1]: Field 20a maps to the same FIXM field as field 18 OPR. An ALR can include field 18 and field 20 with potentially conflicting values. Further consideration of this is required.
