@@ -1,7 +1,7 @@
 # The use of other exchange models
 
 *An information exchange model is designed to enable the sharing of
-information in a digital format within a specific domain*[6] (e.g. AIXM
+information in a digital format within a specific domain*<sup><a href="general-guidance/the-use-of-other-exchange-models&id=notes">[1]</a></sup> (e.g. AIXM
 for the aeronautical information domain or FIXM for the flight
 information domain). However, some ATM operations may require ATM
 information to be treated and exchanged in a more interrelated way. For
@@ -43,3 +43,7 @@ However, this approach cannot be as easily leveraged by systems already
 capable of handling the underlying exchange models used. The new model
 must first be created and incorporated into the systems that transmit
 and receive this data.
+
+## Notes
+
+[1]: From draft Volume I of the ICAO Manual on SWIM (ICAO Doc 10039)
