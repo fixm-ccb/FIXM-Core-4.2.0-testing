@@ -128,4 +128,4 @@ development environment being used. See also FIXM DEVELOPMENT TOOL COMPATIBILITY
 
 ## Notes
 
-[^1]: They should not, however, include any additional flight data structures needed to support the specific data exchange.  If such fields are required, they should be supplied via Extensions.
+[1]: They should not, however, include any additional flight data structures needed to support the specific data exchange.  If such fields are required, they should be supplied via Extensions.
