@@ -119,7 +119,7 @@ redundancy. The relevant items in the FIXM logical model are class
 and `standardCapabilities`.
 
 - When creating a FIXM object from ATS message content, ignore code
-    `N` in field 10a<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[1]</a></sup>.
+    `N` in field 10a<sup><a href="#fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[1]</a></sup>.
 
 - When creating ATS message content from a FIXM object, insert `N` in
     field 10a if an instance of class `FlightCapabilities` is absent, or
@@ -145,7 +145,7 @@ does not explicitly model the field 10a code `R`. Rather it leaves that
 code implicit to avoid redundancy.
 
 -   When creating a FIXM object from ATS message content, ignore code
-    `R` in field 10a<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[2]</a></sup>.
+    `R` in field 10a<sup><a href="#fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[2]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `R` in
     field 10a if one or more PBN codes are present in the navigation
@@ -160,7 +160,7 @@ leaves that code implicit to avoid redundancy.
 
 -   When creating a FIXM object from ATS message content, ignore code
     `Z` in field 10a
-<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[3]</a></sup>.
+<sup><a href="#fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[3]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `Z` in
     field 10a if at least one of the “other navigation, communication or
@@ -226,7 +226,7 @@ The relevant items in the FIXM logical model are class
 
 -   When creating a FIXM object from ATS message content, ignore code
     `N` in field 10b
-<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[4]</a></sup>.
+<sup><a href="#fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[4]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `N` in
     field 10b if an instance of class `FlightCapabilities` is absent, or
@@ -261,7 +261,7 @@ is expressed as a four digit UTC value (HHMM). The date on which the
 flight departs optionally appears in field 18 DOF (YYMMDD). FIXM encodes
 such values as a full date/time, not as distinct date and time values.
 As such, the full and unambiguous departure date/time of a flight is
-composed from fields 13b and 18 DOF<sup><a href="fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[5]</a></sup>.
+composed from fields 13b and 18 DOF<sup><a href="#fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages&id=notes">[5]</a></sup>.
 
 Figure 35 presents the object model corresponding to highlighted parts
 of the following flight plan fragment.

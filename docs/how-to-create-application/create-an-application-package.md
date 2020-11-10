@@ -26,7 +26,7 @@ with two templates, one for arrival alerts and one for departure alerts.
 
     b.  Choose “Class” under *Diagram Types*.
 
-    Click OK to create the Application package and its associated diagram[19].
+    Click OK to create the Application package and its associated diagram<sup><a href="#how-to-create-application/create-an-application-package&id=notes">[1]</a></sup>.
 
     ![Click OK](.//media/image58.png "Click OK")
 
@@ -67,9 +67,9 @@ schema namespace, namespace prefixes, etc.
 2. Fill in values for your schema properties as appropriate for your
     Application. In this example, we will use the following values:
 
-    a. *Target Namespace* set to: `http://www.fixm.aero/app/example/1.0` [20].
+    a. *Target Namespace* set to: `http://www.fixm.aero/app/example/1.0` <sup><a href="#how-to-create-application/create-an-application-package&id=notes">[2]</a></sup>.
 
-    b. *Prefix* set to: “xmg”[21].
+    b. *Prefix* set to: “xmg”<sup><a href="#how-to-create-application/create-an-application-package&id=notes">[3]</a></sup>.
 
 3. You must also fill in the *Schema File* field with the path to your
     application directory and an appropriate file name. In this example,
@@ -141,3 +141,11 @@ controlled in Sparx EA via tagged values.
     below. Click OK to save these settings.
 
     ![Package dialogue box](.//media/image67.png)
+
+## Notes
+
+[1]: Note that a package in Sparx EA can have more than one associated diagram.  To date, FIXM products have only created one diagram per package, though.
+
+[2]: Though FIXM tends to use namespaces that look like URLs, the namespace value do not need to resolve to an actual location on the Internet.  The namespace is just a field used to resolve naming collisions between schemas and should, therefore, be distinctive enough to ensure a reasonably high chance it is not used by another schema.
+
+[3]: This example used “xmg” but the prefix can be set to any value that makes sense in the context of your Application.  Because it will be used throughout your generated schemas, a short prefix is typically preferred.
