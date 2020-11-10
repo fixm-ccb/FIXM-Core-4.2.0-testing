@@ -37,7 +37,7 @@ are necessary for understanding the meaning and purpose of the
 information that is exchanged in a given context. They commonly include
 message identifiers and timestamps, codes identifying business types of
 messages, and any context-specific data that qualify the associated
-message interactions<sup><a href="#notes">[1]</a></sup>.
+message interactions<sup><a href="general-guidance/applications#notes">[1]</a></sup>.
 
 Examples of message data structures can be found in the FF-ICE
 Implementation Guidance Manual. The Figure below shows the message data
