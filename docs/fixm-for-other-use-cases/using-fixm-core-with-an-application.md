@@ -2,22 +2,22 @@
 
 ## Basic Message Application
 
-The Basic Message Application is intended to enhance FIXM Core
+The `Basic Message Application` is intended to enhance FIXM Core
 by providing basic messaging support for users, including message types
 and timestamps, as well as the ability to batch multiple flight messages
 together into a single aggregate message. It also provides extension
 hooks for users who wish to add their own custom messaging fields. Users
 who only require this basic level of message support are encouraged to
-use the Basic Message Application.
+use the `Basic Message Application`.
 
 This FIXM Application contains two root fields that can be used as an
-entry point: Message and MessageCollection.
+entry point: `Message` and `MessageCollection`.
 
 ![Basic Message Application](.//media/other-using-fixm-core-with-an-application-library-01.PNG "Basic Message Application")
 
 When using Basic Message for data representation, all XML documents must
-begin with one of these two elements. Similarly, like Fixm.xsd for Core,
-the BasicMessage.xsd schema file is the root schema of the Basic Message
+begin with one of these two elements. Similarly, like `Fixm.xsd` for Core,
+the `BasicMessage.xsd` schema file is the root schema of the Basic Message
 Application and is the file that should be referenced for
 validation or use with any XML utilities.
 
@@ -29,14 +29,14 @@ linked to any particular operational use of FIXM.
 Users who wish to include additional message data structures beyond what
 is provided in Basic Message (but who do not wish to create templates
 for a pre-defined set of messages) are encouraged to do so via creating
-an Extension to Basic Message (see Section 4.3.1 and Section 4.3.3 below
+an Extension to Basic Message (see [Creating a new Extension](fixm-for-other-use-cases/using-fixm-core-with-an-extension?id=creating-a-new-extension) and [Using an Extension together with an Application](fixm-for-other-use-cases/using-fixm-core-with-an-extension?id=using-an-extension-together-with-an-application)
 for more on this). Users who wish to create message templates for their
 systems are encouraged to do so via creating their own FIXM Application
- (see Section 4.2.2 for details).
+ (see [Creating a FIXM Application](fixm-for-other-use-cases/using-fixm-core-with-an-application?id=creating-a-fixm-application) for details).
 
 ### Example: Batch Updates
 
-Returning to our fictitious user, XAS has launched a successful
+Returning to our fictitious user, `XAS` has launched a successful
 departure and arrival alert service using FIXM Core alone but is now
 interested in expanding their capabilities. Some of XAS’s consumers
 suffer from network outages and have requested an additional service
@@ -51,7 +51,7 @@ the consumer know exactly when the alert had originally been sent. XAS
 decides to construct all updates using `MessageCollection` as the root
 element to make parsing the updates more consistent and instructs
 recipients of these updates to validate the XML against
-BasicMessage.xsd. Below is a snippet of what the XML payload of such an
+`BasicMessage.xsd`. Below is a snippet of what the XML payload of such an
 update may look like.
 
 ```xml
@@ -105,17 +105,16 @@ exchange or if the user wants to create message templates to more fully
 lock down and describe their message structures and content, they should
 consider creating their own custom FIXM Application.
 
-As described in Section 2.2.2 above, FIXM Applications enhance FIXM
-Core by adding context specific message data structures and as well as
+As described in [FIXM Applications](general-guidance/applications), FIXM Applications enhance FIXM Core by adding context specific message data structures and as well as
 stricter validation rules via message templates. An Application should
 define its own namespace to distinguish it from FIXM Core as well as
 creating one or more root elements to be used as an entry point into the
 Application. If the Application includes message templates, it may have more
 than one root schema: one for using the Application alone with
 no further restrictions and one (or more) for use with the templates.
-The FF-ICE Application is a good example of this, with
+[The FF-ICE Application](fixm-in-support-of-ffice/ffice-application-for-fixm) is a good example of this, with
 users referencing FficeMessage.xsd for unrestricted use of the Application,
-FficeTemplates.xsd for making use of all thirteen templates used to
+`FficeTemplates.xsd` for making use of all thirteen templates used to
 represent the FF-ICE messages, or one of the thirteen template-specific
 schemas files corresponding to each FF-ICE message.
 
@@ -123,7 +122,7 @@ While the content and organization of a FIXM Application depends
 entirely on the needs of the data exchange it is intended to support,
 the FF-ICE and Basic Message Applications should
 provide a useful set of examples for how to build an Application with and
-without associated templates. To supplement this, Appendix A below
+without associated templates. To supplement this, [How to create a FIXM Application](how-to-create-application/initial-download-and-setup)
 provides step-by-step instructions on how to create a simple
 Application.
 
@@ -140,7 +139,7 @@ This custom FIXM Application defines its own namespace
 `http://www.fixm.aero/app/example/1.0` and root
 element (`ExampleMessage`) as well as a number of header fields needed to
 represent data XAS wants to exchange with each alert (`sender`,
-`recipient`, `timestamp`, and `type`). 
+`recipient`, `timestamp`, and `type`).
 
 ?> The namespace of the custom FIXM Application does not have to be tied to www.fixm.aero.
 
