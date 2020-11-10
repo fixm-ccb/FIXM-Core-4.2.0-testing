@@ -69,7 +69,7 @@ The EPSG:4326 CRS has latitude as the primary axis, which indicates that
 **second longitude**. This ordering convention is the one applied to the
 aviation domain.
 
-The co-ordinates are represented in FIXM by a two-valued sequence[4],
+The co-ordinates are represented in FIXM by a two-valued sequence<sup><a href="general-guidance/geographical-positions&id=notes">[1]</a></sup>,
 the first being the latitude and the second being the longitude, each of
 which is a floating point number (the decimal value in degrees). The
 direction is determined by the sign of the value, as specified in the
@@ -135,3 +135,6 @@ geospatial data. The reasons for not adopting GML are the following:
 
 [AeronauticalReference.xsd]: https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd
 [GeographicalPositionType]: https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GeographicalPositionType.html
+
+## Notes
+[1]: FIXM does not use GML but mimics it for geographic positions. GML encodes geographic locations as sequences of values since it employs the same construct to represent polygons.
