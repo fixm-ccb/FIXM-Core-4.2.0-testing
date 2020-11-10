@@ -37,7 +37,7 @@ are necessary for understanding the meaning and purpose of the
 information that is exchanged in a given context. They commonly include
 message identifiers and timestamps, codes identifying business types of
 messages, and any context-specific data that qualify the associated
-message interactions[2].
+message interactions[^1].
 
 Examples of message data structures can be found in the FF-ICE
 Implementation Guidance Manual. The Figure below shows the message data
@@ -125,3 +125,7 @@ development environment being used. See also FIXM DEVELOPMENT TOOL COMPATIBILITY
 ## How to build a FIXM Application?
 
 [This chapter](how-to-create-application/initial-download-and-setup.md.md) provides detailed guidance for creating FIXM Applications.
+
+## Notes
+
+[^1]: They should not, however, include any additional flight data structures needed to support the specific data exchange.  If such fields are required, they should be supplied via Extensions.
