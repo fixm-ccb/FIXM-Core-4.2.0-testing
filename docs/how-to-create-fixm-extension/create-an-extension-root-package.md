@@ -50,9 +50,9 @@ schema namespace, namespace prefixes, etc.
     Extension. In this example, we will use the following values:
 
     a.  *Target Namespace* set to:
-        `http://www.fixm.aero/ext/example/1.0`[33].
+        `http://www.fixm.aero/ext/example/1.0`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package&id=notes">[1]</a></sup>.
 
-    b.  *Prefix* set to: `xmp`[34].
+    b.  *Prefix* set to: `xmp`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package&id=notes">[1]</a></sup>.
 
 3. You should also specify additional namespace prefixes for any
     packages your Extension will import. In this example, we will be
@@ -135,3 +135,9 @@ controlled in Sparx EA via tagged values.
     below. Click OK to save these settings.
 
     ![Image](.//media/image207.png)
+
+## Notes
+
+[1]: Though FIXM tends to use namespaces that look like URLs, the namespace value do not need to resolve to an actual location on the Internet.  The namespace is just a field used to resolve naming collisions between schemas and should, therefore, be distinctive enough to ensure a reasonably high chance it is not used by another schema.
+
+[2]: This example used “xmp” but the prefix can be set to any value that makes sense in the context of your extension.  Because it will be used throughout your generated schemas, a short prefix is typically preferred.
