@@ -4,7 +4,7 @@ This is just a to-do list to track pending things.
 
 - [x] Review/Update Home Page
 
-- [ ] Internal references to links (search chapter)
+- [x] Internal references to links (search chapter)
 - [ ] Image captions (Should they include the **Figure** title?) (tooltip)
 - [ ] Footnotes (as a Notes section per page) (Check if this can be excluded from sidebar)
 - [ ] External links / References (home page with complete list of references, and add invisible list of references for maintenance)
@@ -18,7 +18,6 @@ This is just a to-do list to track pending things.
 
 - [x] Alignment with Initial Load proposal: move section `ATS MESSAGE TO FIXM MAPPING` under `USING FIXM IN SUPPORT OF FF-ICE`, move section `USE OF SCHEMATRON` under `General rules for data correctness`, delete section `Sample XML`
 - [x] Enrich the list of Acronyms which is currently not in synch with the content of the initial load (acronyms not appearing in the initial load have been removed already from the list)
-
 
 ## Proposals
 
