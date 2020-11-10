@@ -50,19 +50,11 @@ extension mechanism.
 ?> Example of FIXM extension satisfying the requirement on extension
 content
 
-![Image](.//media/image8.emf)
+![Image](.//media/fixm-US-extension.png)
 
 Example of FIXM extension satisfying the requirement on extension content
 
-This example is an extract from the US NAS extension to FIXM 4.1.0 \[7\]
-- Copyright (c) US Federal Aviation Administration (FAA), available on
-[www.FIXM.aero](http://www.FIXM.aero). This extract features a class
-named “NasFlight” (in blue on the diagram) that extends the core model
-element “Extension” and which defines a content that supplements the
-core model element “Flight”. The content of class “NasFlight” does not
-replace or supersede any of the existing properties of the core “Flight”
-class. The example therefore qualifies as valid usage of the extension
-mechanism.
+This example is an extract from the draft FIXM US Extension 4.3.0 - Copyright (c) US Federal Aviation Administration (FAA). This extract features a class named `NasEnRoute` (shown in cyan in the diagram) that extends FIXM Core's `EnRouteExtension` class and defines content that supplements FIXM Core's `EnRoute` class. Note that the content of the `NasEnRoute` class does not replace or supersede any of the existing properties of FIXM Core's `EnRoute` class. The example, therefore, qualifies as valid usage of the extension mechanism.  
 
 !> Example of FIXM extension NOT satisfying the requirement on extension
 content

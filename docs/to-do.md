@@ -14,7 +14,7 @@ This is just a to-do list to track pending things.
 
 - [x] Usage of [...] in code blocks is not compatible with sintax highlighting FIX: use comments or quotes for those
 - [ ] We can improve codeblocks by formatting the code to avoid horrizontal scrollbars FIX: break some lines
-- [ ] FAA to provide image for extensions section with NAS extension (Ask TJ)
+- [x] FAA to provide image for extensions section with NAS extension (Ask TJ)
 
 - [x] Alignment with Initial Load proposal: move section `ATS MESSAGE TO FIXM MAPPING` under `USING FIXM IN SUPPORT OF FF-ICE`, move section `USE OF SCHEMATRON` under `General rules for data correctness`, delete section `Sample XML`
 - [x] Enrich the list of Acronyms which is currently not in synch with the content of the initial load (acronyms not appearing in the initial load have been removed already from the list)
