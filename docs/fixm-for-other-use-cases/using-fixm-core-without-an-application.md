@@ -1,36 +1,31 @@
 # Using FIXM Core without an Application
 
 In some cases, the nature of the messaging infrastructure employed for a
-particular data exchange makes the use of Application Libraries
-unnecessary or irrelevant (perhaps due to the infrastructure’s robust
-metadata/messaging header support) or the nature of the exchange itself
-does not require any accompanying message data structures (perhaps due
-to the exchange’s simplicity). In these situations, the use of FIXM Core
-alone should be sufficient.
+particular data exchange makes the use of [FIXM Applications](general-guidance/applications.md) unnecessary or irrelevant (perhaps due to the infrastructure’s robust metadata/messaging header support) or the nature of the exchange itself does not require any accompanying message data structures (perhaps due to the exchange’s simplicity). In these situations, the use of [FIXM Core](general-guidance/fixm-core.md) alone should be sufficient.
 
 FIXM Core is the repository in which all globally applicable flight data
 structures reside. The root field of the entire flight information
-hierarchy is the Flight class (in the physical model, the Flight
+hierarchy is the `Flight` class (in the physical model, the `Flight`
 element).
 
 ![Using FIXM Core without an Application](.//media/other-using-fixm-fixm-core-without-an-application-library-01.PNG "Using FIXM Core without an Application")
 
 When using FIXM Core for data representation, all XML documents must
-begin with this Flight element. Similarly, the Fixm.xsd schema file is
+begin with this `Flight` element. Similarly, the `Fixm.xsd` schema file is
 the root schema of FIXM Core. Whether validating FIXM Core XML documents
 or using automated code generation utilities (such as JAXB), this is the
 schema file that should be referenced.
 
 ## Example: Departure/Arrival Alerts
 
-Our fictitious user XAS begins their use of FIXM wanting to publish
+Our fictitious user `XAS` begins their use of FIXM wanting to publish
 departure and arrival alerts for flights they monitor. XAS sets up a
 publishing service with which they send out arrival and departure
 messages to a single endpoint their consumers can monitor to receive the
 alerts. Due to the simplicity of their service, the use of FIXM Core
 alone is sufficient for their needs. XAS constructs XML messages
-starting with the Flight element to convey their data and instructs
-their consumers to validate these messages against FIXM Core’s Fixm.xsd
+starting with the `Flight` element to convey their data and instructs
+their consumers to validate these messages against FIXM Core’s `Fixm.xsd`
 schema file. Below is an example of how the XML payload of a departure
 alert coming from this service may appear.
 
