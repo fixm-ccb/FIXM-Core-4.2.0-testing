@@ -18,7 +18,7 @@
 - The part `USING FIXM IN SUPPORT OF FF-ICE` provides specific guidance in support of the implementation of FF-ICE using FIXM.
 - The part `USING FIXM FOR OTHER USE CASES` provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
 - The "How to" parts `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION` and `HOW TO GENERATE XML SCHEMAS ...` provide step-by-step guidance for producing new FIXM Applications and FIXM extensions (UML and XSD).
-- The part `FIXM DEVELOPMENT TOOL COMPATIBILITY` provides a Platform Support Matrix listing the tools and technologies for which compability tests have been performed for FIXM.
+- The part `FIXM DEVELOPMENT TOOL COMPATIBILITY` provides information about the tools and technologies for which compability tests have been performed for FIXM.
 
 | Your FIXM use case | Chapters relevant to you |
 |:-|:---| 
