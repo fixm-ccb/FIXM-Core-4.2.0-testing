@@ -1085,14 +1085,14 @@ geographic location (latitude/longitude), or a relative point (bearing
 and distance from a designated point). Three subclasses of
 `SignificantPoint` (which is abstract) capture the options:
 
--   Class `DesignatedPointOrNavaid` models the designator value via
+- Class `DesignatedPointOrNavaid` models the designator value via
     attribute `designator` of class `SignificantPointDesignator`.
 
--   Class `RelativePoint` models the relative point via attributes
+- Class `RelativePoint` models the relative point via attributes
     `referencePoint` (a `DesignatedPointOrNavaid`), `bearing` and
     `distance`.
 
--   Class `PositionPoint` models the point via attribute `position` of
+- Class `PositionPoint` models the point via attribute `position` of
     class `GeographicalPosition` ([see GeographicalPosition](general-guidance/geographical-positions)).
 
 Examples of significant points are presented in Figure 41 and Figure 44.
