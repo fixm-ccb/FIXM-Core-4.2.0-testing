@@ -1,4 +1,4 @@
-# FIXM User Manual
+# Welcome to the FIXM User Manual
 
 **Implementation guidance for FIXM** developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB.
 
