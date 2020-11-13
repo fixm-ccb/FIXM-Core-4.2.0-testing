@@ -329,18 +329,13 @@ to these cases. The following table quotes a few random examples.
 
 ## References to Navaid
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src=".//media/image14.png" style="width:2.33913in;height:2.82482in" /><br />
-<em>UML Class <strong>Navaid</strong> in package FIXM.Base. AeronauticalReference</em></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image14.png)
+
+UML Class `Navaid` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:complexType name="NavaidType">
@@ -359,11 +354,7 @@ to these cases. The following table quotes a few random examples.
 </xs:complexType>
 ```
 
-<em>Complex type <strong>[NavaidType][NavaidType]</strong> in<br />
-file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Complex type [NavaidType][NavaidType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
@@ -500,18 +491,13 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 ## References to Aerodromes
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image15.png" style="width:2.75652in;height:2.14502in" /></p>
-<p><em>UML Class <strong>AerodromeReference</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image15.png)
+
+UML Class `AerodromeReference` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:complexType name="AerodromeReferenceType">
@@ -529,13 +515,10 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
    </xs:sequence>
    <xs:attribute name="href" type="fb:HypertextReferenceType" use="optional">
    </xs:attribute>
-</xs:complexType> 
+</xs:complexType>
 ```
 
-<em>Complex types <strong>[AerodromeReferenceType][AerodromeReferenceType]</strong> in file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Complex types [AerodromeReferenceType][AerodromeReferenceType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
