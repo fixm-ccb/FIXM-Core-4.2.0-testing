@@ -60,7 +60,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | AIP       | Aeronautical information publication |
 | AIRM     | ATM Information Reference Model |
 | AIS       | Aeronautical information services |
-| AIXM]    | Aeronautical Information Exchange Model |
+| AIXM    | Aeronautical Information Exchange Model |
 | AMDB     | Aerodrome Mapping Database |
 | AMXM             | Aerodrome Mapping Exchange Model |
 | ATM       | Air Traffic Management |
