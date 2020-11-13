@@ -63,18 +63,13 @@ within the FIXM (Base) namespace<sup><a href="#general-guidance/references-to-pu
 
 ## References to Waypoints
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image13.png" style="width:2.37391in;height:2.98811in" /></p>
-<p><em>UML Class <strong>DesignatedPoint</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image13.png)
+
+UML Class `DesignatedPoint` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:complexType name="DesignatedPointType">
@@ -91,11 +86,7 @@ within the FIXM (Base) namespace<sup><a href="#general-guidance/references-to-pu
 </xs:complexType>
 ```
 
-<em>Complex type <strong>[DesignatedPointType][DesignatedPointType]</strong> in file<br />
-[AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Complex type [DesignatedPointType][DesignatedPointType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
