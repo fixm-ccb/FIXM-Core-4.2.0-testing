@@ -34,7 +34,7 @@ noted below.
     outlined in [Apply Schema Stereotype](#apply-schema-stereotype) and
     [Set Up Schema Properties](#set-up-schema-properties) above using
     the same *Target Namespace* and *Prefix* as was used for your
-    Application package<sup><a href="#how-to-create-application/create-templates?id=notes">[1]</a></sup>.
+    Application package<sup><a href="#how-to-create-application/create-templates?id=notes">[note 1]</a></sup>.
 
     ![Image](.//media/image101.png)
 
@@ -102,7 +102,7 @@ repeating all the steps from the previous section.
     ![Image](.//media/image108.png)
 
 4. Repeat the above “Paste Package from Clipboard” step for each
-    message template you would like to create<sup><a href="#how-to-create-application/create-templates?id=notes">[2]</a></sup>. In this example, we
+    message template you would like to create<sup><a href="#how-to-create-application/create-templates?id=notes">[note 2]</a></sup>. In this example, we
     will create two message templates. When finished, your Project
     Browser should display something similar to below.
 
@@ -171,7 +171,7 @@ and the *Schema File* field of their schema properties.
     Package](#create-an-application-package) to recreate, under your
     message template container, the packages you wish to restrict in
     your template. All names, properties, descriptions, tags, etc.,
-    should be the same<sup><a href="#how-to-create-application/create-templates?id=notes">[3]</a></sup>. except:
+    should be the same<sup><a href="#how-to-create-application/create-templates?id=notes">[note 3]</a></sup>. except:
 
         a.  If your package has an associated diagram, change the diagram
             *Name* to include your template’s prefix. While not strictly
@@ -314,7 +314,7 @@ When constructing a template, we found it easiest to start at the leaf
 
 Any class attributes and associations that resolve to XML elements in
 the physical model that are not included in a restricted class will be
-removed<sup><a href="#how-to-create-application/create-templates?id=notes">[4]</a></sup>. At this point, our example restricted class is completely
+removed<sup><a href="#how-to-create-application/create-templates?id=notes">[note 4]</a></sup>. At this point, our example restricted class is completely
 empty. The next step is to add back in the attributes and associations
 you wish to retain.
 
@@ -438,7 +438,7 @@ In this example, the first association we will add back in is
 
     ![Image](.//media/image138.png)
 
-    Sparx EA automatically displays any associations between classes you add to a diagram. Above you will notice this for the existing associations “flightType” and “flightIdentification”. To improve the readability of your diagrams, it is recommended you hide (not delete<sup><a href="#how-to-create-application/create-templates?id=notes">[5]</a></sup>) these associations.
+    Sparx EA automatically displays any associations between classes you add to a diagram. Above you will notice this for the existing associations “flightType” and “flightIdentification”. To improve the readability of your diagrams, it is recommended you hide (not delete<sup><a href="#how-to-create-application/create-templates?id=notes">[note 5]</a></sup>) these associations.
 
 3. Right click on the any existing associations you do not want to show
     in your diagram and choose “Visibility” and then “Hide Connector”.
@@ -462,7 +462,7 @@ above in [Set Up Restricted Class
 Associations](#set-up-restricted-class-associations), this chaining
 together of restricted classes (ultimately all the way back to the root
 class of your Application) is the means by which templates are formed
-and enforced<sup><a href="#how-to-create-application/create-templates?id=notes">[6]</a></sup>.
+and enforced<sup><a href="#how-to-create-application/create-templates?id=notes">[note 6]</a></sup>.
 
 Below are a series of screenshots capturing key steps taken along the
 way to completing the restricted FlightData package. Each of these steps
@@ -652,7 +652,7 @@ needed for this version of the package.
     copied package in Project Browser to access and adjust the schema
     properties. In this example, only the *Schema Location* field needs
     to be adjusted. It should be modified to use:
-    “.\\schemas\\applications\\examplemessage\\exampletemplates\\departurealert\\flight\\flightdata\\ExampleDA\_FlightData.xsd”<sup><a href="#how-to-create-application/create-templates?id=notes">[7]</a></sup>.
+    “.\\schemas\\applications\\examplemessage\\exampletemplates\\departurealert\\flight\\flightdata\\ExampleDA\_FlightData.xsd”<sup><a href="#how-to-create-application/create-templates?id=notes">[note 7]</a></sup>.
     Click OK to save the new settings.
 
 2. Again, double click (or right click and choose “Properties…”) on
@@ -693,7 +693,7 @@ needed for this version of the package.
     right click it and choose “Open”).
 
 8. Note any connectors that are no longer desired. Delete these by
-    right clicking on them and choosing “Delete Connector”<sup><a href="#how-to-create-application/create-templates?id=notes">[8]</a></sup>. In this
+    right clicking on them and choosing “Delete Connector”<sup><a href="#how-to-create-application/create-templates?id=notes">[note 8]</a></sup>. In this
     example, the “arrival” connector between ExampleDA\_Flight and
     ExampleAA\_Arrival is no longer desired and should be removed.
 

@@ -138,7 +138,7 @@ You can now begin to add content to your new Extension class.
 
 1. Right click on the class in the diagram and choose “Features and
     Properties” and then “Attributes…”. This opens the Features dialogue
-    box. In the Features dialogue box, you can add any attributes<sup><a href="#how-to-create-fixm-extension/create-extension-content?id=notes">[1]</a></sup>
+    box. In the Features dialogue box, you can add any attributes<sup><a href="#how-to-create-fixm-extension/create-extension-content?id=notes">[note 1]</a></sup>
     needed for your Extension to your class.
 
     ![Image](.//media/image215.png)

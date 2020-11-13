@@ -17,7 +17,7 @@ We will start by creating a class with the XSDcomplexType stereotype for
 our message.
 
 1. In Toolbox, click on “Complex Type” and then click anywhere in the
-    diagram section of the screen<sup><a href="#how-to-create-application/create-application-content?id=notes">[1]</a></sup>. This will open up an XSD
+    diagram section of the screen<sup><a href="#how-to-create-application/create-application-content?id=notes">[note 1]</a></sup>. This will open up an XSD
     complexType Properties dialogue box.
 
 2. Add an appropriate *Name* and *Annotation* for your new class.
@@ -243,7 +243,7 @@ and the Flight class (the root class of FIXM Core).
     this alphabetical list gives you the value (starting with “1” for
     the first field) needed when adding a position tag. So, for this
     example, “flight” will need a position tag with a value of “1” and
-    “type” will need a position tag with a value of “5”<sup><a href="#how-to-create-application/create-application-content?id=notes">[2]</a></sup>.
+    “type” will need a position tag with a value of “5”<sup><a href="#how-to-create-application/create-application-content?id=notes">[note 2]</a></sup>.
 
 16. Now, click on each association in turn. When clicked on, you will
     see all the tagged values associated with whatever you click on show

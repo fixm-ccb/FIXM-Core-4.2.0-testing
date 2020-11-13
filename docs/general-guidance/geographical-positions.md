@@ -69,7 +69,7 @@ The EPSG:4326 CRS has latitude as the primary axis, which indicates that
 **second longitude**. This ordering convention is the one applied to the
 aviation domain.
 
-The co-ordinates are represented in FIXM by a two-valued sequence<sup><a href="#general-guidance/geographical-positions?id=notes">[1]</a></sup>,
+The co-ordinates are represented in FIXM by a two-valued sequence<sup><a href="#general-guidance/geographical-positions?id=notes">[note 1]</a></sup>,
 the first being the latitude and the second being the longitude, each of
 which is a floating point number (the decimal value in degrees). The
 direction is determined by the sign of the value, as specified in the

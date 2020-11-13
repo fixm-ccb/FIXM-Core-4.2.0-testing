@@ -50,9 +50,9 @@ schema namespace, namespace prefixes, etc.
     Extension. In this example, we will use the following values:
 
     a.  *Target Namespace* set to:
-        `http://www.fixm.aero/ext/example/1.0`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[1]</a></sup>.
+        `http://www.fixm.aero/ext/example/1.0`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[note 1]</a></sup>.
 
-    b.  *Prefix* set to: `xmp`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[1]</a></sup>.
+    b.  *Prefix* set to: `xmp`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[note 1]</a></sup>.
 
 3. You should also specify additional namespace prefixes for any
     packages your Extension will import. In this example, we will be

@@ -26,7 +26,7 @@ with two templates, one for arrival alerts and one for departure alerts.
 
     b.  Choose “Class” under *Diagram Types*.
 
-    Click OK to create the Application package and its associated diagram<sup><a href="#how-to-create-application/create-an-application-package?id=notes">[1]</a></sup>.
+    Click OK to create the Application package and its associated diagram<sup><a href="#how-to-create-application/create-an-application-package?id=notes">[note 1]</a></sup>.
 
     ![Click OK](.//media/image58.png "Click OK")
 
@@ -67,9 +67,9 @@ schema namespace, namespace prefixes, etc.
 2. Fill in values for your schema properties as appropriate for your
     Application. In this example, we will use the following values:
 
-    a. *Target Namespace* set to: `http://www.fixm.aero/app/example/1.0` <sup><a href="#how-to-create-application/create-an-application-package?id=notes">[2]</a></sup>.
+    a. *Target Namespace* set to: `http://www.fixm.aero/app/example/1.0` <sup><a href="#how-to-create-application/create-an-application-package?id=notes">[note 2]</a></sup>.
 
-    b. *Prefix* set to: “xmg”<sup><a href="#how-to-create-application/create-an-application-package?id=notes">[3]</a></sup>.
+    b. *Prefix* set to: “xmg”<sup><a href="#how-to-create-application/create-an-application-package?id=notes">[note 3]</a></sup>.
 
 3. You must also fill in the *Schema File* field with the path to your
     application directory and an appropriate file name. In this example,

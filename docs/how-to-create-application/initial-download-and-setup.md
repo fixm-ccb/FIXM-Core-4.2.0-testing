@@ -1,6 +1,6 @@
 # Initial Download and Setup
 
-To save time and reduce setup steps, it is recommended that you begin the process of creating your Application by downloading the FIXM Basic Message v1.0.0 full release.<sup><a href="#how-to-create-application/initial-download-and-setup?id=notes">[1]</a></sup>
+To save time and reduce setup steps, it is recommended that you begin the process of creating your Application by downloading the FIXM Basic Message v1.0.0 full release.<sup><a href="#how-to-create-application/initial-download-and-setup?id=notes">[note 1]</a></sup>
 
 1) Download the [full release of FIXM Basic Message v1.0.0](https://fixm.aero/releases/Basic-Msg-1.0.0/FIXM_Basic_Message_v1.0.0_with_Core_v4.2.0_full_archive.zip).
 2) Unzip the full release and navigate to the `applications` directory under `schemas`.
@@ -12,7 +12,7 @@ To save time and reduce setup steps, it is recommended that you begin the proces
 
     ![The starting directory structure of the example environment](.//media/image52.png "The starting directory structure of the example environment")
 
-6) Open the model (the .eap file) with Sparx Enterprise Architect  (EA).<sup><a href="#how-to-create-application/initial-download-and-setup?id=notes">[2]</a></sup>
+6) Open the model (the .eap file) with Sparx Enterprise Architect  (EA).<sup><a href="#how-to-create-application/initial-download-and-setup?id=notes">[note 2]</a></sup>
 7) Click the arrow (&#5125;) next to Applications in Project Browser to expand the Applications container.
 8) Right click on the `BasicMessage` package in Project Browser and choose `Delete <<XSDschema>> BasicMessage`.
 
