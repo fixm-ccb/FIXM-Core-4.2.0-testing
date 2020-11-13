@@ -14,7 +14,7 @@ single location given by a direct position.
 
 ### Logical Model
 
-<img src=".//media/general-guidance-geographical-positions-01.png" style="width:2.88042in;height:1.1381in" />
+![Image](.//media/general-guidance-geographical-positions-01.png)
 
 UML Class `GeographicalPosition` in package `FIXM.Base.AeronauticalReference`
 
