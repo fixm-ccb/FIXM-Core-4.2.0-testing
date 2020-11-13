@@ -57,52 +57,52 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | **Acronym** |                                                                          |
 |-------------|--------------------------------------------------------------------------|
 | AIDC             | ATS Interfacility Data Communications |
-| [AIP][AIP]       | Aeronautical information publication |
-| [AIRM][AIRM]     | ATM Information Reference Model |
-| [AIS][AIS]       | Aeronautical information services |
-| [AIXM][AIXM]     | Aeronautical Information Exchange Model |
-| [AMDB][AMDB]     | Aerodrome Mapping Database |
+| AIP       | Aeronautical information publication |
+| AIRM     | ATM Information Reference Model |
+| AIS       | Aeronautical information services |
+| AIXM]    | Aeronautical Information Exchange Model |
+| AMDB     | Aerodrome Mapping Database |
 | AMXM             | Aerodrome Mapping Exchange Model |
-| [ATM][ATM]       | Air Traffic Management |
+| ATM       | Air Traffic Management |
 | ATMRPP           | ATM Requirements and Performance Panel |
-| [ATS][ATS]       | Air Traffic Services |
+| ATS       | Air Traffic Services |
 | CCB              | Change Control Board |
-| [DME][DME]       | Distance measuring equipment |
+| DME      | Distance measuring equipment |
 | EAD              | European AIS Database |
-| [FF-ICE][FF-ICE] | Flight and Flow Information for a Collaborative Environment |
+| FF-ICE | Flight and Flow Information for a Collaborative Environment |
 | FF-ICE/R1        | FF-ICE Release 1 |
-| [FIXM][FIXM]     | Flight Information Exchange Model |
-| [FPL][FPL]       | Filed Flight Plan |
+| FIXM     | Flight Information Exchange Model |
+| FPL      | Filed Flight Plan |
 | GML              | Geography Markup Language |
-| [GUFI][GUFI]     | Globally Unique Flight Identifier |
-| [ICAO][ICAO]     | International Civil Aviation Organisation |
+| GUFI    | Globally Unique Flight Identifier |
+| ICAO     | International Civil Aviation Organisation |
 | IDE              | Integrated development environment |
-| [IFPS][IFPS]     | Integrated Initial Flight Plan Processing System |
-| [IFR][IFR]       | Instrument Flight Rules |
-| [ISO][ISO]       | International Organization for Standardization |
+| IFPS    | Integrated Initial Flight Plan Processing System |
+| IFR      | Instrument Flight Rules |
+| ISO       | International Organization for Standardization |
 | JMS              | Java Message Service |
-| [MSL][MSL]       | Mean sea level |
-| [NAS (US)][NAS (US)] | (US) National Airspace System |
-| [Navaid][Navaid] | Navigational Aid |
-| [NDB][NDB]       | Non-directional radio beacon |
+| MSL       | Mean sea level |
+| NAS (US) | (US) National Airspace System |
+| Navaid | Navigational Aid |
+| NDB       | Non-directional radio beacon |
 | NM (EUROCONTROL) | (EUROCONTROL) Network Manager |
-| [OGC][OGC]       | Open Geospatial Consortium |
-| [PBN][PBN]       | Performance Based Navigation |
+| OGC      | Open Geospatial Consortium |
+| PBN       | Performance Based Navigation |
 | REST             | Representational state transfer |
-| [SID][SID]       | Standard Instrument Departure |
+| SID       | Standard Instrument Departure |
 | SOAP             | Simple Object Access Protocol |
-| [SSR][SSR]       | Secondary Surveillance Radar |
-| [STAR][STAR]     | Standard instrument arrival |
-| [SWIM][SWIM]     | System Wide Information Management |
-| [UML][UML]       | Unified Modeling Language |
-| [UPR][UPR]       | User Preferred Route |
+| SSR       | Secondary Surveillance Radar |
+| STAR     | Standard instrument arrival |
+| SWIM     | System Wide Information Management |
+| UML       | Unified Modeling Language |
+| UPR       | User Preferred Route |
 | URL              | Uniform Resource Locator |
-| [UTC][UTC]       | Coordinated Universal Time |
+| UTC     | Coordinated Universal Time |
 | UUID             | Universally unique identifier |
-| [VFR][VFR]       | Visual Flight Rules |
-| [VOR][VOR]       | VHF omnidirectional radio range |
-| [W3C][W3C]       | World Wide Web Consortium |
-| [WGS-84][WGS-84] | World Geodetic System - 1984 |
+| VFR       | Visual Flight Rules |
+| VOR     | VHF omnidirectional radio range |
+| W3C      | World Wide Web Consortium |
+| WGS-84 | World Geodetic System - 1984 |
 | WSDL             | Web Services Description Language |
 | XML              | Extensible Markup Language |
 | XSD              | XML Schema Definition |
@@ -113,39 +113,6 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 [FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0
 [Basic Application]: https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0
 
-[AIP]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AIP
-[AIRM]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AIRM
-[AIS]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AIS
-[AIXM]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AIXM
-[AMDB]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#AMDB
-[ATM]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#ATM
-[ATS]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#ATS
-[DME]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#DME
-[FF-ICE]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#FF-ICE
-[FIXM]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#FIXM
-[FPL]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#FPL
-[GUFI]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#GUFI
-[ICAO]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#ICAO
-[IFPS]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#IFPS
-[IFR]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#IFR
-[ISO]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#ISO
-[MSL]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#MSL
-[NAS (US)]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#NAS
-[Navaid]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#Navaid
-[NDB]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#NDB
-[OGC]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#OGC
-[PBN]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#PBN
-[SID]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#SID
-[SSR]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#SSR
-[STAR]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#STAR
-[SWIM]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#SWIM
-[UML]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#UML
-[UPR]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#UPR
-[UTC]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#UTC
-[VFR]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#VFR
-[VOR]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#VOR
-[W3C]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#W3C
-[WGS-84]: http://airm.aero/viewer/1.0.0/includes-supplements/contextual-model-abbreviations.html#WGS84
 
 [OneSky Online]: https://ext.eurocontrol.int/
 [OneSky Teams]: https://ost.eurocontrol.int/Pages/default.aspx
