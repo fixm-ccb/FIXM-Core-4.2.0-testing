@@ -25,8 +25,8 @@ This is just a to-do list to track pending things.
 - [ ] Revisit usage of bold and italics
 - [ ] Text refering to examples is sometimes above and sometimes bellow. This could be harmonised (not urgent)
 - [ ] We should document markdown practices for the FIXM user manual. For example: Use `inline code` when refering to a FIXM package, class, property, pattern or value.
-- [x] Include links to the AIRM.aero into the list of acronyms (home page)
-- [ ] Add a trailing "Submit content for this page" to each page that would open the "Contact us" page on www.FIXM.aero with pre-filled fields . See "Submit Content" on the home page as an illustration.
+- [ ] Include links to the AIRM.aero into the list of acronyms (home page)
+- [x] Add a trailing "Submit content for this page" to each page that would open the "Contact us" page on www.FIXM.aero with pre-filled fields . See "Submit Content" on the home page as an illustration.
 
 ## Notes from TIM Meeting
 
