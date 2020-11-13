@@ -10,18 +10,13 @@ position of a point on the surface of the Earth.*
 This model element maps to the ISO 19107 “Point” construct, defined as a
 single location given by a direct position.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/general-guidance-geographical-positions-01.png" style="width:2.88042in;height:1.1381in" /></p>
-<p><em>UML Class <strong>GeographicalPosition</strong> in package FIXM.Base.</em>AeronauticalReference</p></td>
-<td><p>
+FIXM Logical Model:
+
+<img src=".//media/general-guidance-geographical-positions-01.png" style="width:2.88042in;height:1.1381in" />
+
+UML Class `GeographicalPosition` in package `FIXM.Base.AeronauticalReference`
+
+FIXM XML schemas:
 
 ```xml
 <xs:complexType name="GeographicalPositionType">
@@ -36,11 +31,7 @@ single location given by a direct position.
 </xs:complexType>
 ```
 
-<em>Complex type <strong>[GeographicalPositionType][GeographicalPositionType]</strong> in file<br />
-[AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+[GeographicalPositionType][GeographicalPositionType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 A geographic location consists of a co-ordinate reference system and
 geographic co-ordinates.
