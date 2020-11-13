@@ -15,8 +15,8 @@ Definitions
 | Path from Flight | Starting from class *Flight* in package *Flight.FlightData*, this defines the path to the location in the logical model where the field is encoded. |
 
 Table 9 provides an explanation of an entry in the map using the flight
-identifier recorded in field 7a of an ICAO ATS message (section Field
-7).
+identifier recorded in field 7a of an ICAO ATS message (see [Field
+7](#Field-7)).
 
 Table 9: Example
 
@@ -56,8 +56,7 @@ message type and the kind of route information.
 
 Field 3 in an ATS message denotes the message type. FIXM is concerned
 with modelling information that may be included in a message, but FIXM
-itself does not define messages (section **Error! Reference source not
-found.**). As such, there is no equivalent of ATS field 3 in FIXM.
+itself does not define messages. As such, there is no equivalent of ATS field 3 in FIXM.
 
 ## Field 5
 

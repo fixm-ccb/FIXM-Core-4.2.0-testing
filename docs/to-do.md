@@ -19,12 +19,6 @@ This is just a to-do list to track pending things.
 - [x] Alignment with Initial Load proposal: move section `ATS MESSAGE TO FIXM MAPPING` under `USING FIXM IN SUPPORT OF FF-ICE`, move section `USE OF SCHEMATRON` under `General rules for data correctness`, delete section `Sample XML`
 - [x] Enrich the list of Acronyms which is currently not in synch with the content of the initial load (acronyms not appearing in the initial load have been removed already from the list)
 
-This is test text <sup><a href="#notes">[note 1]</a></sup>
-This is test text <sup><a href="#references">[1]</a></sup>
-This is test text <sup><a href="##references">[1]</a></sup>
-This is test text <sup>[[note 1]](#notes)</sup>
-This is test text <sup>[[1]](#references)</sup>
-This is test text <sup>[1](#references)</sup>
 ## Proposals
 
 - [x] Remove Target audience as a page for some sections. Maybe substitude by "Introcudtion" or "About this section", where we can provide a *landing page* for the section, with a table of contents, etc. FIX: Add to home page
@@ -40,13 +34,3 @@ This is test text <sup>[1](#references)</sup>
 - [x] "Potential shortcomings of XSD..." new title (see proposal in slides)
 - [x] Add note on namespaces (see slides)
 - [ ] Prepare diagram for users to choose if extension
-
-## Notes
-
-[1] This is a Note
-[2] This is another Note
-
-### References
-
-[1] This is a Reference
-[2] This is another Reference
