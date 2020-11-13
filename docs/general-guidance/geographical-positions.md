@@ -10,13 +10,15 @@ position of a point on the surface of the Earth.*
 This model element maps to the ISO 19107 “Point” construct, defined as a
 single location given by a direct position.
 
-## FIXM Logical Model
+## FIXM representation
+
+### Logical Model
 
 <img src=".//media/general-guidance-geographical-positions-01.png" style="width:2.88042in;height:1.1381in" />
 
 UML Class `GeographicalPosition` in package `FIXM.Base.AeronauticalReference`
 
-## FIXM XML schemas
+### XML schemas
 
 ```xml
 <xs:complexType name="GeographicalPositionType">
