@@ -13,7 +13,7 @@ Extension.
 
 4. Rename the .eap file to something appropriate for your Extension.
 
-5. Open the model (the .eap file) with Sparx Enterprise Architect<sup><a href="#how-to-create-fixm-extension/initial-download-and-setup&id=notes">[1]</a></sup>
+5. Open the model (the .eap file) with Sparx Enterprise Architect<sup><a href="#how-to-create-fixm-extension/initial-download-and-setup?id=notes">[1]</a></sup>
     (EA).
 
 For this guided example, the extension will target both Core and

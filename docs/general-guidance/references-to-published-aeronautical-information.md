@@ -59,7 +59,7 @@ Example:
 Important note: FIXM does not import the W3C XML Linking Language
 (xlink) v1.1 schemas in order to represent the hypertext references.
 FIXM mimics the xlink Locator attribute named “href” but defines it
-within the FIXM (Base) namespace<sup><a href="#general-guidance/references-to-published-aeronautical-information&id=notes">[1]</a></sup>.
+within the FIXM (Base) namespace<sup><a href="#general-guidance/references-to-published-aeronautical-information?id=notes">[1]</a></sup>.
 
 ## References to Waypoints
 

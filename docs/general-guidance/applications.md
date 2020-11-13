@@ -37,7 +37,7 @@ are necessary for understanding the meaning and purpose of the
 information that is exchanged in a given context. They commonly include
 message identifiers and timestamps, codes identifying business types of
 messages, and any context-specific data that qualify the associated
-message interactions<sup><a href="#general-guidance/applications&id=notes">[1]</a></sup>.
+message interactions<sup><a href="#general-guidance/applications?id=notes">[1]</a></sup>.
 
 Examples of message data structures can be found in the FF-ICE
 Implementation Guidance Manual. The Figure below shows the message data
@@ -97,7 +97,7 @@ validate.
 - XSD restrictions represent a natural use of the XSD standard;
 
 - XSD restrictions deliver benefits in terms of model development and
-    maintenance. <sup><a href="#general-guidance/applications&id=notes">[2]</a></sup>
+    maintenance. <sup><a href="#general-guidance/applications?id=notes">[2]</a></sup>
 
 ### XSD Profiles as a potential alternative to XSD Restrictions
 

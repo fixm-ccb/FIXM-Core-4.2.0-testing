@@ -642,7 +642,7 @@ found.**). As such, there is no equivalent of ATS field 3 in FIXM.
 </thead>
 <tbody>
 <tr class="odd">
-<td>20a<sup><a href="#ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm&id=notes">[1]</a></sup></td>
+<td>20a<sup><a href="#ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm?id=notes">[1]</a></sup></td>
 <td>Base.Organization</td>
 <td>AircraftOperatorDesignator</td>
 <td><p>[ICAO designator specified]</p>
