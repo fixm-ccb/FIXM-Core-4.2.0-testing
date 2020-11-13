@@ -22,9 +22,9 @@ This is just a to-do list to track pending things.
 This is test text <sup><a href="#notes">[note 1]</a></sup>
 This is test text <sup><a href="#references">[1]</a></sup>
 This is test text <sup><a href="##references">[1]</a></sup>
-This is test text <sup>[note 1](#notes)</sup>
+This is test text <sup>[[note 1]](#notes)</sup>
+This is test text <sup>[[1]](#references)</sup>
 This is test text <sup>[1](#references)</sup>
-This is test text <sup>[1](##references)</sup>
 ## Proposals
 
 - [x] Remove Target audience as a page for some sections. Maybe substitude by "Introcudtion" or "About this section", where we can provide a *landing page* for the section, with a table of contents, etc. FIX: Add to home page
