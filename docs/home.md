@@ -12,6 +12,14 @@
 
 *Note: Implementation guidance for the older FIXM Core 4.1.0 version can be downloaded as a [zip](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) file.*
 
+| FIXM Release | FIXM Application | Implementation Guidance | Schema Documentation |
+|:-|:-|:-|:-|
+| [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0) | - | [HTML](home "This web site"), [PDF](tbd.pdf "Download the contents of this web site as a PFD file") | [HTML](https://fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm.html) |
+| *FIXM Core 4.2.0* | [FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0) | [HTML](home "This web site"), [PDF](tbd.pdf "Download the contents of this web site as a PFD file") | [HTML](https://fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_message/FficeMessage.html "View FIXM FF-ICE Message v1.0.0 Schema Documentation"), [HTML](https://fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_message/FficeMessage.html "View FIXM FF-ICE Message v1.0.0 Templates Schema Documentation") |
+| *FIXM Core 4.2.0* | [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0) | [HTML](home "This web site"), [PDF](tbd.pdf "Download the contents of this web site as a PFD file") | [HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) |
+
+*Note: Implementation guidance for the older FIXM Core 4.1.0 version can be downloaded as a [zip](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) file.*
+
 ## Content and Target audience
 
 - The part [GENERAL GUIDANCE](general-guidance/fixm-core) provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
@@ -48,7 +56,37 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ## References
 
-> TODO
+### FIXM references
+
+[1]: [FIXM Strategy v1.1](https://fixm.aero/documents/FIXM%20Strategy.pdf)
+
+[2]: [FIXM web site](https://fixm.aero/)
+
+[3]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
+
+### ICAO references
+
+[4]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
+
+[5]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment
+
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM%204.1.0/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+
+[7]: ICAO Doc 7910: Location Indicators
+
+[8]: [ICAO Doc 8643](https://www.icao.int/publications/DOC8643/Pages/default.aspx): Aircraft Type Designators
+
+[9]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
+
+[10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept
+
+[11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
+
+### Other references
+
+[12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
+
+[13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
 
 ## Acronyms
 

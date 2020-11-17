@@ -56,7 +56,7 @@ Example:
 <fx:[FIXMelement] href="urn:uuid:81e47548-9f00-4970-b641-8ff8f99098a5">
 ```
 
-Important note: FIXM does not import the W3C XML Linking Language
+Important note: FIXM does not import the W3C XML Linking Language<sup>[[13]](#references)</sup>
 (xlink) v1.1 schemas in order to represent the hypertext references.
 FIXM mimics the xlink Locator attribute named “href” but defines it
 within the FIXM (Base) namespace<sup><a href="#general-guidance/references-to-published-aeronautical-information?id=notes">[note 1]</a></sup>.
@@ -166,7 +166,7 @@ explanations above.
 
 ?> The code blocks above depicts examples of FIXM references to fictitious
 Waypoint “TEMPO” that is ‘published’ in AIXM 5.1 as part of the
-fictitious [Donlon dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The data is entirely fictitious, located somewhere in the middle of the Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
+fictitious Donlon dataset<sup>[[12]](#references)</sup>. The data is entirely fictitious, located somewhere in the middle of the Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 ### Note about the pattern constraint for waypoint designators
 
@@ -403,7 +403,7 @@ explanations above.
 
 The table below depicts examples of FIXM references to fictitious VOR
 DME “BOR” that is ‘published’ in AIXM 5.1 as part of the fictitious
-[Donlon dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml).
+Donlon dataset<sup>[[12]](#references)</sup>.
 The data is entirely fictitious, located somewhere in the middle of the
 Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
@@ -523,7 +523,7 @@ Complex types [AerodromeReferenceType][AerodromeReferenceType] in file [Aeronaut
 ### OPTION 1 - Minimum reference
 
 The minimum aerodrome reference shall consist of the aerodrome location
-indicator, if provided by ICAO Doc 7910 \[11\]. If the aerodrome has no
+indicator, if provided by ICAO Doc 7910 <sup>[[7]](#references)</sup>. If the aerodrome has no
 ICAO Doc 7910 location indicator, the minimum aerodrome reference shall
 consist of the name of the aerodrome and its geographical location,
 namely the aerodrome reference point.
@@ -539,8 +539,8 @@ as described in chapter [Generic hypertext references](#generic-hypertext-refere
 
 The table below depicts examples of FIXM references to fictitious
 aerodrome “DONLON” that is ‘published’ in AIXM 5.1 as part of the
-fictitious [Donlon
-dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
+fictitious Donlon
+dataset<sup>[[12]](#references)</sup>. The
 data is entirely fictitious, located somewhere in the middle of the
 Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
@@ -675,8 +675,8 @@ as described in chapter [Generic hypertext references](#generic-hypertext-refere
 
 The table below depicts examples of FIXM references to fictitious Runway
 Direction “09L” that is ‘published’ in AIXM 5.1 as part of the
-fictitious [Donlon
-dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
+fictitious Donlon
+dataset<sup>[[12]](#references)</sup>. The
 data is entirely fictitious, located somewhere in the middle of the
 Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
@@ -765,8 +765,8 @@ as described in chapter [Generic hypertext references](#generic-hypertext-refere
 
 The table below depicts examples of FIXM references to fictitious
 Enroute ATS Route “UA4” that is ‘published’ in AIXM 5.1 as part of the
-fictitious [Donlon
-dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
+fictitious Donlon
+dataset<sup>[[12]](#references)</sup>. The
 data is entirely fictitious, located somewhere in the middle of the
 Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
@@ -953,7 +953,7 @@ Simple type [AirspaceDesignatorType][AirspaceDesignatorType] in file [Aeronautic
 ### OPTION 1 - Minimum reference
 
 The minimum airspace reference shall consist of the airspace location
-indicator, if provided by ICAO Doc 7910 \[11\]. If the airspace has no
+indicator, if provided by ICAO Doc 7910 <sup>[[7]](#references)</sup>. If the airspace has no
 ICAO Doc 7910 location indicator, the minimum airspace reference shall
 consist of the coded designator of the airspace as published in the AIP.
 
@@ -1055,7 +1055,7 @@ Complex type [AtcUnitReferenceType][AtcUnitReferenceType] in file [AeronauticalR
 ### OPTION 1 - Minimum reference
 
 The minimum ATC unit reference shall consist of the location indicator
-of the unit, if provided by ICAO Doc 7910 \[11\]. If the unit has no
+of the unit, if provided by ICAO Doc 7910 <sup>[[7]](#references)</sup>. If the unit has no
 ICAO Doc 7910 location indicator, the minimum airspace reference shall
 consist of the name of the unit or any alternate name, as published in
 the AIP.
@@ -1146,3 +1146,11 @@ as described in chapter [Generic hypertext references](#generic-hypertext-refere
 ## Notes
 
 [1]: This design is intentional. It saves FIXM from being tied to an external standard for such a small use case and also aims to avoid potential issues or difficulties when marshalling / unmarshalling the standard xlink:href attribute.
+
+## References
+
+[7]: ICAO Doc 7910: Location Indicators
+
+[12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
+
+[13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)

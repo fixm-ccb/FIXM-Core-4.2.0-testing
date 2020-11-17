@@ -9,7 +9,7 @@ Definitions
 
 | **Column** | **Description** |
 |------------|-----------------|
-| PANS-ATM Field   | The field number as defined in ICAO Doc 4444 \[PANS-ATM\]. |
+| PANS-ATM Field   | The field number as defined in ICAO Doc 4444 \[PANS-ATM\]<sup>[[4]](#references)</sup>. |
 | Package          | The package that contains the definition of the PANS-ATM field in the logical model.                                                                |
 | Class            | The class (in the specified package) that models the PANS-ATM field.                                                                                |
 | Path from Flight | Starting from class *Flight* in package *Flight.FlightData*, this defines the path to the location in the logical model where the field is encoded. |
@@ -735,3 +735,7 @@ example, the entry *-7/NEWACID* in field 22 has the same mapping as if
 ## Notes
 
 [1]: Field 20a maps to the same FIXM field as field 18 OPR. An ALR can include field 18 and field 20 with potentially conflicting values. Further consideration of this is required.
+
+## References
+
+[4]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition

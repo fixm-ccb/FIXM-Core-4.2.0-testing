@@ -11,7 +11,7 @@ table provides the correspondence between the FF-ICE message templates
 from the application and their corresponding description in the FF-ICE
 Implementation Guidance Manual, Appendix C.
 
-Table 1: Correspondences between FF-ICE Message templates and their ICAO Doc 9965 Volume II description
+Table 1: Correspondences between FF-ICE Message templates and their ICAO Doc 9965 Volume II<sup>[[6]](#references)</sup> description
 
 | **FF-ICE Message templates** | **Associated Requirements from the FF-ICE Implementation Guidance Manual, Appendix C** |
 |-|-|
@@ -115,5 +115,6 @@ sub-classes. XSD complex type restrictions are therefore linked together to form
 [FficeTRQ]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/trialrequest/fficemessage/FficeTRQ_FficeMessage.xsd
 [FficeTRP]: https://www.fixm.aero/releases/FFICE-Msg-1.0.0/schemas/applications/fficemessage/fficetemplates/trialresponse/fficemessage/FficeTRP_FficeMessage.xsd
 
+## References
 
-
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM%204.1.0/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”

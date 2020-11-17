@@ -44,8 +44,8 @@ information is at the discretion of the consuming system / service.
 ## Examples
 
 !> The table below depicts examples of FIXM encodings of relative points
-that are derived from the fictitious [Donlon
-dataset](https://github.com/aixm/donlon/blob/master/Donlon.xml). The
+that are derived from the fictitious Donlon
+dataset<sup>[[12]](#references)</sup>. The
 data is entirely fictitious, located somewhere in the middle of the
 Atlantic Ocean. **The examples shall never be used as operational data**.
 
@@ -80,3 +80,7 @@ Atlantic Ocean. **The examples shall never be used as operational data**.
 
 [AeronauticalReference.xsd]: https://www.fixm.aero/releases/FIXM-4.2.0/schemas/core/base/AeronauticalReference.xsd
 [RelativePointType]: https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RelativePointType.html
+
+### References
+
+[12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
