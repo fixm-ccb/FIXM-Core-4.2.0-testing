@@ -633,18 +633,13 @@ is at the discretion of the consuming system / service.
 
 ## References to Runway Directions
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image16.png" style="width:2.48696in;height:2.27903in" /></p>
-<p><em>UML Class <strong>RunwayDirectionDesignator</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image16.png)
+
+UML Class `RunwayDirectionDesignator` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:simpleType name="RestrictedRunwayDirectionDesignatorType">
@@ -662,11 +657,7 @@ is at the discretion of the consuming system / service.
 </xs:complexType>
 ```
 
-<em>Simple type <strong>[RunwayDirectionDesignatorType][RunwayDirectionDesignatorType]</strong> in<br />
-file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Simple type [RunwayDirectionDesignatorType][RunwayDirectionDesignatorType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
@@ -728,18 +719,13 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 ## References to Enroute ATS routes
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image17.png" style="width:2.77633in;height:2.42466in" /></p>
-<p><em>UML Class <strong>RouteDesignator</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image17.png)
+
+UML Class `RouteDesignator` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:simpleType name="RestrictedRouteDesignatorType">
@@ -757,11 +743,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 </xs:complexType>
 ```
 
-<em>Simple type <strong>[RouteDesignatorType][RouteDesignatorType]</strong> in<br />
-file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Simple type [RouteDesignatorType][RouteDesignatorType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
@@ -827,18 +809,13 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 
 ## References to SIDs and STARs
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image18.png" style="width:2.71379in;height:1.875in" /></p>
-<p><em>UML Classes <strong>SidStarReference</strong> package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image18.png)
+
+UML Class `SidStarReference` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:complexType name="SidStarReferenceType">
@@ -869,11 +846,7 @@ Atlantic Ocean. The examples shall NEVER BE USED AS OPERATIONAL DATA.
 </xs:simpleType>
 ```
 
-<em>Simple types <strong>[SidStarReferenceType][SidStarReferenceType]</strong> in file<br />
-[AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Simple types [SidStarReferenceType][SidStarReferenceType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
@@ -949,18 +922,13 @@ specification, chapter 7.4. Example:
 
 ## References to Airspace
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image19.png" style="width:2.4375in;height:1.88479in" /></p>
-<p><em>UML Class <strong>AirspaceDesignator</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image19.png)
+
+UML Class `AirspaceDesignator` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:simpleType name="RestrictedAirspaceDesignatorType">
@@ -980,11 +948,7 @@ specification, chapter 7.4. Example:
 </xs:complexType>
 ```
 
-<em>Simple type <strong>[AirspaceDesignatorType][AirspaceDesignatorType]</strong> in<br />
-file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Simple type [AirspaceDesignatorType][AirspaceDesignatorType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
@@ -1059,18 +1023,13 @@ Examples (NOT for OPERATIONAL USE)
 
 ## References to (ATC) Units
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image20.png" style="width:2.97919in;height:2.14151in" /></p>
-<p><em>UML Class <strong>ATCUnitReference</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+### Logical Model
+
+![Image](.//media/image20.png)
+
+UML Class `ATCUnitReference` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:complexType name="AtcUnitReferenceType">
@@ -1088,13 +1047,10 @@ Examples (NOT for OPERATIONAL USE)
    </xs:sequence>
    <xs:attribute name="href" type="fb:HypertextReferenceType" use="optional">
    </xs:attribute>
-</xs:complexType> 
+</xs:complexType>
 ```
 
-<em>Complex type <strong>[AtcUnitReferenceType][AtcUnitReferenceType]</strong> in file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Complex type [AtcUnitReferenceType][AtcUnitReferenceType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 ### OPTION 1 - Minimum reference
 
