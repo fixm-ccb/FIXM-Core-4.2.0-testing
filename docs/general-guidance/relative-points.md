@@ -1,17 +1,14 @@
 # Relative points
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>FIXM Logical Model</strong></th>
-<th><strong>FIXM XML schemas</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><img src=".//media/image21.png" style="width:2.73585in;height:3.49573in" /></p>
-<p><em>UML Class <strong>RelativePoint</strong> in package FIXM.Base.AeronauticalReference</em></p></td>
-<td><p>
+## FIXM representation
+
+### Logical Model
+
+![Image](.//media/image21.png)
+
+UML Class `RelativePoint` in package `FIXM.Base.AeronauticalReference`
+
+### XML schemas
 
 ```xml
 <xs:complexType name="RelativePointType">
@@ -30,11 +27,7 @@
 </xs:complexType>
 ```
 
-<em>Complex type <strong>[RelativePointType][RelativePointType]</strong> in<br />
-file [AeronauticalReference.xsd][AeronauticalReference.xsd]</em></p></td>
-</tr>
-</tbody>
-</table>
+Complex type [RelativePointType][RelativePointType] in file [AeronauticalReference.xsd][AeronauticalReference.xsd]
 
 A relative point is a bearing and distance from a reference navaid.
 Encoding a relative point in FIXM requires the ‘bearing’, ‘distance’ and
