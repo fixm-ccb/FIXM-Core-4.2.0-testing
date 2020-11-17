@@ -8,24 +8,23 @@
 
 |Applicable Release| Implementation Guidance |
 |:-|:------|
-| **[FIXM Core 4.2.0][FIXM Core 4.2.0]**<br>and related applications<br>- **[FF-ICE Application][FF-ICE Application]**<br>- **[Basic Application][Basic Application]** | [HTML]() (This web site)<br>[zip]()<br><br><br>|
+| **[FIXM Core 4.2.0][FIXM Core 4.2.0]**<br>and related applications<br>- **[FF-ICE Application][FF-ICE Application]**<br>- **[Basic Application][Basic Application]** | [HTML](home) (This web site)<br>[zip]()<br><br><br>|
 
 *Note: Implementation guidance for the older FIXM Core 4.1.0 version can be downloaded as a [zip](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) file.*
 
 ## Content and Target audience
 
-- The part `GENERAL GUIDANCE` provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
+- The part [GENERAL GUIDANCE](general-guidance/fixm-core) provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
 - The part `USING FIXM IN SUPPORT OF FF-ICE` provides specific guidance in support of the implementation of FF-ICE using FIXM.
 - The part `USING FIXM FOR OTHER USE CASES` provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
 - The "How to" parts `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION` and `HOW TO GENERATE XML SCHEMAS ...` provide step-by-step guidance for producing new FIXM Applications and FIXM extensions (UML and XSD).
 - The part `FIXM DEVELOPMENT TOOL COMPATIBILITY` provides information about the tools and technologies for which compability tests have been performed for FIXM.
 
 | Your FIXM use case | Chapters relevant to you |
-|:-|:---| 
+|:-|:---|
 | I want to use FIXM to implement ICAO FF-ICE Service(s) without local/regional arrangements | `GENERAL GUIDANCE`, `FIXM DEVELOPMENT TOOL COMPATIBILITY`, `USING FIXM IN SUPPORT OF FF-ICE` |
 | I want to use FIXM to implement ICAO FF-ICE Service(s) with local/regional arrangements | `GENERAL GUIDANCE`, `FIXM DEVELOPMENT TOOL COMPATIBILITY`, `USING FIXM IN SUPPORT OF FF-ICE`, `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION`, `HOW TO GENERATE XML SCHEMAS ...`|
 | I want to use FIXM to exchange flight data based on my own organisation's needs | `GENERAL GUIDANCE`, `FIXM DEVELOPMENT TOOL COMPATIBILITY`, `USING FIXM FOR OTHER USE CASES`, `HOW TO CREATE A FIXM APPLICATION`, `HOW TO CREATE A FIXM EXTENSION`, `HOW TO GENERATE XML SCHEMAS ...` |
-
 
 ## Contribute
 
@@ -46,7 +45,6 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 - Use the side bar opposite to access the various sections of the user manual;
 - Use the search engine to look for a specific entry;
 - Use the buttons `< Previous` and `Next >` at the bottom of each page to navigate across the different sections of the manual.
-
 
 ## References
 
@@ -108,11 +106,9 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | XSD              | XML Schema Definition |
 | XSLT             | Extensible Stylesheet Language Transformations |
 
-
 [FIXM Core 4.2.0]: https://www.fixm.aero/release.pl?rel=FIXM-4.2.0
 [FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0
 [Basic Application]: https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0
-
 
 [OneSky Online]: https://ext.eurocontrol.int/
 [OneSky Teams]: https://ost.eurocontrol.int/Pages/default.aspx
