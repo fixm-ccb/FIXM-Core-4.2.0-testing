@@ -59,3 +59,6 @@
   - [Future Testing](fixm-development-tool-compatibility/future-testing.md)
   - [Platform Support Matrix](fixm-development-tool-compatibility/platform-support-matrix.md)
 
+- **License**
+  - [Copyright 2020](https://fixm.aero/content/disclaimer.pl)
+  
