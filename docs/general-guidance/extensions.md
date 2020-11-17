@@ -13,6 +13,7 @@ regionally.
 Examples:
 
 - The US NAS extension to FIXM defines additional flight identification data structures based on the types of domestic systems that support ATM in the USA (e.g. TFMS...). This is an example of an extension enriching FIXM Core with supplementary flight data being exchanged for domestic purposes.
+
 - The EUROCONTROL Network Manager is able to exchange structured IFPS errors to serve as FF-ICE Filing Status explanation. This error information is specific to the EUROCONTROL Network Manager and exemplifies what could be modelled as part of a EUROCONTROL extension to the FF-ICE Message data structures provided by the FF-ICE Application.
 
 ## What is a valid use of an extension?
