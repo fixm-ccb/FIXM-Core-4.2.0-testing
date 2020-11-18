@@ -1,6 +1,6 @@
 # Welcome to the FIXM User Manual
 
-The FIXM User Manual, formerly known as *Implementtion Guidance* is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
+The FIXM User Manual, formerly known as *Implementtion Guidance*, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
 
 *Note: The content of this user manual is informative. The use of the words `shall` or `required` indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words `should` or `recommended` indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.*
 
@@ -8,8 +8,8 @@ The FIXM User Manual, formerly known as *Implementtion Guidance* is developed an
 
 | FIXM Release | FIXM Application | User Manual | Schema Documentation |
 |:-|:-|:-|:-----|
-| **[FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0)**<br><br><br> | **<br>[FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)**<br>**[Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0)** | [HTML](home "This web site"), [PDF](tbd.pdf "Download the contents of this web site as a PFD file")<br><br><br> | [HTML](https://fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm.html)<br>[HTML](https://fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_message/FficeMessage.html "View FIXM FF-ICE Message v1.0.0 Schema Documentation"), [HTML](https://www.fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_templates/FficeTemplates.html "View FIXM FF-ICE Message v1.0.0 Templates Schema Documentation")<br>[HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) | [HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) |
-| [FIXM Core 4.1.0](https://fixm.aero/release.pl?rel=FIXM-4.1.0) | - | [ZIP](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) | [HTML](https://fixm.aero/releases/FIXM-4.1.0/doc/schema_documentation_core/index.html) |
+| **[FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0)**<br><br><br> | **<br>[FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)**<br>**[Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0)** | **[HTML](home "This web site")**, [PDF](tbd.pdf "Download the contents of this web site as a PDF file")<br><br><br> | [HTML](https://fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm.html)<br>[HTML](https://fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_message/FficeMessage.html "View FIXM FF-ICE Message v1.0.0 Schema Documentation"), [HTML](https://www.fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_templates/FficeTemplates.html "View FIXM FF-ICE Message v1.0.0 Templates Schema Documentation")<br>[HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) | [HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) |
+| *[FIXM Core 4.1.0](https://fixm.aero/release.pl?rel=FIXM-4.1.0)* | - | *[ZIP](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip)* | [HTML](https://fixm.aero/releases/FIXM-4.1.0/doc/schema_documentation_core/index.html) |
 
 ## Content and Target audience
 
