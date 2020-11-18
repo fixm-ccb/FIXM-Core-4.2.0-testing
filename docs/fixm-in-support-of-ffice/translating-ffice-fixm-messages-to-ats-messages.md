@@ -176,7 +176,7 @@ message.
 
 ##### Equipment/Capabilities Example
 
-Figure 33 presents a flight plan in ICAO 4444 format, with equipment and
+The following code block presents a flight plan in ICAO 4444 format, with equipment and
 capabilities related to navigation and communication highlighted.
 
 ```
@@ -205,15 +205,11 @@ DLE/INK0100 26N119W0200 SEL/MQDE
 PER/D RIF/GUXIB R587 MEPAB G591 LTO NWWW)
 ```
 
-Figure 33: Sample Flight Plan
-
-Figure 34 presents the equipment/capabilities portion of the flight plan
-as a FIXM object model. Only the highlighted items in Figure 33 are
+The image below presents the equipment/capabilities portion of the flight plan
+as a FIXM object model. Only the highlighted items in the code block above are
 included in the diagram.
 
-<img src=".//media/image37.png" style="width:6.30208in;height:5.61458in" alt="NavCom" />
-
-Figure 34: Equipment and Capabilities Object Model
+![Image](.//media/image37.png "Equipment and Capabilities Object Model")
 
 #### Surveillance Capabilities
 
@@ -263,7 +259,7 @@ such values as a full date/time, not as distinct date and time values.
 As such, the full and unambiguous departure date/time of a flight is
 composed from fields 13b and 18 DOF<sup><a href="#fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages?id=notes">[note 5]</a></sup>.
 
-Figure 35 presents the object model corresponding to highlighted parts
+The image below presents the object model corresponding to highlighted parts
 of the following flight plan fragment.
 
 ```
@@ -276,9 +272,7 @@ of the following flight plan fragment.
 -DOF/141105
 ```
 
-<img src=".//media/image38.png" style="width:3.19792in;height:1.09375in" alt="DOF" />
-
-Figure 35: Departure Date/Time Object Model
+![Image](.//media/image38.png "Departure Date/Time Object Model")
 
 ##### Estimated Flight Time
 
@@ -429,7 +423,7 @@ FIXM models DCT through class `OtherRouteDesignator`, related to class
     UNSPECIFIED, do not insert any text between the current and next
     point.
 
-Refer to Figure 37 for an example of “DCT” in a route.
+Refer to [Route Changes](#route-changes) for an example of “DCT” in a route.
 
 ##### Route Truncation
 
@@ -445,7 +439,7 @@ instances of `RouteTrajectoryElement`. The truncation indicator may only
 be associated with the last element in the sequence (it is meaningless
 to truncate a route prior to the last element).
 
-Refer to Figure 37 for an example of route truncation.
+Refer to [Route Changes](#route-changes) for an example of route truncation.
 
 ##### Route Changes
 
@@ -495,7 +489,7 @@ Notes:
 - The token `C` is inserted in a flight plan to indicate a cruise
     climb phase. This does not appear in the FIXM logical model. The
     presence of an instance of class `CruiseClimbStart` indicates cruise
-    climb, as demonstrated in Figure 36.
+    climb, as demonstrated in the image below.
 
 - The token `PLUS` is used to indicate cruise climb is planned to
     commence above the specified level. This does not appear in the FIXM
@@ -510,13 +504,11 @@ Notes:
     association `activation`. There is no necessity to populate this
     attribute.
 
-Figure 36 presents examples of the three kinds of level constraint.
+The image below presents examples of the three kinds of level constraint.
 
-<img src=".//media/image39.png" style="width:6.26042in;height:3.83333in" alt="SPDLVL" />
+![Image](.//media/image39.png "Route Changes Object Model")
 
-Figure 36: Route Changes Object Model
-
-Figure 37 presents the object model corresponding to the (contrived) ATS
+The image below presents the object model corresponding to the (contrived) ATS
 message field 15 route
 
 ```
@@ -524,9 +516,7 @@ N0430F220 GORLO2N 3910N02230W/N0415F240 DCT C/IVA/N0415F240F250 B9
 ENTRA VFR T
 ```
 
-<img src=".//media/image40.png" style="width:6.26042in;height:7.59375in" alt="RTE" />
-
-Figure 37: Route Object Model
+![Image](.//media/image40.png "Route Object Model")
 
 ##### RIF
 
@@ -541,16 +531,14 @@ The route component is constructed via the same rules as for field 15c.
 However, in FIXM the route to revised destination is modelled as an
 unstructured string.
 
-Figure 38 presents the object model corresponding to field 18 RIF of the
-sample flight plan in Figure 33:
+The image below presents the object model corresponding to field 18 RIF of the
+sample flight plan in [Equipment/Capabilities Example](#equipmentcapabilities-example):
 
 ```
 RIF/GUXIB R587 MEPAB G591 LTO NWWW
 ```
 
-<img src=".//media/image41.png" style="width:3.30208in;height:1.20833in" alt="RIF" />
-
-Figure 38: Route to Revised Destination Object Model
+![Image](.//media/image41.png "Route to Revised Destination Object Model")
 
 ##### DLE
 
@@ -570,17 +558,15 @@ The `EnRouteDelay` class additionally has attributes `delayReason`,
 message content, the attributes `delayReason`, `delayReference` and
 `delayType` should be omitted.
 
-Figure 39 presents the object model for a fragment of the route in the
-flight plan contained in Figure 33, incorporating the information in
+The image below presents the object model for a fragment of the route in the
+flight plan contained in [Equipment/Capabilities Example](#equipmentcapabilities-example), incorporating the information in
 field 18 DLE:
 
 ```
 DLE/INK0100 26N119W0200
 ```
 
-<img src=".//media/image42.png" style="width:6.26042in;height:4.51042in" alt="DLE" />
-
-Figure 39: Route Delay Object Model
+![Image](.//media/image42.png "Route Delay Object Model")
 
 #### Aircraft Type
 
@@ -611,12 +597,10 @@ cases, where the (non-designator) type of aircraft is listed, as in
 -TYP/ECLIPSE 500
 ```
 
-Figure 40 presents the object model corresponding to each of the above
+The image below presents the object model corresponding to each of the above
 flight plan fragments.
 
-<img src=".//media/image43.png" style="width:6.30208in;height:3.51042in" alt="ATYP" />
-
-Figure 40: Aircraft Type Object Model
+![Image](.//media/image43.png "Aircraft Type Object Model")
 
 Notes:
 
@@ -630,7 +614,7 @@ Notes:
 
 - If the number of aircraft is 1, the `formationCount` and
     `numberOfAircraft` attributes may be omitted (though may be included
-    as in Figure 40).
+    as in the image above).
 
 #### Aircraft Registration
 
@@ -670,7 +654,7 @@ be problematic when decoding 18 DEP for the population of FIXM:
 - The name of the departure aerodrome may consist of multiple words so
     it may not be obvious how to parse the content of 18 DEP.
 
-Figure 41 presents two object models corresponding to the following
+The image below presents two object models corresponding to the following
 flight plan fragment.
 
 ```
@@ -681,9 +665,7 @@ flight plan fragment.
 -DEP/WESTMEAD HOSPITAL 3349S15059E
 ```
 
-<img src=".//media/image44.png" style="width:4.33333in;height:4.70833in" alt="DEP" />
-
-Figure 41: Departure Aerodrome Object Model
+![Image](.//media/image44.png "Departure Aerodrome Object Model")
 
 The first shows the fully decoded 18 DEP. The second shows the approach
 where 18 DEP cannot be decoded successfully: insert the entire content
@@ -728,7 +710,7 @@ arrival aerodrome.
     indicator, record the arrival aerodrome name against attribute
     `arrivalAerodorme.name` of class `Arrival.AerodromeReference`.
 
-Figure 42 presents an object model for destination/arrival information
+The image below presents an object model for destination/arrival information
 assuming reception of the FPL
 
 ```
@@ -751,10 +733,7 @@ Followed by the ARR
 (ARR-RAQ-YBSU-YRED-ZZZZ0622 CABOOLTURE)
 ```
 
-<img src=".//media/image45.png" style="width:4.625in;height:2.48958in" alt="ARR" />
-
-<span id="_Ref265076386" class="anchor"></span>Figure 42: Arrival
-Aerodrome Object Model
+![Image](.//media/image45.png "Arrival Aerodrome Object Model")
 
 #### Alternate Destination
 
@@ -779,12 +758,9 @@ that relate to destination aerodrome and alternates.
 -DEST/WESTMEAD HOSPITAL 3348S15059E ALTN/EASTERN CREEK
 ```
 
-Figure 43 presents the FIXM representation in an object model.
+The image below presents the FIXM representation in an object model.
 
-<img src=".//media/image46.png" style="width:5.79167in;height:4.6875in" alt="ALTN" />
-
-<span id="_Ref262563475" class="anchor"></span>Figure 43: Destination
-and Alternate Object Model
+![Image](.//media/image46.png "Destination and Alternate Object Model")
 
 Decoding is problematic if two free text names are included in ALTN. For
 example, consider the flight plan fragment
@@ -821,17 +797,14 @@ An en-route alternate is represented in the model by attribute
 `alternateAerodrome` of class `EnRoute` in package `Flight.EnRoute`.
 Each alternate is an `AerodromeReference` (see [this chapter](general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)).
 
-Figure 44 presents two object models that represent the en-route
+The image below presents two object models that represent the en-route
 alternate listed below.
 
 ```
 RALT/YSBK WESTMEAD HOSPITAL SY102025
 ```
 
-<img src=".//media/image47.png" style="width:5in;height:5.85417in" alt="RALT" />
-
-<span id="_Ref265173251" class="anchor"></span>Figure 44: En-Route
-Alternate Object Model
+![Image](.//media/image47.png "En-Route Alternate Object Model")
 
 The first shows the fully decoded 18 RALT. The second shows the approach
 where 18 RALT cannot be decoded successfully: insert the entire content
@@ -880,7 +853,7 @@ be applied:
 - The departure aerodrome (`aerodrome`) and departure time
     (`estimatedOffBlockTime`) of class `Departure` are not populated.
 
-Figure 45 presents the FIXM representation of the following air filed
+The image below presents the FIXM representation of the following air filed
 flight plan (fragment) as an object model.
 
 ```
@@ -891,10 +864,7 @@ flight plan (fragment) as an object model.
 -DEP/YBBBZQZA
 ```
 
-<img src=".//media/image48.png" style="width:6.27083in;height:1.98958in" alt="AFIL" />
-
-<span id="_Ref268982502" class="anchor"></span>Figure 45: AFIL Object
-Model
+![Image](.//media/image48.png "AFIL Object Model")
 
 #### Remarks
 
@@ -935,16 +905,14 @@ absence of field 19b and its presence with value `TBN`.
 The above rule means an ATS-FIXM-ATS round trip would cause the text
 `P/TBN` to be removed from the original ATS message.
 
-Figure 46 presents the object model corresponding to the following field
+The image below presents the object model corresponding to the following field
 19 example.
 
 ```
 –E/0745 P/6 R/VE S/M J/L D/2 8 C YELLOW A/YELLOW RED TAIL N/145E C/SMITH
 ```
 
-<img src=".//media/image49.png" style="width:6.28125in;height:6.5in" alt="SPL" />
-
-Figure 46: Supplementary Information Object Model
+![Image](.//media/image49.png "Supplementary Information Object Model")
 
 #### Alerting Search and Rescue Information
 
@@ -1097,7 +1065,7 @@ and distance from a designated point). Three subclasses of
 - Class `PositionPoint` models the point via attribute `position` of
     class `GeographicalPosition` ([see GeographicalPosition](general-guidance/geographical-positions)).
 
-Examples of significant points are presented in Figure 41 and Figure 44.
+Examples of significant points are presented in [Departure Aerodrome](#departure-aerodrome) and [En-Route Alternate](#en-route-alternate)
 
 #### Frequency
 
