@@ -4,10 +4,10 @@
 
 The term vertical distance collectively refers to altitudes, elevations
 and heights, as defined by
-ICAO<img src=".//media/general-guidance-vertical-distances-01.png" style="width:6.26806in;height:2.97774in" />
+ICAO
 
-Differences
-between Elevation, Altitude, Height and Ellipsoid height
+![Image](.//media/general-guidance-vertical-distances-01.png "Differences between Elevation, Altitude, Height and Ellipsoid height")
+
 
 -   **Altitude** = The vertical distance of a level, a point or an
     object considered as a point, measured from mean sea level (MSL).
@@ -32,7 +32,7 @@ level number or standard metric level (FIXM construct `FlightLevel`) and
 of ellipsoid heights & heights SFC expressed in feet or meter (FIXM
 construct `Height` used in conjunction with a `VerticalReference`).
 
-<img src=".//media/image23.png" style="width:5.97761in;height:4.0142in" />
+![Image](.//media/image23.png)
 
 These vertical distances are specialisations of the generic class
 `Measure` which serves as the parent class for all measure types including
