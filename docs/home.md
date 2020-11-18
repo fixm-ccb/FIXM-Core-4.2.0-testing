@@ -13,6 +13,11 @@ The FIXM User Manual, formerly known as *Implementtion Guidance* is developed an
 | *FIXM Core 4.2.0* | [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0) | [HTML](home "This web site"), [PDF](tbd.pdf "Download the contents of this web site as a PFD file") | [HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) |
 | [FIXM Core 4.1.0](https://fixm.aero/release.pl?rel=FIXM-4.1.0) | - | [ZIP](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) | [HTML](https://fixm.aero/releases/FIXM-4.1.0/doc/schema_documentation_core/index.html) |
 
+| FIXM Release | FIXM Application | User Manual | Schema Documentation |
+|:-|:-|:-|:-|
+| [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0)<br><br><br> | <br>[FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)<br>[Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0) | [HTML](home "This web site"), [PDF](tbd.pdf "Download the contents of this web site as a PFD file")<br><br><br> | [HTML](https://fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm.html)<br>[HTML](https://fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_message/FficeMessage.html "View FIXM FF-ICE Message v1.0.0 Schema Documentation"), [HTML](https://www.fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_templates/FficeTemplates.html "View FIXM FF-ICE Message v1.0.0 Templates Schema Documentation")<br>[HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) | [HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) |
+| [FIXM Core 4.1.0](https://fixm.aero/release.pl?rel=FIXM-4.1.0) | - | [ZIP](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip) | [HTML](https://fixm.aero/releases/FIXM-4.1.0/doc/schema_documentation_core/index.html) |
+
 ## Content and Target audience
 
 - The part [GENERAL GUIDANCE](general-guidance/fixm-core) provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
