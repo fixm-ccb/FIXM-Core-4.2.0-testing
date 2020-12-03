@@ -1,6 +1,6 @@
 # The FF-ICE Application for FIXM
 
-The FF-ICE Application is a [FIXM Application](/general-guidance-application-libraries) 
+The FF-ICE Application is a [FIXM Application](/general-guidance/applications)
 that addresses the specific use of FIXM Core in the context of ICAO
 FF-ICE. It provides harmonized FF-ICE Message data structures and the
 individual FF-ICE Message templates in line with the requirements on
