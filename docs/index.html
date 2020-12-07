@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
 
+  <!-- Beta announcement -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" />
+
 </head>
 <body>
   <div id="app"></div>
@@ -59,6 +62,11 @@
         crossChapter: true,
         crossChapterText: true,
       },
+      topBanner: {
+      content: "This Beta version of the FIXM User Manual is still being actively modified and edited.",
+      backgroundColor:  '#ffd699',
+      textColor: ' #4d4d4d',
+      },
 
     }
   </script>
@@ -84,6 +92,10 @@
 
   <!-- Pagination Plugin-->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
+  <!-- Beta announcement -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
+
 
   <script src="assets/js/prism.js"></script>
 </body>
