@@ -21,7 +21,7 @@ illustrated on the picture below.
 ![Image](.//media/general-guidance-application-libraries-02.png)
 
 An example of a FIXM Application is the **FF-ICE Application** developed and released by the FIXM CCB. This application addresses
-the use of FIXM core in the specific context of FF-ICE. It provides
+the use of FIXM Core in the specific context of FF-ICE. It provides
 harmonized FF-ICE Message data structure (e.g. data structures for
 representing the FF-ICE Filing Status, the FF-ICE Planning Status etc.)
 and the FF-ICE message templates (e.g. the template for the FF-ICE Filed

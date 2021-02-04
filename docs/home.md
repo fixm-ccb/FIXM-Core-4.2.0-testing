@@ -2,22 +2,22 @@
 
 The FIXM User Manual, formerly known as *Implementation Guidance*, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
 
-*Note: The content of this user manual is informative. The use of the words `shall` or `required` indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words `should` or `recommended` indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.*
+*Note: The content of the FIXM User Manual is informative. The use of the words `shall` or `required` indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words `should` or `recommended` indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.*
 
 ## Guidance on  FIXM Releases
 
-| FIXM Release | FIXM Application | User Manual | Schema Documentation |
+| FIXM Release | FIXM Application | FIXM User Manual | Schema Documentation |
 |:-|:-|:-|:-----|
 | **[FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0)**<br><br><br> | **<br>[FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0)**<br>**[Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0)** | **[HTML](home "This web site")**, [PDF](tbd.pdf "Download the contents of this web site as a PDF file")<br><br><br> | [HTML](https://fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm.html)<br>[HTML](https://fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_message/FficeMessage.html "View FIXM FF-ICE Message v1.0.0 Schema Documentation"), [HTML](https://www.fixm.aero/releases/FFICE-Msg-1.0.0/doc/schema_documentation/ffice_templates/FficeTemplates.html "View FIXM FF-ICE Message v1.0.0 Templates Schema Documentation")<br>[HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) | [HTML](https://fixm.aero/releases/Basic-Msg-1.0.0/doc/schema_documentation/BasicMessage.html) |
 | *[FIXM Core 4.1.0](https://fixm.aero/release.pl?rel=FIXM-4.1.0)* | - | *[ZIP](https://www.fixm.aero/documents/FIXM%20Implementation%20Guidance_FIXM%20v4.1.0.zip)* | *[HTML](https://fixm.aero/releases/FIXM-4.1.0/doc/schema_documentation_core/index.html)* |
 
 ## Content and Target audience
 
-- The part [GENERAL GUIDANCE](general-guidance/fixm-core) provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
-- The part [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm) provides specific guidance in support of the implementation of FF-ICE using FIXM.
-- The part [USING FIXM FOR OTHER USE CASES](fixm-for-other-use-cases/using-fixm-core-without-an-application) provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
+- The section [GENERAL GUIDANCE](general-guidance/fixm-core) provides explanations about the main FIXM components and describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
+- The section [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm) provides specific guidance in support of the implementation of FF-ICE using FIXM.
+- The section [USING FIXM FOR OTHER USE CASES](fixm-for-other-use-cases/using-fixm-core-without-an-application) provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
 - The "How to" parts [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup) and [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model) provide step-by-step guidance for producing new FIXM Applications and FIXM extensions (UML and XSD).
-- The part [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction) provides information about the tools and technologies for which compability tests have been performed for FIXM.
+- The section [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction) provides information about the tools and technologies for which compability tests have been performed for FIXM.
 
 | Your FIXM use case | Chapters relevant to you |
 |:-|:---|
@@ -41,7 +41,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ## How to use this web site
 
-- Use the side bar opposite to access the various sections of the user manual;
+- Use the side bar opposite to access the various sections of the FIXM User Manual;
 - Use the search engine to look for a specific entry;
 - Use the buttons `< Previous` and `Next >` at the bottom of each page to navigate across the different sections of the manual.
 
@@ -83,57 +83,57 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 | **Acronym** |                                                                          |
 |-------------|--------------------------------------------------------------------------|
-| AIDC             | ATS Interfacility Data Communications |
-| AIP       | Aeronautical information publication |
-| AIRM     | ATM Information Reference Model |
-| AIS       | Aeronautical information services |
-| AIXM    | Aeronautical Information Exchange Model |
-| AMDB     | Aerodrome Mapping Database |
-| AMXM             | Aerodrome Mapping Exchange Model |
-| ATM       | Air Traffic Management |
-| ATMRPP           | ATM Requirements and Performance Panel |
-| ATS       | Air Traffic Services |
-| CCB              | Change Control Board |
-| DME      | Distance measuring equipment |
-| EAD              | European AIS Database |
-| FF-ICE | Flight and Flow Information for a Collaborative Environment |
-| FF-ICE/R1        | FF-ICE Release 1 |
-| FIXM     | Flight Information Exchange Model |
-| FPL      | Filed Flight Plan |
-| GML              | Geography Markup Language |
-| GUFI    | Globally Unique Flight Identifier |
-| ICAO     | International Civil Aviation Organisation |
-| IDE              | Integrated development environment |
-| IFPS    | Integrated Initial Flight Plan Processing System |
-| IFR      | Instrument Flight Rules |
-| ISO       | International Organization for Standardization |
-| JMS              | Java Message Service |
-| MSL       | Mean sea level |
-| NAS (US) | (US) National Airspace System |
-| Navaid | Navigational Aid |
-| NDB       | Non-directional radio beacon |
-| NM (EUROCONTROL) | (EUROCONTROL) Network Manager |
-| OGC      | Open Geospatial Consortium |
-| PBN       | Performance Based Navigation |
-| REST             | Representational state transfer |
-| SID       | Standard Instrument Departure |
-| SOAP             | Simple Object Access Protocol |
-| SSR       | Secondary Surveillance Radar |
-| STAR     | Standard instrument arrival |
-| SWIM     | System Wide Information Management |
-| UML       | Unified Modeling Language |
-| UPR       | User Preferred Route |
-| URL              | Uniform Resource Locator |
-| UTC     | Coordinated Universal Time |
-| UUID             | Universally unique identifier |
-| VFR       | Visual Flight Rules |
-| VOR     | VHF omnidirectional radio range |
-| W3C      | World Wide Web Consortium |
-| WGS-84 | World Geodetic System - 1984 |
-| WSDL             | Web Services Description Language |
-| XML              | Extensible Markup Language |
-| XSD              | XML Schema Definition |
-| XSLT             | Extensible Stylesheet Language Transformations |
+| AIDC              | ATS Interfacility Data Communications |
+| AIP               | Aeronautical Information Publication |
+| AIRM              | ATM Information Reference Model |
+| AIS               | Aeronautical Information Services |
+| AIXM              | Aeronautical Information Exchange Model |
+| AMDB              | Aerodrome Mapping Database |
+| AMXM              | Aerodrome Mapping Exchange Model |
+| ATM               | Air Traffic Management |
+| ATMRPP            | ATM Requirements and Performance Panel |
+| ATS               | Air Traffic Services |
+| CCB               | Change Control Board |
+| DME               | Distance measuring equipment |
+| EAD               | European AIS Database |
+| FF-ICE            | Flight and Flow Information for a Collaborative Environment |
+| FF-ICE/R1         | FF-ICE Release 1 |
+| FIXM              | Flight Information Exchange Model |
+| FPL               | Filed Flight Plan |
+| GML               | Geography Markup Language |
+| GUFI              | Globally unique flight identifier |
+| ICAO              | International Civil Aviation Organisation |
+| IDE               | Integrated development environment |
+| IFPS              | Integrated initial flight plan processing system |
+| IFR               | Instrument flight rules |
+| ISO               | International Organization for Standardization |
+| JMS               | Java Message Service |
+| MSL               | Mean sea level |
+| NAS (US)          | (US) National Airspace System |
+| Navaid            | Navigational aid |
+| NDB               | Non-directional radio beacon |
+| NM (EUROCONTROL)  | (EUROCONTROL) Network Manager |
+| OGC               | Open Geospatial Consortium |
+| PBN               | Performance-based navigation |
+| REST              | Representational state transfer |
+| SID               | Standard instrument departure |
+| SOAP              | Simple Object Access Protocol |
+| SSR               | Secondary surveillance radar |
+| STAR              | Standard instrument arrival |
+| SWIM              | System Wide Information Management |
+| UML               | Unified Modeling Language |
+| UPR               | User Preferred Route |
+| URL               | Uniform Resource Locator |
+| UTC               | Coordinated Universal Time |
+| UUID              | Universally unique identifier |
+| VFR               | Visual flight rules |
+| VOR               | VHF omnidirectional radio range |
+| W3C               | World Wide Web Consortium |
+| WGS-84            | World Geodetic System - 1984 |
+| WSDL              | Web Services Description Language |
+| XML               | Extensible Markup Language |
+| XSD               | XML Schema Definition |
+| XSLT              | Extensible Stylesheet Language Transformations |
 
 [FIXM Core 4.2.0]: https://www.fixm.aero/release.pl?rel=FIXM-4.2.0
 [FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0

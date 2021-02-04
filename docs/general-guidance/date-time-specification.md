@@ -6,7 +6,7 @@ A constraint is placed on class *Base.Types.Time*, the class used to
 represent all date/time values in FIXM, imposes the use of the trailing
 character `Z` to indicate UTC, in line with the W3C XSD specification.
 
-Example: 20th July 1969 at 20:18UTC is expressed as `1969-07-20T20:18:00.000Z`
+Example: 20th July 1969 at 20:18 UTC is expressed as `1969-07-20T20:18:00.000Z`
 
 !> Note to implementers
 
