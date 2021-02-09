@@ -4,13 +4,13 @@
 
 ### Pass Outcome
 
-Succeeded in generating compilable and runnable Fixm server and client
+Succeeded in generating compilable and runnable FIXM server and client
 code. The process to achieve this may or may not have required
 additional coding.
 
 ### Failed Outcome
 
-Failed in generating compilable and runnable Fixm server and client
+Failed in generating compilable and runnable FIXM server and client
 code. No additional workarounds were available or the amount of coding
 needed made the solution impractical.
 

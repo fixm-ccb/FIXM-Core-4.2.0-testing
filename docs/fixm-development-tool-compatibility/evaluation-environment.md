@@ -22,12 +22,7 @@ The evaluation process included the following components:
 
     This is a very basic web service to test the sending of minimal flight plan XML via SOAP to a server in an attempt to get a web service SubmissionResponse. Testing focused mainly on Java based client and server.
 
-The below sections will outline the approach and findings associated
-with the evaluation of various tools tested in interpreting the Fixm
-WSDL file to produce the Fixm server and client Java code.
-
-A number of tools were tested but the Apache Axis library and the
-WSDL2Java tool were found to provide the most success.
+Various tools were evaluated for their ability to interpret the FIXM WSDL file to produce the FIXM server and client Java code. The Apache Axis library and the WSDL2Java tool were found to provide the most success.
 
 ## Example WSDL (FIXM Schema with Restrictions)
 

@@ -773,7 +773,7 @@ to increase its usability with a number of XML tools. The packages
 contained under the Includes package facilitate this and will be
 modified by the post-processing script to contain the needed content
 (see [Set Up and Use Package-Wide Include
-Files](#set-up-and-use-package-wide-include-files) below for more
+Files](#set-up-and-use-package-wide-include-files) for more
 details).
 
 1. Right click on your overall templates container (in this example,

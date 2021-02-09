@@ -56,3 +56,80 @@
    - Comment #21 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - general-guidance/date-time-specification.md
+  
+# February 9th 2021
+
+ - Unformatted citation fixed
+   - Comment #25 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - general-guidance/geographical-positions.md
+     - home.md
+
+ - Hyperlink readability fixed and hyperlink URLs updated
+   - Comment #36 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - general-guidance/contact-information.md
+
+ - Hyperlink added for new rules submission
+   - Comment #38 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - general-guidance/general-rules-for-data-correctness.md
+
+ - Codelist -> Enumeration
+   - Comment #40 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-in-support-of-ffice/ffice-application-for-fixm.md
+    
+ - opposite -> above
+   - Comment #41 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-in-support-of-ffice/message-templates.md
+
+ - Appendix A -> How to Create a FIXM Application
+   - Comment #47 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-for-other-use-cases/using-fixm-core-with-an-application.md
+
+ - Wording correction
+   - Comment #48 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-for-other-use-cases/using-fixm-core-with-an-application.md
+
+ - Appendix B -> How to create a FIXM extension
+   - Comment #49 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-for-other-use-cases/using-fixm-core-with-an-extension.md
+
+ - Wording correction
+   - Comment #54 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - how-to-create-application/create-templates.md
+
+ - Wording correction and new hyperlink
+   - Comment #63 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-development-tool-compatibility/introduction.md
+
+ - Fixm -> FIXM
+   - Comment #64 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-development-tool-compatibility/evaluation-environment.md
+     - fixm-development-tool-compatibility/evaluation-results.md
+
+ - Wording
+   - Comment #65 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-development-tool-compatibility/evaluation-environment.md
+
+ - Wording
+   - Comment #66 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-development-tool-compatibility/apache-axis-library-and-the-wsdl2java-tool.md
+
+ - Broken hyperlink fixed
+   - Comment #67 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - fixm-in-support-of-ffice/message-templates.md
+     - fixm-in-support-of-ffice/ffice-application-for-fixm.md
+     - home.md
+     

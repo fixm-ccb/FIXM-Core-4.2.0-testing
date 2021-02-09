@@ -3,8 +3,7 @@
 ?> The table below compiles an initial set of business rules 
 identified in the GENERAL GUIDANCE part, or already
 captured in the FIXM Core model as model element notes. This table will be 
-gradually enriched based on implementers’ feedback. Click on SUBMIT NEW RULE(S)
-below to propose additional business rules. 
+gradually enriched based on implementers’ feedback. Submit new rules using the [*Contact Us*](https://www.fixm.aero/content/contact.pl?category=Technical&version=Other&versionOther=FIXM%20User%20Manual&details=Describe%20proposed%20content%20here) form. 
 
 ?> The overall formulation and description method for
 the business rules below may be also revisisted, in particular in the light of the [AIXM experience with

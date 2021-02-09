@@ -61,7 +61,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 [5]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment
 
-[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM%204.1.0/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared Documents/ICAO ATMRPP inputs for FIXM/ATMRPP3_WP_766_FF-ICE1 Implementation Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
 
 [7]: ICAO Doc 7910: Location Indicators
 
@@ -78,6 +78,8 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 [12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
 
 [13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
+
+[14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
 
 ## Acronyms
 

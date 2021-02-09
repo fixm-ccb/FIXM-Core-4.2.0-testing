@@ -41,7 +41,7 @@ Implementation Guidance Manual Appendix B. For instance:
 
 ![Example of FF-ICE Message data structures tracing to the FF-ICE Implementation Guidance Manual, Appendix B](.//media/image29.png "Example of FF-ICE Message data structures tracing to the FF-ICE Implementation Guidance Manual, Appendix B")
 
-The FF-ICE message data structures other than Choices and Codelists are
+The FF-ICE message data structures other than Choices and Enumerations are
 extendable. This enables implementers to accommodate additional FF-ICE
 message data structures required locally or regionally, in support of
 local or regional FF-ICE requirements. Extension hooks are defined in a
@@ -54,4 +54,4 @@ structures modelled in the FF-ICE Application.
 
 ## References
 
-[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM%204.1.0/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared Documents/ICAO ATMRPP inputs for FIXM/ATMRPP3_WP_766_FF-ICE1 Implementation Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”

@@ -24,7 +24,7 @@ of the enumerated values is suitable, the property `NetworkChoice.other`
 shall be used. The ATM Information Reference Model provides additional
 telecom network types that should be used for populating
 `NetworkChoice.other`, as appropriate. These additional AIRM values are
-available [here](http://airm.aero/viewer/1.0.0/logical-model.html#CodeTelecomNetworkType).
+available [here](http://airm.aero/viewer/1.0.0/logical-model/CodeTelecomNetworkType.html).
 
 The type of network affects the format of the linkage information.
 
@@ -63,8 +63,8 @@ Flight Plan Message Submission to IFPS (FP1 - Brussels (Haren)).
 The following example illustrates contact information formed of a SITA
 address. `SITA` is not a value captured in FIXM enumeration
 `TelecomNetworkType` but is part of the reference ATM vocabulary provided
-by the AIRM ([AIRM codelist
-`CodeTelecomNetworkType`](http://airm.aero/viewer/1.0.0/logical-model.html#CodeTelecomNetworkType)).
+by the AIRM (AIRM codelist
+[`CodeTelecomNetworkType`](http://airm.aero/viewer/1.0.0/logical-model/CodeTelecomNetworkType.html)).
 The example features the EUROCONTROL NM SITA address for Flight Plan
 Message Submission to IFPS (FP1 - Brussels (Haren)).
 

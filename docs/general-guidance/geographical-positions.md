@@ -43,13 +43,16 @@ geographic co-ordinates.
 ICAO Annex 11 chapter 2.29.1 states that World Geodetic System — 1984
 (WGS-84) shall be used as the horizontal (geodetic) reference system for
 air navigation. The Coordinate Reference System reference is critical
-for the correct encoding and processing of FIXM positions*. This is
-because a CRS not only indicates the geodetic datum and ellipsoid for
+for the correct encoding and processing of FIXM positions. 
+
+>*This is because a CRS not only indicates the geodetic datum and ellipsoid for
 which point coordinates are expressed but also the order of the
 coordinate axes in which coordinate values are provided, e.g. latitude
 before longitude – which is an important convention for the aviation
-domain.* \[copied from [OGC
-12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061)\]
+domain.*
+>
+> -- <cite>OGC 12-028r1 <sup>[[14]](#references)</sup></cite>
+
 The EPSG:4326 CRS is the recommended choice for AIXM 5.1 data sets that
 use the WGS-84 reference datum.
 
@@ -131,3 +134,7 @@ geospatial data. The reasons for not adopting GML are the following:
 
 ## Notes
 [1]: FIXM does not use GML but mimics it for geographic positions. GML encodes geographic locations as sequences of values since it employs the same construct to represent polygons.
+
+## References
+
+[14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data

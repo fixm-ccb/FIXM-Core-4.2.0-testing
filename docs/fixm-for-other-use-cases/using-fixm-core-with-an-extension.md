@@ -39,10 +39,10 @@ Message’s existing `MessageCollection` element. This allows XAS the option
 of using Message as a root element if they wish to send single position
 reports or `MessageCollection` if they wish to send many at once. Details
 on how to build this Extension along with more specifics as to its
-content are supplied below in Appendix B.
+content are supplied below in [How to create a FIXM extension](how-to-create-fixm-extension/initial-download-and-setup).
 
 With the Extension built, XAS instructs consumers to make use of the
-`Example.xsd` file described in Appendix B when validating position
+`Example.xsd` file described in [How to create a FIXM extension](how-to-create-fixm-extension/initial-download-and-setup) when validating position
 reports. Below is an example of how the XML payload of one of these
 position reports may appear.
 

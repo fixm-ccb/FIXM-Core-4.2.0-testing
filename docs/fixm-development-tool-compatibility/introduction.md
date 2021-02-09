@@ -19,7 +19,7 @@ and
 - several common development tools.  
 
 The result of this compatibility analysis was the creation of the FIXM
-support matrix. The section below titled *Platform Support Matrix*
+support matrix. The section [Platform Support Matrix](fixm-development-tool-compatibility/platform-support-matrix)
 supplies a list of the supported tools and technologies. This list of
 currently supported software versions is also located on the FIXM work
 area.

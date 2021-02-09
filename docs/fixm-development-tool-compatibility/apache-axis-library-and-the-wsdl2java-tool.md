@@ -16,7 +16,7 @@ ADP uses its own Axis1 based parsing tool. Supports limited validation
 but no range checking
 
 JAXBRI uses JAXB as a parsing tool. Utilize JAXB for schema validation
-in the code (big timesaving). It does not support parameter testing but
+in the code. It does not support parameter testing but
 does support limited field checking i.e. ‘Required’ versus ‘Optional’
 
 **Where to Run It?**

@@ -105,7 +105,7 @@ exchange or if the user wants to create message templates to more fully
 lock down and describe their message structures and content, they should
 consider creating their own custom FIXM Application.
 
-As described in [FIXM Applications](general-guidance/applications), FIXM Applications enhance FIXM Core by adding context specific message data structures and as well as
+As described in [FIXM Applications](general-guidance/applications), FIXM Applications enhance FIXM Core by adding context specific message data structures and provides
 stricter validation rules via message templates. An Application should
 define its own namespace to distinguish it from FIXM Core as well as
 creating one or more root elements to be used as an entry point into the
@@ -146,10 +146,10 @@ represent data XAS wants to exchange with each alert (`sender`,
 XAS then goes on to create two
 templates: one that locks down the content of a departure alert and
 another for the arrival alert. Details on how to build this FIXM Application along with more specifics as to its content are supplied below
-in Appendix A.
+in [How to create a FIXM Application](how-to-create-application/initial-download-and-setup).
 
 With the Application built, XAS instructs consumers to make use
-of the `ExampleTemplates.xsd` file described in Appendix A when validating
+of the `ExampleTemplates.xsd` file described in [How to create a FIXM Application](how-to-create-application/initial-download-and-setup) when validating
 the new alert messages. Below is an example of how the XML payload of
 one of the new arrival alert messages coming from this service may
 appear.
