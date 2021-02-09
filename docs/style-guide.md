@@ -8,6 +8,14 @@ This is text with a footnote <sup>[[note 1]](#notes)</sup>
 
 This is text with a reference <sup>[[1]](#references)</sup>
 
+?> This is a noteblock
+   With multiple lines
+?>   
+?>     a. and a list.
+?>
+?>     b. with multiple items.
+
+
 ## Proper nouns
 
 The following terms are considered **proper nouns** and they should be capitalized:
