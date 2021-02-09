@@ -10,10 +10,10 @@ This is text with a reference <sup>[[1]](#references)</sup>
 
 ?> This is a noteblock
    With multiple lines
-?>   
-?>     a. and a list.
-?>
-?>     b. with multiple items.
+>   
+>     a. and a list.
+>
+>     b. with multiple items.
 
 
 ## Proper nouns
