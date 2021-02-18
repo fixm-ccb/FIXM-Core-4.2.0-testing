@@ -26,6 +26,7 @@
 
 
 - **How to create a FIXM Application**
+  - [Introduction](how-to-create-application/introduction.md)
   - [Initial download and setup](how-to-create-application/initial-download-and-setup.md)
   - [Create an Application package](how-to-create-application/create-an-application-package.md)
   - [Create Application content](how-to-create-application/create-application-content.md)
@@ -42,7 +43,7 @@
   - [Create Extension content](how-to-create-fixm-extension/create-extension-content.md)
   - [Generate the Extension schemas](how-to-create-fixm-extension/generate-extension-schemas.md)
   - [Post-Process the Extension schemas](how-to-create-fixm-extension/post-process-extension-schemas.md)
-
+  - [Sample XML](how-to-create-fixm-extension/sample-xml.md)
 
 - **How to generate XML Schemas from a FIXM model using Sparx Enterprise Architect**
   - [Generating schemas from the Logical Model](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model.md)

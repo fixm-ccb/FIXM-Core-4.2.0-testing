@@ -133,3 +133,44 @@
      - fixm-in-support-of-ffice/ffice-application-for-fixm.md
      - home.md
      
+# February 18th 2021
+
+ - Style guide created
+   - Note and Reference system
+   - Headings
+   - Proper and common nouns listed
+
+ - Missing section Sample XML added
+   - Comment #61 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Additionally, Appendix -> section
+   - Affected files:
+     - _sidebar.md
+     - how-to-create-fixm-extension/sample-xml.md
+     - how-to-create-application/sample-xml.md
+   - Remaining actions: 
+     - Review Rulebook subsection for both XML sample sections
+
+ - Download link for perl script added
+   - Comment #60 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - how-to-generate-xml-schemas/post-processing-the-fixm-schemas.md
+   - Remaining actions: 
+     - Add script.pl to asstes/downloads directory
+
+ - Rulebook content removed
+   - Comment #55 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/how-to-create-application/sample-xml.md
+     - docs/how-to-create-fixm-extension/sample-xml.md
+   - Remaining actions: 
+     - Find new location for rulebook.md
+
+ - Content moved to docs/how-to-create-application/indroduction.md
+   - Comment #56 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/how-to-create-application/sample-xml.md
+     - docs/how-to-create-application/indroduction.md
+     - docs/_sidebar.md
+   - Remaining actions: 
+     - Review docs/how-to-create-fixm-extension/sample-xml.md
+     - Improve docs/how-to-create-application/indroduction.md
