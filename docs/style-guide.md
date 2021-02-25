@@ -12,6 +12,12 @@ This is text with a footnote <sup><a href="#style-guide?id=notes">[note 1]</a></
 
 This is text with a reference <sup>[[1]](#references)</sup>.
 
+|       | Table heading     | Units |
+|:------|:------------------|:------|
+| HF    |2850 to 28000      | kHz   |
+| VHF   |117.975 to 137.000 | MHz   |
+| UHF   |225.000 to 399.975 | MHz   |
+
 ## Proper nouns
 
 The following terms are considered **proper nouns** and they should be capitalized:

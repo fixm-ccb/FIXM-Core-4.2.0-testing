@@ -1,4 +1,6 @@
-# February 2nd 2021
+# Changes
+
+## February 2nd 2021
 
  - Capitalization fixed for headings in table of contents
    - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
@@ -57,7 +59,7 @@
    - Affected files:
      - general-guidance/date-time-specification.md
   
-# February 9th 2021
+## February 9th 2021
 
  - Unformatted citation fixed
    - Comment #25 (from "FIXM User Manual Comments - ECTL answers.xlsx")
@@ -133,7 +135,7 @@
      - fixm-in-support-of-ffice/ffice-application-for-fixm.md
      - home.md
      
-# February 18th 2021
+## February 18th 2021
 
  - Style guide created
    - Note and Reference system
@@ -174,3 +176,9 @@
    - Remaining actions: 
      - Review docs/how-to-create-fixm-extension/sample-xml.md
      - Improve docs/how-to-create-application/indroduction.md
+
+## February 25th 2021
+
+ - translating-ffice-fixm-messages-to-ats-messages updated
+   - Affected files:
+     - docs/fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md
