@@ -58,6 +58,8 @@
   - [Future testing](fixm-development-tool-compatibility/future-testing.md)
   - [Platform support matrix](fixm-development-tool-compatibility/platform-support-matrix.md)
 
+- **ATS message  to FIXM mapping**
+  - [Mapping of ATS fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
 
 - **License**
   - [Copyright 2020](https://fixm.aero/content/disclaimer.pl)

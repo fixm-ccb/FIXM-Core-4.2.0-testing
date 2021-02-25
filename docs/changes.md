@@ -183,3 +183,8 @@
    - Affected files:
      - docs/fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md
      - _sidebar.md
+
+ - mapping-of-ats-fields-to-fixm updated
+   - Affected files:
+     - docs/ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md
+     - _sidebar.md
