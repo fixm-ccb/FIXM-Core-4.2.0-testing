@@ -19,6 +19,7 @@
   - [FF-ICE message templates](fixm-in-support-of-ffice/message-templates.md)
   - [Translating FF-ICE FIXM messages to ATS messages](fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md)
 
+
 - **Using FIXM for other use cases**
   - [Using FIXM Core without a FIXM Application](fixm-for-other-use-cases/using-fixm-core-without-an-application.md)
   - [Using FIXM Core with a FIXM Application](fixm-for-other-use-cases/using-fixm-core-with-an-application.md)
@@ -45,6 +46,7 @@
   - [Post-Process the Extension schemas](how-to-create-fixm-extension/post-process-extension-schemas.md)
   - [Sample XML](how-to-create-fixm-extension/sample-xml.md)
 
+
 - **How to generate XML Schemas from a FIXM model using Sparx Enterprise Architect**
   - [Generating schemas from the Logical Model](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model.md)
   - [Post-processing the FIXM schemas](how-to-generate-xml-schemas/post-processing-the-fixm-schemas.md)
@@ -58,8 +60,10 @@
   - [Future testing](fixm-development-tool-compatibility/future-testing.md)
   - [Platform support matrix](fixm-development-tool-compatibility/platform-support-matrix.md)
 
+
 - **ATS message  to FIXM mapping**
   - [Mapping of ATS fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
+
 
 - **License**
   - [Copyright 2020](https://fixm.aero/content/disclaimer.pl)
