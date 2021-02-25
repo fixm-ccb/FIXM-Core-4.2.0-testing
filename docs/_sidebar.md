@@ -17,7 +17,7 @@
 - **Using FIXM in support of FF-ICE**
   - [The FF-ICE Application for FIXM](fixm-in-support-of-ffice/ffice-application-for-fixm.md)
   - [FF-ICE message templates](fixm-in-support-of-ffice/message-templates.md)
-
+  - [Translating FF-ICE FIXM messages to ATS messages](fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md)
 
 - **Using FIXM for other use cases**
   - [Using FIXM Core without a FIXM Application](fixm-for-other-use-cases/using-fixm-core-without-an-application.md)

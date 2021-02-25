@@ -182,3 +182,4 @@
  - translating-ffice-fixm-messages-to-ats-messages updated
    - Affected files:
      - docs/fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md
+     - _sidebar.md
