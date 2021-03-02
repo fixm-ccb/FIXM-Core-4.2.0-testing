@@ -215,3 +215,41 @@
    - Comment #20 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - docs/media/general-guidance-extensions-03.png
+
+ - Image updated
+   - Comment #24 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/general-guidance-geographical-positions-01.png
+
+ - Image updated
+   - Comment #26 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/general-guidance-geographical-positions-01.png
+
+ - Image updated
+   - Comment #28 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/image20.png
+
+ - Image updated
+   - Comment #29 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/image15.png
+
+ - Image updated
+   - Comment #30 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/image14.png
+
+ - Image updated
+   - Comment #31 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/image13.png
+     
+ - Image updated
+   - Comment #32 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/image16.png
+   - Remaining actions: 
+     - Review all images from logical model and check package name is correct
+     
