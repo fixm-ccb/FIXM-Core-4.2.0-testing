@@ -1,5 +1,7 @@
 # Extensions
 
+## What is it?
+
 An extension designates a supplement to FIXM that supports additional
 (commonly local or regional) requirements from a particular organisation
 or community of interest. An extension may supplement FIXM Core by
