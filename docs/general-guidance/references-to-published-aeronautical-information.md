@@ -624,9 +624,7 @@ Important note: FIXM enables the encoding of richer aerodrome
    </fb:referencePoint>
 </fx:destinationAerodrome>
 ```
-The provision of the name and reference point in addition to the
-location indicator is technically possible but does not serve the
-purpose of identifying the aerodrome. This implementation practice only
+The above example includes all fields from both varieties of option 1 and option 2 as well as providing the aerodrome's IATA designator. This implementation practice only
 aims to provide consumers with richer information about the aerodrome
 being referred to. Whether or not to use this supplementary information
 is at the discretion of the consuming system / service.

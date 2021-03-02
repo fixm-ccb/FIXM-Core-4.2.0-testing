@@ -180,6 +180,9 @@
 ## February 25th 2021
 
  - translating-ffice-fixm-messages-to-ats-messages updated
+   - Comment #69 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Comment #43 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Comment #42 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - docs/fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md
      - _sidebar.md
@@ -188,3 +191,27 @@
    - Affected files:
      - docs/ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md
      - _sidebar.md
+
+## March 2nd 2021
+
+ - Note fixed
+   - Comment #33 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/relative-points.md
+
+ - Text updated
+   - Comment #27 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/references-to-published-aeronautical-information.md
+
+ - Text removed
+   - Comment #37 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/general-rules-for-data-correctness.md
+   - Remaining actions: 
+     - add section with examples for general guidance
+
+ - Image updated
+   - Comment #20 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/media/general-guidance-extensions-03.png

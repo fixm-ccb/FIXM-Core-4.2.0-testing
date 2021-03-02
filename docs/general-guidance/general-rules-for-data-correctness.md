@@ -65,10 +65,6 @@ provide, may be a candidate means to enforce the business rules below.
 <td>Aircraft</td>
 <td>The property formationCount, if provided, shall be equal to or greater than 2.</td>
 </tr>
-<tr class="even">
-<td>Aircraft, AircraftType</td>
-<td>The sum of all the AircraftType.numberOfAircraft properties, if provided, shall match Aircraft.formationCount.</td>
-</tr>
 <tr class="odd">
 <td>OnlineContact</td>
 <td>The OnlineContact.network shall be always populated when providing an OnlineContact.linkage.</td>
