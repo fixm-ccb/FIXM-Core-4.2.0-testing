@@ -39,6 +39,22 @@ The following terms are considered **common nouns** and they should **not** be c
  - schemas, FIXM schemas
  - model, FIXM model
 
+## Highlighting
+
+Use `inline code` to highlight:
+
+ - Class names e.g. `AircraftType`
+ - Property names e.g. `AircraftType.numberOfAircraft`
+
+Use *italics* to highlight:
+
+ - Reserved keywords e.g. *shall* or *required*
+ - Interface references e.g. click on *New user? Register now.*
+
+Use [Hyperlink] to highlinght:
+
+ - Section names e.g. [GENERAL GUIDANCE](general-guidance/fixm-core)
+
 
 ## Notes
 

@@ -1,7 +1,9 @@
-- **General guidance**
+- **FIXM Components**
   - [FIXM Core](general-guidance/fixm-core.md)
   - [FIXM Applications](general-guidance/applications.md)
   - [Extensions](general-guidance/extensions.md)
+
+- **General guidance**
   - [Date/Time specification](general-guidance/date-time-specification.md)
   - [Geographical positions](general-guidance/geographical-positions.md)
   - [References to published aeronautical information](general-guidance/references-to-published-aeronautical-information.md)

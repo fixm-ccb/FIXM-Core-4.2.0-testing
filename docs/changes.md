@@ -1,6 +1,6 @@
 # Changes
 
-## February 2nd 2021
+## February 2021
 
  - Capitalization fixed for headings in table of contents
    - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
@@ -58,8 +58,6 @@
    - Comment #21 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - general-guidance/date-time-specification.md
-  
-## February 9th 2021
 
  - Unformatted citation fixed
    - Comment #25 (from "FIXM User Manual Comments - ECTL answers.xlsx")
@@ -134,8 +132,6 @@
      - fixm-in-support-of-ffice/message-templates.md
      - fixm-in-support-of-ffice/ffice-application-for-fixm.md
      - home.md
-     
-## February 18th 2021
 
  - Style guide created
    - Note and Reference system
@@ -177,8 +173,6 @@
      - Review docs/how-to-create-fixm-extension/sample-xml.md
      - Improve docs/how-to-create-application/indroduction.md
 
-## February 25th 2021
-
  - translating-ffice-fixm-messages-to-ats-messages updated
    - Comment #69 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Comment #43 (from "FIXM User Manual Comments - ECTL answers.xlsx")
@@ -192,7 +186,7 @@
      - docs/ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md
      - _sidebar.md
 
-## March 2nd 2021
+## March 2021
 
  - Note fixed
    - Comment #33 (from "FIXM User Manual Comments - ECTL answers.xlsx")
@@ -252,4 +246,26 @@
      - docs/media/image16.png
    - Remaining actions: 
      - Review all images from logical model and check package name is correct
-     
+
+ - Section Guidance on FIXM Releases updated
+   - Comment #5 and #6 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/home.md
+   - Remaining actions: 
+     - Review https://www.fixm.aero/documents.pl#Sec2 website and explain various guidance artifacts.
+
+ - Use of *italics* and `inline code` updated for home page
+   - Comment #8 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - style-guide.md updated with guidance
+   - Affected files:
+     - docs/home.md
+   - Remaining actions: 
+     - Review all pages and apply guidance
+
+ - New section FIXM Components separates guidance for FIXM Core, Applications and Extensions from general guidance on diverse specivic topics.
+   - Comment #23 and #9 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/_sidebar.md
+     - docs/home.md
+     - docs/general-guidance/introduction.md
+     - docs/general-guidance/fixm-components-introduction.md
