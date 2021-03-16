@@ -55,8 +55,6 @@ Use [Hyperlink] to highlinght:
 
  - Section names e.g. [GENERAL GUIDANCE](general-guidance/fixm-core)
 
-Here's a simple footnote,[^1] and here's a longer one.
-
 ## Notes
 
 [1]: This is a Note
@@ -68,5 +66,3 @@ Here's a simple footnote,[^1] and here's a longer one.
 [1]: This is a Reference
 
 [2]: This is another Reference
-
-[^1]: This is the first footnote.
