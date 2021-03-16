@@ -9,7 +9,9 @@ The Flight Information Exchange Model (FIXM) is an exchange model capturing Flig
 The main FIXM components are FIXM Core, FIXM Applications and FIXM Extensions:
 
 ![Image](.//media/fixm-components.png)
+
 ![Image](.//media/fixm-components.png :size=600)
+
 ![Image](.//media/fixm-components.png =600)
 
 1. [FIXM Core](general-guidance/fixm-core) may be suppelemented by FIXM Extensions defining additional flight data structures exchanged locally or regionally
