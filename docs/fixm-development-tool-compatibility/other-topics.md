@@ -15,7 +15,7 @@ would not bring any additional complexity. They could therefore be
 processed by marshalling tools in a smoother way compared to XSD
 restrictions.
 
-!> The online literature about XML schema design generally considers that
+?> The online literature about XML schema design generally considers that
 the restrictions of XSD complex types are the most difficult and
 therefore the least supported part of the XML schema specification. XSD profiles may be considered as an alternative to XSD restrictions should implementers experience issues with the FIXM templates based on XSD restrictions. Implementers are therefore invited to
 report any problems with XSD restrictions support, with details about the
