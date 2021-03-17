@@ -53,11 +53,11 @@ noted below.
     namespaces of any packages you will import. This step is
     accomplished by:
 
-        a. Clicking “New” to open a Namespace Details dialogue box.
+    a. Clicking “New” to open a Namespace Details dialogue box.
 
-        b. Filling in appropriate details for each namespace to be included.
+    b. Filling in appropriate details for each namespace to be included.
 
-        c. Then clicking OK.
+    c. Then clicking OK.
 
     In this example, our templates will import Base and Flight from Core.
 See below for examples showing how each Namespace Details dialogue box should be filled in.
@@ -118,15 +118,15 @@ repeating all the steps from the previous section.
 
     a.  ArrivalAlert template
 
-        i.  *Schema Name* set to: `ArrivalAlert`
+    - *Schema Name* set to: `ArrivalAlert`
 
-        ii.  *Schema File* set to: `.\schemas\applications\examplemessage\exampletemplates\arrivalalert\ArrivalAlert.xsd`
+    - *Schema File* set to: `.\schemas\applications\examplemessage\exampletemplates\arrivalalert\ArrivalAlert.xsd`
 
     b.  DepartureAlert template
 
-        i.  *Schema Name* set to: `DepartureAlert`
+    - *Schema Name* set to: `DepartureAlert`
 
-        ii.  *Schema File* set to: `.\schemas\applications\examplemessage\exampletemplates\departurealert\DepartureAlert.xsd`
+    - *Schema File* set to: `.\schemas\applications\examplemessage\exampletemplates\departurealert\DepartureAlert.xsd`
 
     And the schemas directory structure should be modified as follows:
 
@@ -173,20 +173,20 @@ and the *Schema File* field of their schema properties.
     your template. All names, properties, descriptions, tags, etc.,
     should be the same<sup><a href="#how-to-create-application/create-templates?id=notes">[note 3]</a></sup>. except:
 
-        a.  If your package has an associated diagram, change the diagram
-            *Name* to include your template’s prefix. While not strictly
-            necessary, this helps prevent confusing template diagrams with
-            the originals.
+    a.  If your package has an associated diagram, change the diagram
+        *Name* to include your template’s prefix. While not strictly
+        necessary, this helps prevent confusing template diagrams with
+        the originals.
 
-        b.  Change the *Schema File* field to use a path corresponding to
-            your message template and a filename beginning with your
-            template’s prefix. Template schema files should be located under
-            the directory of your message container but their paths should
-            otherwise include creating any intermediate directories, etc.,
-            so that they are structured similar to the paths to the files
-            they are restricting.
+    b.  Change the *Schema File* field to use a path corresponding to
+        your message template and a filename beginning with your
+        template’s prefix. Template schema files should be located under
+        the directory of your message container but their paths should
+        otherwise include creating any intermediate directories, etc.,
+        so that they are structured similar to the paths to the files
+        they are restricting.
 
-        c.  Indicate that the schema is a template in the description text.
+    c.  Indicate that the schema is a template in the description text.
 
 For this example, we will first create a template package corresponding
 to ExampleMessage under ArrivalAlert. When creating the package, we will
@@ -808,8 +808,7 @@ details).
 
     b.  *Prefix* set to: `fx`.
 
-    c.  *Schema File* set to:
-        `.\schemas\applications\examplemessage\exampletemplates\ExampleFlight.xsd`.
+    c.  *Schema File* set to:`.\schemas\applications\examplemessage\exampletemplates\ExampleFlight.xsd`.
 
 With the Includes package in place, the example Application is
 complete. Below are screenshots showing the final composition of Project

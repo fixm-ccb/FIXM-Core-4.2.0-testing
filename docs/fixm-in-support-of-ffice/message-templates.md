@@ -64,7 +64,7 @@ below. The message template resulting from the translation of this table is disp
 
 ### Explanations
 
-![Explanations](.//media/image32.png "Explanations")
+![Explanations](.//media/image32.png  ':size=50%')
 
 **XSD complex type restrictions** are used to pare down the Flight and
 the FF-ICE Message data structures to just those fields that are
@@ -76,7 +76,7 @@ class that generalizes the class to be restricted and then applying the
 `<<XSDrestriction>>` stereotype to the generalization
 connector, as shown in brown on the picture above.
 
-![Explanations](.//media/image33.png "Explanations")
+![Explanations](.//media/image33.png  ':size=50%')
 
 XML elements being irrelevant in the context of the message template are
 eliminated by removing them from the model, as shown in red on the

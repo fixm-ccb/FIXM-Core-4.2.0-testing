@@ -62,12 +62,9 @@ contain diagrams and Extension classes.
 
     b.  *Prefix* set to: “xmp”.
 
-    c.  *Schema File* set to:
-        `.\schemas\extensions\example\ExampleEnRoute.xsd`.
+    c.  *Schema File* set to: `.\schemas\extensions\example\ExampleEnRoute.xsd`.
 
-    ?> NOTE: For this and other subcomponents, you should be able to
-    skip the step of setting up additional namespaces for imported
-    packages. Sparx EA should automatically generate these as needed.
+    ?> NOTE: For this and other subcomponents, you should be able to skip the step of setting up additional namespaces for imported packages. Sparx EA should automatically generate these as needed.
 
     When finished, your XSD schema Properties dialogue box should look
     something like below.
@@ -84,8 +81,7 @@ contain diagrams and Extension classes.
 
     b.  An elementFormDefault tag to: “qualified”.
 
-    c.  A version tag set to an appropriate version for your Extension
-        (“1.0.0” for this example).
+    c.  A version tag set to an appropriate version for your Extension (`1.0.0` for this example).
 
 ## Create an Extension Class
 

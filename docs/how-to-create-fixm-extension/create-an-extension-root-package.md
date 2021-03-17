@@ -49,8 +49,7 @@ schema namespace, namespace prefixes, etc.
 2. Fill in values for your schema properties as appropriate for your
     Extension. In this example, we will use the following values:
 
-    a.  *Target Namespace* set to:
-        `http://www.fixm.aero/ext/example/1.0`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[note 1]</a></sup>.
+    a.  *Target Namespace* set to: `http://www.fixm.aero/ext/example/1.0`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[note 1]</a></sup>.
 
     b.  *Prefix* set to: `xmp`<sup><a href="#how-to-create-fixm-extension/create-an-extension-root-package?id=notes">[note 1]</a></sup>.
 
@@ -80,11 +79,11 @@ schema namespace, namespace prefixes, etc.
 
     ?> IMPORTANT NOTE: Sparx EA will not automatically create any of the directories for the path to the file specified in the *Schema File* field. **They must be created outside of Sparx EA before generating the schemas.** FIXM is natively set up to generate its schema files under a directory named “schemas” that is located in the same directory as the Sparx EA file. To save time, rather than creating all of the directories needed by hand, you can instead:
 
-        a.  Copy the “schemas” directory from the FIXM release you started with into the directory where your Sparx EA file is located (in this example, the “uml” directory from the downloaded release).
+    a.  Copy the “schemas” directory from the FIXM release you started with into the directory where your Sparx EA file is located (in this example, the “uml” directory from the downloaded release).
 
-        b.  Under the “schemas” directory, add an “extensions” directory.
+    b.  Under the “schemas” directory, add an “extensions” directory.
 
-        c.  Under the new “extensions” directory, add another directory with a name appropriate for your extension (here “example” was used).
+    c.  Under the new “extensions” directory, add another directory with a name appropriate for your extension (here “example” was used).
 
     In this example, the new “schemas” directory should be added to the
     “uml” directory and should be structured as shown below.
