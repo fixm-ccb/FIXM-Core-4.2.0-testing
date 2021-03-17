@@ -269,3 +269,25 @@
      - docs/home.md
      - docs/general-guidance/introduction.md
      - docs/general-guidance/fixm-components-introduction.md
+
+ - FIXM Core introduction reorganised
+   - Comment #10 and #12 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/fixm-core.md
+
+ - XSD Profiles as a potential alternative to XSD Restrictions moved to fixm-development-tool-compatibility
+   - Comment #15 and #16 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/applications.md
+     - docs/fixm-development-tool-compatibility/other-topics.md
+     - docs/_sidebar.md
+
+ - Double Integer text moved to a footnote
+   - Comment #35 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/vertical-distances.md
+    
+ - Usage of information and warning alerts replaced by headings when adecuate
+   - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/fixm-core.md

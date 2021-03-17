@@ -38,14 +38,7 @@ These vertical distances are specialisations of the generic class
 `Measure` which serves as the parent class for all measure types including
 speeds, angles, pressures, temperatures etc. Therefore, altitudes,
 flight levels and heights are always encoded as double values, although
-integer values are expected. “Double Integer” conversion can be handled
-differently depending on the technical context. This may lead to e.g.
-flight level value 100 being expressed as 100.00…0001 and the flight
-level value 101 being expressed as 100.99…99999. It is acknowledged that
-the current FIXM design may create value persistence problem across
-applications, in particular if rounding or truncation are applied
-further down. FIXM implementers are therefore invited to verify the
-persistence of vertical distances values across their software.
+integer values are expected.<sup>[[note 1]](#notes)</sup>
 
 **Examples**
 
@@ -75,3 +68,14 @@ RECOMMENDED.
 ```xml
 <fb:flightLevel uom="FL">290.0</fb:flightLevel>
 ```
+
+## Notes
+
+[1]: “Double Integer” conversion can be handled
+differently depending on the technical context. This may lead to e.g.
+flight level value 100 being expressed as 100.00…0001 and the flight
+level value 101 being expressed as 100.99…99999. It is acknowledged that
+the current FIXM design may create value persistence problem across
+applications, in particular if rounding or truncation are applied
+further down. FIXM implementers are therefore invited to verify the
+persistence of vertical distances values across their software.

@@ -1,7 +1,7 @@
 # Action plan
 This document compiles known issues, reported bugs, pending actions and ideas for the evolution of the FIXM User Manual
 
-# Known issues
+## Known issues
 
 - The Table of Contents only goes two levels deep however some sections of the document go four-five levels in headings. (Comment #0)
 
@@ -22,9 +22,11 @@ This document compiles known issues, reported bugs, pending actions and ideas fo
     - Pending Actions:
     - [ ] Investigate solution based on plug-ins or manual adjustments.
 
- - Use of *italics* and `inline code` is not consistent
+- Use of *italics* and `inline code` is not consistent
     - [ ] Review all pages and apply guidance
     
-# Other
+## Other
 
 - [ ] Review https://www.fixm.aero/documents.pl#Sec2 website and explain various guidance artifacts.
+- [ ] A deeper analysis is needed to improve the site in support of the ATS-FIXM transformation use cases.
+
