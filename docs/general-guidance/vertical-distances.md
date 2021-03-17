@@ -40,9 +40,9 @@ speeds, angles, pressures, temperatures etc. Therefore, altitudes,
 flight levels and heights are always encoded as double values, although
 integer values are expected.<sup>[[note 1]](#notes)</sup>
 
-**Examples**
+### Examples
 
-?> The following examples show valid FIXM encoding of altitudes and flight
+#### The following examples show valid FIXM encoding of altitudes and flight
 levels expressed as integer.
 
 ```xml
@@ -61,7 +61,7 @@ levels expressed as integer.
 <fb:flightLevel uom="SM">1130</fb:flightLevel>
 ```
 
-!> The following example shows the encoding of a flight level expressed as
+#### The following example shows the encoding of a flight level expressed as
 a double. This encoding is technically permitted by FIXM but is NOT
 RECOMMENDED.
 

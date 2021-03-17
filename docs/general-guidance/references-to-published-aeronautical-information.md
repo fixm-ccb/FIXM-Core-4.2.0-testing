@@ -178,20 +178,20 @@ found in various sources:
 
 - **In chapter 7 of the ARINC 424 specification.**
 
-This chapter provides rules for forming the designators of waypoints in the absence of published designators. These rules can lead to designators of less than 5 characters. The following extracts from ARINC 424-19 provide some examples, which are **highlighted** in bold.
+This chapter provides rules for forming the designators of waypoints in the absence of published designators. These rules can lead to designators of less than 5 characters. The following extracts from ARINC 424-19 provide some examples, which are <mark>highlighted</mark>.
 
 Examples:
 
-> - <mark>Marked text</mark> 3.0 NM from DOOTY should be expressed as **3NM**.
+> - 3.0 NM from DOOTY should be expressed as <mark>3NM</mark>.
 >
-> - 2.8 NM from CHASS should be expressed as **28NM**.
+> - 2.8 NM from CHASS should be expressed as <mark>28NM</mark>.
 >
-> - 11.0 NM from BACUP should be expressed as **NM11**.
+> - 11.0 NM from BACUP should be expressed as <mark>NM11</mark>.
 >
-> - 13.8 NM from KITTY should be expressed as **NM138**.
+> - 13.8 NM from KITTY should be expressed as <mark>NM138</mark>.
 
 
->    Fix Ident:  **AB13**
+>    Fix Ident:  <mark>AB13</mark>
 >
 >    Fix Name:   AB180013 AB 180.3 degrees 12.8
 
@@ -203,9 +203,9 @@ For instance:
 
 > SUSAP KFODK3FL06 AFOD 010FOD K3D 0V IF 18000 0 NS 854081209
 >
-> SUSAP KFODK3FL06 AFOD 020=====>FF06<===== K3PC0E TF + 02800 0 NS 854091209
+> SUSAP KFODK3FL06 AFOD 020<mark>FF06</mark> K3PC0E TF + 02800 0 NS 854091209
 >
-> SUSAP KFODK3FL06 AFOD 030=====>FF06<===== K3PC0EE AR PI IFODK3 2430006119800100PI + 02800 0 NS 854101209
+> SUSAP KFODK3FL06 AFOD 030<mark>FF06</mark> K3PC0EE AR PI IFODK3 2430006119800100PI + 02800 0 NS 854101209
 >
 > SUSAP KFODK3FL06 AHIMSU 010HIMSUK3PC0E A IF FOD K3 15000140 D 18000 0 NS 854111310
 >
@@ -217,7 +217,7 @@ For instance:
 >
 > SUSAP KFODK3FL06 L 010SHRLAK3PC0E I IF IFODK3 24300163 PI + 02800 18000 0 NS 854151310
 >
-> SUSAP KFODK3FL06 L 020=====>FF06<===== K3PC0E F CF IFODK3 2430006106300101PI + 02800 FO K3PN0 NS 854161209
+> SUSAP KFODK3FL06 L 020<mark>FF06</mark> K3PC0E F CF IFODK3 2430006106300101PI + 02800 FO K3PN0 NS 854161209
 >
 > SUSAP KFODK3FL06 L 021ATLOJK3PC0E S CF IFODK3 2430003406300028PI + 01820 -324 0 NS 854171310
 >
@@ -256,7 +256,7 @@ For instance:
 >
 > SUSAP KFOTK2FP29 P 020ELLYSK2PC0E F TF + 02700 IZPUH K2PCP PS 857361310
 >
-> SUSAP KFOTK2FP29 P 021=====>SP29<===== K2PC0E A TF + 01840 -356 P PS 857371211
+> SUSAP KFOTK2FP29 P 021<mark>SP29</mark> K2PC0E A TF + 01840 -356 P PS 857371211
 >
 > SUSAP KFOTK2FP29 P 030IZPUHK2PC0EY M TF 00617 -356 P PS 857381310
 >
@@ -399,7 +399,7 @@ as described in chapter [Generic hypertext references](#generic-hypertext-refere
 Option 4 corresponds to the combination of Option 2 and Option 3. See
 explanations above.
 
-?> Examples (NOT for OPERATIONAL USE)
+#### Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to fictitious VOR
 DME “BOR” that is ‘published’ in AIXM 5.1 as part of the fictitious
@@ -535,7 +535,7 @@ namely the aerodrome reference point.
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
-?> Examples (NOT for OPERATIONAL USE)
+####  Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to fictitious
 aerodrome “DONLON” that is ‘published’ in AIXM 5.1 as part of the
@@ -668,8 +668,7 @@ Direction designator.
 
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter [Generic hypertext references](#generic-hypertext-references).
-
-?> Examples (NOT for OPERATIONAL USE)
+#### Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to fictitious Runway
 Direction “09L” that is ‘published’ in AIXM 5.1 as part of the
@@ -759,7 +758,7 @@ unambiguous identification of the ATS Route being referred to.
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
-?> Examples (NOT for OPERATIONAL USE)
+#### Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to fictitious
 Enroute ATS Route “UA4” that is ‘published’ in AIXM 5.1 as part of the
@@ -858,7 +857,7 @@ designator as published in the AIP.
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
-?> Examples (NOT for OPERATIONAL USE)
+#### Examples (NOT for OPERATIONAL USE)
 
 The table below depicts examples of FIXM references to SID “AMOLO 5B”
 that is published in the French AIPs.
@@ -1065,7 +1064,7 @@ the AIP.
 Option 2 corresponds to Option 1 with an additional hypertext reference
 as described in chapter [Generic hypertext references](#generic-hypertext-references).
 
-?> Examples (NOT for OPERATIONAL USE)
+#### Examples (NOT for OPERATIONAL USE)
 
 <table>
 <thead>

@@ -97,7 +97,7 @@ When a geographical position is to be declared null:
 -   Information consumer side: Ignore the provided srsName provided
     together with the null position.
 
-?> Example of valid null measure declaration with a fake uom to be ignored:
+### Example of valid null measure declaration with a fake uom to be ignored:
 
 ```xml
 <fx:desired>

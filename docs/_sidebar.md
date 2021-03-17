@@ -32,7 +32,6 @@
 
 
 - **How to create a FIXM Application**
-  - [Introduction](how-to-create-application/introduction.md)
   - [Initial download and setup](how-to-create-application/initial-download-and-setup.md)
   - [Create an Application package](how-to-create-application/create-an-application-package.md)
   - [Create Application content](how-to-create-application/create-application-content.md)
