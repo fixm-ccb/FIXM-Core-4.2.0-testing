@@ -116,12 +116,11 @@ controlled in Sparx EA via tagged values.
     add three tags used by Sparx EA when creating your schema files:
     attributeFormDefault, elementFormDefault, and version.
 
-    a. FIXM standardly sets attributeFormDefault to “unqualified”.
+    a. FIXM standardly sets attributeFormDefault to `unqualified`.
 
     b. FIXM standardly sets elementFormDefault to “qualified”.
 
-    c. Version should be set as appropriate for your Extension (“1.0.0”
-        in this example).
+    c. Version should be set as appropriate for your Extension (`1.0.0` in this example).
 
     To add these tags, click on the third icon from the left ![Image](.//media/image63.png) in the *Tags* tab and fill in the *Tag* and *Value* fields similar to what is shown below.
 

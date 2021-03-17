@@ -288,7 +288,7 @@
      - docs/general-guidance/vertical-distances.md
     
  - Usage of information and warning alerts replaced by headings when adecuate
-   - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Comment #8 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - docs/general-guidance/fixm-core.md
      - docs/general-guidance/extensions.md
@@ -298,6 +298,14 @@
      - docs/general-guidance/rules-for-absent-data.md
 
  - Fixes for information and warning alerts
-   - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Comment #22, #34, #52(from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - docs/general-guidance/date-time-specification.md
+
+ - In line code fixes
+    - Comment #50, #53, #58, #59(from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/how-to-create-application/create-an-application-package.md
+     - docs/how-to-create-application/create-application-content.md
+     - docs/how-to-create-fixm-extension/create-an-extension-root-package.md
+     - docs/how-to-generate-xml-schemas/generating-schemas-from-the-logical-model.md

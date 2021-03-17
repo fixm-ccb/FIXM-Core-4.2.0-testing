@@ -82,23 +82,23 @@ standardly modeled.
 
     a.  A recipient field:
 
-        i.  *Name* set to: “recipient”.
+    - *Name* set to: `recipient`.
 
-        ii.  *Type* set to: `Fixm -> Core -> Base -> Organization -> PersonOrOrganization`.
+    - *Type* set to: `Fixm -> Core -> Base -> Organization -> PersonOrOrganization`.
 
-        iii.  *Scope* set to: “Public”.
+    - *Scope* set to: `Public`.
 
-        iv.  *Multiplicity* set to: “0..2000”.
+    - *Multiplicity* set to: `0..2000`.
 
     b.  A timestamp field:
 
-        i.  *Name* set to: “timestamp”.
+    - *Name* set to: `timestamp`.
 
-        ii.  *Type* set to: `Fixm -> Core -> Base -> Types -> Time`.
+    - *Type* set to: `Fixm -> Core -> Base -> Types -> Time`.
 
-        iii.  *Scope* set to: “Public”.
+    - *Scope* set to: `Public`.
 
-        iv.  *Multiplicity* set to: “0..1”.
+    - *Multiplicity* set to: `0..1`.
 
 11. When finished, click Close on the Features dialogue box. The class
     diagram should display the name, type, and multiplicity of each

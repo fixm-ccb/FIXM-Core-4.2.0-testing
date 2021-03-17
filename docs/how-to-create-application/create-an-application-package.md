@@ -69,7 +69,7 @@ schema namespace, namespace prefixes, etc.
 
     a. *Target Namespace* set to: `http://www.fixm.aero/app/example/1.0` <sup><a href="#how-to-create-application/create-an-application-package?id=notes">[note 2]</a></sup>.
 
-    b. *Prefix* set to: “xmg”<sup><a href="#how-to-create-application/create-an-application-package?id=notes">[note 3]</a></sup>.
+    b. *Prefix* set to: `xmg`<sup><a href="#how-to-create-application/create-an-application-package?id=notes">[note 3]</a></sup>.
 
 3. You must also fill in the *Schema File* field with the path to your
     application directory and an appropriate file name. In this example,
@@ -79,7 +79,9 @@ schema namespace, namespace prefixes, etc.
    ?> IMPORTANT NOTE: Sparx EA will not automatically create any of
    the directories for the path to the file specified in the *Schema
    File* field. **They must be created outside of Sparx EA before
-   generating the schemas.** FIXM is natively set up to generate its
+   generating the schemas.** 
+   
+   FIXM is natively set up to generate its
    schema files under a directory named “schemas” that is located in the
    same directory as the Sparx EA file. To save time, rather than
    creating all of the directories needed by hand, you can instead:
@@ -127,10 +129,9 @@ controlled in Sparx EA via tagged values.
 
     b. FIXM standardly sets elementFormDefault to “qualified”.
 
-    c. Version should be set as appropriate for your Application
-        (“1.0.0” in this example).
+    c. Version should be set as appropriate for your Application (`1.0.0` in this example).
 
-    To add these tags, click on the third icon from the left ![icon](.//media/image63.png ':size=8%') in the *Tags* tab and fill in the *Tag* and *Value* fields similar to
+    To add these tags, click on the third icon from the left ![icon](.//media/image63.png ':size=4%') in the *Tags* tab and fill in the *Tag* and *Value* fields similar to
     what is shown below.
 
     ![Tagged Value](.//media/image64.png)

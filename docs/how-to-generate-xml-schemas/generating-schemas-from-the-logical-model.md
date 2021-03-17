@@ -27,13 +27,9 @@ EA<sup><a href="#how-to-generate-xml-schemas/generating-schemas-from-the-logical
 
     b.  *XSD Style*: No options checked.
 
-    c.  *Referenced Package Options*: No options except “Use
-        relative-path to reference XSDs” checked.
+    c.  *Referenced Package Options*: No options except “Use relative-path to reference XSDs” checked.
 
-    d.  *Child Package Options*: “Generate XSD for Child packages”
-        checked and “Include &lt;XSDschema&gt; packages” radio button
-        selected. Also, all packages you want to build (typically all
-        packages listed) checked.
+    d.  *Child Package Options*: “Generate XSD for Child packages” checked and “Include &lt;XSDschema&gt; packages” radio button selected. Also, all packages you want to build (typically all packages listed) checked.
 
     When finished, your dialogue box should look similar to below.
 
