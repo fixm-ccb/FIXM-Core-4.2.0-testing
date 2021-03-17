@@ -48,14 +48,14 @@ extension mechanism.
 | **Rationale**         | FIXM Core is an information exchange model capturing flight information that is globally harmonised. Redefining or superseding the FIXM Core content in an extension would amount to diverging from this globally harmonised content and would go against the fundamental harmonisation objectives of FF-ICE and FIXM. |
 | **How to check this** | Checking that an extension satisfies this requirement cannot be automated and requires manual analysis of the extension content by the FIXM community. As a general principle, extensions to FIXM Core that are proposed for online publication on the FIXM web site should be checked against this requirement.       |
 
-?> Example of FIXM extension satisfying the requirement on extension
+#### Example of FIXM extension satisfying the requirement on extension
 content
 
 ![Image](.//media/fixm-US-extension.png "Example of FIXM extension satisfying the requirement on extension content")
 
 This example is an extract from the draft FIXM US Extension 4.3.0 - Copyright (c) US Federal Aviation Administration (FAA). This extract features a class named `NasEnRoute` (shown in cyan in the diagram) that extends FIXM Core's `EnRouteExtension` class and defines content that supplements FIXM Core's `EnRoute` class. Note that the content of the `NasEnRoute` class does not replace or supersede any of the existing properties of FIXM Core's `EnRoute` class. The example, therefore, qualifies as valid usage of the extension mechanism.  
 
-!> Example of FIXM extension NOT satisfying the requirement on extension
+#### Example of FIXM extension NOT satisfying the requirement on extension
 content
 
 ![Image](.//media/general-guidance-extensions-02.png "Example of FIXM extension NOT satisfying the requirement on extension content")

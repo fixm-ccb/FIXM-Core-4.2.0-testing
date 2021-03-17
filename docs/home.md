@@ -32,7 +32,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 - [SUBMIT CONTENT][SUBMIT CONTENT]
 - [ACCESS THE FIXM WORK AREA][ACCESS THE FIXM WORK AREA]
 
-?> No access yet to the FIXM Work Area? Register now!
+### How to get access to the FIXM Work Area
 
 1. Create a OneSky Online account (This step can be skipped if you have already an account) : Access [OneSky Online][OneSky Online], click on *New user? Register now.*, fill in the form and click on *Submit*
 2. Get access to OneSky Teams: Access [OneSky Teams][OneSky Teams], and log in with your credentials obtained in Step 1

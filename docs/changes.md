@@ -291,3 +291,10 @@
    - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
    - Affected files:
      - docs/general-guidance/fixm-core.md
+     - docs/general-guidance/extensions.md
+     - docs/general-guidance/geographical-positions.md
+
+ - Fixes for information and warning alerts
+   - Comment #1 (from "FIXM User Manual Comments - ECTL answers.xlsx")
+   - Affected files:
+     - docs/general-guidance/date-time-specification.md

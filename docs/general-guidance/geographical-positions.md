@@ -83,7 +83,7 @@ values have different constraints.
 
 ## Examples
 
-?> Example
+### Example
 
 ```xml
 <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
@@ -91,7 +91,7 @@ values have different constraints.
 </fb:position>
 ```
 
-?> Example
+### Example
 
 ```xml
 <fx:point4D srsName="urn:ogc:def:crs:EPSG::4326">

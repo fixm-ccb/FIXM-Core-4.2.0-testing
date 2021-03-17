@@ -182,7 +182,7 @@ This chapter provides rules for forming the designators of waypoints in the abse
 
 Examples:
 
-> - 3.0 NM from DOOTY should be expressed as **3NM**.
+> - <mark>Marked text</mark> 3.0 NM from DOOTY should be expressed as **3NM**.
 >
 > - 2.8 NM from CHASS should be expressed as **28NM**.
 >
