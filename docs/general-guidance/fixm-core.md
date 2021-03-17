@@ -36,9 +36,12 @@ This example displays an aerodrome reference involving a four-letter
 ICAO location indicator. It complies with the structural rules for
 aerodrome references defined by the FIXM Core XML schemas.
 
----
 
-#### Example of FIXM Core usage <span style="color:red">**NOT**</span> satisfying the requirement on data structure:
+<div style="color: red">
+
+#### Example of FIXM Core usage **NOT** satisfying the requirement on data structure
+
+</div>
 
 ```xml
 <fx:aerodrome>
@@ -138,8 +141,7 @@ identified in [this chapter](general-guidance/general-rules-for-data-correctness
 
 ---
 
-#### Example of FIXM Core usage NOT satisfying the requirement on data
-correctness
+#### Example of FIXM Core usage NOT satisfying the requirement on data correctness
 
 ```xml
 <fx:aircraft>
