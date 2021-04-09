@@ -318,10 +318,11 @@
      - docs/assets/css/theme-custom.css
 
  - Links fixed
-   - Comment #68, #73, #74 (from "FIXM User Manual Comments.xlsx")
+   - Comment #68, #73, #74, #75, #76, #77, #78, #79, #81 (from "FIXM User Manual Comments.xlsx")
    - Affected files:
      - docs/home.md
      - docs/fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md
+     - docs/how-to-create-fixm-extension/create-extension-content.md
 
  - Heading fixed
    - Comment #69 (from "FIXM User Manual Comments.xlsx")

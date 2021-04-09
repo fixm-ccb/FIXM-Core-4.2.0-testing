@@ -21,7 +21,7 @@ used to contain these new fields.
 
 This example will start with creating a subcomponent for the “position”
 field. Many of the steps outlined here are very similar to the steps
-listed in the [Create an Extension Root Package](#_Create_an_Extension)
+listed in the [Create an Extension Root Package](#Create_an_Extension)
 section above. The main difference is that Extension subcomponents
 contain diagrams and Extension classes.
 

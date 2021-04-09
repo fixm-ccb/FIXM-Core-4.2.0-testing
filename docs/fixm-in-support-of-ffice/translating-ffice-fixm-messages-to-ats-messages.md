@@ -127,7 +127,7 @@ associations `navigation`, `communication` and `standardCapabilities`.
 
 -   When creating a FIXM object from ATS message content, ignore
     code `N` in field 10a
-    <sup><a href="#style-guide?id=notes">[note 1]</a></sup>.
+    <sup><a href="#notes">[note 1]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `N` in
     field 10a if an instance of class `FlightCapabilities` is absent, or
@@ -153,7 +153,7 @@ code implicit to avoid redundancy.
 
 -   When creating a FIXM object from ATS message content, ignore
     code `R` in field 10a
-    <sup><a href="#style-guide?id=notes">[note 2]</a></sup>.
+    <sup><a href="#notes">[note 2]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `R` in
     field 10a if one or more PBN codes are present in the navigation
@@ -168,7 +168,7 @@ that code implicit to avoid redundancy.
 
 -   When creating a FIXM object from ATS message content, ignore
     code `Z` in field
-    10a <sup><a href="#style-guide?id=notes">[note 3]</a></sup>.
+    10a <sup><a href="#notes">[note 3]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `Z` in
     field 10a if at least one of the "other navigation, communication or
@@ -230,7 +230,7 @@ association `surveillance`.
 
 -   When creating a FIXM object from ATS message content, ignore
     code `N` in field
-    10b <sup><a href="#style-guide?id=notes">[note 4]</a></sup>.
+    10b <sup><a href="#notes">[note 4]</a></sup>.
 
 -   When creating ATS message content from a FIXM object, insert `N` in
     field 10b if an instance of class `FlightCapabilities` is absent, or
@@ -264,7 +264,7 @@ flight departs optionally appears in field 18 DOF (YYMMDD). FIXM encodes
 such values as a full date/time, not as distinct date and time values.
 As such, the full and unambiguous departure date/time of a flight is
 composed from fields 13b and 18
-DOF <sup><a href="#style-guide?id=notes">[note 5]</a></sup>.
+DOF <sup><a href="#notes">[note 5]</a></sup>.
 
 The image below presents the object model corresponding to highlighted
 parts of the following flight plan fragment.
