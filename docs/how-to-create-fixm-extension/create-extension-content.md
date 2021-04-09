@@ -21,7 +21,7 @@ used to contain these new fields.
 
 This example will start with creating a subcomponent for the “position”
 field. Many of the steps outlined here are very similar to the steps
-listed in the [Create an Extension Root Package](#Create_an_Extension)
+listed in the [Create an Extension Root Package](how-to-create-fixm-extension/create-an-extension-root-package)
 section above. The main difference is that Extension subcomponents
 contain diagrams and Extension classes.
 
@@ -54,7 +54,7 @@ contain diagrams and Extension classes.
     Stereotype](#_Applying_Schema_Stereotype) section above.
 
 7. After the stereotype is applied, continue the schema setup as
-    described in [Set Up Schema Properties](#set-up-schema-properties)
+    described in [Set Up Schema Properties](how-to-create-fixm-extension/create-an-extension-root-package?id=set-up-schema-properties)
     above. The following property values should be used for this
     subcomponent in this example:
 
