@@ -50,8 +50,7 @@ contain diagrams and Extension classes.
     ![Image](.//media/image209.png)
 
 6. Next, apply the XSDschema stereotype to your subcomponent as
-    described in the [Apply Schema
-    Stereotype](#_Applying_Schema_Stereotype) section above.
+    described in the [Apply Schema Stereotype](how-to-create-fixm-extension/create-an-extension-root-package?id=apply-schema-stereotype) section above.
 
 7. After the stereotype is applied, continue the schema setup as
     described in [Set Up Schema Properties](how-to-create-fixm-extension/create-an-extension-root-package?id=set-up-schema-properties)
@@ -74,7 +73,7 @@ contain diagrams and Extension classes.
 8. Click OK to save these settings.
 
 9. Reopen the subcomponent and finish the schema setup as described in
-    [Add Schema Description and Tags](#add-schema-description-and-tags).
+    [Add Schema Description and Tags](how-to-create-fixm-extension/create-an-extension-root-package?id=add-schema-description-and-tags).
     As described in that section, the following tags should be added:
 
     a.  An attributeFormDefault tag set to: “unqualified”.
