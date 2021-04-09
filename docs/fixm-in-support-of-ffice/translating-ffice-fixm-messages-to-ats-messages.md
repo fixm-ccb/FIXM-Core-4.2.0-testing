@@ -11,7 +11,7 @@ and is recognized as a key issue in the System Wide Information
 Management (SWIM) concept <sup>[[10]](#references)</sup> \[ICAO Doc 10039\]. During that transition period, there will be stakeholders who are able to send and receive flight plan information employing FIXM, while others will employ ICAO ATS messages. In such a hybrid environment, it is expected that a significant effort will be expended translating between the FIXM format and the ATS message format. It is critical for interoperability purposes, and to ensure meaning is not lost in translation, that the conversion between FIXM and ATS message
 content is precisely defined, and that all stakeholders employ the same translation rules.
 
-There is not a direct correspondence between ATS messages and FIXM, though there is a close association. At the message level, the association is with the FF-ICE messages described in [this chapter](message-templates?id=overview). The mapping from FF-ICE Messages to ATS messages focuses on the individual ATS message fields (7, 8, etc.) rather than the messages themselves. In general, the mapping is independent of the message type: regardless of which ATS message field 7 appears in, the aircraft identification always maps to the same FIXM element. In the cases where an ATS message field item maps to different FIXM elements based on the
+There is not a direct correspondence between ATS messages and FIXM, though there is a close association. At the message level, the association is with the FF-ICE messages described in [this chapter](fixm-in-support-of-ffice/message-templates?id=overview). The mapping from FF-ICE Messages to ATS messages focuses on the individual ATS message fields (7, 8, etc.) rather than the messages themselves. In general, the mapping is independent of the message type: regardless of which ATS message field 7 appears in, the aircraft identification always maps to the same FIXM element. In the cases where an ATS message field item maps to different FIXM elements based on the
 message type (e.g. field 13b is estimated off block time in a FPL, but actual take off time in a DEP), that difference is made explicit in the mapping rule.
 
 ## ATS Message Content to FIXM Logical Model Map
@@ -44,8 +44,7 @@ relatively straightforward.
 
 ### Guidelines
 
-[The next section (Mapping of ATS Fields to
-FIXM)](https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm) provides
+[Section (Mapping of ATS Fields to FIXM)](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm) provides
 the mapping between the individual data elements in ATS messages and the
 corresponding elements in the FIXM Logical Model. However, it is not
 always clear how the structural aspects of an ATS message and a FIXM

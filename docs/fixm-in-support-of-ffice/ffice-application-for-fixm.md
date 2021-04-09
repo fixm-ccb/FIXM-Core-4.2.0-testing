@@ -11,7 +11,7 @@ The content of the FF-ICE Application is the following:
 
 ![Overview of the FF-ICE Application content](.//media/ffice-application-library-for-fixm-01.PNG "Overview of the FF-ICE Application content")
 
-The FF-ICE Application is developed and published by the FIXM CCB, together with FIXM Core.
+The FF-ICE Application, together with FIXM Core, is developed and published by the FIXM CCB.
 
 ## FF-ICE Message data structures
 
@@ -54,4 +54,4 @@ structures modelled in the FF-ICE Application.
 
 ## References
 
-[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared Documents/ICAO ATMRPP inputs for FIXM/ATMRPP3_WP_766_FF-ICE1 Implementation Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”

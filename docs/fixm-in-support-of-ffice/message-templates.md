@@ -117,4 +117,4 @@ sub-classes. XSD complex type restrictions are therefore linked together to form
 
 ## References
 
-[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared Documents/ICAO ATMRPP inputs for FIXM/ATMRPP3_WP_766_FF-ICE1 Implementation Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”

@@ -309,3 +309,33 @@
      - docs/how-to-create-application/create-application-content.md
      - docs/how-to-create-fixm-extension/create-an-extension-root-package.md
      - docs/how-to-generate-xml-schemas/generating-schemas-from-the-logical-model.md
+
+## April 2021
+
+ - sidebar-nav-link-color--active set to #0A75BD (Light blue) for better highlighting
+   - Comment #83 (from "FIXM User Manual Comments.xlsx")
+   - Affected files:
+     - docs/assets/css/theme-custom.css
+
+ - Links fixed
+   - Comment #68, #73, #74 (from "FIXM User Manual Comments.xlsx")
+   - Affected files:
+     - docs/home.md
+     - docs/fixm-in-support-of-ffice/translating-ffice-fixm-messages-to-ats-messages.md
+
+ - Heading fixed
+   - Comment #69 (from "FIXM User Manual Comments.xlsx")
+   - Affected files:
+     - docs/general-guidance/extensions.md
+
+ - Text fixed
+   - Comment #70 (from "FIXM User Manual Comments.xlsx")
+   - Affected files:
+     - docs/fixm-in-support-of-ffice/ffice-application-for-fixm.md
+
+ - Link in references fixed
+   - Comment #71, #72 (from "FIXM User Manual Comments.xlsx")
+   - Affected files:
+     - docs/home.md
+     - docs/fixm-in-support-of-ffice/ffice-application-for-fixm.md
+     - docs/fixm-in-support-of-ffice/message-templates.md
