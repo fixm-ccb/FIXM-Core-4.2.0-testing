@@ -104,7 +104,7 @@ schema namespace, namespace prefixes, etc.
     dialogue box should look something like below. Click OK to save
     these settings.
 
-    ![Click OK to save these settings](.//media/image61.png "Click OK to save these settings")
+    ![Click OK to save these settings](.//media/image62.png "Click OK to save these settings")
 
 ## Add Schema Description and Tags
 

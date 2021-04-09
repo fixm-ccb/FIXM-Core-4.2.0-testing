@@ -330,9 +330,10 @@
      - docs/general-guidance/extensions.md
 
  - Text fixed
-   - Comment #70 (from "FIXM User Manual Comments.xlsx")
+   - Comment #70, #85 (from "FIXM User Manual Comments.xlsx")
    - Affected files:
      - docs/fixm-in-support-of-ffice/ffice-application-for-fixm.md
+     - docs/how-to-create-application/create-application-content.md
 
  - Link in references fixed
    - Comment #71, #72 (from "FIXM User Manual Comments.xlsx")
@@ -340,3 +341,11 @@
      - docs/home.md
      - docs/fixm-in-support-of-ffice/ffice-application-for-fixm.md
      - docs/fixm-in-support-of-ffice/message-templates.md
+
+ - Image fixed
+   - Comment #84 (from "FIXM User Manual Comments.xlsx")
+   - Affected files:
+     - docs/how-to-create-application/create-an-application-package.md
+
+
+

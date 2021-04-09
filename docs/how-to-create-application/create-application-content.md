@@ -133,7 +133,7 @@ alert.
       ![Image](.//media/image77.png)
 
 5. In the Features dialogue box, you can add descriptions to each
-    enumeration in the *Notes* tab. When finished, click OK.
+    enumeration in the *Notes* tab. When finished, click Close.
 
       ![Image](.//media/image78.png)
 
