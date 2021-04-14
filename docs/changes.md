@@ -153,7 +153,7 @@
    - Affected files:
      - how-to-generate-xml-schemas/post-processing-the-fixm-schemas.md
    - Remaining actions: 
-     - Add script.pl to asstes/downloads directory
+     - [x] Add script.pl to asstes/downloads directory (Added as postprocess.pl)
 
  - Rulebook content removed
    - Comment #55 (from "FIXM User Manual Comments - ECTL answers.xlsx")
