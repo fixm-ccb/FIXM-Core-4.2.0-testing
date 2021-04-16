@@ -65,6 +65,7 @@
   - [Platform support matrix](fixm-development-tool-compatibility/platform-support-matrix.md)
   - [Other topics](fixm-development-tool-compatibility/other-topics.md)
 
+
 - **ATS message  to FIXM mapping**
   - [Mapping of ATS fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
 
