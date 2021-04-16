@@ -70,6 +70,7 @@
 
 
 - **License**
-  - [Copyright 2020](https://fixm.aero/content/disclaimer.pl)
+  - [Copyright 2021](https://fixm.aero/content/disclaimer.pl)
+  - Last updated on April 16th 2021
 
 
