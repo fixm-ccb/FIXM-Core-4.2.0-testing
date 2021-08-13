@@ -1,4 +1,4 @@
-# APPENDIX C: Generating Schemas from the Logical Model
+# Generating Schemas from the Logical Model
 
 The FIXM models are heavily annotated with stereotypes that allow Sparx
 Enterprise Architect (EA) to convert the logical model into XML schema
