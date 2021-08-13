@@ -6,8 +6,7 @@ As such, exceptions are possible. However, exceptions should be made explicit an
 1)	The FIXM model should at all times be driven by content and structure concerns.
 
     FIXM is only concerned with information modelling. The presentation of that information does not influence the construction of the model. Other considerations like how the 
-    information is packaged, transmitted or used should not influence the way the information is modelled. As FIXM evolves it will become necessary to address messages and services
-    to ensure global interoperability. A first step towards addressing message packaging concerns has been incorporated in FIXM v4.
+    information is packaged, transmitted or used should not influence the way the information is modelled. As FIXM evolves it will become necessary to address messages and             services to ensure global interoperability. A first step towards addressing message packaging concerns has been incorporated in FIXM v4.
 
 2)	The FIXM model should avoid unnecessary complexity.
 
