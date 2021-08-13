@@ -66,12 +66,15 @@
   - [Other topics](fixm-development-tool-compatibility/other-topics.md)
 
 
-- **ATS message  to FIXM mapping**
+- **ATS message to FIXM mapping**
   - [Mapping of ATS fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
 
+- **FIXM development guidelines**
+  - [FIXM Development Guidelines](fixm-development-guidelines/fixm-development-guidelines.md)
 
 - **License**
   - [Copyright 2021](https://fixm.aero/content/disclaimer.pl)
-  - Last updated on April 16th 2021
+  
+  Last updated on April 16th 2021
 
 
