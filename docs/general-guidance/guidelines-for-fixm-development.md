@@ -6,7 +6,7 @@ The intent of FIXM is to model the information elements and structure of flight 
 
 FIXM reflects the modern best practice that content and presentation should be separate concerns. The benefit of such an approach is that development of FIXM can focus purely on content. Model development is not distracted by issues such as whether a FIXM encoded flight is directly understandable by a human; the concern is "what is a flight". The related Aeronautical Information Exchange Model (AIXM) and Weather Information Exchange Model (WXXM) standards for resource and environmental information exchange similarly focus on content and structure.
 
-## Structure vs. Custom Decoding
+## Structure versus Custom Decoding
 It is stated in the FF- ICE manual: "Inefficient constraints, such as fixed data length s or free text information, should be minimized."
 
 The direction espoused by this statement is that representing flight information in a textual format which must be decoded should be avoided whenever possible. Legacy formats in aviation suffer significantly from the presence of text that needs to be decoded. In the present context this is most readily seen in field 15 (route) and various field 18 items in ATS messages. Whenever such text is present, any receiving system, in order to benefit from the operational content, must decode the text to extract the embedded information. In general, the ATS message information is received by multiple stake holders, and is decoded multiple times, with different systems applying different rules and logic leading to misinterpretation and ambiguity. At worst, this could lead to safety incidents.
