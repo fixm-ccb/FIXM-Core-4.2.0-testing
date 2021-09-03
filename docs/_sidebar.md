@@ -30,6 +30,8 @@
   - [Using FIXM Core with a FIXM Application](fixm-for-other-use-cases/using-fixm-core-with-an-application.md)
   - [Using FIXM Core with an Extension](fixm-for-other-use-cases/using-fixm-core-with-an-extension.md)
 
+- **FIXM development guidelines**
+  - [FIXM Development Guidelines](fixm-development-guidelines/fixm-development-guidelines.md)
 
 - **How to create a FIXM Application**
   - [Initial download and setup](how-to-create-application/initial-download-and-setup.md)
@@ -68,9 +70,6 @@
 
 - **ATS message to FIXM mapping**
   - [Mapping of ATS fields to FIXM](ats-message-to-fixm-mapping/mapping-of-ats-fields-to-fixm.md)
-
-- **FIXM development guidelines**
-  - [FIXM Development Guidelines](fixm-development-guidelines/fixm-development-guidelines.md)
 
 - **License**
   - [Copyright 2021](https://fixm.aero/content/disclaimer.pl)
