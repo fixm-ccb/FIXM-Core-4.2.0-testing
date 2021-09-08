@@ -93,7 +93,7 @@ As such, exceptions are possible. However, exceptions should be made explicit an
 
 14)	**Information elements of the model must be based on concepts from the ICAO ATM Information Reference Model (AIRM).**
 
-    Information elements of the model must be semantically aligned with the ICAO ATM Information Reference Model (AIRM).
+    The AIRM captures concepts for all features that eventually will be included in FIXM. A model element must trace to the AIRM, except where the model element is introduced purely as a 'container' element.
 
 15)	**Information elements in FIXM must be semantically consistent with corresponding elements in AIDX.**
    
