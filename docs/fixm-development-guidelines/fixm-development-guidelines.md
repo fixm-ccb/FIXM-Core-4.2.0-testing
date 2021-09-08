@@ -90,8 +90,8 @@ As such, exceptions are possible. However, exceptions should be made explicit an
 13)	**If an entity in FIXM is directly related to an entity in GML, FIXM will import the GML definition, or define its own version, semantically equivalent to the GML definition.**
 
     Ideally FIXM would directly import concepts from GML, but such incorporation is a significant undertaking and has wide reaching consequences. For practical purposes, FIXM (as of v4) defines its own constructs, which are equivalent to GML.
-
-14)	**Information elements of the model must be based on concepts from the ICAO ATM Information Reference Model (AIRM).**
+    
+14) **Information elements of the model must be semantically aligned with  concepts from the ICAO ATM Information Reference Model (AIRM).**
 
     The AIRM captures concepts for all features that eventually will be included in FIXM. A model element must trace to the AIRM, except where the model element is introduced purely as a 'container' element.
 
