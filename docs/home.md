@@ -30,10 +30,10 @@ RELEASEPLAN-. describes<br>roadmap for .-> FIXM
 %% style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
 style FIXM stroke-width:3px
 
-click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Strategy"
-click CHARTER "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Change Management Charter"
-click VERSIONING "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Versioning Policy"
-click RELEASEPLAN "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Release Plan"
+click STRATEGY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/strategy" "Browse the FIXM Strategy"
+click CHARTER "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/charter" "Browse the FIXM Change Management Charter"
+click VERSIONING "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/versioning" "Browse the FIXM Versioning Policy"
+click RELEASEPLAN "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/releasePlan" "Browse the FIXM Release Plan"
 ```
 
 ## Guidance on FIXM Releases
