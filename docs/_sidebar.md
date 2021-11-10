@@ -31,10 +31,6 @@
   - [Using FIXM Core with an Extension](fixm-for-other-use-cases/using-fixm-core-with-an-extension.md)
 
 
-- **FIXM development guidelines**
-  - [FIXM Development Guidelines](fixm-development-guidelines/fixm-development-guidelines.md)
-
-
 - **How to create a FIXM Application**
   - [Initial download and setup](how-to-create-application/initial-download-and-setup.md)
   - [Create an Application package](how-to-create-application/create-an-application-package.md)
