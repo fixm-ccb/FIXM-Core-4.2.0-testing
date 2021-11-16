@@ -4,6 +4,38 @@ The FIXM User Manual, formerly known as Implementation Guidance, is developed an
 
 Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
 
+## Strategic FIXM Documents
+
+```mermaid
+graph TD
+
+FIXM
+
+subgraph Strategic Documents
+STRATEGY{{FIXM<br>Strategy}}
+CHARTER{{FIXM Change<br>Management Charter}}
+VERSIONING{{FIXM<br>Versioning Policy}}
+RELEASEPLAN{{FIXM<br>Release Plan}}
+end
+
+STRATEGY-. defines<br>strategic requirements for .-> FIXM
+CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
+VERSIONING-. describes<br>versioning policy for .-> FIXM
+RELEASEPLAN-. describes<br>roadmap for .-> FIXM
+
+%% style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
+style FIXM stroke-width:3px
+
+click STRATEGY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/strategy" "Browse the FIXM Strategy"
+click CHARTER "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/charter" "Browse the FIXM Change Management Charter"
+click VERSIONING "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/versioning" "Browse the FIXM Versioning Policy"
+click RELEASEPLAN "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/releasePlan" "Browse the FIXM Release Plan"
+```
+
 ## Guidance on FIXM Releases
 
 This edition of the FIXM User Manual provides guidance for [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0), the [FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0) and the [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0).
