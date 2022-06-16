@@ -81,37 +81,37 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ### FIXM references
 
-[1]: [FIXM Strategy v1.1](https://fixm.aero/documents/FIXM%20Strategy.pdf)
+[FIXM-REF-01]: [FIXM Strategy v1.1](https://fixm.aero/documents/FIXM%20Strategy.pdf)
 
-[2]: [FIXM web site](https://fixm.aero/)
+[FIXM-REF-02]: [FIXM web site](https://fixm.aero/)
 
-[3]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
+[FIXM-REF-03]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
 ### ICAO references
 
-[4]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
+[ICAO-REF-04]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
 
-[5]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment
+[ICAO-REF-05]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment
 
-[6]: [ATMRPP/3-WP/766](hhttps://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[ICAO-REF-06]: [ATMRPP/3-WP/766](hhttps://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
 
-[7]: ICAO Doc 7910: Location Indicators
+[ICAO-REF-07]: ICAO Doc 7910: Location Indicators
 
-[8]: [ICAO Doc 8643](https://www.icao.int/publications/DOC8643/Pages/default.aspx): Aircraft Type Designators
+[ICAO-REF-08]: [ICAO Doc 8643](https://www.icao.int/publications/DOC8643/Pages/default.aspx): Aircraft Type Designators
 
-[9]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
+[ICAO-REF-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
 
-[10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept
+[ICAO-REF-10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept
 
-[11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
+[ICAO-REF-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
 
 ### Other references
 
-[12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
+[OTHER-REF-12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
 
-[13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
+[OTHER-REF-13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
 
-[14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
+[OTHER-REF-14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
 
 ## Acronyms
 
