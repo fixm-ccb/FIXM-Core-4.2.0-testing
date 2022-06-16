@@ -81,19 +81,27 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ### FIXM references
 
-[FIXM-REF-01]: [FIXM Strategy v1.1](https://fixm.aero/documents/FIXM%20Strategy.pdf)
+[FIXM-REF-01]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
 
 [FIXM-REF-02]: [FIXM web site](https://fixm.aero/)
 
 [FIXM-REF-03]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
+[FIXM-REF-04]: FIXM Change Management Charter
+
 ### ICAO references
+
+[ICAO-REF-01]: Global Air Traffic Management Operational Concept (First Edition - 2005), ICAO Doc 9854
+
+[ICAO-REF-02]: Manual on Air Traffic Management System Requirements (First Edition – 2007), ICAO Doc 9882
+
+[ICAO-REF-03]: Global Air Navigation Plan (Fourth Edition – 2013), ICAO Doc 9750
 
 [ICAO-REF-04]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
 
-[ICAO-REF-05]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment
+[ICAO-REF-05]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment (First Edition – 2012), ICAO Doc 9965
 
-[ICAO-REF-06]: [ATMRPP/3-WP/766](hhttps://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[ICAO-REF-06]: [ATMRPP/3-WP/766](hhttps://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.95
 
 [ICAO-REF-07]: ICAO Doc 7910: Location Indicators
 
@@ -101,9 +109,15 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 [ICAO-REF-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
 
-[ICAO-REF-10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept
+[ICAO-REF-10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept, (Advanced Edition – 2015)
 
 [ICAO-REF-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
+
+[ICAO-REF-12]: Manual on Global Performance of the Air Navigation System (First Edition – 2008), ICAO Doc 9883
+
+[ICAO-REF-13]: Manual on Collaborative Air Traffic Flow Management (First Edition – 2012), ICAO Doc 9971
+
+[ICAO-REF-14]: ASBU Working Document, (Edition 2, Version 3)
 
 ### Other references
 
@@ -112,6 +126,14 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 [OTHER-REF-13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
 
 [OTHER-REF-14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
+
+[OTHER-REF-15]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
+
+[OTHER-REF-16]: ATM Information Reference Model 
+
+[OTHER-REF-17]: EUROCONTROL Specification on SWIM Information Definition
+
+
 
 ## Acronyms
 
