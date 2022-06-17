@@ -83,7 +83,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 [FIXM-REF-01]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
 
-[FIXM-REF-02]: [FIXM web site](https://fixm.aero/)
+[FIXM-REF-02]: [FIXM web site]
 
 [FIXM-REF-03]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
@@ -191,6 +191,7 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | XSD               | XML Schema Definition |
 | XSLT              | Extensible Stylesheet Language Transformations |
 
+[FIXM Web Site]: https://fixm.aero/
 [FIXM Core 4.2.0]: https://www.fixm.aero/release.pl?rel=FIXM-4.2.0
 [FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0
 [Basic Application]: https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0
