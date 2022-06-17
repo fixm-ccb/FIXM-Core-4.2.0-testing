@@ -81,13 +81,15 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ### FIXM references
 
-[FIXM-REF-01]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
+[FIXM-REF-01]: [FIXM Web Site](https://fixm.aero/)
 
-[FIXM-REF-02]: [FIXM web site]
+[FIXM-REF-02]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
 
-[FIXM-REF-03]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
+[FIXM-REF-03]: [FIXM Change Management Charter]()
 
-[FIXM-REF-04]: FIXM Change Management Charter
+[FIXM-REF-04]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
+
+
 
 ### ICAO references
 
@@ -95,13 +97,13 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 [ICAO-REF-02]: Manual on Air Traffic Management System Requirements (First Edition – 2007), ICAO Doc 9882
 
-[ICAO-REF-03]: Global Air Navigation Plan (Fourth Edition – 2013), ICAO Doc 9750
+[ICAO-REF-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
 
 [ICAO-REF-04]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
 
 [ICAO-REF-05]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment (First Edition – 2012), ICAO Doc 9965
 
-[ICAO-REF-06]: [ATMRPP/3-WP/766](hhttps://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.95
+[ICAO-REF-06]: ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.99
 
 [ICAO-REF-07]: ICAO Doc 7910: Location Indicators
 
@@ -191,11 +193,13 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | XSD               | XML Schema Definition |
 | XSLT              | Extensible Stylesheet Language Transformations |
 
-[FIXM Web Site]: https://fixm.aero/
+
+
 [FIXM Core 4.2.0]: https://www.fixm.aero/release.pl?rel=FIXM-4.2.0
 [FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0
 [Basic Application]: https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0
 
+[FIXM Work Area]: https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx
 [OneSky Online]: https://ext.eurocontrol.int/
 [OneSky Teams]: https://ost.eurocontrol.int/Pages/default.aspx
 [ACCESS THE FIXM WORK AREA]: https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx
