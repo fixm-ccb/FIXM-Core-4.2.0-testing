@@ -2,7 +2,7 @@
 
 !> UNDER EVALUATION BY THE FIXM CCB
 
-> Version 2.0.x (xx-xx-2021)
+> Version 2.0.1 (21-July-2022)
 > 
 > Download [as pdf](https://www.fixm.aero/documents/FIXM%20Strategy.pdf)
 
@@ -11,11 +11,11 @@
 
 ### 1.1	Introduction to FIXM
 
-The Flight Information Exchange Model (`FIXM`) is an exchange model capturing Flight and Flow information that is globally standardised. The requirement for `FIXM` was identified by the International Civil Aviation Organisation (ICAO) [1][2][3][4][5] Air Traffic Management Requirements and Performance Panel (ATMRPP) and endorsed at the 12th Air Navigation Conference as part of the Aviation System Block Upgrades (ASBU) and as described in Flight and Flow Information for a Collaborative Environment (FF-ICE) [6].
+The Flight Information Exchange Model (`FIXM`) is an exchange model capturing Flight and Flow information that is globally standardised. The requirement for `FIXM` was identified by the International Civil Aviation Organisation (ICAO) <sup>[[I-01]](#references)</sup> <sup>[[I-02]](#references)</sup> <sup>[[I-03]](#references)</sup> <sup>[[I-12]](#references)</sup> <sup>[[I-13]](#references)</sup> Air Traffic Management Requirements and Performance Panel (ATMRPP) and endorsed at the 12th Air Navigation Conference as part of the Aviation System Block Upgrades (ASBU) and as described in Flight and Flow Information for a Collaborative Environment (FF-ICE) <sup>[[I-05]](#references)</sup>.
 
 `FIXM` is the equivalent, for the Flight domain, of AIXM (Aeronautical Information Exchange Model) and WXXM (Weather Information Exchange Model) both of which were developed in order to achieve global interoperability for, respectively, AIS and MET information exchange. FIXM is therefore part of a family of technology independent, harmonized and interoperable information exchange models designed to cover the information needs of Air Traffic Management.
 
-According to the ICAO SWIM concept [11], `FIXM` is one of the models that belong to the “Information Exchange Models” layer of the ICAO SWIM Global Interoperability framework.
+According to the ICAO SWIM concept <sup>[[I-10]](#references)</sup>, `FIXM` is one of the models that belong to the “Information Exchange Models” layer of the ICAO SWIM Global Interoperability framework.
 
 ### 1.2	Purpose of the document
 
@@ -23,13 +23,13 @@ This document details the high-level requirements on the `FIXM` content, structu
 
 ### 1.3	Revision process
 
-This document is approved and published by the FIXM Change Control Board (`FIXM CCB`). Future evolutions of the document shall be managed via the FIXM change management [10].
+This document is approved and published by the FIXM Change Control Board (`FIXM CCB`). Future evolutions of the document shall be managed via the FIXM change management <sup>[[F-03]](#references)</sup>.
 
 ## 2	FIXM Requirements
 
-This chapter lists the strategic requirements for `FIXM`. These requirements are expressed at a high level; they are expressed in order to ensure `FIXM` is developed according to a plan that is aligned with the expectations of the ICAO Aviation System Block Upgrades (ASBU) [7] and key FIXM stakeholders.
+This chapter lists the strategic requirements for `FIXM`. These requirements are expressed at a high level; they are expressed in order to ensure `FIXM` is developed according to a plan that is aligned with the expectations of the ICAO Aviation System Block Upgrades (ASBU) <sup>[[I-14]](#references)</sup> and key FIXM stakeholders.
 
-?> Interpretation: The operative verb “shall” is used for formal requirements. The operative verb “should” is used for recommendations. Formal requirements are mandatory and must be satisfied by FIXM. Recommendations are not mandatory; however, compliance is strongly advised, and non-compliance must be justified.
+?> Interpretation: The operative verb ***shall*** is used for formal requirements. The operative verb ***should*** is used for recommendations. Formal requirements are mandatory and must be satisfied by FIXM. Recommendations are not mandatory; however, compliance is strongly advised, and non-compliance must be justified.
 
 ### 2.1	FIXM Change Management
 
@@ -40,7 +40,7 @@ FIXM change management shall be established to manage the development of FIXM ov
 
 The `FIXM CCB` shall provide this change management.
 
-The FIXM charter [10] describes the principles of the FIXM change management, and the exact roles and responsibilities of the FIXM actors.
+The FIXM charter <sup>[[F-03]](#references)</sup> describes the principles of the FIXM change management, and the exact roles and responsibilities of the FIXM actors.
 
 ### 2.2	FIXM Components and Artefacts
 
@@ -78,17 +78,17 @@ The `FIXM Applications` managed by the `FIXM CCB` shall cover at least the use o
 #### 2.2.3	FIXM Supporting artefacts
 
 The supporting FIXM artefacts should include, at least:
-- The **FIXM Primer**: this document shall serve as a high-level introduction to FIXM, targeting the widest possible audience. It shall include references to the main FIXM components, to the FIXM artefacts listed below, and to this FIXM Strategy document.
-- **Requirements Traceability Reports** for FIXM Core and the FIXM Application for FF-ICE: these reports shall provide evidence that the content of FIXM Core and of the FIXM Application for FF-ICE satisfy, and are duly traceable to, the applicable ICAO requirements for FF-ICE.
-- **Release Notes**: these notes shall list the FIXM CCB-approved changes integrated into the different versions of the FIXM components.
-- The **FIXM User Manual**: this document shall provide guidance and clarifications for the implementation of FIXM. It shall cover rules and guidance for the good use of FIXM in all contexts, rules and guidance for the good use of FIXM in the specific context of FF-ICE, including the translation of FF-ICE Messages into ATS messages, illustrative data samples, and guidance for the development FIXM Applications and Extensions by third parties. The FIXM User Manual should be made available as an online documentation.
-- **Online FIXM model and schema documentation**: this is an online HTML description of the content of the FIXM components. This documentation shall be derived programmatically from the logical and physical representations of the FIXM components.
-- **FIXM Supporting Tools**: these are automation tools developed and used to support the development of the XML Schemas for FIXM Applications and FIXM Extensions.
-For practical reasons, the evolution of FIXM will necessitate the update and recognition of these artefacts in a managed fashion by the use of recognised releases.
+- The `FIXM Primer`: this document shall serve as a high-level introduction to `FIXM`, targeting the widest possible audience. It shall include references to the main FIXM components, to the FIXM artefacts listed below, and to this FIXM Strategy document.
+- `Requirements Traceability Reports` for `FIXM Core` and the `FIXM Application for FF-ICE`: these reports shall provide evidence that the content of FIXM Core and of the FIXM Application for FF-ICE satisfy, and are duly traceable to, the applicable ICAO requirements for FF-ICE.
+- `Release Notes`: these notes shall list the FIXM CCB-approved changes integrated into the different versions of the FIXM components.
+- The `FIXM User Manual`: this document shall provide guidance and clarifications for the implementation of `FIXM`. It shall cover rules and guidance for the good use of `FIXM` in all contexts, rules and guidance for the good use of `FIXM` in the specific context of FF-ICE, including the translation of FF-ICE Messages into ATS messages, illustrative data samples, and guidance for the development `FIXM Applications` and `Extensions` by third parties. The `FIXM User Manual` should be made available as an online documentation.
+- `Online FIXM model` and `schema documentation`: this is an online HTML description of the content of the FIXM components. This documentation shall be derived programmatically from the logical and physical representations of the FIXM components.
+- `FIXM Supporting Tools`: these are automation tools developed and used to support the development of the XML Schemas for `FIXM Applications` and `FIXM Extensions`.
+For practical reasons, the evolution of `FIXM` will necessitate the update and recognition of these artefacts in a managed fashion by the use of recognised releases.
 
 #### 2.2.4	FIXM Extensions 
 
-`FIXM`, like AIXM and WXXM [9], shall support an extension mechanism, and should comply with the core and regional extension concept of ICAO Document 9965. Supporting extensions is paramount in order to:
+`FIXM`, like AIXM and WXXM <sup>[[O-04]](#references)</sup>, shall support an extension mechanism, and should comply with the core and regional extension concept of ICAO Document 9965 <sup>[[I-05]](#references)</sup>. Supporting extensions is paramount in order to:
 - Enable Communities of Interest to capture application-specific requirements, without undermining global interoperability of flight information exchanges;
 - Support the interface between implementers of different versions of FIXM;
 - Facilitate the Change Management Process of FIXM.
@@ -135,9 +135,9 @@ The International Air Transport Association (IATA) (http://www.iata.org) has est
 
 #### 2.4.3	FIXM and the AIRM
 
-ICAO endorsed during the 12th Air Navigation Conference the creation of an ATM Information Reference Model (AIRM) [12] acting as an overarching reference for the ATM domains: Flight, AIM, MET, Surveillance, etc.
+ICAO endorsed during the 12th Air Navigation Conference the creation of an ATM Information Reference Model (AIRM) <sup>[[O-05]](#references)</sup> acting as an overarching reference for the ATM domains: Flight, AIM, MET, Surveillance, etc.
 
-As of May 2021, based on the work of the ICAO Information Management Panel (IMP), semantic interoperability of the information service payload is expected to be achieved by aligning the meaning of the information exchanged with the AIRM. The EUROCONTROL Specification on SWIM Information Definition [13] also requires the preservation of meaning of the AIRM concepts when describing exchanged ATM information (requirement SWIM-INFO-009).
+As of May 2021, based on the work of the ICAO Information Management Panel (IMP), semantic interoperability of the information service payload is expected to be achieved by aligning the meaning of the information exchanged with the AIRM. The EUROCONTROL Specification on SWIM Information Definition <sup>[[O-06]](#references)</sup> also requires the preservation of meaning of the AIRM concepts when describing exchanged ATM information (requirement SWIM-INFO-009).
 
 It is recognised as a strategic objective for `FIXM` to establish the appropriate coordination and to gradually achieve semantic alignment with the AIRM. More generally, it is recognised as a strategic objective for `FIXM` to monitor the work and conclusions of the ICAO Information Management Panel (IMP) with regards to Information Management and SWIM and to align `FIXM` with any relevant recommendations from this panel, as appropriate.
 
@@ -164,118 +164,112 @@ However, the supporting FIXM artefacts, and in particular the FIXM User Manual, 
 
 ### 3.2	FIXM Relationship to ATS Messages
 
-The FF-ICE/R1 Implementation Guidance Manual [14] chapter 3.6 explains that for a significant period of time it will be necessary to operate within a “mixed mode” environment, i.e., one in which both current ATS messages and their associated procedures will apply in addition to FF-ICE messages and associated procedures, and requires that FF-ICE messages can be mapped or translated to their ATS messages counterparts.
+The FF-ICE/R1 Implementation Guidance Manual <sup>[[I-06]](#references)</sup> explains that for a significant period of time it will be necessary to operate within a "mixed mode" environment, i.e., one in which both current ATS messages and their associated procedures will apply in addition to FF-ICE messages and associated procedures, and requires that FF-ICE messages can be mapped or translated to their ATS messages counterparts.
 
 Therefore, `FIXM` shall ensure it retains and releases content that remains compatible with the ATS Messages and that enables the FF-ICE Messages to ATS Messages translation required by the FF-ICE Concept. The FIXM User Manual should provide guidance for realising this translation.
 
 However, whilst needing to retain compatibility with the ATS Message content, `FIXM` shall ensure it is not constrained to just meeting such message-based needs and is thus also able to provide the additional and enhanced content needs for the evolving ATM needs, in line with ICAO requirements.
 
-## 4	References
-
-- [1]	Global Air Traffic Management Operational Concept (First Edition - 2005), ICAO Doc 9854
-- [2]	Manual on Air Traffic Management System Requirements (First Edition – 2007), ICAO Doc 9882
-- [3]	Global Air Navigation Plan (Fourth Edition – 2013), ICAO Doc 9750
-- [4]	Manual on Global Performance of the Air Navigation System (First Edition – 2008), ICAO Doc 9883
-- [5]	Manual on Collaborative Air Traffic Flow Management (First Edition – 2012), ICAO Doc 9971
-- [6]	Manual on Flight and Flow Information for a Collaborative Environment (First Edition – 2012), ICAO Doc 9965
-- [7]	ASBU Working Document, (Edition 2, Version 3)
-- [8]	Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 15th Ed
-- [9]	Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
-- [10]	FIXM Change Management Charter, version 1.1
-- [11]	Manual On System Wide Information Management (SWIM) Concept, (Advanced Edition – 2015), ICAO Doc 10039
-- [12]	ATM Information Reference Model 
-- [13]	EUROCONTROL Specification on SWIM Information Definition
-- [14]	ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.95 (draft)
-
-## 5	Abbreviations
-
-|  |  |
-|:-|:-|
-| A-CDM | Airport Collaborative Decision Making |
-| ACRIS | Airport Community Recommended Information Services |
-| AIDX | Aviation Information Data Exchange |
-| AIRM | ATM Information Reference Model |
-| AIS | Aeronautical Information Services |
-| AIXM | Aeronautical Information Exchange Model |
-| ASBU | Aviation System Block Upgrade |
-| ATMRPP | Air Traffic Management Requirements and Performance Panel |
-| CCB | Change Control Board |
-| FF-ICE | Flight and Flow – Information for a Collaborative Environment |
-| FIXM | Flight Information Exchange Model |
-| IATA | International Air Transport Association |
-| ICAO | International Civil Aviation Organisation |
-| IMP | Information Management Panel |
-| ISO | International Standards Organisation |
-| OGC | Open geospatial Consortium |
-| PADIS | Passenger and Airport Data Interchange Standards |
-| SWIM | System Wide Information Management |
-| UML | Unified Modelling Language |
-| WXXM | Weather Information Exchange Model |
-| XML | Extensible Markup Language |
-| XSD | XML Schema Definition |
 
 ## Appendix A – Eligibility criteria for FIXM Core
 
-The flight information identified as globally applicable by ICAO FF-ICE [6] shall feed into FIXM Core, as stated in chapter 2.2.1. The criteria elaborated in this appendix clarify the expectations towards:
+The flight information identified as globally applicable by ICAO FF-ICE <sup>[[I-05]](#references)</sup><sup>[[I-06]](#references)</sup> shall feed into `FIXM Core`, as stated in chapter 2.2.1. The criteria elaborated in this appendix clarify the expectations towards:
 - Any ICAO FF-ICE regional requirements;
 - Any ICAO requirements not originating from the ICAO ATMRPP;
 - The requirements not originating from ICAO but from other community of interests.
 
 ### ICAO FF-ICE regional requirements
 
-ICAO FF-ICE [6] specifies requirements for Flight and Flow Information exchanges. Definitions of information elements for the FF-ICE are globally standardized.
+ICAO FF-ICE <sup>[[I-05]](#references)</sup> specifies requirements for Flight and Flow Information exchanges. Definitions of information elements for the FF-ICE are globally standardized.
 
-ICAO FF-ICE [6] states however that not all information elements may be applicable globally, and recognises that Regional variation required for performance reasons will be implemented by use of different subsets of the standard information elements. New elements will be introduced regionally through regional extensions as needed but will not be mandatory for other regions, will not provide duplicate information of existing elements, and should be intended to become part of the global standard.
+ICAO FF-ICE <sup>[[I-05]](#references)</sup> states however that not all information elements may be applicable globally, and recognises that Regional variation required for performance reasons will be implemented by use of different subsets of the standard information elements. New elements will be introduced regionally through regional extensions as needed but will not be mandatory for other regions, will not provide duplicate information of existing elements, and should be intended to become part of the global standard.
 
-ICAO FF-ICE [6] Figure 3-1 provides a graphical illustration of this environment.
+ICAO FF-ICE <sup>[[I-05]](#references)</sup> Figure 3-1 provides a graphical illustration of this environment.
 
 ### Other ICAO requirements
 
-ICAO may develop additional concepts of operations that FIXM could support, such as the ICAO A-CDM concept whose development is underway.
-Therefore, ICAO requirements not originating from the ICAO ATMRPP, but laid down by other ICAO panels, may be considered as drivers for FIXM.
+ICAO may develop additional concepts of operations that `FIXM` could support, such as the ICAO A-CDM concept whose development is underway.
+Therefore, ICAO requirements not originating from the ICAO ATMRPP, but laid down by other ICAO panels, may be considered as drivers for `FIXM`.
 
 ### Other stakeholders’ requirements
-While ICAO FF-ICE provides the main driver for FIXM, some stakeholders may have additional Flight and Flow Information exchange requirements that could possibly be satisfied by FIXM. In other terms, non-ICAO requirements might be considered for FIXM.
-Among these non-ICAO requirements, some may still prove to be globally applicable, while others may remain applicable to (a) specific region(s).
+While ICAO FF-ICE provides the main driver for `FIXM`, some stakeholders may have additional Flight and Flow Information exchange requirements that could possibly be satisfied by FIXM. In other terms, non-ICAO requirements might be considered for `FIXM`. Among these non-ICAO requirements, some may still prove to be globally applicable, while others may remain applicable to (a) specific region(s).
 
 ### Eligibility criteria for FIXM Core
-The following criteria are applicable for unambiguously deciding whether particular pieces of flight information qualify for FIXM Core.
-- The ICAO FF-ICE Information Requirements applicable only at regional level  are not supported by FIXM Core.
-- FIXM supports primarily the ICAO FF-ICE concept, but may satisfy other requirements laid down by other ICAO panels or groups.
-- FIXM might support data items not stemming explicitly from ICAO requirements but whose global applicability can be demonstrated. These data items might for instance originate from third-parties FIXM Extensions, and could support future ICAO needs in the future. 
+The following criteria are applicable for unambiguously deciding whether particular pieces of flight information qualify for `FIXM Core`.
+- The ICAO FF-ICE Information Requirements applicable only at regional level are not supported by `FIXM Core`.
+- `FIXM` supports primarily the ICAO FF-ICE concept, but may satisfy other requirements laid down by other ICAO panels or groups.
+- `FIXM` might support data items not stemming explicitly from ICAO requirements but whose global applicability can be demonstrated. These data items might for instance originate from third-parties FIXM Extensions, and could support future ICAO needs in the future. 
 
 This translates into the following table:
 
-> TODO
+![Image](.//media/fixm-strategy-core-eligibility.png "Eligibility criteria for FIXM Core")
 
 The consequences of these criteria are the following:
 - At the level of the FIXM change management, 
-  - The FIXM CCB should seek to engage with other ICAO panels that could possibly use FIXM as a technical solution in support of their concepts of operations.
-  - As needed, the FIXM CCB will engage with ATMRPP in order to evaluate the global applicability of candidate “non-ICAO” flight data items proposed for FIXM Core. The evaluation will include the following: 
+  - The `FIXM CCB` should seek to engage with other ICAO panels that could possibly use `FIXM` as a technical solution in support of their concepts of operations.
+  - As needed, the `FIXM CCB` will engage with ATMRPP in order to evaluate the global applicability of candidate "non-ICAO" flight data items proposed for `FIXM Core`. The evaluation will include the following: 
 - Verification that the candidate flight data item has a name and a definition that is globally harmonised;
 - Verification that the usage of the candidate flight data item is justified by operational requirements that are globally applicable;
 - Verification that the candidate flight data does not conflict with other ICAO developments.
 - At the technical level, 
-  - Flight data elements related to FF-ICE or other relevant requirements from ICAO are in FIXM Core scope.
-  - Flight data elements not stemming from ICAO requirements but whose global applicability has been demonstrated may be considered in FIXM Core.
+  - Flight data elements related to FF-ICE or other relevant requirements from ICAO are in `FIXM Core` scope.
+  - Flight data elements not stemming from ICAO requirements but whose global applicability has been demonstrated may be considered in `FIXM Core`.
   - FIXM Extensions will be used for satisfying regional requirements (one region or 2 or more regions) and/or for capturing candidate flight data elements whose global applicability has not been demonstrated.
 
 
 ## Appendix B – Third-parties FIXM Applications and Extensions
 
-As stated in chapter 2.3, the FIXM CCB should build, maintain and monitor a catalogue of known FIXM Applications and FIXM Extensions developed by third parties, so that potential synergies and collaboration opportunities across FIXM stakeholders can be identified. This is paramount to reduce the risk of incompatibilities between FIXM Core and third party FIXM Extensions, and between different third party FIXM Extensions or FIXM Applications.
+As stated in chapter 2.3, the `FIXM CCB` should build, maintain and monitor a catalogue of known `FIXM Applications` and `FIXM Extensions` developed by third parties, so that potential synergies and collaboration opportunities across FIXM stakeholders can be identified. This is paramount to reduce the risk of incompatibilities between `FIXM Core` and third party `FIXM Extensions`, and between different third party `FIXM Extensions` or `FIXM Applications`.
 
-Practically, the FIXM CCB should gradually record on the public FIXM website a list of known FIXM Applications and FIXM Extensions developed by third parties that support specific flight information exchanges with some ATM stakeholders. To do so, the FIXM CCB should invite third parties to inform the FIXM Community about their FIXM Applications and FIXM Extensions development plans, and should encourage and facilitate the publication of these materials with a wider FIXM audience, as appropriate. In particular, the FIXM CCB should enable third parties: 
--	To have their FIXM Applications and FIXM Extensions published directly on the public FIXM website. In this case, the public FIXM website would host these third party FIXM Applications and FIXM Extensions. This option may be typically chosen by FIXM stakeholders willing to publish their FIXM Applications and FIXM Extensions under BSD license.
+Practically, the `FIXM CCB` should gradually record on the public FIXM website <sup>[[F-01]](#references)</sup> a list of known `FIXM Applications` and `FIXM Extensions` developed by third parties that support specific flight information exchanges with some ATM stakeholders. To do so, the `FIXM CCB` should invite third parties to inform the FIXM Community about their `FIXM Applications` and `FIXM Extensions` development plans, and should encourage and facilitate the publication of these materials with a wider FIXM audience, as appropriate. In particular, the `FIXM CCB` should enable third parties: 
+-	To have their `FIXM Applications` and `FIXM Extensions` *published* directly on the public FIXM website <sup>[[F-01]](#references)</sup> . In this case, the public FIXM website would host these third party `FIXM Applications` and `FIXM Extensions`. This option may be typically chosen by FIXM stakeholders willing to publish their FIXM Applications and FIXM Extensions under BSD license.
 OR
--	To have their FIXM Applications and FIXM Extensions publicized via the public FIXM website. In this case, the public FIXM website would only include a reference to the third party website hosting the FIXM Applications or FIXM Extensions. This option may be typically chosen by FIXM stakeholders willing to control the hosting of, and access to, their specific FIXM materials.
+-	To have their `FIXM Applications` and `FIXM Extensions` *publicized* via the public FIXM website <sup>[[F-01]](#references)</sup>. In this case, the public FIXM website would only include a reference to the third party website hosting the `FIXM Applications` or `FIXM Extensions`. This option may be typically chosen by FIXM stakeholders willing to control the hosting of, and access to, their specific FIXM materials.
 
-The FIXM CCB strongly recommends third parties to inform the FIXM CCB about their FIXM Applications and Extensions developments that support information exchanges with multiple ATM stakeholders. However, the FIXM CCB may remain unaware of particular FIXM implementation efforts, and some implementers may prefer not to advertise their FIXM work, in particular when FIXM Applications or Extensions are developed for internal use and are not exposed to other ATM stakeholders. Therefore, it is acknowledged that the catalogue of known FIXM Applications and FIXM Extensions may never be complete.
+The `FIXM CCB` strongly recommends third parties to inform the `FIXM CCB` about their `FIXM Applications` and `Extensions` developments that support information exchanges with multiple ATM stakeholders. However, the `FIXM CCB` may remain unaware of particular FIXM implementation efforts, and some implementers may prefer not to advertise their FIXM work, in particular when FIXM Applications or Extensions are developed for internal use and are not exposed to other ATM stakeholders. Therefore, it is acknowledged that the catalogue of known `FIXM Applications` and `FIXM Extensions` may never be complete.
 
-Content from the FIXM Applications or FIXM Extensions published on the public FIXM website may be considered for incorporation into the components managed by the FIXM CCB, in line with the criteria outlined in Appendix A – Eligibility criteria for FIXM Core. For instance, content that is incorporated as a FIXM Extension identified in the catalogue could be proposed to ICAO for formal inclusion in the ICAO requirements. If endorsed by ICAO, the data entity would move to the FIXM Core, so that traceability to ICAO requirements is retained for FIXM Core.
+Content from the `FIXM Applications` or `FIXM Extensions` published on the public FIXM website may be considered for incorporation into the components managed by the `FIXM CCB`, in line with the criteria outlined in Appendix A – Eligibility criteria for FIXM Core. For instance, content that is incorporated as a `FIXM Extension` identified in the catalogue could be proposed to ICAO for formal inclusion in the ICAO requirements. If endorsed by ICAO, the data entity would move to the `FIXM Core`, so that traceability to ICAO requirements is retained for `FIXM Core`.
 
 The picture below provides an illustration of the catalogue of third-parties FIXM Applications and Extensions.
 
-> ADD PICTURE
+![Image](.//media/fixm-strategy-3rd-parties-ext-app.png "Catalogue of third-parties FIXM Applications and Extensions")
 
 *Note: as the catalogue of FIXM Applications and FIXM Extensions expands, the FIXM CCB may establish a formal verification process whereby the content of third-party components proposed for the catalogue would be more systematically analysed. This process would primarily aim to ensure appropriate awareness of the FIXM CCB about the detailed scope and content of the Applications and Extensions listed in the catalogue, to help identify commonalities and potential synergies, and to identify flight data elements that could become candidate for promotion to FIXM Core*
+
+
+
+## References
+
+### FIXM references
+
+[F-01]: [FIXM Web Site](https://fixm.aero/)
+
+[F-03]: [FIXM Change Management Charter]()
+
+### ICAO references
+
+[I-01]: [ICAO Doc 9854 - Global Air Traffic Management Operational Concept (First Edition - 2005)](https://www.icao.int/Meetings/anconf12/Document%20Archive/9854_cons_en[1].pdf)
+
+[I-02]: [ICAO Doc 9882 - Manual on Air Traffic Management System Requirements (First Edition – 2007)](https://www.icao.int/airnavigation/IMP/Documents/Doc%209882%20-%20Manual%20on%20ATM%20Requirements.pdf)
+
+[I-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
+
+[I-05]: [ICAO Doc 9965, 1st edition - Manual on Flight and Flow Information for a Collaborative Environment](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf)
+
+[I-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
+
+[I-10]: ICAO Doc 10039, Advanced Edition 2015 - Manual on System Wide Information Management (SWIM) Concept
+
+[I-12]: ICAO Doc 9883, 1st edition - Manual on Global Performance of the Air Navigation System
+
+[I-13]: ICAO Doc 9971, 1st edition - Manual on Collaborative Air Traffic Flow Management
+
+[I-14]: ASBU Working Document, Edition 2, Version 3
+
+### Other references
+
+[O-04]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
+
+[O-05]: [ATM Information Reference Model](https://airm.aero/)
+
+[O-06]: [EUROCONTROL Specification on SWIM Information Definition](https://www.eurocontrol.int/publication/eurocontrol-specification-swim-information-definition)

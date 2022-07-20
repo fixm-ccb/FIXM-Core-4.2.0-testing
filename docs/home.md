@@ -1,61 +1,66 @@
 # Welcome to the FIXM User Manual
 
-The FIXM User Manual, formerly known as Implementation Guidance, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
+The `FIXM User Manual` is the online documentation of the FIXM project. Content has been subject to FIXM Change Control Board (CCB) review and endorsement and is therefore the official recommendation of the FIXM CCB.
 
-Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
+## Content Overview
 
-## Strategic FIXM Documents
+The `FIXM User Manual` provides access to the **strategic documents** that guide the overall FIXM development, and captures **technical guidance** for the implementation of FIXM. The official FIXM components are available on the FIXM Website<sup>[[F-01]](#references)</sup>. 
 
 ```mermaid
-graph TD
+graph LR
 
 FIXM
 
 subgraph Strategic Documents
 STRATEGY{{FIXM<br>Strategy}}
 CHARTER{{FIXM Change<br>Management Charter}}
-VERSIONING{{FIXM<br>Versioning Policy}}
-RELEASEPLAN{{FIXM<br>Release Plan}}
+%% VERSIONING{{FIXM<br>Versioning Policy}}
+%% RELEASEPLAN{{FIXM<br>Release Plan}}
+end
+
+subgraph Technical Guidance
+FIXM_COMPONENTS{{FIXM<br>Components}}
+GENERAL_GUIDANCE{{General<br>Guidance}}
+FIXM_FOR_FFICE{{Using FIXM<br>for FF-ICE}}
+FIXM_FOR_OTHER_USE{{Using FIXM<br>for other use cases}}
+HOW_TO{{How to...<br>sections}}
+FIXM_DEV_TOOLS_COMPATIBILITY{{Development tools<br>compatibility}}
 end
 
 STRATEGY-. defines<br>strategic requirements for .-> FIXM
 CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
-VERSIONING-. describes<br>versioning policy for .-> FIXM
-RELEASEPLAN-. describes<br>roadmap for .-> FIXM
 
-%% style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
+FIXM_COMPONENTS-. provides explanations<br>about the components of .-> FIXM
+GENERAL_GUIDANCE-. describes general<br>encoding rules for .-> FIXM
+FIXM_FOR_FFICE-. provides guidance<br>in support of<br>FF-ICE implementation<br>using .-> FIXM
+FIXM_FOR_OTHER_USE-. provides guidance<br>for non-ICAO use cases<br>using.-> FIXM
+HOW_TO-. provides guidance for<br>creating 3rd party's<br>Applications/Extensions of .-> FIXM
+FIXM_DEV_TOOLS_COMPATIBILITY-. reports about software<br>compatibility of.-> FIXM
+
 style FIXM stroke-width:3px
 
 click STRATEGY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/strategy" "Browse the FIXM Strategy"
 click CHARTER "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/charter" "Browse the FIXM Change Management Charter"
-click VERSIONING "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/versioning" "Browse the FIXM Versioning Policy"
-click RELEASEPLAN "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/releasePlan" "Browse the FIXM Release Plan"
+
+click FIXM_COMPONENTS "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/general-guidance/fixm-components-introduction" "Explanations about the main FIXM components"
+click GENERAL_GUIDANCE "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/general-guidance/introduction" "Browse the FIXM Change Management Charter"
+click FIXM_FOR_FFICE "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/fixm-in-support-of-ffice/ffice-application-for-fixm" "Browse the FIXM Versioning Policy"
+click FIXM_FOR_OTHER_USE "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/fixm-for-other-use-cases/using-fixm-core-without-an-application" "Browse the FIXM Release Plan"
+click HOW_TO "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/how-to-create-application/initial-download-and-setup" "Browse the FIXM Release Plan"
+click FIXM_DEV_TOOLS_COMPATIBILITY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/fixm-development-tool-compatibility/introduction" "Browse the FIXM Release Plan"
 ```
-
-## Guidance on FIXM Releases
-
-This edition of the FIXM User Manual provides guidance for [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0), the [FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0) and the [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0).
-
-Guidance for previous releases is available on [FIXM.aero](https://www.fixm.aero).
-
-## Content and Target audience
-
-- The section [FIXM COMPONENTS](general-guidance/fixm-components-introduction) provides explanations about the main FIXM components.
-- The section [GENERAL GUIDANCE](general-guidance/introduction) describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
-- The section [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm) provides specific guidance in support of the implementation of FF-ICE using FIXM.
-- The section [USING FIXM FOR OTHER USE CASES](fixm-for-other-use-cases/using-fixm-core-without-an-application) provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
-- The "How to" parts [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup) and [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model) provide step-by-step guidance for producing new FIXM Applications and FIXM extensions (UML and XSD).
-- The section [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction) provides information about the tools and technologies for which compability tests have been performed for FIXM.
 
 | Your FIXM use case | Chapters relevant to you |
 |:-|:---|
 | I want to use FIXM to implement ICAO FF-ICE Service(s) without local/regional arrangements | [FIXM COMPONENTS](general-guidance/fixm-components-introduction), [GENERAL GUIDANCE](general-guidance/introduction), [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction), [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm) |
 | I want to use FIXM to implement ICAO FF-ICE Service(s) with local/regional arrangements | [FIXM COMPONENTS](general-guidance/fixm-components-introduction), [GENERAL GUIDANCE](general-guidance/introduction), [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction), [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm), [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup), [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model)|
 | I want to use FIXM to exchange flight data based on my own organisation's needs | [FIXM COMPONENTS](general-guidance/fixm-components-introduction), [GENERAL GUIDANCE](general-guidance/introduction), [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction), [USING FIXM FOR OTHER USE CASES](fixm-for-other-use-cases/using-fixm-core-without-an-application), [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup), [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model) |
+
+?> The content of the technical guidance is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this technical guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the technical guidance.
+
+The technical guidance provides guidance for [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0), the [FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0) and the [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0).
+
+Guidance for previous releases is available on [FIXM.aero](https://www.fixm.aero).
 
 ## Contribute
 
@@ -81,37 +86,59 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ### FIXM references
 
-[1]: [FIXM Strategy v1.1](https://fixm.aero/documents/FIXM%20Strategy.pdf)
+[F-01]: [FIXM Web Site](https://fixm.aero/)
 
-[2]: [FIXM web site](https://fixm.aero/)
+[F-02]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
 
-[3]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
+[F-03]: [FIXM Change Management Charter]()
+
+[F-04]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
 ### ICAO references
 
-[4]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
+[I-01]: [ICAO Doc 9854 - Global Air Traffic Management Operational Concept (First Edition - 2005)](https://www.icao.int/Meetings/anconf12/Document%20Archive/9854_cons_en[1].pdf)
 
-[5]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment
+[I-02]: [ICAO Doc 9882 - Manual on Air Traffic Management System Requirements (First Edition – 2007)](https://www.icao.int/airnavigation/IMP/Documents/Doc%209882%20-%20Manual%20on%20ATM%20Requirements.pdf)
 
-[6]: [ATMRPP/3-WP/766](hhttps://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[I-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
 
-[7]: ICAO Doc 7910: Location Indicators
+[I-04]: ICAO Doc 4444, 16th edition - PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management 
 
-[8]: [ICAO Doc 8643](https://www.icao.int/publications/DOC8643/Pages/default.aspx): Aircraft Type Designators
+[I-05]: [ICAO Doc 9965, 1st edition - Manual on Flight and Flow Information for a Collaborative Environment](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf)
 
-[9]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
+[I-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
 
-[10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept
+[I-07]: ICAO Doc 7910 - Location Indicators
 
-[11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
+[I-08]: [ICAO Doc 8643 - Aircraft Type Designators](https://www.icao.int/publications/DOC8643/Pages/default.aspx)
+
+[I-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
+
+[I-10]: ICAO Doc 10039, Advanced Edition 2015 - Manual on System Wide Information Management (SWIM) Concept
+
+[I-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
+
+[I-12]: ICAO Doc 9883, 1st edition - Manual on Global Performance of the Air Navigation System
+
+[I-13]: ICAO Doc 9971, 1st edition - Manual on Collaborative Air Traffic Flow Management
+
+[I-14]: ASBU Working Document, Edition 2, Version 3
 
 ### Other references
 
-[12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
+[O-01]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
 
-[13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
+[O-02]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
 
-[14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
+[O-03]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
+
+[O-04]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
+
+[O-05]: [ATM Information Reference Model](https://airm.aero/)
+
+[O-06]: [EUROCONTROL Specification on SWIM Information Definition](https://www.eurocontrol.int/publication/eurocontrol-specification-swim-information-definition)
+
+
 
 ## Acronyms
 
@@ -169,10 +196,13 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 | XSD               | XML Schema Definition |
 | XSLT              | Extensible Stylesheet Language Transformations |
 
+
+
 [FIXM Core 4.2.0]: https://www.fixm.aero/release.pl?rel=FIXM-4.2.0
 [FF-ICE Application]: https://www.fixm.aero/release.pl?rel=FFICE-Msg-1.0.0
 [Basic Application]: https://www.fixm.aero/release.pl?rel=Basic-Msg-1.0.0
 
+[FIXM Work Area]: https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx
 [OneSky Online]: https://ext.eurocontrol.int/
 [OneSky Teams]: https://ost.eurocontrol.int/Pages/default.aspx
 [ACCESS THE FIXM WORK AREA]: https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx

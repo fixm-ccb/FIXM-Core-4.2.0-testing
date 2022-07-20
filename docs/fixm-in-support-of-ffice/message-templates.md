@@ -6,12 +6,12 @@ The FF-ICE Message templates are the representations of the individual
 FF-ICE messages that are exchanged by the FF-ICE Services. Thirteen
 message templates are defined in the FF-ICE Application v1.0.0.
 They correspond to the thirteen FF-ICE Messages described in the
-FF-ICE/R1 Implementation Guidance Manual, Appendix C. The following
+FF-ICE/R1 Implementation Guidance Manual, Appendix C<sup>[[I-06]](#references)</sup>. The following
 table provides the correspondence between the FF-ICE message templates
 from the application and their corresponding description in the FF-ICE
 Implementation Guidance Manual, Appendix C.
 
-Table 1: Correspondences between FF-ICE Message templates and their ICAO Doc 9965 Volume II<sup>[[6]](#references)</sup> description
+Table 1: Correspondences between FF-ICE Message templates and their ICAO Doc 9965 Volume II<sup>[[I-06]](#references)</sup> description
 
 | **FF-ICE Message templates** | **Associated Requirements from the FF-ICE Implementation Guidance Manual, Appendix C** |
 |-|-|
@@ -117,4 +117,6 @@ sub-classes. XSD complex type restrictions are therefore linked together to form
 
 ## References
 
-[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+### ICAO references
+
+[I-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
