@@ -93,33 +93,33 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ### ICAO references
 
-[ICAO-REF-01]: Global Air Traffic Management Operational Concept (First Edition - 2005), ICAO Doc 9854
+[ICAO-REF-01]: [ICAO Doc 9854 - Global Air Traffic Management Operational Concept (First Edition - 2005)](https://www.icao.int/Meetings/anconf12/Document%20Archive/9854_cons_en[1].pdf)
 
-[ICAO-REF-02]: Manual on Air Traffic Management System Requirements (First Edition – 2007), ICAO Doc 9882
+[ICAO-REF-02]: [ICAO Doc 9882 - Manual on Air Traffic Management System Requirements (First Edition – 2007)](https://www.icao.int/airnavigation/IMP/Documents/Doc%209882%20-%20Manual%20on%20ATM%20Requirements.pdf)
 
 [ICAO-REF-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
 
-[ICAO-REF-04]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 16th edition
+[ICAO-REF-04]: ICAO Doc 4444, 16th edition - PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management 
 
-[ICAO-REF-05]: [ICAO Doc 9965](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf): Manual on Flight and Flow Information for a Collaborative Environment (First Edition – 2012), ICAO Doc 9965
+[ICAO-REF-05]: [ICAO Doc 9965, 1st edition - Manual on Flight and Flow Information for a Collaborative Environment](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf)
 
-[ICAO-REF-06]: ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.99
+[ICAO-REF-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
 
-[ICAO-REF-07]: ICAO Doc 7910: Location Indicators
+[ICAO-REF-07]: ICAO Doc 7910 - Location Indicators
 
-[ICAO-REF-08]: [ICAO Doc 8643](https://www.icao.int/publications/DOC8643/Pages/default.aspx): Aircraft Type Designators
+[ICAO-REF-08]: [ICAO Doc 8643 - Aircraft Type Designators](https://www.icao.int/publications/DOC8643/Pages/default.aspx)
 
 [ICAO-REF-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
 
-[ICAO-REF-10]: ICAO Doc 10039: Manual on System Wide Information Management (SWIM) Concept, (Advanced Edition – 2015)
+[ICAO-REF-10]: ICAO Doc 10039, Advanced Edition 2015 - Manual on System Wide Information Management (SWIM) Concept
 
 [ICAO-REF-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
 
-[ICAO-REF-12]: Manual on Global Performance of the Air Navigation System (First Edition – 2008), ICAO Doc 9883
+[ICAO-REF-12]: ICAO Doc 9883, 1st edition - Manual on Global Performance of the Air Navigation System
 
-[ICAO-REF-13]: Manual on Collaborative Air Traffic Flow Management (First Edition – 2012), ICAO Doc 9971
+[ICAO-REF-13]: ICAO Doc 9971, 1st edition - Manual on Collaborative Air Traffic Flow Management
 
-[ICAO-REF-14]: ASBU Working Document, (Edition 2, Version 3)
+[ICAO-REF-14]: ASBU Working Document, Edition 2, Version 3
 
 ### Other references
 
