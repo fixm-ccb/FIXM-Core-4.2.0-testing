@@ -15,7 +15,7 @@ The Flight Information Exchange Model (`FIXM`) is an exchange model capturing Fl
 
 `FIXM` is the equivalent, for the Flight domain, of AIXM (Aeronautical Information Exchange Model) and WXXM (Weather Information Exchange Model) both of which were developed in order to achieve global interoperability for, respectively, AIS and MET information exchange. FIXM is therefore part of a family of technology independent, harmonized and interoperable information exchange models designed to cover the information needs of Air Traffic Management.
 
-According to the ICAO SWIM concept <sup>[[I-12]](#references)</sup>, `FIXM` is one of the models that belong to the “Information Exchange Models” layer of the ICAO SWIM Global Interoperability framework.
+According to the ICAO SWIM concept <sup>[[I-10]](#references)</sup>, `FIXM` is one of the models that belong to the “Information Exchange Models” layer of the ICAO SWIM Global Interoperability framework.
 
 ### 1.2	Purpose of the document
 
@@ -244,11 +244,7 @@ The picture below provides an illustration of the catalogue of third-parties FIX
 
 [F-01]: [FIXM Web Site](https://fixm.aero/)
 
-[F-02]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
-
 [F-03]: [FIXM Change Management Charter]()
-
-[F-04]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
 ### ICAO references
 
@@ -258,21 +254,11 @@ The picture below provides an illustration of the catalogue of third-parties FIX
 
 [I-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
 
-[I-04]: ICAO Doc 4444, 16th edition - PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management 
-
 [I-05]: [ICAO Doc 9965, 1st edition - Manual on Flight and Flow Information for a Collaborative Environment](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf)
 
 [I-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
 
-[I-07]: ICAO Doc 7910 - Location Indicators
-
-[I-08]: [ICAO Doc 8643 - Aircraft Type Designators](https://www.icao.int/publications/DOC8643/Pages/default.aspx)
-
-[I-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
-
 [I-10]: ICAO Doc 10039, Advanced Edition 2015 - Manual on System Wide Information Management (SWIM) Concept
-
-[I-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
 
 [I-12]: ICAO Doc 9883, 1st edition - Manual on Global Performance of the Air Navigation System
 
@@ -281,12 +267,6 @@ The picture below provides an illustration of the catalogue of third-parties FIX
 [I-14]: ASBU Working Document, Edition 2, Version 3
 
 ### Other references
-
-[O-01]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
-
-[O-02]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
-
-[O-03]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
 
 [O-04]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
 
