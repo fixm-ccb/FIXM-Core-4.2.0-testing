@@ -203,7 +203,7 @@ The following criteria are applicable for unambiguously deciding whether particu
 
 This translates into the following table:
 
-> TODO
+![Image](.//media/fixm-strategy-core-eligibility.png "Eligibility criteria for FIXM Core")
 
 The consequences of these criteria are the following:
 - At the level of the FIXM change management, 
@@ -233,7 +233,7 @@ Content from the FIXM Applications or FIXM Extensions published on the public FI
 
 The picture below provides an illustration of the catalogue of third-parties FIXM Applications and Extensions.
 
-> ADD PICTURE
+![Image](.//media/fixm-strategy-3rd-parties-ext-app.png "Catalogue of third-parties FIXM Applications and Extensions")
 
 *Note: as the catalogue of FIXM Applications and FIXM Extensions expands, the FIXM CCB may establish a formal verification process whereby the content of third-party components proposed for the catalogue would be more systematically analysed. This process would primarily aim to ensure appropriate awareness of the FIXM CCB about the detailed scope and content of the Applications and Extensions listed in the catalogue, to help identify commonalities and potential synergies, and to identify flight data elements that could become candidate for promotion to FIXM Core*
 
