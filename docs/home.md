@@ -14,14 +14,14 @@ FIXM
 subgraph Strategic Documents
 STRATEGY{{FIXM<br>Strategy}}
 CHARTER{{FIXM Change<br>Management Charter}}
-VERSIONING{{FIXM<br>Versioning Policy}}
-RELEASEPLAN{{FIXM<br>Release Plan}}
+%% VERSIONING{{FIXM<br>Versioning Policy}}
+%% RELEASEPLAN{{FIXM<br>Release Plan}}
 end
 
 STRATEGY-. defines<br>strategic requirements for .-> FIXM
 CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
-VERSIONING-. describes<br>versioning policy for .-> FIXM
-RELEASEPLAN-. describes<br>roadmap for .-> FIXM
+%% VERSIONING-. describes<br>versioning policy for .-> FIXM
+%% RELEASEPLAN-. describes<br>roadmap for .-> FIXM
 
 %% style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
 %% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
@@ -32,8 +32,8 @@ style FIXM stroke-width:3px
 
 click STRATEGY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/strategy" "Browse the FIXM Strategy"
 click CHARTER "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/charter" "Browse the FIXM Change Management Charter"
-click VERSIONING "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/versioning" "Browse the FIXM Versioning Policy"
-click RELEASEPLAN "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/releasePlan" "Browse the FIXM Release Plan"
+%% click VERSIONING "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/versioning" "Browse the FIXM Versioning Policy"
+%% click RELEASEPLAN "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/releasePlan" "Browse the FIXM Release Plan"
 ```
 
 ## Guidance on FIXM Releases
