@@ -1,13 +1,15 @@
 # Welcome to the FIXM User Manual
 
-The FIXM User Manual, formerly known as Implementation Guidance, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
+The `FIXM User Manua`l is the online documentation of the FIXM project. It is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
 
-Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
+?> Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
 
-## Strategic FIXM Documents
+## Content Overview
+
+The `FIXM User Manual` provides access to the **strategic documents** that guide the overall FIXM development, and captures **technical guidance** for the implementation of FIXM. The official FIXM components are available on the FIXM Website<sup>[[F-01]](#references)</sup>. 
 
 ```mermaid
-graph TD
+graph LR
 
 FIXM
 
@@ -18,44 +20,50 @@ CHARTER{{FIXM Change<br>Management Charter}}
 %% RELEASEPLAN{{FIXM<br>Release Plan}}
 end
 
+subgraph Technical Guidance
+FIXM_COMPONENTS{{FIXM<br>Components}}
+GENERAL_GUIDANCE{{General<br>Guidance}}
+FIXM_FOR_FFICE{{Using FIXM<br>for FF-ICE}}
+FIXM_FOR_OTHER_USE{{Using FIXM<br>for other use cases}}
+HOW_TO{{How to...<br>sections}}
+FIXM_DEV_TOOLS_COMPATIBILITY{{Development tools<br>compatibility}}
+end
+
 STRATEGY-. defines<br>strategic requirements for .-> FIXM
 CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
-%% VERSIONING-. describes<br>versioning policy for .-> FIXM
-%% RELEASEPLAN-. describes<br>roadmap for .-> FIXM
 
-%% style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
+FIXM_COMPONENTS-. provides explanations<br>about the components of .-> FIXM
+GENERAL_GUIDANCE-. describes general<br>encoding rules for .-> FIXM
+FIXM_FOR_FFICE-. provides guidance<br>in support of<br>FF-ICE implementation<br>using .-> FIXM
+FIXM_FOR_OTHER_USE-. provides guidance<br>for non-ICAO use cases<br>using.-> FIXM
+HOW_TO-. provides guidance for<br>creating 3rd party's<br>Applications/Extensions of .-> FIXM
+FIXM_DEV_TOOLS_COMPATIBILITY-. reports about software<br>compatibility of.-> FIXM
+
 style FIXM stroke-width:3px
 
 click STRATEGY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/strategy" "Browse the FIXM Strategy"
 click CHARTER "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/charter" "Browse the FIXM Change Management Charter"
-%% click VERSIONING "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/versioning" "Browse the FIXM Versioning Policy"
-%% click RELEASEPLAN "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/strategic-docs/releasePlan" "Browse the FIXM Release Plan"
+
+click FIXM_COMPONENTS "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/general-guidance/fixm-components-introduction" "Explanations about the main FIXM components"
+click GENERAL_GUIDANCE "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/general-guidance/introduction" "Browse the FIXM Change Management Charter"
+click FIXM_FOR_FFICE "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/fixm-in-support-of-ffice/ffice-application-for-fixm" "Browse the FIXM Versioning Policy"
+click FIXM_FOR_OTHER_USE "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/fixm-for-other-use-cases/using-fixm-core-without-an-application" "Browse the FIXM Release Plan"
+click HOW_TO "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/how-to-create-application/initial-download-and-setup" "Browse the FIXM Release Plan"
+click FIXM_DEV_TOOLS_COMPATIBILITY "https://fixm-ccb.github.io/FIXM-Core-4.2.0-testing/#/fixm-development-tool-compatibility/introduction" "Browse the FIXM Release Plan"
 ```
-
-## Guidance on FIXM Releases
-
-This edition of the FIXM User Manual provides guidance for [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0), the [FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0) and the [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0).
-
-Guidance for previous releases is available on [FIXM.aero](https://www.fixm.aero).
-
-## Content and Target audience
-
-- The section [FIXM COMPONENTS](general-guidance/fixm-components-introduction) provides explanations about the main FIXM components.
-- The section [GENERAL GUIDANCE](general-guidance/introduction) describes the general rules (encoding rules, data plausibility rules, rules for absent data…) that are always applicable whatever the implementation context.
-- The section [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm) provides specific guidance in support of the implementation of FF-ICE using FIXM.
-- The section [USING FIXM FOR OTHER USE CASES](fixm-for-other-use-cases/using-fixm-core-without-an-application) provides explanations and guidance for implementing FIXM in support of use cases not handled the FIXM CCB.
-- The "How to" parts [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup) and [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model) provide step-by-step guidance for producing new FIXM Applications and FIXM extensions (UML and XSD).
-- The section [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction) provides information about the tools and technologies for which compability tests have been performed for FIXM.
 
 | Your FIXM use case | Chapters relevant to you |
 |:-|:---|
 | I want to use FIXM to implement ICAO FF-ICE Service(s) without local/regional arrangements | [FIXM COMPONENTS](general-guidance/fixm-components-introduction), [GENERAL GUIDANCE](general-guidance/introduction), [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction), [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm) |
 | I want to use FIXM to implement ICAO FF-ICE Service(s) with local/regional arrangements | [FIXM COMPONENTS](general-guidance/fixm-components-introduction), [GENERAL GUIDANCE](general-guidance/introduction), [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction), [USING FIXM IN SUPPORT OF FF-ICE](fixm-in-support-of-ffice/ffice-application-for-fixm), [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup), [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model)|
 | I want to use FIXM to exchange flight data based on my own organisation's needs | [FIXM COMPONENTS](general-guidance/fixm-components-introduction), [GENERAL GUIDANCE](general-guidance/introduction), [FIXM DEVELOPMENT TOOL COMPATIBILITY](fixm-development-tool-compatibility/introduction), [USING FIXM FOR OTHER USE CASES](fixm-for-other-use-cases/using-fixm-core-without-an-application), [HOW TO CREATE A FIXM APPLICATION](how-to-create-application/initial-download-and-setup), [HOW TO CREATE A FIXM EXTENSION](how-to-create-fixm-extension/initial-download-and-setup), [HOW TO GENERATE XML SCHEMAS ...](how-to-generate-xml-schemas/generating-schemas-from-the-logical-model) |
+
+
+## Guidance on FIXM Releases
+
+This edition of the FIXM User Manual provides guidance for [FIXM Core 4.2.0](https://fixm.aero/release.pl?rel=FIXM-4.2.0), the [FF-ICE Application 1.0.0](https://fixm.aero/release.pl?rel=FFICE-Msg-1.0.0) and the [Basic Application 1.0.0](https://fixm.aero/release.pl?rel=Basic-Msg-1.0.0).
+
+Guidance for previous releases is available on [FIXM.aero](https://www.fixm.aero).
 
 ## Contribute
 
