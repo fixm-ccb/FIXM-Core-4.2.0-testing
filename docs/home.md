@@ -129,9 +129,9 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 [O-04]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
 
-[O-05]: ATM Information Reference Model 
+[O-05]: [ATM Information Reference Model](https://airm.aero/)
 
-[O-06]: EUROCONTROL Specification on SWIM Information Definition
+[O-06]: [EUROCONTROL Specification on SWIM Information Definition](https://www.eurocontrol.int/publication/eurocontrol-specification-swim-information-definition)
 
 
 
