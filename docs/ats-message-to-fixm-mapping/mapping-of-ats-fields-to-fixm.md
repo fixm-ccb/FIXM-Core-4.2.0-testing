@@ -1,14 +1,12 @@
 # Mapping of ATS Fields to FIXM
 
-This section provides a mapping between the fields in PANS-ATM ATS
-messages and the FIXM Logical Model, one ATS message field per
-subsection. The columns in the mapping tables are defined in Table 8.
+This section provides a mapping between the fields in PANS-ATM <sup>[[I-04]](#references)</sup> ATS messages and the FIXM Logical Model, one ATS message field per subsection. The columns in the mapping tables are defined in Table 8.
 
 Table 8: Column Definitions
 
   |Column   | Description|
   |:-|:-|
-  |PANS-ATM Field     |The field number as defined in ICAO Doc 4444 \[PANS-ATM\]<sup>[[4]](#references)</sup>.|
+  |PANS-ATM Field     |The field number as defined in ICAO Doc 4444 \[PANS-ATM\]<sup>[[I-04]](#references)</sup>.|
   |Package            |The package that contains the definition of the PANS-ATM field in the logical model.|
   |Class              |The class (in the specified package) that models the PANS-ATM field.|
   |Path from Flight   |Starting from class *Flight* in package *Flight.FlightData*, this defines the path to the location in the logical model where the field is encoded.|
@@ -626,5 +624,7 @@ Further consideration of this is required.
 
 ## References
 
-[4]: PANS-ATM: Procedures for Air Navigation Services: Air Traffic
-Management, ICAO Doc 4444, 16th edition
+### ICAO references
+
+[I-04]: ICAO Doc 4444, 16th edition - PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management 
+
