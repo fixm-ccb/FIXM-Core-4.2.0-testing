@@ -81,59 +81,57 @@ This sites aims to build a "community knowledge" about the implementation of FIX
 
 ### FIXM references
 
-[FIXM-REF-01]: [FIXM Web Site](https://fixm.aero/)
+[F-01]: [FIXM Web Site](https://fixm.aero/)
 
-[FIXM-REF-02]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
+[F-02]: [FIXM Strategy](https://fixm.aero/documents/FIXM%20Strategy.pdf)
 
-[FIXM-REF-03]: [FIXM Change Management Charter]()
+[F-03]: [FIXM Change Management Charter]()
 
-[FIXM-REF-04]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
-
-
+[F-04]: [FIXM Work Area](https://ost.eurocontrol.int/sites/FIXM/SitePages/Home.aspx)
 
 ### ICAO references
 
-[ICAO-REF-01]: [ICAO Doc 9854 - Global Air Traffic Management Operational Concept (First Edition - 2005)](https://www.icao.int/Meetings/anconf12/Document%20Archive/9854_cons_en[1].pdf)
+[I-01]: [ICAO Doc 9854 - Global Air Traffic Management Operational Concept (First Edition - 2005)](https://www.icao.int/Meetings/anconf12/Document%20Archive/9854_cons_en[1].pdf)
 
-[ICAO-REF-02]: [ICAO Doc 9882 - Manual on Air Traffic Management System Requirements (First Edition – 2007)](https://www.icao.int/airnavigation/IMP/Documents/Doc%209882%20-%20Manual%20on%20ATM%20Requirements.pdf)
+[I-02]: [ICAO Doc 9882 - Manual on Air Traffic Management System Requirements (First Edition – 2007)](https://www.icao.int/airnavigation/IMP/Documents/Doc%209882%20-%20Manual%20on%20ATM%20Requirements.pdf)
 
-[ICAO-REF-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
+[I-03]: [Global Air Navigation Plan](https://www4.icao.int/ganpportal/)
 
-[ICAO-REF-04]: ICAO Doc 4444, 16th edition - PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management 
+[I-04]: ICAO Doc 4444, 16th edition - PANS-ATM: Procedures for Air Navigation Services: Air Traffic Management 
 
-[ICAO-REF-05]: [ICAO Doc 9965, 1st edition - Manual on Flight and Flow Information for a Collaborative Environment](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf)
+[I-05]: [ICAO Doc 9965, 1st edition - Manual on Flight and Flow Information for a Collaborative Environment](http://www.icao.int/Meetings/anconf12/Documents/9965_cons_en.pdf)
 
-[ICAO-REF-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
+[I-06]: DRAFT ICAO Doc 9965, 2nd edition, Volume II "FF-ICE/R1 Implementation Guidance Manual" v.0.99
 
-[ICAO-REF-07]: ICAO Doc 7910 - Location Indicators
+[I-07]: ICAO Doc 7910 - Location Indicators
 
-[ICAO-REF-08]: [ICAO Doc 8643 - Aircraft Type Designators](https://www.icao.int/publications/DOC8643/Pages/default.aspx)
+[I-08]: [ICAO Doc 8643 - Aircraft Type Designators](https://www.icao.int/publications/DOC8643/Pages/default.aspx)
 
-[ICAO-REF-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
+[I-09]: PAN AIDC ICD: PAN Regional (NAT and APAC) Interface Control Document for ATC Interfacility Data Communications (PAN AIDC ICD), version 1.0
 
-[ICAO-REF-10]: ICAO Doc 10039, Advanced Edition 2015 - Manual on System Wide Information Management (SWIM) Concept
+[I-10]: ICAO Doc 10039, Advanced Edition 2015 - Manual on System Wide Information Management (SWIM) Concept
 
-[ICAO-REF-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
+[I-11]: ATMRPP-WG/24-WP/564: Flight Plan Filing Provisions for FF-ICE
 
-[ICAO-REF-12]: ICAO Doc 9883, 1st edition - Manual on Global Performance of the Air Navigation System
+[I-12]: ICAO Doc 9883, 1st edition - Manual on Global Performance of the Air Navigation System
 
-[ICAO-REF-13]: ICAO Doc 9971, 1st edition - Manual on Collaborative Air Traffic Flow Management
+[I-13]: ICAO Doc 9971, 1st edition - Manual on Collaborative Air Traffic Flow Management
 
-[ICAO-REF-14]: ASBU Working Document, Edition 2, Version 3
+[I-14]: ASBU Working Document, Edition 2, Version 3
 
 ### Other references
 
-[OTHER-REF-12]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
+[O-01]: [Donlon AIP data Set](https://github.com/aixm/donlon): a fictitious set of digital AIS data sets complying with the ICAO Annex 15, 16th edition and the new PANS-AIM provisions, in AIXM 5.1.1 format.
 
-[OTHER-REF-13]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
+[O-02]: [W3C XML Linking Language (xlink) v1.1](https://www.w3.org/TR/xlink11/)
 
-[OTHER-REF-14]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
+[O-03]: [OGC 12-028r1](https://portal.opengeospatial.org/files/?artifact_id=62061): Use of Geography Markup Language (GML) for Aviation Data
 
-[OTHER-REF-15]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
+[O-04]: Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
 
-[OTHER-REF-16]: ATM Information Reference Model 
+[O-05]: ATM Information Reference Model 
 
-[OTHER-REF-17]: EUROCONTROL Specification on SWIM Information Definition
+[O-06]: EUROCONTROL Specification on SWIM Information Definition
 
 
 
