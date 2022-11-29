@@ -9,8 +9,8 @@ Sub-second precision is considered unneeded for most aviation data, but other fi
 ---
 
 `FIXM Core 4.3.0` defines two types for representing date/time values
-- `DateTimeUtc`, that restricts the standard XML dateTime, is constrained to only allow whole second precision. `DateTimeUtc` is used for typing all aviation-related times, such as the actual time of arrival.
-- `DateTimeUtcHighPrecision`, that restricts the standard XML dateTime, employs unrestricted sub-second precision. `DateTimeUtcHighPrecision` is used for typing the message timestamps in the FIXM Applications.
+- `DateTimeUtc`, that restricts the standard XML dateTime, is constrained to only allow whole second precision. DateTimeUtc is used for typing all aviation-related times, such as the actual time of arrival.
+- `DateTimeUtcHighPrecision`, that restricts the standard XML dateTime, employs unrestricted sub-second precision. DateTimeUtcHighPrecision is used for typing the message timestamps in the FIXM Applications.
 
 Examples: 
 - for aviation-related times, *20th July 1969 at 20:18 UTC* is expressed as `1969-07-20T20:18:00Z`
