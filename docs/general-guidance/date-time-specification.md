@@ -9,21 +9,25 @@ Sub-second precision is considered unneeded for most aviation data, but other fi
 ---
 
 `FIXM Core 4.3.0` defines two types for representing date/time values
-- `DateTimeUtc`, that restricts the standard XML dateTime, is constrained to only allow whole second precision. `DateTimeUtc` is used for typing all aviation-related times, such as the EOBT.
+- `DateTimeUtc`, that restricts the standard XML dateTime, is constrained to only allow whole second precision. `DateTimeUtc` is used for typing all aviation-related times, such as the actual time of arrival.
 - `DateTimeUtcHighPrecision`, that restricts the standard XML dateTime, employs unrestricted sub-second precision. `DateTimeUtcHighPrecision` is used for typing the message timestamps in the FIXM Applications.
 
 Examples: 
 - for aviation-related times, *20th July 1969 at 20:18 UTC* is expressed as `1969-07-20T20:18:00Z`
+
+```xml
+<actualTimeOfArrival>
+  <time>1969-07-20T20:18:00Z</time>
+```
+
 - for message timestamps, higher precision can be provided: `1969-07-20T20:18:00.458Z`
+```xml
+<timestamp>1969-07-20T20:18:00.458Z</timestamp>
+```
 
 ---
 
-`FIXM Core 4.2.0` defines only one type for representing date/time values, named `Time`, which employs unrestricted sub-second precision and is used for typing aviation-related times and message timestamps. For aviation-related times, it is recommended to encode times with trailing characters `.000Z`. Message timestamps can use higher precision, as needed.
-
-
-Examples: 
-- for aviation-related times, *20th July 1969 at 20:18 UTC* is expressed as `1969-07-20T20:18:00.000Z`
-- for message timestamps, higher precision can be provided: `1969-07-20T20:18:00.458Z`
+`FIXM Core 4.2.0` defines only one type for representing date/time values, named `Time`, which employs unrestricted sub-second precision and is used for typing aviation-related times and message timestamps. For aviation-related times, it is recommended to encode times  with whole second precision only, or with trailing characters `.000Z`. Message timestamps can use higher precision, as needed.
 
 ---
 
@@ -32,7 +36,7 @@ Examples:
 
 ## AIRAC Effective Date
 
-`FIXM Core 4.3.0` enables implementers, and in particular operators, to indicate, by reference to the AIRAC Effective date, the dataset used in the creation of the flight plan and calculation of the route/trajectory. The AIRAC Effective Date is based on ICAO published schedule (https://www.icao.int/airnavigation/information-management/Pages/AIRAC.aspx).
+`FIXM Core 4.3.0` enables implementers, and in particular operators, to indicate, by reference to the AIRAC Effective date, the dataset used in the creation of the flight plan and calculation of the route/trajectory. The AIRAC Effective Date is based on [ICAO published schedule](https://www.icao.int/airnavigation/information-management/Pages/AIRAC.aspx).
 
 !> **Note to implementers:** When used as the AIRAC reference in the FF-ICE Flight Plan, the AIRAC Effective Date shall be solely interpreted as an indication of the aeronautical data set that has been used by the operator for the computation of the flight plan, and not as the actual date at which that data set will effectively become applicable. Indeed, the date at which a new AIRAC cycle effectively becomes applicable may be subject to regional or domestic procedures and may therefore differ from the ICAO published schedule. For instance, in some Asians countries, a new AIRAC cycle would become effective on 00LCL, which is the day before AIRAC day in UTC as published by ICAO.
 
@@ -40,8 +44,8 @@ Examples:
 
 |Cycle|Ident|**AIRAC Effective Date**|
 |:-|:-|:-|
-|1|2201|**27 JAN 22**|
-|2|2202|**24 FEB 22**|
+|1|2201|27 JAN 22|
+|**2**|**2202**|**`24 FEB 22`**|
 
 The indication that the dataset AIRAC 2202 has been used for the computation of the route/trajectory will be expressed as
 
