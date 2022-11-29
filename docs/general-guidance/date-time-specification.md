@@ -45,9 +45,10 @@ Examples:
 |Cycle|Ident|**AIRAC Effective Date**|
 |:-|:-|:-|
 |1|2201|27 JAN 22|
-|**2**|**2202**|**`24 FEB 22`**|
+|**2**|**`2202`**|**`24 FEB 22`**|
+|...|...|...|
 
-The indication that the dataset AIRAC 2202 has been used for the computation of the route/trajectory will be expressed as
+The indication that the dataset `AIRAC 2202` has been used for the computation of the route/trajectory will be expressed as:
 
 ```xml
 <fx:routeInformation>
