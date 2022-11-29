@@ -16,19 +16,27 @@ Examples:
 - for aviation-related times, *20th July 1969 at 20:18 UTC* is expressed as `1969-07-20T20:18:00Z`
 
 ```xml
-<actualTimeOfArrival>
-  <time>1969-07-20T20:18:00Z</time>
+<!--xmlns:fx="http://www.fixm.aero/flight/4.3"-->	
+<fx:actualTimeOfArrival>
+  <fx:time>1969-07-20T20:18:00Z</time>
 ```
 
-- for message timestamps, higher precision can be provided: `1969-07-20T20:18:00.458Z`
-```xml
-<timestamp>1969-07-20T20:18:00.458Z</timestamp>
-```
+- for message timestamps, higher precision can be provided, as needed: `1969-07-20T20:18:00.458Z`
 
 ---
 
 `FIXM Core 4.2.0` defines only one type for representing date/time values, named `Time`, which employs unrestricted sub-second precision and is used for typing aviation-related times and message timestamps. For aviation-related times, it is recommended to encode times  with whole second precision only, or with trailing characters `.000Z`. Message timestamps can use higher precision, as needed.
 
+```xml
+<!--xmlns:fx="http://www.fixm.aero/flight/4.2"-->	
+<fx:actualTimeOfArrival>1969-07-20T20:18:00Z</fx:actualTimeOfArrival>
+```
+OR 
+
+```xml
+<!--xmlns:fx="http://www.fixm.aero/flight/4.2"-->	
+<fx:actualTimeOfArrival>1969-07-20T20:18:00.000Z</fx:actualTimeOfArrival>
+```
 ---
 
 !> **Note to implementers:** The mapping of the XSD type `dateTime` to native structures in various development contexts is not always 1-1 and may exhibit a wide variety of difficulties depending on the tooling and runtime context. In particular, the trailing character `Z` indicating UTC may actually be stripped/omitted, leading to FIXM times being interpreted as local times instead of UTC times by some applications. FIXM implementers are therefore invited to crosscheck that their systems correctly interpret FIXM times as UTC time.
