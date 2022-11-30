@@ -46,7 +46,7 @@ OR
 
 ## AIRAC Effective Date
 
-`FIXM Core 4.3.0` enables implementers, and in particular operators, to indicate, by reference to the AIRAC Effective date, the dataset used in the creation of the flight plan and calculation of the route/trajectory. The AIRAC Effective Date is based on the [ICAO published schedule](https://www.icao.int/airnavigation/information-management/Pages/AIRAC.aspx).
+`FIXM Core 4.3.0` enables implementers, and in particular operators, to indicate, by reference to the AIRAC Effective date, the aeronautical dataset used in the creation of the flight plan and calculation of the route/trajectory. The AIRAC Effective Date is based on the [ICAO published schedule](https://www.icao.int/airnavigation/information-management/Pages/AIRAC.aspx).
 
 Example:
 
@@ -56,7 +56,7 @@ Example:
 |**2**|**`2202`**|**`24 FEB 22`**|
 |...|...|...|
 
-The indication that the dataset `AIRAC 2202` has been used for the computation of the route/trajectory will be expressed as:
+The indication that the aeronautical dataset for cycle `2202` has been used for the computation of the route/trajectory will be expressed as:
 
 ```xml
 <fx:routeInformation>
